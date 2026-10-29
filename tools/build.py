@@ -104,10 +104,24 @@ def build(edits, out):
 
 
 def main():
+    import insert
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--out", default=str(ROOT / "build/gaiamaster_en"))
+    ap.add_argument("--out", default=None, help="default build/gaiamaster_en (marker: build/gaiamaster_marker)")
+    ap.add_argument("--marker", action="store_true", help="every Japanese line -> [N] marker (tools/insert.py)")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT", help="override one line (repeatable)")
+    ap.add_argument("--identity", action="store_true", help="no edits at all: the original disc")
     a = ap.parse_args()
-    print(build({}, Path(a.out)))
+    out = Path(a.out or ROOT / ("build/gaiamaster_marker" if a.marker else "build/gaiamaster_en")).resolve()
+    if a.identity:
+        print(build({}, out))
+        return
+    edits, log, tags = insert.edits("marker" if a.marker else "en", dict(q.split("=", 1) for q in a.qa))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.with_name(out.name + "_writes.txt").write_text("\n".join(log) + "\n", encoding="utf-8")
+    if tags:
+        out.with_name(out.name + "_ids.tsv").write_text("".join("%s\t%s\n" % t for t in tags.items()),
+                                                        encoding="utf-8")
+    print(build(edits, out))
 
 
 if __name__ == "__main__":

@@ -2,32 +2,34 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4 (extract) done; next is phase 5 (engine spike + marker build). Last build: `build/gaiamaster_en.bin`
-  2026-10-30, sha1 f4d5298583c90d89c4b7e51d2dde160ee07f2aec (= the original; no edits yet), smoke ok.
-- **Done (phase 4):** `tools/extract.py` -> `script/*.json` (86 blocks, 4811 strings: EXE + 39 unique overlays,
-  PC_DATA voice pools 022-033, SCR_DATA profiles/endings/squares/facilities/areas/scenarios). Format, layouts, tables, ref forms:
-  `docs/re/text.md` §Script. `tests/test_text.py`: every jp re-encodes to its bytes, every ref (pointer word,
-  lui pair, pool offset, cross-overlay) re-resolves, copies are identical, and every Japanese-looking run on the
-  disc (`docs/re/jp_runs.json`, from `extract.py --scan`, slow) lies inside an extracted string.
-- **Next:** (1) phase 5: font/VWF decision for the 12x12 EXE font (text.md §Fonts: half-width codes or a VWF hook
-  in 0x8003C398), then the marker build: an inserter that writes `[id]` markers through `build.py` edits (code
-  strings in place up to `max` or relocated via `refs`; pools rewritten with new offsets; fields padded in
-  place), and the width gate per box. Measure overlay slot slack and the PC_DATA RAM buffers before growing
-  anything. (2) leftover from phase 3: finish the recompressed-disc check when memory allows:
-  `python -X utf8 tools/grow_test.py growlz` (if build/growlz.bin is gone), then
-  `python -X utf8 tools/debug/regen.py --rom build/growlz.cue --jobs 1 --only 'story_ch1[6-9]'` and likewise
-  `story_ch20`, `ending_*`, `versus_*`, `board_*`, `duel`, `results`, `save_screen`, `gameover`. Use --jobs 1 or
-  2: the machine is shared and runs reaped at 2 emulators.
+- **Phase:** 5 (engine spike + marker build) mostly done; open items below, then phase 6. Last builds 2026-10-30:
+  `build/gaiamaster_en.bin` sha1 8ce546704ed58e79512cdadf1217ce06858e500b (engine patch, no text yet), smoke ok;
+  `build/gaiamaster_marker.bin` sha1 59da33bdb3e17ed932cbaf3ace22df439c00e750, smoke ok.
+- **Done (phase 5):** English engine `tools/engine.py` (text.md §English engine): ASCII drawn through the 12px
+  font's full-width cells redrawn with `fonts/en12.txt` (own font, 8 px caps), VWF advance hook, 4 px space (also
+  in flag-26 objects), glyph cap x3 per text object; hooks in never-read index-table space. `tools/insert.py`
+  (marker / en / `--qa`; code + field strings in place with original-byte checks, PC_DATA pools grow at the file
+  end), `tools/build.py --marker --qa --identity`, `tools/mipsasm.py`, `tools/font_en.py`, `tools/windows.py` (id ->
+  box). Tests: `tests/test_engine.py`. Tour of 50 scenes on the marker build (`work/qa/warp_gaiamaster_marker/`):
+  markers show in dialog, story, char select, scenario card, card list, save/load, game over, weapon list, duel
+  messages; printf `%s/%d` expand inside markers. Glyph torture line ok (`work/qa/torture/zoom.png`).
+  Box budgets: `docs/re/windows.md` (dialog 203 px x 3, story 196, char_desc 211, card 168, list_name 116).
+  Non-text found: ovl030 secret password keys + key table + kana password grid -> `script/keep_jp.txt`.
+- **Next (finish phase 5):** (1) measure the "guess" boxes in `tools/windows.py`: ending text (SCR_DATA 122; run
+  `regen.py --only ending_save --jobs 1`, ~10 min), board square name labels (squares*), scenario intro/title,
+  facility/area names, ovl000 tavern, ovl057 results; add warps where none reaches them. (2) Staff credits:
+  ovl033 swaps in its own font (resource items 0xDD/0xDE, `0x800BEEB0`) with no English glyphs: extend the
+  engine to patch that font (or skip the swap) before credits text can be English. (3) Run `jp_left.py` on the
+  marker build's edited files (skill §Checks). (4) Then phase 6 (translate); give translators `tools/windows.py`
+  budgets plus byte `max` (relocation is phase 7; longer en errors in `insert.py`).
 - **Open bugs:** none.
-- **Waiting on the user:** (non-blocking) PCSX-Redux GUI keyboard input not hand-tested; Redump hash not
-  cross-checked online. (non-blocking) The data holds an English "LANDMASTER" logo (early title, unused): D5
-  says keep the Japanese logo only if no official English version exists; default = draw a new English
-  "GaiaMaster" logo, not reuse LANDMASTER.
-- **Gaps to cover later:** image types 0x12 / 0x0321 / 0x0360 and STR movies not swept for Japanese (phase 5
-  marker tour must cover them, graphics.md); control-code meanings are guesses until phase 5. The marker build
-  must show which extracted strings are dead (ovl033 `俺は` buffer, half-width-kana strings, ovl000 tavern copies
-  004-007) and which on-screen Japanese no extracted string covers (code-built strings, kanji-only text the
-  coverage filter skips). Facility name field: 10 or 11 bytes (text.md). Debug tool: per-square board events
-  (shop buy, tavern, event cards, warp squares) only via mashed play; hidden chars (ids 8, 10) and memory-card
-  story saves not warped (debug.md). RAM load-buffer limits for grown entries and overlays not measured yet
-  (files.md, Free space). An EXE grown past its load size is untested.
+- **Waiting on the user:** (non-blocking) Password screen: the kana grid and secret passwords stay Japanese
+  (functional input); default = keep the grid, translate the surrounding prompts. (non-blocking) PCSX-Redux GUI
+  keyboard input not hand-tested; Redump hash not cross-checked online. (non-blocking) English "LANDMASTER" logo
+  in the data (unused): default = draw a new English "GaiaMaster" logo.
+- **Gaps to cover later:** image types 0x12 / 0x0321 / 0x0360 and STR movies not swept for Japanese; many menus
+  are graphics (title menu, options, "ダイスをふる" bubble, player name plates) -> phase 8 graphics.
+  Card list numbers sit at a fixed x; `%4d` fields padded with spaces (4 px) no longer line up with 6 px digits
+  (check results/status tables). `/` cannot be printed (control escape). Leading U+3000 blanks centre some
+  headings by hand. Background jobs get reaped under memory pressure here (firefox uses most RAM): run emulator
+  tours in the foreground, `--jobs 1`, under 10 minutes per call. Debug tool gaps as before (debug.md).

@@ -54,6 +54,42 @@ The EXE file offset = address - 0x8000F800. `gp` = 0x80085F28.
 - English plan (phase 5): the 12x12 font is fixed-width full-width; English needs either half-width glyphs in the
   index (codes 0x20-0x7E routed to new glyphs) or a VWF hook in 0x8003C398.
 
+## The 12px drawer (verified by disassembly + `tools/lua/textprobe.lua` logs, phase 5)
+
+- Text objects: create `0x8003DF7C(params {rect*, vram rect* or 0, max glyphs})` (~60 callers in EXE and
+  overlays) -> struct create `0x8003D3EC`: pool of 0x18 structs at 0x8008A050, stride 0xF0. Fields: +0x00 flags
+  (bit 26 = ASCII as full-width, bit 27 = 0x8140 as half space, bit 28 = upload glyphs), +0x18/+0x1A pen x/y,
+  +0x3C letter spacing (0 seen), +0x3E half-width advance (8), +0x40 font size - 1 (11; 15 = BIOS 16px font),
+  +0x44 glyphs drawn, +0x48 glyph cap, +0x54 sprite prims (16 bytes per glyph, malloc'd as cap * 16),
+  +0x6C/+0x70 glyph cache (32 entries: glyph key, prim index). Typewriter text (prologue) redraws the whole line
+  every 3 frames with +0x48 = chars shown so far. Board lines: cap 18 per line struct.
+- Per-byte loop `0x8003C90C`: SJIS lead bytes take 2 bytes, half-width kana check dakuten; **`/` (0x2F) is the
+  control escape** (`0x8003C7B8`: /Pxx, /V...), so text cannot print a slash. 0x20 = space (advance +0x3E);
+  codes < 0x20 draw '?'. No line breaks: every line is its own string / struct.
+- Glyph lookup `0x8003C210(struct, code, desc*)`: desc {+0 width, +2 size, +4 glyph pointer}; returns a cache key
+  (pointer >> 1). Width < 9 = half mode (texture copy 3 bytes/row, sprite = +0x3E wide), else 12px (6 bytes/row
+  read with lhu: glyph rows must be 2-aligned). ASCII used to go to a 15-glyph half-width digit font at
+  0x8006BAAC (`0-9 + - . x`), letters blank; with flag 26 through the ASCII -> full-width SJIS table 0x8007E740.
+- Each glyph is a sprite at the pen x; advance = sprite width (+ +0x3C unless width == +0x3E). Cached glyphs
+  take the width of the first draw. Colour 0 is transparent, 1 = white ink, 7 = dark shadow (right/below).
+- ovl033 swaps in its own glyph + index tables (resource items 0xDD/0xDE) for the staff credits (`0x8003DD68`),
+  then restores the EXE font (`0x8003DD48`). **The credits font has no English glyphs yet** (phase 8 item).
+- Heap (malloc `0x80068DF8`, `tools/debug/heap.py`): blocks from 0x800D3800, top ~0x8019xxxx in the busiest
+  scenes (story boards ~750 KB used); the top can grow to ~0x801FF404, so bigger text prims fit.
+
+## English engine (`tools/engine.py`, font `fonts/en12.txt` via `tools/font_en.py`)
+
+- ASCII 0x21-0x7E always takes the ASCII -> full-width table path (branch at 0x8003C308 retargeted to
+  0x8003C37C), so each code draws a 12px glyph cell; those cells (full-width Ａ-ｚ ０-９ ！？ etc.) now hold the
+  English glyphs, left-aligned. 15 ASCII codes without a full-width glyph (`# * ; < = > [ \ ] _ ` { | } ~`) get
+  the cells of 15 kanji the script never uses (`engine.SPARE`, test_engine checks they stay unused).
+- VWF: the drawer's new-glyph width (0x8003CCAC) calls `vwf_adv`: width table entry for ASCII with a 12px font,
+  else size + 1. The sprite is clipped to that width, so the glyph's right part never shows. Advance = ink + 2.
+  Space = `font_en.SPACE_W` px (0x8003CA88). Digits share one width (6) for number columns.
+- Glyph cap x3 (`triple`, at 0x8003D4D0 in struct create): every text object holds 3x the glyphs its creator asks.
+- Hook code + width table: 0x8007AF50-0x8007B14C, index-table entries for codes < 0x8140 that the lookup never
+  reads. Japanese still renders (its glyph cells are untouched), so leftovers stay visible.
+
 ## Script (phase 4): `script/<block>.json`
 
 `python -X utf8 tools/extract.py` writes one JSON per block (never overwrites; `--force` keeps `en`/`notes`

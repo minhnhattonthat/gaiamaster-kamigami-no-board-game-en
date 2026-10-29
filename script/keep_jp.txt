@@ -1,0 +1,42 @@
+# ids whose Japanese stays as is: <id> <reason>. Read by tools/insert.py (marker build skips them) and the lint.
+ovl030_8009F93C secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F940 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F948 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F950 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F958 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F964 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F96C secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F978 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F988 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F998 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9A4 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9B8 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9C8 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9D4 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9E4 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009F9F4 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009FA08 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_8009FA14 secret password key (compared with the kana entered on the password grid, never shown)
+ovl030_800A07E8 one-character key table next to the password keys (not shown)
+ovl030_800A07EC one-character key table next to the password keys (not shown)
+ovl030_800A07F0 one-character key table next to the password keys (not shown)
+ovl030_800A07F4 one-character key table next to the password keys (not shown)
+ovl030_800A07F8 one-character key table next to the password keys (not shown)
+ovl030_800A07FC one-character key table next to the password keys (not shown)
+ovl030_800A0800 one-character key table next to the password keys (not shown)
+ovl030_800A0804 one-character key table next to the password keys (not shown)
+ovl030_800A0808 one-character key table next to the password keys (not shown)
+ovl030_800A080C one-character key table next to the password keys (not shown)
+ovl030_800A0810 one-character key table next to the password keys (not shown)
+ovl030_800A0814 one-character key table next to the password keys (not shown)
+ovl030_800A0818 one-character key table next to the password keys (not shown)
+ovl030_800A081C one-character key table next to the password keys (not shown)
+ovl030_800A0820 one-character key table next to the password keys (not shown)
+ovl030_800A0824 one-character key table next to the password keys (not shown)
+ovl030_800A0828 one-character key table next to the password keys (not shown)
+ovl030_800AD514 password entry grid row: drawn one character per cell, the characters are the password alphabet
+ovl030_800AD530 password entry grid row: drawn one character per cell, the characters are the password alphabet
+ovl030_800AD54C password entry grid row: drawn one character per cell, the characters are the password alphabet
+ovl030_800AD568 password entry grid row: drawn one character per cell, the characters are the password alphabet
+ovl030_800AD584 password entry grid row: drawn one character per cell, the characters are the password alphabet
+ovl030_800AD5A0 password entry grid row: drawn one character per cell, the characters are the password alphabet
