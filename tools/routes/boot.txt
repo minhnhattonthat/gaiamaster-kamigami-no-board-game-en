@@ -1,0 +1,6 @@
+# Cold boot to the title screen, then Start. Japanese game: circle confirms.
+3000 -
+6 start
+300 -
+6 circle
+300 -
