@@ -64,6 +64,8 @@ def test_overlay_patches():
 def test_marker_edits():
     out, log, tags = insert.edits("marker")
     assert len(tags) > 4000
+    text, _ = insert.texts("marker", {})  # the tag survives encoding ("[5E]" is also sjis's escape for 0x5E)
+    assert all(t.encode() in sjis.encode(text[i]) for t, i in tags.items())
     by_id = {e["id"]: (b, e) for b in insert.blocks() for e in b["strings"]}
     for ln in log:                        # every text write stays inside its budget
         key, o, old, new, by = ln.split(" ", 4)

@@ -88,6 +88,8 @@ def marker(e, tag, nbytes):
         body = tag
     if nbytes is not None:
         body = fit(body, max(0, nbytes - fixed))
+    if sjis.ESC.match(body):   # "[5E]" would encode as the byte 0x5E: escape the bracket
+        body = "[5B]" + body[1:]
     return lead + body + toks + trail
 
 

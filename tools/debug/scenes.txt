@@ -73,4 +73,5 @@ board_cards      | SCENE='board_cards'        | use a card: card description
 board_trade      | SCENE='board_trade'        | trade menu icons (buy shop / sell)
 board_info       | SCENE='board_info'         | info menu icons (map info / graph)
 board_play       | SCENE='board_play'         | 3000 frames of mashed play from the menu (dice, squares, COM turn)
+board_owned      | SCENE='board_owned'        | board_play, then on to the next command menu (square panel = map_info box); TRADE=n opens command n
 duel             | SCENE='duel' QUICK_BATTLE=false | first duel of mashed versus play (turn 5), ROUND banner

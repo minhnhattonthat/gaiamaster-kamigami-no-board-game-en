@@ -4,7 +4,7 @@
     python -X utf8 tools/debug/stateram.py STATE.sstate --peek 0x80085F28[:4] ...
 
 The state is an uncompressed protobuf; RAM is one 2 MB field. It is located by the EXE's code bytes at
-0x80011000, which never change at run time.
+0x80015000, which never change at run time (nor in marker/en builds).
 """
 import pathlib
 import sys
@@ -16,11 +16,12 @@ RAM_SIZE = 0x200000
 def ram(state):
     d = pathlib.Path(state).read_bytes()
     exe = (ROOT / "work/disc/tree/SLPS_020.75").read_bytes()
-    pat = exe[0x800 + 0x1000:0x800 + 0x1040]       # file offset = addr - 0x8000F800
+    # code at 0x80015000 (file offset = addr - 0x8000F800): past the EXE text that marker/en builds rewrite
+    pat = exe[0x800 + 0x5000:0x800 + 0x5040]
     i = d.find(pat)
     if i < 0:
         sys.exit(f"{state}: EXE code not found; not a PCSX-Redux state of this game?")
-    base = i - 0x11000
+    base = i - 0x15000
     return d[base:base + RAM_SIZE]
 
 

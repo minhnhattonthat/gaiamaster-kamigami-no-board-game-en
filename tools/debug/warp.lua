@@ -137,6 +137,13 @@ local function SCENES_ending()
     mash("circle", function() return ovl() == OVL.story end, "final scene"), fn(unpatch), wait(120) })
 end
 
+local function SCENES_board_play()
+  local s = board_cmd(nil)
+  local t
+  return append(s, { fn(function() t = L.frame end),
+    mash("circle", function() return L.frame - t >= (PLAY or 3000) end, "play", 40) })
+end
+
 local SCENES = {
   title = to_title,
   main_menu = to_menu,
@@ -182,11 +189,15 @@ local SCENES = {
   board_info = function() return board_cmd(3) end,
   -- play on from the menu: mash circle for PLAY frames (default 3000) with quick duels; a sweep of whatever the
   -- dice bring (taverns, shops, cards, duels): deterministic per build, not per square
-  board_play = function()
-    local s = board_cmd(nil)
-    local t
-    return append(s, { fn(function() t = L.frame end),
-      mash("circle", function() return L.frame - t >= (PLAY or 3000) end, "play", 40) })
+  board_play = function() return SCENES_board_play() end,
+  -- board_play, then the next command menu with land bought on the way (mashing circle buys): trade / map info
+  -- lists with land names; TRADE=n opens command n (2 trade, 3 info) like board_cmd
+  board_owned = function()
+    local s = SCENES_board_play()
+    s = append(s, { mash("circle", menu_up, "command menu", 60), wait(30) })
+    for _ = 1, TRADE or 0 do s[#s + 1] = press("right", 20) end
+    if TRADE then s[#s + 1] = press("circle", 120) end
+    return s
   end,
   -- first duel the mashed play brings (overlay 0x4D), stopped at its opening; deterministic per build
   duel = function()
