@@ -5,11 +5,18 @@ Dump: `rom.sha1`. Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s wor
 
 ## Disc
 
-- **verified** (sha1 match): `mkpsxiso -y -o X.bin -c X.cue layout.xml` on the unedited dump rebuilds the .bin
-  byte-identical (f4d52985...). Phase 3 turns this into a test.
+- **verified** (sha1 match, `tests/test_build.py`): `tools/build.py` repacks every BDP (a no-op edit deep in
+  each) and runs mkpsxiso on a layout pointing edited files at `build/<name>_files/`; the .bin is byte-identical
+  to the dump (f4d52985...). Untouched LZ entries keep their original bytes.
 - EXE `SLPS_020.75`: PS-X EXE, t_addr 0x80010000, size 0x76800 (file offset = addr - 0x8000F800).
-- The EXE opens files by name (`\PRGPACK.BDP;1` etc. as strings in the EXE), so a rebuilt disc may move and grow
-  files (**guess**: via CdSearchFile; confirm in phase 3 by booting a disc with a grown file). Also names
+- **verified** (`tools/grow_test.py`, 60/60 warps, 2026-10-30): files and entries may move and grow. The EXE
+  opens files by name (`\PRGPACK.BDP;1` etc.) and reads entries through the BDP table: a disc where every BDP
+  has an extra table entry, PC_DATA 022/000 and SCR_DATA 122/000 are 8 KB longer (all later entries and
+  files move), reached all 60 scenes in `tools/debug/scenes.txt` (`work/qa/warp_grow/`).
+- `growlz` (`grow_test.py growlz`: the same growth plus every LZ entry on the disc re-encoded by `lz.compress`):
+  27/60 scenes reached, title through story_ch15, pictures and text intact (`work/qa/warp_growlz/partial.png`);
+  the run was then killed for low system memory. **verified** for those scenes; the rest (ch16-20, endings,
+  versus, board, duel) still to run. Also names
   `NEXUS2.STR`/`NEXUS3.STR`, which are not on the disc (unused).
 - Files: STR movies (CAPCOM15, CAPLOGO, NEXUS), MUSIC.XA, ZNULL.DAT (padding), and BDP archives:
   PRGPACK (code overlays + their strings), SCR_DATA (boards, scenario, endings), PC_DATA (characters, dialogue),
@@ -34,12 +41,16 @@ Dump: `rom.sha1`. Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s wor
   0 = literal byte; 1 = copy, b1: length (b1 & 0x7F) + 4; b1 & 0x80 -> distance ((b2 << 8) + 0x100 | b3) + 1
   (3-byte form), else distance b2 + 1.
 - **verified**: all 3914 F1 entries decode without error to sensible output (3358 BDPs, 523 TIMs, SEQ, etc.).
-  The recompressor (phase 3) must roundtrip; a literal-only encoding is always valid.
+- Encoder `lz.compress` (greedy, hash chains of 4-byte prefixes, 48 candidates, max length 131, max distance
+  0x10100). **verified**: decode(compress(x)) == x for all 3914 decoded entries (one-off sweep, 590 s, too slow
+  for the pre-commit check; `tests/test_build.py` roundtrips a sample); output 0.978x the original packer's in
+  total, worst block 1.118x, so a compressed entry can grow even with no edit - only edited entries are
+  recompressed. The game's decoder accepts it: see the `growlz` line under Disc.
 
 ## Free space (candidates, all **guess** until tested)
 
-- **Disc**: files are opened by name, so a grown BDP or EXE can be relocated by mkpsxiso (test in phase 3). The
-  real limits are RAM load buffers, not disc space.
+- **Disc** (**verified**, grow test above): grown BDPs are relocated by mkpsxiso and found. The real limits are
+  RAM load buffers, not disc space (an EXE grown past its load size is untested).
 - **EXE** (loaded 0x80010000-0x80086800; BSS cleared 0x800861D0-0x8009F938 at boot, so not free): zero runs at
   0x80073354 (0x5AD bytes), 0x8007F60D (0x106B), 0x8007EC30 (0x420). 0x8007B5F6/0x8007B81C lie inside the font
   index table (unused codes) - usable only for codes we don't need. Trap-fill and tour before using any.

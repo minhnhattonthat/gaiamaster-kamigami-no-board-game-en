@@ -49,10 +49,10 @@ gameover         | SCENE='gameover'           | chapter lost -> CONTINUE (contin
 # endings: final chapter won -> final scene; ending_save runs on through ending text + staff credits
 ending_c0        | SCENE='ending' CHAR=0      | final scene, char id 7
 ending_c1        | SCENE='ending' CHAR=1      | final scene, char id 3
-ending_c2        | SCENE='ending' CHAR=2      | final scene, char id 9
+ending_c2        | SCENE='ending' CHAR=2 SETTLE=600 | final scene, char id 9 (fades in late)
 ending_c3        | SCENE='ending' CHAR=3      | final scene, Hayate (id 2)
 ending_c4        | SCENE='ending' CHAR=4      | final scene, Jiga (id 0)
-ending_c5        | SCENE='ending' CHAR=5      | final scene, Sinbad (id 1)
+ending_c5        | SCENE='ending' CHAR=5 SETTLE=600 | final scene, Sinbad (id 1) (fades in late)
 ending_c6        | SCENE='ending' CHAR=6      | final scene, Megmeg (id 4)
 ending_c7        | SCENE='ending' CHAR=7      | final scene, char id 5
 ending_c8        | SCENE='ending' CHAR=8      | final scene, char id 6

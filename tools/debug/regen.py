@@ -3,7 +3,8 @@
     python -X utf8 tools/debug/regen.py [--rom CUE] [--only GLOB] [--jobs 3] [--shots N] [--frames 60000]
 
 Per scene: work/qa/warp/<name>/ (log.txt, final.png, f*.png with --shots), work/states/<name>.sstate.
-Then work/qa/warp/finals/<name>.png and contact sheets work/qa/warp/finals*.png. Exit 1 if any scene failed
+Then work/qa/warp/finals/<name>.png and contact sheets work/qa/warp/finals*.png. Another --rom X.cue writes to
+work/qa/warp_X/ and work/states/X/ instead. Exit 1 if any scene failed
 (warp.lua logs "REACHED <scene>" only after its RAM checks pass). Regenerate after every code, font or graphics
 change: states keep the old code and VRAM.
 """
@@ -32,12 +33,12 @@ def scenes():
 
 
 def run(name, vars_, a):
-    out = ROOT / "work/qa/warp" / name
+    out = a.warp / name
     if out.exists():
         shutil.rmtree(out)
     cmd = [sys.executable, "-X", "utf8", str(EMU), str(a.rom), "--out", str(out),
            "--script", str(ROOT / "tools/debug/warp.lua"), "--frames", str(a.frames),
-           "--state-out", str(ROOT / "work/states" / f"{name}.sstate")]
+           "--state-out", str(a.states / f"{name}.sstate")]
     for v in vars_:
         cmd += ["--var", v]
     if a.shots:
@@ -59,21 +60,25 @@ def main():
     ap.add_argument("--frames", type=int, default=60000, help="cap per scene; reaching it fails the scene")
     a = ap.parse_args()
     todo = [s for s in scenes() if not a.only or fnmatch.fnmatch(s[0], a.only)]
-    (ROOT / "work/states").mkdir(parents=True, exist_ok=True)
-    fin = ROOT / "work/qa/warp/finals"
+    # another disc's states must not replace the original's: a state replays CD reads from its own disc
+    tag = "" if pathlib.Path(a.rom).resolve() == ORIG.resolve() else pathlib.Path(a.rom).stem
+    a.warp = ROOT / "work/qa" / ("warp_" + tag if tag else "warp")
+    a.states = ROOT / "work/states" / tag
+    a.states.mkdir(parents=True, exist_ok=True)
+    fin = a.warp / "finals"
     fin.mkdir(parents=True, exist_ok=True)
     failed = []
     with cf.ThreadPoolExecutor(a.jobs) as ex:
         for name, ok, msg in ex.map(lambda s: run(s[0], s[1], a), todo):
             print(f"{'ok  ' if ok else 'FAIL'} {name:16} {msg}", flush=True)
             if ok:
-                shutil.copy(ROOT / "work/qa/warp" / name / "final.png", fin / f"{name}.png")
+                shutil.copy(a.warp / name / "final.png", fin / f"{name}.png")
             else:
                 failed.append(name)
     shots = [str(fin / f"{n}.png") for n, _, _ in todo if (fin / f"{n}.png").exists()]
     if shots:
         subprocess.run([sys.executable, "-X", "utf8", str(SHEET), *shots, "--cols", "4", "--max", "16",
-                        "--out", str(ROOT / "work/qa/warp/finals.png")], cwd=ROOT)
+                        "--out", str(a.warp / "finals.png")], cwd=ROOT)
     print(f"{len(todo) - len(failed)}/{len(todo)} scenes reached" + (f"; failed: {' '.join(failed)}" if failed else ""))
     sys.exit(1 if failed else 0)
 
