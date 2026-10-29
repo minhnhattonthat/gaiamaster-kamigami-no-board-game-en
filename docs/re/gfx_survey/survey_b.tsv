@@ -1,0 +1,17 @@
+sheet	cell	what	japanese	confidence
+011	18	board UI atlas: 11 character name plates (gold/blue) + LUCKY!, Exit buttons, PRESS START BUTTON	ジガー/ブライアス/ティアラ/ガラハッド/ヤスツナ/アガート/メリメリ/ハヤテ/孫悟空/シンバッド/ダンテ (pixel-small; some names guessed)	likely
+011	19	continue screen: CONTINUE title + choices	つづける / やめる	sure
+012	01	stage/map name labels (green italic) + NOW LOADING	西風の都 / 緑の聖域 / 陽炎の遺跡 / 円環の廃墟の国 / ブンドーキャッスル / 魔都パンデモニアム / 東京199X	likely
+012	07	scenario select buttons (page 1)	冒険のはじまり / 旅の仲間 / 盗賊から逃げろ / お姫様のプロポーズ / 偽者を倒せ / 借金を取りたてろ / チャンバラウォーズ / 武闘会予選 / 武闘大会 / プリンセスクライシス	sure
+012	08	scenario select buttons (page 2)	東西対抗大作戦 / 女の戦い / 斉天大聖 / 異国の戦士 / 神々の戦い / エコノミックアニマル / 決戦！空中都市 / 偽者の復讐 / 裏武闘会 / 魔王の復活 / 忍のおきて / 魔女の森	sure
+013	03	same atlas as 011/18 (green palette): name plates	same 11 names as 011/18	likely
+018	06	same atlas as 011/18 (green palette, dup of 013/03): name plates	same 11 names as 011/18	likely
+EN	011	17	GAMEOVER title
+EN	011	18	LUCKY!, Exit (x2), PRESS START BUTTON, COM tag
+EN	011	19	CONTINUE title
+EN	012	01	NOW LOADING...
+EN	012	04	rule settings labels: RULE Turn Interest Nothing Debt Funds TAX Normal High Middle Low STAGE + digits 30/50/80/100/500/1000/2000/3000
+EN	013	03	LUCKY!, Exit, COM (dup of 011/18)
+EN	018	06	LUCKY!, Exit, COM (dup of 011/18)
+EN	013	11	dev label ELIX + frame numbers 0-4 (sprite sheet note, probably not shown)
+EN	015	15	dev scribble SW2_0 (not shown)

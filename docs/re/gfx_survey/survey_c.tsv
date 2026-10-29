@@ -1,0 +1,19 @@
+020	12	full-screen notice (dev/trial disclaimer), 320x240	本ソフトは開発中の為 / 不具合が発生しても / ソフトの交換等は行いません	sure
+020	13	character-select title + 11 character name plates	キャラクターセレクト; ジガー ガブハッド メタメタ シンバッド / ブライアス カズツナ ハヤテ ダンテ / ティアラ アガート 孫悟空	likely
+020	15	placeholder portrait slots with 決 (dev filler?)	決	sure
+021	06	title logo	ガイアマスター / 神々のボードゲーム	sure
+021	07	main menu labels + 体験版 stamp	対戦モード / ストーリーモード / 武器スキルリスト / オプション / ノーマルモード / クイックモード / シングル / タッグ / はじめから / つづきから / 体験版	sure
+023	00	big brush kanji (card/event effect, 3 colour frames)	払	sure
+023	10	dev note next to colour swatch (likely never shown)	←コレのカラーです	sure
+026	07	dev note next to colour swatch (dup of 023/10, likely never shown)	←コレのカラーです	sure
+027	18	dim/dark version of title logo (fade frame)	ガイアマスター	likely
+028	00	weapon skill list headers + character name plates	武器スキルレベル魔 / 武器スキルレベル飛 / 武器スキルレベル剣 / 武器スキルレベル其; ジガー ブライアス ティアラ ガブハッド カズツナ アガート メタメタ ハヤテ 孫悟空 シンバッド ダンテ	likely
+EN	020	00	END, CAPCOM, Nexus Interact logos
+EN	020	08	Now Loading... (also 020/09, 020/10, 021/00, 021/01, 021/02)
+EN	020	11	CAPCOM logo
+EN	020	13	1 2 3 4P COM
+EN	021	06	GAIAMASTER subtitle, TM
+EN	021	07	(C)CAPCOM CO.,LTD. 2000 ALL RIGHTS RESERVED. PRESS START BUTTON
+EN	022	03	LUCKY! / PRESS ST(ART)
+EN	023	06	GO (board tile; also 023/16, 024/05, 024/13, 025/01, 025/10, 025/19)
+EN	028	00	Press (circle) to Exit / Press (cross) to Exit / LV.1-5 / L1 R1 / 1234P

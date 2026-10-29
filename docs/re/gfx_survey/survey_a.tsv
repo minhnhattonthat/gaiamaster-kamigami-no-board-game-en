@@ -1,0 +1,69 @@
+sheet	cell	what	japanese	confidence
+000	10	OP demo placeholder class-name card (blue, white handwritten-style kana); also OP_DEMT2 000	トレジャーハンター	sure
+000	11	OP demo placeholder class-name card; also OP_DEMT2 001	シーフ	sure
+000	12	OP demo placeholder class-name card; also OP_DEMT2 002	王女	likely
+000	13	OP demo placeholder class-name card; also OP_DEMT2 003	アマゾネス	sure
+000	14	OP demo placeholder class-name card; also OP_DEMT2 004	司祭	sure
+000	15	OP demo placeholder class-name card	侍	sure
+001	15	in-game command menu labels (4bpp, small gothic)	ダイスをふる / お店購入 / マップ情報 / カードを使う / 抵当・売却 / 持ってないよ! / 売買メニュー / ?きグラフ / お店 / セーブ / 情報 / セーブ / 追加 / 個人資産	sure (one word unclear: ?きグラフ)
+002	10	duel effect: talisman/seal card with kanji (art, may not need translation)	封	likely
+004	01	duel effect sheet, dev guide mark (vertical), probably not shown in game	使用中	likely
+004	02	duel effect sheet, dev note under rocks, probably not shown	(0Zオナジ;中心点用)	likely
+004	14	duel effect sheet, same dev note (purple)	(0Zオナジ;中心点用)	likely
+004	13	duel effect sheet, dev guide mark (vertical), probably not shown	使用中	likely
+004	17	event card label	GOワープ	sure
+004	18	event card label	ワープ	sure
+005	03	event card label	大不幸	sure
+005	04	event card label	不幸	sure
+005	05	event card label	幸運	sure
+005	06	event card label	大幸運	sure
+005	07	event card label	略奪	likely
+005	12	event card label	お店破壊	sure
+005	16	event card label	ルート変更	sure
+005	18	event card label	バトルカード	sure
+005	19	event card label	ふみたおし	sure
+006	03	event card label	邪神像	sure
+006	04	event card label	悪魔の塔	sure
+006	05	event card label	墓場	sure
+006	06	event card label	温泉	sure
+006	07	event card label	女神像	sure
+006	08	event card label	庭園	sure
+006	09	event card label	大聖堂	sure
+006	10	event card label	サーカス	sure
+006	11	event card label	地震	sure
+006	16	event card label	領地購入	sure
+006	18	event card label	1進む	sure
+006	19	event card label	2進む	sure
+007	00	event card label	3進む	sure
+007	01	event card label	4進む	sure
+007	02	event card label	5進む	sure
+007	03	event card label	6進む	sure
+007	04	event card label	ダイス3つ	sure
+007	05	event card label	ダイス4つ	sure
+007	06	event card label	呪いの沼	sure
+007	07	event card label	死神像	sure
+007	08	event card label	カード交換	sure
+007	15	OP demo placeholder (red box, yellow handwritten kana)	がけ	sure
+007	19	OP demo placeholder class-name card	侍	sure
+008	00	OP demo placeholder class-name card	ナイト	sure
+008	01	OP demo placeholder class-name card	ゴクウ	sure
+008	02	OP demo placeholder class-name card	マオウ	sure
+008	03	OP demo placeholder class-name card	ニンジャ	sure
+008	04	OP demo placeholder class-name card	マジョ	sure
+008	05	double-up minigame labels (with English BIG/SMALL/LAST TIME/WIN/LOSE)	つづける / やめる	likely
+008	11	character name plates (blue/gold italic) + LUCKY vertical; same as 009/04	ジガー / ブライアス / ティアラ / ガラハッド / カズツナ / アガート / メリメリ / ハヤテ / 孫悟空 / ジゴバット / ダゴデ	likely (カズツナ, ジゴバット, ダゴデ uncertain)
+008	18	title/story menu labels + chapter numbers	セーブ / ロード / ストーリー / ノーデータ / 対戦 / ターン / ノーマル / 第1話..第20話	sure
+008	19	map/world names (italic cyan); same as 009/11	西風の都 / 緑の聖域 / 陽炎の遺跡 / 円環の廃墟の国 / ブシドーキャッスル / 魔都パンデモニアム / 東京199X	sure
+009	03	options/rules menu font sheet (yellow-green italic, word tiles)	オプション / ルール / レベル / オーディオ / 簡単 / ふつう / 難しい / ルール設定 / ステレオ / ターン / セリフ / 表示 / へ / オン / オフ / ? / 速度 / サラリー / モノラル / 増え(る) / もどする? / 金利 / 借金 / 所持金 / 土地数 / ありなし / COMレベル / 強い / アニメーション / 所持土地 / 弱い / 速い / ボイス / 振動 / まで? / ラッキー / 最初は? / 何ターンごと? / いくら	sure
+009	04	character name plates; same as 008/11	(see 008/11)	likely
+009	07	ranking/status panel labels	総資産 / 資金 / 土地 / ランキング / ターン	sure
+009	11	map/world names; same as 008/19	(see 008/19)	sure
+EN	000	00	title logo LANDMASTER (also 000/02, 000/05, 000/07, 007/09, 007/11, 007/14, 007/16)
+EN	000	16	duel HUD font: digits, A-Z, Miss, HP
+EN	001	14	board HUD icons: MAP, OK, TURN, 1P-4P, TAX, WARP
+EN	008	05	BIG / SMALL / LAST TIME / WIN / LOSE
+EN	008	12	HP, 1P-4P, digits
+EN	009	03	BGM SE ME No. / Press START BUTTON to Exit / COM
+EN	008	11	LUCKY (vertical), Exit, PRESS START BUTTON, COM, HP (same in 009/04)
+EN	008	19	NOW LOADING... (same in 009/11)
+EN	009	07	TURN

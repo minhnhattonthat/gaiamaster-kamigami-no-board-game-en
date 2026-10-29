@@ -12,4 +12,10 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| [files.md](files.md) | disc layout, BDP archive, F1 LZ, other formats, free-space candidates | verified (repack roundtrip, decoder from EXE); free space guessed |
+| [text.md](text.md) | Shift-JIS, control codes, text locations, pointer forms, overlay addresses, fonts/renderers | encoding, pointers, overlay addrs, 12px font verified; control-code meanings guessed |
+| [graphics.md](graphics.md) | graphics-text survey (G1-G17), sweep method, unswept formats | static sweep done; 0x12/sprite/STR formats not swept |
+
+Tools: `tools/bdp.py` (archives), `tools/lz.py` (F1 LZ decode), `tools/tim.py` (TIM -> PNG), `tools/gfx_sweep.py`
+(TIM contact sheets), `tools/cells.py` (0x11 cells), `tools/font12.py` (EXE font sheet / code map),
+`tools/jpscan_tree.py` (SJIS scan of an unpacked tree). Unpack everything into `work/unpacked/`: see graphics.md.

@@ -12,6 +12,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Paths
 - Original disc: `rom/GaiaMaster - Kamigami no Board Game (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own PCSX-Redux in `tools/pcsx/` (nightly 29954.20261029.10, from `fetch_emu.py pcsx` via distrib.app dev-win-x64 manifest; gitignored; emu.py writes its settings each run). BIOS: `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`). Savestates: `work/states/`.
+- Disc tools: mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/` (gitignored; github.com/Lameguy64/mkpsxiso win64 zip). Unpacked disc `work/disc/tree` + `layout.xml`; all archives `python -X utf8 tools/unpack_all.py` -> `work/unpacked/` (see `docs/re/files.md`).
 - Text: `script/` (format set in phase 4). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
