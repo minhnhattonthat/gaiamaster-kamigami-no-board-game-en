@@ -3,8 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 5 (engine spike + marker build) mostly done; open items below, then phase 6. Last builds 2026-10-30:
-  `build/gaiamaster_en.bin` sha1 8ce546704ed58e79512cdadf1217ce06858e500b (engine patch, no text yet), smoke ok;
-  `build/gaiamaster_marker.bin` sha1 59da33bdb3e17ed932cbaf3ace22df439c00e750, smoke ok.
+  `build/gaiamaster_en.bin` sha1 bedd61ac2ab1513ad93058213357dc894734a7c6 (engine patch, no text yet), smoke ok;
+  `build/gaiamaster_marker.bin` sha1 5ffa5e0d2df78aa17443109e93397d4f34b9ddf9, credits tour ok.
 - **Done (phase 5):** English engine `tools/engine.py` (text.md §English engine): ASCII drawn through the 12px
   font's full-width cells redrawn with `fonts/en12.txt` (own font, 8 px caps), VWF advance hook, 4 px space (also
   in flag-26 objects), glyph cap x3 per text object; hooks in never-read index-table space. `tools/insert.py`
@@ -17,9 +17,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Non-text found: ovl030 secret password keys + key table + kana password grid -> `script/keep_jp.txt`.
 - **Next (finish phase 5):** (1) measure the "guess" boxes in `tools/windows.py`: ending text (SCR_DATA 122; run
   `regen.py --only ending_save --jobs 1`, ~10 min), board square name labels (squares*), scenario intro/title,
-  facility/area names, ovl000 tavern, ovl057 results; add warps where none reaches them. (2) Staff credits:
-  ovl033 swaps in its own font (resource items 0xDD/0xDE, `0x800BEEB0`) with no English glyphs: extend the
-  engine to patch that font (or skip the swap) before credits text can be English. (3) Run `jp_left.py` on the
+  facility/area names, ovl000 tavern, ovl057 results; add warps where none reaches them (ending_save shows the
+  story boxes and credits but no SCR_DATA 122 ending-text screen in 300-frame shots). (2) Done: credits keep the
+  EXE font (ovl033 swap nopped), markers show in the credits roll. Credits budget: centred lines, measure
+  from `ending_save` shots. (3) Run `jp_left.py` on the
   marker build's edited files (skill §Checks). (4) Then phase 6 (translate); give translators `tools/windows.py`
   budgets plus byte `max` (relocation is phase 7; longer en errors in `insert.py`).
 - **Open bugs:** none.

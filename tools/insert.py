@@ -183,9 +183,10 @@ def edits(mode="en", qa=None):
             data, elog = engine.patch(read(EXE))
             log += elog
         else:
-            data = read(key)
+            data, olog = engine.patch_overlay(key, read(key))
+            log += olog
         if not any(e["id"] in new for e in b["strings"]):
-            if key == EXE:
+            if key == EXE or key in engine.OVERLAYS:
                 out[key] = data
             continue
         if b["kind"] == "pool":

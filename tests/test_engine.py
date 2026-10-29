@@ -53,6 +53,14 @@ def test_engine_patch():
 
 
 @needs_disc
+def test_overlay_patches():
+    for key in engine.OVERLAYS:
+        orig = insert.read(key)
+        new, log = engine.patch_overlay(key, orig)     # asserts the original bytes
+        assert len(new) == len(orig) and len(log) == len(engine.OVERLAYS[key])
+
+
+@needs_disc
 def test_marker_edits():
     out, log, tags = insert.edits("marker")
     assert len(tags) > 4000

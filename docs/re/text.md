@@ -73,7 +73,8 @@ The EXE file offset = address - 0x8000F800. `gp` = 0x80085F28.
 - Each glyph is a sprite at the pen x; advance = sprite width (+ +0x3C unless width == +0x3E). Cached glyphs
   take the width of the first draw. Colour 0 is transparent, 1 = white ink, 7 = dark shadow (right/below).
 - ovl033 swaps in its own glyph + index tables (resource items 0xDD/0xDE) for the staff credits (`0x8003DD68`),
-  then restores the EXE font (`0x8003DD48`). **The credits font has no English glyphs yet** (phase 8 item).
+  then restores the EXE font (`0x8003DD48`). That font has no English glyphs, so `engine.OVERLAYS` nops the swap
+  (ovl033 file 0x1F578): credits draw with the EXE font (**verified**: `warp_gaiamaster_marker/ending_save/f029400`).
 - Heap (malloc `0x80068DF8`, `tools/debug/heap.py`): blocks from 0x800D3800, top ~0x8019xxxx in the busiest
   scenes (story boards ~750 KB used); the top can grow to ~0x801FF404, so bigger text prims fit.
 

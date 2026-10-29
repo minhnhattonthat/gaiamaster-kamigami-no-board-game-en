@@ -110,6 +110,24 @@ def patch(exe):
     return bytes(p.data), p.log
 
 
+# overlay patches: {file key: [(file offset, original, new, why)]}
+OVERLAYS = {
+    # staff credits: ovl033 installs its own glyph/index tables (resource items 0xDD/0xDE) via 0x8003DD68; they
+    # have no English glyphs, so keep the EXE font (English credits need ASCII only)
+    "PRGPACK.BDP/033/000.bin": [(0x1F578, asm("jal 0x8003DD68", 0x800BEEB0), asm("nop", 0), "credits keep EXE font")],
+}
+
+
+def patch_overlay(key, data):
+    """data with OVERLAYS[key] applied, and the log lines; original bytes asserted."""
+    data, log = bytearray(data), []
+    for o, old, new, why in OVERLAYS.get(key, []):
+        assert data[o:o + len(old)] == old, "%s @%X: original bytes differ (%s)" % (key, o, why)
+        log.append("%s %X %s %s %s" % (key, o, old.hex(), new.hex(), why))
+        data[o:o + len(new)] = new
+    return bytes(data), log
+
+
 if __name__ == "__main__":
     exe = (Path(__file__).resolve().parents[1] / "work/disc/tree/SLPS_020.75").read_bytes()
     new, log = patch(exe)
