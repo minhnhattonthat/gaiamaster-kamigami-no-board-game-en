@@ -1,0 +1,76 @@
+# Debug warp scene list: <state name> | <warp.lua vars> | what the final shot shows
+# Run one:  emu.py <cue> --out D --script tools/debug/warp.lua --var "SCENE='story'" --var CH=5 --frames 40000
+# Run all:  python -X utf8 tools/debug/regen.py [--rom build/gaiamaster_en.cue] [--only 'story_*'] [--shots 120]
+#           -> work/states/<name>.sstate, work/qa/warp/<name>/final.png, work/qa/warp/finals*.png
+# CHAR = char-select grid cell 0-8 row-major (4 = centre = Jiga, the default); cell -> char id (0x800866C9):
+#   0->7 1->3 2->9 3->2 4->0 Jiga 5->1 Sinbad 6->4 Megmeg 7->5 8->6. Ids 8 and 10 are not on the grid.
+# STAGE = board id G+0x18: 0 town, 1 forest, 2 desert ruins, 3 sky ruins, 4 castle, 5 dark city, 6 Tokyo,
+#   7 town (story ch1 / versus default), 8 desert (story ch2)
+
+# boot and menus
+title            | SCENE='title'              | title screen (intro skipped with Start)
+main_menu        | SCENE='main_menu'          | main menu: story / versus / weapon skill list / options
+story_menu       | SCENE='story_menu'         | story: new game / continue
+story_continue   | SCENE='story_continue'     | story continue: load screen, SLOT select (empty card)
+char_select      | SCENE='char_select'        | story char select grid, Jiga description
+char_confirm     | SCENE='char_confirm'       | "really this character?" yes/no
+weapon_list      | SCENE='weapon_list'        | weapon skill list: load from save data / password
+weapon_load      | SCENE='weapon_load'        | weapon skill list: memory card SLOT select
+password         | SCENE='password'           | weapon skill password entry (kana grid)
+options          | SCENE='options'            | options screen
+versus_menu      | SCENE='versus_menu'        | versus: normal / quick, single / tag
+
+# story (Jiga unless CHAR); chapter N>1 is entered by winning chapter N-1 (results, save, map card, intro)
+prologue         | SCENE='prologue'           | Jiga's prologue (overlay 33)
+story_ch01       | SCENE='story' CH=1         | chapter 1 board, turn 1
+story_ch02       | SCENE='story' CH=2         | chapter 2 board
+story_ch03       | SCENE='story' CH=3         | chapter 3 board
+story_ch04       | SCENE='story' CH=4         | chapter 4 board
+story_ch05       | SCENE='story' CH=5         | chapter 5 board
+story_ch06       | SCENE='story' CH=6         | chapter 6 board
+story_ch07       | SCENE='story' CH=7         | chapter 7 board
+story_ch08       | SCENE='story' CH=8         | chapter 8 board
+story_ch09       | SCENE='story' CH=9         | chapter 9 board
+story_ch10       | SCENE='story' CH=10        | chapter 10 board
+story_ch11       | SCENE='story' CH=11        | chapter 11 board
+story_ch12       | SCENE='story' CH=12        | chapter 12 board
+story_ch13       | SCENE='story' CH=13        | chapter 13 board
+story_ch14       | SCENE='story' CH=14        | chapter 14 board
+story_ch15       | SCENE='story' CH=15        | chapter 15 board
+story_ch16       | SCENE='story' CH=16        | chapter 16 board
+story_ch17       | SCENE='story' CH=17        | chapter 17 board
+story_ch18       | SCENE='story' CH=18        | chapter 18 board
+story_ch19       | SCENE='story' CH=19        | chapter 19 board
+story_ch20       | SCENE='story' CH=20        | chapter 20 (final) board
+results          | SCENE='results'            | chapter results (rankings), overlay 57
+save_screen      | SCENE='save_screen'        | post-chapter save screen
+gameover         | SCENE='gameover'           | chapter lost -> CONTINUE (continue / quit)
+
+# endings: final chapter won -> final scene; ending_save runs on through ending text + staff credits
+ending_c0        | SCENE='ending' CHAR=0      | final scene, char id 7
+ending_c1        | SCENE='ending' CHAR=1      | final scene, char id 3
+ending_c2        | SCENE='ending' CHAR=2      | final scene, char id 9
+ending_c3        | SCENE='ending' CHAR=3      | final scene, Hayate (id 2)
+ending_c4        | SCENE='ending' CHAR=4      | final scene, Jiga (id 0)
+ending_c5        | SCENE='ending' CHAR=5      | final scene, Sinbad (id 1)
+ending_c6        | SCENE='ending' CHAR=6      | final scene, Megmeg (id 4)
+ending_c7        | SCENE='ending' CHAR=7      | final scene, char id 5
+ending_c8        | SCENE='ending' CHAR=8      | final scene, char id 6
+ending_save      | SCENE='ending_save'        | after Jiga's ending text and staff credits: clear-data save
+
+# versus boards and the board command menu
+versus_s0        | SCENE='versus' STAGE=0     | versus board 0
+versus_s1        | SCENE='versus' STAGE=1     | versus board 1
+versus_s2        | SCENE='versus' STAGE=2     | versus board 2
+versus_s3        | SCENE='versus' STAGE=3     | versus board 3
+versus_s4        | SCENE='versus' STAGE=4     | versus board 4
+versus_s5        | SCENE='versus' STAGE=5     | versus board 5
+versus_s6        | SCENE='versus' STAGE=6     | versus board 6
+versus_s7        | SCENE='versus' STAGE=7     | versus board 7
+versus_s8        | SCENE='versus' STAGE=8     | versus board 8
+board_menu       | SCENE='board_menu'         | turn command menu: roll dice
+board_cards      | SCENE='board_cards'        | use a card: card description
+board_trade      | SCENE='board_trade'        | trade menu icons (buy shop / sell)
+board_info       | SCENE='board_info'         | info menu icons (map info / graph)
+board_play       | SCENE='board_play'         | 3000 frames of mashed play from the menu (dice, squares, COM turn)
+duel             | SCENE='duel' QUICK_BATTLE=false | first duel of mashed versus play (turn 5), ROUND banner
