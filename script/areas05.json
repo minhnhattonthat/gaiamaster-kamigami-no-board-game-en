@@ -1,0 +1,62 @@
+{
+ "block": "areas05",
+ "file": "SCR_DATA.BDP/210/005/004.bin",
+ "copies": [],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "areas05_0000",
+   "at": "0000",
+   "jp": "がいこつ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas05_000E",
+   "at": "000E",
+   "jp": "使い魔",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas05_001C",
+   "at": "001C",
+   "jp": "おばけ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas05_002A",
+   "at": "002A",
+   "jp": "夢魔",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas05_0038",
+   "at": "0038",
+   "jp": "魔女",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas05_0046",
+   "at": "0046",
+   "jp": "魔王",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

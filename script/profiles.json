@@ -1,0 +1,953 @@
+{
+ "block": "profiles",
+ "file": "SCR_DATA.BDP/118/000.bin",
+ "copies": [],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "profiles_0004",
+   "at": "0004",
+   "jp": "/P90ジガー（初心者向け）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0036",
+   "at": "0036",
+   "jp": "ラッキーが出れば２回行動できる！！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0068",
+   "at": "0068",
+   "jp": "得意武器は/P60≠/P80≦/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_009C",
+   "at": "009C",
+   "jp": "身分ちがいの恋を追うガキよ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_00CE",
+   "at": "00CE",
+   "jp": "まったく、見てらんないわね",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0134",
+   "at": "0134",
+   "jp": "おれたちの街に",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0166",
+   "at": "0166",
+   "jp": "王さまなんていらないぜ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_01CC",
+   "at": "01CC",
+   "jp": "ようし、行くぜ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_042E",
+   "at": "042E",
+   "jp": "/P90シンバッド（テクニカルタイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0460",
+   "at": "0460",
+   "jp": "同じマスに止まった人からお金を盗む",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0492",
+   "at": "0492",
+   "jp": "ぞ！！得意武器は/P60≠/P80≦/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_04C6",
+   "at": "04C6",
+   "jp": "女にだらしのない社会不適応者よ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_04F8",
+   "at": "04F8",
+   "jp": "イッカク千金のあまい夢を見てるわ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_055E",
+   "at": "055E",
+   "jp": "フッ…！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_05F6",
+   "at": "05F6",
+   "jp": "オレしかいないだろ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_068E",
+   "at": "068E",
+   "jp": "まかせときな！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0726",
+   "at": "0726",
+   "jp": "勝つのは俺さ…！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_07BE",
+   "at": "07BE",
+   "jp": "いいセンスしてるぜ、あんた！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0858",
+   "at": "0858",
+   "jp": "/P90ハヤテ（戦闘タイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_088A",
+   "at": "088A",
+   "jp": "ラッキーであいての攻撃を無効化でき",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_08BC",
+   "at": "08BC",
+   "jp": "るウツセミの術！！得意武器は/P60≠/P80≦/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_08F0",
+   "at": "08F0",
+   "jp": "血も涙もない殺人マシーンよ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0922",
+   "at": "0922",
+   "jp": "人間というよりべつの生きものね",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0988",
+   "at": "0988",
+   "jp": "ム…合図ののろしが…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0A20",
+   "at": "0A20",
+   "jp": "ン…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0AB8",
+   "at": "0AB8",
+   "jp": "忍…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0C82",
+   "at": "0C82",
+   "jp": "/P90アガート（戦闘タイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0CB4",
+   "at": "0CB4",
+   "jp": "魔法攻撃ならラッキーで攻撃力が２倍",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0CE6",
+   "at": "0CE6",
+   "jp": "になるぞ！！得意武器は/P30≧/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0D1A",
+   "at": "0D1A",
+   "jp": "自堕落でさびしがりやの",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0D4C",
+   "at": "0D4C",
+   "jp": "しょうがない女よ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0DB2",
+   "at": "0DB2",
+   "jp": "わたしのこと、好き？",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0E4A",
+   "at": "0E4A",
+   "jp": "お母さんが死んでから",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0E7C",
+   "at": "0E7C",
+   "jp": "私はずっとひとり…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0EE2",
+   "at": "0EE2",
+   "jp": "ほかの女としあわせになるなんて",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0F14",
+   "at": "0F14",
+   "jp": "許さない…！！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_0F7A",
+   "at": "0F7A",
+   "jp": "そう…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_10AC",
+   "at": "10AC",
+   "jp": "/P90メグメグ（テクニカルタイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_10DE",
+   "at": "10DE",
+   "jp": "ラッキーが出れば、もらえる金額が",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1110",
+   "at": "1110",
+   "jp": "２倍になるぞ！！得意武器は/P60≠/P80≦/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1144",
+   "at": "1144",
+   "jp": "ほれっぽいけど捨てられやすい",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1176",
+   "at": "1176",
+   "jp": "筋肉女よ。しあわせな家庭を持ちたい",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_11A8",
+   "at": "11A8",
+   "jp": "なんて大それたことを考えてるわ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_11DC",
+   "at": "11DC",
+   "jp": "好きっ＠",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1274",
+   "at": "1274",
+   "jp": "やっほー＠",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_130C",
+   "at": "130C",
+   "jp": "まかせな！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_14D6",
+   "at": "14D6",
+   "jp": "/P90ゴライアス（テクニカルタイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1508",
+   "at": "1508",
+   "jp": "ラッキーでお金をふみたおせ！！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_153A",
+   "at": "153A",
+   "jp": "得意武器は/P60≠/P30≧/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_156E",
+   "at": "156E",
+   "jp": "強欲で暴力的、大酒飲みで女が",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_15A0",
+   "at": "15A0",
+   "jp": "好きな、あるイミではとっても",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_15D2",
+   "at": "15D2",
+   "jp": "男らしい人物ね",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1606",
+   "at": "1606",
+   "jp": "じつにインタラクティブ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_169E",
+   "at": "169E",
+   "jp": "友よ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1736",
+   "at": "1736",
+   "jp": "見所のあるやつよ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1900",
+   "at": "1900",
+   "jp": "/P90ティアラ（初心者向け）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1932",
+   "at": "1932",
+   "jp": "ラッキーで神さまからタダで土地をも",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1964",
+   "at": "1964",
+   "jp": "らえることがある！！得意武器は/P60≠/P30≧/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1998",
+   "at": "1998",
+   "jp": "ムシも殺さぬ顔して実はサディスト",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_19CA",
+   "at": "19CA",
+   "jp": "二重人格の王女さまよ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1A30",
+   "at": "1A30",
+   "jp": "よろしくって？",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1AC8",
+   "at": "1AC8",
+   "jp": "さっ、おどりましょう",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1B60",
+   "at": "1B60",
+   "jp": "よろしくお願いいたしますわ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1BF8",
+   "at": "1BF8",
+   "jp": "好きよ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1D2A",
+   "at": "1D2A",
+   "jp": "/P90ガラハッド（戦闘タイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1D5C",
+   "at": "1D5C",
+   "jp": "飛びどうぐ攻撃ならラッキーで攻撃力",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1D8E",
+   "at": "1D8E",
+   "jp": "が２倍になる！得意武器は/P80≦/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1DC2",
+   "at": "1DC2",
+   "jp": "バカ正直な苦労人よ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1DF4",
+   "at": "1DF4",
+   "jp": "出世できないタイプね",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1E5A",
+   "at": "1E5A",
+   "jp": "剣にかけて！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1EF2",
+   "at": "1EF2",
+   "jp": "民のためにも…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_1F8A",
+   "at": "1F8A",
+   "jp": "騎士としてちかおう！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2022",
+   "at": "2022",
+   "jp": "共にゆこう！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2154",
+   "at": "2154",
+   "jp": "/P90孫悟空（スーパータイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2186",
+   "at": "2186",
+   "jp": "ダイス４個の神速と攻撃力２倍のラッ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_21B8",
+   "at": "21B8",
+   "jp": "キーで戦え！！得意武器は無し",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_21EC",
+   "at": "21EC",
+   "jp": "サルってラッキョウをぜんぶ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_221E",
+   "at": "221E",
+   "jp": "むいちゃうっていうけど本当かしら？",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2284",
+   "at": "2284",
+   "jp": "斉天大聖孫悟空とは",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_22B6",
+   "at": "22B6",
+   "jp": "この俺さまのことよ！！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_231C",
+   "at": "231C",
+   "jp": "孫さまの火眼金晴（かがんきんせい）",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_234E",
+   "at": "234E",
+   "jp": "はお見通しだぜ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_23B4",
+   "at": "23B4",
+   "jp": "大極、両儀を生じ、",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_23E6",
+   "at": "23E6",
+   "jp": "両儀、四象を生じ、",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2418",
+   "at": "2418",
+   "jp": "四象、八卦を生ず…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_244C",
+   "at": "244C",
+   "jp": "いっちょうもんでやっか！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_257E",
+   "at": "257E",
+   "jp": "/P90ヤスツナ（戦闘タイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_25B0",
+   "at": "25B0",
+   "jp": "剣で攻撃するとラッキーで攻撃力が２",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_25E2",
+   "at": "25E2",
+   "jp": "倍になるぞ！！得意武器は/P60≠/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2616",
+   "at": "2616",
+   "jp": "ちょっとハジをかかせるとすぐ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2648",
+   "at": "2648",
+   "jp": "腹を切るめんどうな人よ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_26AE",
+   "at": "26AE",
+   "jp": "明鏡止水！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2746",
+   "at": "2746",
+   "jp": "ナムハチマンダイボサツ！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_27DE",
+   "at": "27DE",
+   "jp": "いざ参らん！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_29A8",
+   "at": "29A8",
+   "jp": "/P90ダンテ（スーパータイプ）/PF0",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_29DA",
+   "at": "29DA",
+   "jp": "ラッキーでシンボル破壊と攻撃力２倍",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2A0C",
+   "at": "2A0C",
+   "jp": "が出るぞ！！得意武器は無し",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2A40",
+   "at": "2A40",
+   "jp": "魔王のくせにヨユウぶっこいて",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2A72",
+   "at": "2A72",
+   "jp": "ヒマつぶしだってさ",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2AA4",
+   "at": "2AA4",
+   "jp": "友だちいないのかしら",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2AD8",
+   "at": "2AD8",
+   "jp": "いざ…！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2B70",
+   "at": "2B70",
+   "jp": "滅びを…！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2C08",
+   "at": "2C08",
+   "jp": "そなたは美しい…！",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2CA0",
+   "at": "2CA0",
+   "jp": "おろか者めが…",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "profiles_2D38",
+   "at": "2D38",
+   "jp": "それもよかろう",
+   "en": "",
+   "max": 49,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

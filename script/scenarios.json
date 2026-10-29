@@ -1,0 +1,4357 @@
+{
+ "block": "scenarios",
+ "file": "SCR_DATA.BDP/210/012.bin",
+ "copies": [
+  "SCR_DATA.BDP/215/000.bin"
+ ],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "scenarios_0000",
+   "at": "0000",
+   "jp": "冒険のはじまり",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_001E",
+   "at": "001E",
+   "jp": "ガイアマスターに旅立ったあなたの",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0042",
+   "at": "0042",
+   "jp": "前に最初のライバルがあらわれたわ。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0066",
+   "at": "0066",
+   "jp": "さあ、戦いのはじまりよ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_008A",
+   "at": "008A",
+   "jp": "２０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_00A8",
+   "at": "00A8",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_00E4",
+   "at": "00E4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0102",
+   "at": "0102",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0194",
+   "at": "0194",
+   "jp": "スライム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_01A4",
+   "at": "01A4",
+   "jp": "ゴーレム通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_01B4",
+   "at": "01B4",
+   "jp": "キマイラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_01C4",
+   "at": "01C4",
+   "jp": "聖騎士通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0374",
+   "at": "0374",
+   "jp": "ミミック通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0384",
+   "at": "0384",
+   "jp": "キマイラ通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0920",
+   "at": "0920",
+   "jp": "偽者を倒せ",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_093E",
+   "at": "093E",
+   "jp": "辺境のさばくであなたの名をかたり、",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0962",
+   "at": "0962",
+   "jp": "やりたいホーダイのヤツがいるわ。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0986",
+   "at": "0986",
+   "jp": "こらしめちゃえ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_09AA",
+   "at": "09AA",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_09C8",
+   "at": "09C8",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0A04",
+   "at": "0A04",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0A22",
+   "at": "0A22",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0AB4",
+   "at": "0AB4",
+   "jp": "しかばね岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0AC4",
+   "at": "0AC4",
+   "jp": "無人の砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0C94",
+   "at": "0C94",
+   "jp": "しかばね砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_0CA4",
+   "at": "0CA4",
+   "jp": "無人の原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1240",
+   "at": "1240",
+   "jp": "魔女の森",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_125E",
+   "at": "125E",
+   "jp": "魔女の森と呼ばれる森にまよいこんじ",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1282",
+   "at": "1282",
+   "jp": "ゃったあなた。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_12A6",
+   "at": "12A6",
+   "jp": "脱出方法をしってるのは魔女だけよ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_12CA",
+   "at": "12CA",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_12E8",
+   "at": "12E8",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1324",
+   "at": "1324",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1342",
+   "at": "1342",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_13D4",
+   "at": "13D4",
+   "jp": "ホタルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_13E4",
+   "at": "13E4",
+   "jp": "チョウの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_13F4",
+   "at": "13F4",
+   "jp": "カエルの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1404",
+   "at": "1404",
+   "jp": "ランの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1414",
+   "at": "1414",
+   "jp": "妖精の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_15B4",
+   "at": "15B4",
+   "jp": "ランの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_15C4",
+   "at": "15C4",
+   "jp": "妖精の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_15D4",
+   "at": "15D4",
+   "jp": "パン神の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1B60",
+   "at": "1B60",
+   "jp": "旅の仲間",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1B7E",
+   "at": "1B7E",
+   "jp": "同じ大会出場者と意気投合したあなた",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1BA2",
+   "at": "1BA2",
+   "jp": "はチーム戦に出場することにしたの。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1BC6",
+   "at": "1BC6",
+   "jp": "力をあわせてがんばって！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1BEA",
+   "at": "1BEA",
+   "jp": "３０ターン終了時にチーム",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1C08",
+   "at": "1C08",
+   "jp": "総資産で勝つこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1C44",
+   "at": "1C44",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1C62",
+   "at": "1C62",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1CF4",
+   "at": "1CF4",
+   "jp": "ゴブリン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1D04",
+   "at": "1D04",
+   "jp": "キマイラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1ED4",
+   "at": "1ED4",
+   "jp": "ミミック街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_1EE4",
+   "at": "1EE4",
+   "jp": "ヒドラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_20B4",
+   "at": "20B4",
+   "jp": "トロル街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_20C4",
+   "at": "20C4",
+   "jp": "ゴーレム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2294",
+   "at": "2294",
+   "jp": "スライム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_22A4",
+   "at": "22A4",
+   "jp": "ドラゴン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2480",
+   "at": "2480",
+   "jp": "チャンバラウォーズ",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_249E",
+   "at": "249E",
+   "jp": "極東の島国でくり広げられる",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_24C2",
+   "at": "24C2",
+   "jp": "一大チャンバラアクション！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_24E6",
+   "at": "24E6",
+   "jp": "あなたは生き残ることができる？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_250A",
+   "at": "250A",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2528",
+   "at": "2528",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2564",
+   "at": "2564",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2582",
+   "at": "2582",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2614",
+   "at": "2614",
+   "jp": "ススキ温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2624",
+   "at": "2624",
+   "jp": "アシの原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2634",
+   "at": "2634",
+   "jp": "むじな原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2644",
+   "at": "2644",
+   "jp": "カッパ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2654",
+   "at": "2654",
+   "jp": "忍が原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2664",
+   "at": "2664",
+   "jp": "忍び山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_27F4",
+   "at": "27F4",
+   "jp": "ススキ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2804",
+   "at": "2804",
+   "jp": "アシ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2814",
+   "at": "2814",
+   "jp": "むじな山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2824",
+   "at": "2824",
+   "jp": "カッパ原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2834",
+   "at": "2834",
+   "jp": "テング原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2844",
+   "at": "2844",
+   "jp": "テング山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_29D4",
+   "at": "29D4",
+   "jp": "ススキが原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_29E4",
+   "at": "29E4",
+   "jp": "アシの温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_29F4",
+   "at": "29F4",
+   "jp": "むじな温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2A04",
+   "at": "2A04",
+   "jp": "カッパ温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2A14",
+   "at": "2A14",
+   "jp": "オニが原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2A24",
+   "at": "2A24",
+   "jp": "オニの山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2DA0",
+   "at": "2DA0",
+   "jp": "盗賊から逃げろ",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2DBE",
+   "at": "2DBE",
+   "jp": "さばくの遺跡をたんけん中のあなたに",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2DE2",
+   "at": "2DE2",
+   "jp": "盗賊達がからんできたわ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2E06",
+   "at": "2E06",
+   "jp": "返りうちにしちゃえ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2E2A",
+   "at": "2E2A",
+   "jp": "２０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2E48",
+   "at": "2E48",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2E84",
+   "at": "2E84",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2EA2",
+   "at": "2EA2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F34",
+   "at": "2F34",
+   "jp": "でこぼこ原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F44",
+   "at": "2F44",
+   "jp": "でこぼこ岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F54",
+   "at": "2F54",
+   "jp": "でこぼこ砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F64",
+   "at": "2F64",
+   "jp": "しかばね原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F74",
+   "at": "2F74",
+   "jp": "しかばね岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F84",
+   "at": "2F84",
+   "jp": "しかばね砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2F94",
+   "at": "2F94",
+   "jp": "無人の原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2FA4",
+   "at": "2FA4",
+   "jp": "無人の砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2FB4",
+   "at": "2FB4",
+   "jp": "化石の原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2FC4",
+   "at": "2FC4",
+   "jp": "化石の砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2FD4",
+   "at": "2FD4",
+   "jp": "ブロンズ原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_2FE4",
+   "at": "2FE4",
+   "jp": "ブロンズ砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3114",
+   "at": "3114",
+   "jp": "ブロンズ岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3124",
+   "at": "3124",
+   "jp": "黄金原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3134",
+   "at": "3134",
+   "jp": "黄金岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3144",
+   "at": "3144",
+   "jp": "黄金砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_32F4",
+   "at": "32F4",
+   "jp": "化石の岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_34D4",
+   "at": "34D4",
+   "jp": "無人の岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_36C0",
+   "at": "36C0",
+   "jp": "お姫様のプロポーズ",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_36DE",
+   "at": "36DE",
+   "jp": "お姫さまからのトツゼンのプロポーズ",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3702",
+   "at": "3702",
+   "jp": "断るためにはお姫さま（ティアラ）を",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3726",
+   "at": "3726",
+   "jp": "倒さないといけないわ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_374A",
+   "at": "374A",
+   "jp": "ティアラを破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_37A4",
+   "at": "37A4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_37C2",
+   "at": "37C2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3854",
+   "at": "3854",
+   "jp": "ゴブリン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3864",
+   "at": "3864",
+   "jp": "トロル街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3874",
+   "at": "3874",
+   "jp": "ミミック街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3884",
+   "at": "3884",
+   "jp": "ゴーレム門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3894",
+   "at": "3894",
+   "jp": "ゴーレム通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_38A4",
+   "at": "38A4",
+   "jp": "キマイラ通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_38B4",
+   "at": "38B4",
+   "jp": "ドラゴン通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_38C4",
+   "at": "38C4",
+   "jp": "ヒドラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3A34",
+   "at": "3A34",
+   "jp": "ミミック通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3A44",
+   "at": "3A44",
+   "jp": "キマイラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3A54",
+   "at": "3A54",
+   "jp": "ヒドラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3C14",
+   "at": "3C14",
+   "jp": "ゴブリン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3C24",
+   "at": "3C24",
+   "jp": "ゴブリン通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3C34",
+   "at": "3C34",
+   "jp": "ゴーレム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3C44",
+   "at": "3C44",
+   "jp": "キマイラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3FE0",
+   "at": "3FE0",
+   "jp": "借金を取りたてろ",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_3FFE",
+   "at": "3FFE",
+   "jp": "あなたは借金踏み倒しまくりの破戒僧",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4022",
+   "at": "4022",
+   "jp": "をつかまえる仕事をうけ負ったの。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4046",
+   "at": "4046",
+   "jp": "なんとかして借金を取りたてて！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_406A",
+   "at": "406A",
+   "jp": "ほかのキャラクターすべてを",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4088",
+   "at": "4088",
+   "jp": "破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_40C4",
+   "at": "40C4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_40E2",
+   "at": "40E2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4174",
+   "at": "4174",
+   "jp": "チョウの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4184",
+   "at": "4184",
+   "jp": "妖精の森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4194",
+   "at": "4194",
+   "jp": "パン神の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4354",
+   "at": "4354",
+   "jp": "ホタルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4364",
+   "at": "4364",
+   "jp": "ランの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4374",
+   "at": "4374",
+   "jp": "妖精の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4384",
+   "at": "4384",
+   "jp": "狩人の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4534",
+   "at": "4534",
+   "jp": "チョウの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4544",
+   "at": "4544",
+   "jp": "カエルの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4554",
+   "at": "4554",
+   "jp": "カエルの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4900",
+   "at": "4900",
+   "jp": "武闘会予選",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_491E",
+   "at": "491E",
+   "jp": "王国が武闘大会を開くらしいわ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4942",
+   "at": "4942",
+   "jp": "あなたも参加することにしたの。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4966",
+   "at": "4966",
+   "jp": "とりあえずこてしらべからね！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_498A",
+   "at": "498A",
+   "jp": "ほかのキャラクターすべてを",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_49A8",
+   "at": "49A8",
+   "jp": "破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_49E4",
+   "at": "49E4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4A02",
+   "at": "4A02",
+   "jp": "またはプレイヤーの土地が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4A20",
+   "at": "4A20",
+   "jp": "すべてなくなる。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4A94",
+   "at": "4A94",
+   "jp": "キマイラ通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4C74",
+   "at": "4C74",
+   "jp": "ヒドラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4C84",
+   "at": "4C84",
+   "jp": "ヒドラ通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4E54",
+   "at": "4E54",
+   "jp": "ミミック通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_4E64",
+   "at": "4E64",
+   "jp": "ミミック街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5034",
+   "at": "5034",
+   "jp": "ゴーレム通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5044",
+   "at": "5044",
+   "jp": "ゴーレム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5054",
+   "at": "5054",
+   "jp": "聖騎士門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5064",
+   "at": "5064",
+   "jp": "聖騎士街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5220",
+   "at": "5220",
+   "jp": "武闘大会",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_523E",
+   "at": "523E",
+   "jp": "いよいよ武闘大会も決勝戦！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5262",
+   "at": "5262",
+   "jp": "うでじまんのツワモノあいてに",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5286",
+   "at": "5286",
+   "jp": "あなたは勝てるかしら？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_52AA",
+   "at": "52AA",
+   "jp": "ほかのキャラクターすべてを",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_52C8",
+   "at": "52C8",
+   "jp": "破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5304",
+   "at": "5304",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5322",
+   "at": "5322",
+   "jp": "またはプレイヤーの土地が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5340",
+   "at": "5340",
+   "jp": "すべてなくなる。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_53B4",
+   "at": "53B4",
+   "jp": "スライム門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_53C4",
+   "at": "53C4",
+   "jp": "ゴブリン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_53D4",
+   "at": "53D4",
+   "jp": "ゴーレム門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_53E4",
+   "at": "53E4",
+   "jp": "キマイラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5594",
+   "at": "5594",
+   "jp": "トロル門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_55A4",
+   "at": "55A4",
+   "jp": "ミミック街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_55B4",
+   "at": "55B4",
+   "jp": "ゴーレム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_55C4",
+   "at": "55C4",
+   "jp": "キマイラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5774",
+   "at": "5774",
+   "jp": "スライム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5784",
+   "at": "5784",
+   "jp": "ゴブリン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5794",
+   "at": "5794",
+   "jp": "ドラゴン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_57A4",
+   "at": "57A4",
+   "jp": "ヒドラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5954",
+   "at": "5954",
+   "jp": "トロル街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5964",
+   "at": "5964",
+   "jp": "ミミック門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5974",
+   "at": "5974",
+   "jp": "ドラゴン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5984",
+   "at": "5984",
+   "jp": "ヒドラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5B40",
+   "at": "5B40",
+   "jp": "忍のおきて",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5B5E",
+   "at": "5B5E",
+   "jp": "あなたは影の社会にくびをつっこん",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5B82",
+   "at": "5B82",
+   "jp": "じゃったみたい…ふたたび日の光を",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5BA6",
+   "at": "5BA6",
+   "jp": "見ることはできるのかしら？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5BCA",
+   "at": "5BCA",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5BE8",
+   "at": "5BE8",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5C24",
+   "at": "5C24",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5C42",
+   "at": "5C42",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5CD4",
+   "at": "5CD4",
+   "jp": "アシの温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5CE4",
+   "at": "5CE4",
+   "jp": "むじな山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5CF4",
+   "at": "5CF4",
+   "jp": "カッパ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5D04",
+   "at": "5D04",
+   "jp": "天女温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5EB4",
+   "at": "5EB4",
+   "jp": "むじな温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5EC4",
+   "at": "5EC4",
+   "jp": "忍が原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5ED4",
+   "at": "5ED4",
+   "jp": "忍々温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_5EE4",
+   "at": "5EE4",
+   "jp": "天女原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6094",
+   "at": "6094",
+   "jp": "カッパ原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_60A4",
+   "at": "60A4",
+   "jp": "オニが原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_60B4",
+   "at": "60B4",
+   "jp": "オニの温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6460",
+   "at": "6460",
+   "jp": "プリンセスクライシス",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_647E",
+   "at": "647E",
+   "jp": "王位あらそいにまきこまれちゃった",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_64A2",
+   "at": "64A2",
+   "jp": "あなた！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_64C6",
+   "at": "64C6",
+   "jp": "うまく切りぬけて！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_64EA",
+   "at": "64EA",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6508",
+   "at": "6508",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6544",
+   "at": "6544",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6562",
+   "at": "6562",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_65F4",
+   "at": "65F4",
+   "jp": "カエルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6604",
+   "at": "6604",
+   "jp": "パン神の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6614",
+   "at": "6614",
+   "jp": "キノコの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6624",
+   "at": "6624",
+   "jp": "おおかみの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6634",
+   "at": "6634",
+   "jp": "エルフの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_67D4",
+   "at": "67D4",
+   "jp": "チョウの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_67E4",
+   "at": "67E4",
+   "jp": "妖精の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_67F4",
+   "at": "67F4",
+   "jp": "妖精の森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6804",
+   "at": "6804",
+   "jp": "パン神の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6814",
+   "at": "6814",
+   "jp": "キノコの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6824",
+   "at": "6824",
+   "jp": "ウサギの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_69B4",
+   "at": "69B4",
+   "jp": "チョウの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_69C4",
+   "at": "69C4",
+   "jp": "妖精の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_69D4",
+   "at": "69D4",
+   "jp": "ウサギの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_69E4",
+   "at": "69E4",
+   "jp": "おおかみ野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_69F4",
+   "at": "69F4",
+   "jp": "おおかみの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6A04",
+   "at": "6A04",
+   "jp": "エルフの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6B94",
+   "at": "6B94",
+   "jp": "チョウの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6BA4",
+   "at": "6BA4",
+   "jp": "カエルの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6BB4",
+   "at": "6BB4",
+   "jp": "カエルの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6BC4",
+   "at": "6BC4",
+   "jp": "キノコの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6BD4",
+   "at": "6BD4",
+   "jp": "ウサギの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6BE4",
+   "at": "6BE4",
+   "jp": "エルフの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6D80",
+   "at": "6D80",
+   "jp": "聖天体聖",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6D9E",
+   "at": "6D9E",
+   "jp": "ガイアマスターのうわさを聞きつけて",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6DC2",
+   "at": "6DC2",
+   "jp": "孫悟空が一暴れしにやって来たわ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6DE6",
+   "at": "6DE6",
+   "jp": "あなたは勝てるかしら？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6E0A",
+   "at": "6E0A",
+   "jp": "孫悟空を破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6E64",
+   "at": "6E64",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6E82",
+   "at": "6E82",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F14",
+   "at": "6F14",
+   "jp": "しかばね砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F24",
+   "at": "6F24",
+   "jp": "無人の原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F34",
+   "at": "6F34",
+   "jp": "黄金岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F44",
+   "at": "6F44",
+   "jp": "黄金砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F54",
+   "at": "6F54",
+   "jp": "ミスリル岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_6F64",
+   "at": "6F64",
+   "jp": "ミスリル原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_70F4",
+   "at": "70F4",
+   "jp": "でこぼこ砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7104",
+   "at": "7104",
+   "jp": "でこぼこ原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7114",
+   "at": "7114",
+   "jp": "でこぼこ岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7124",
+   "at": "7124",
+   "jp": "しかばね岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7134",
+   "at": "7134",
+   "jp": "しかばね原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7144",
+   "at": "7144",
+   "jp": "無人の岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7154",
+   "at": "7154",
+   "jp": "化石の岩場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7164",
+   "at": "7164",
+   "jp": "ブロンズ原野",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7174",
+   "at": "7174",
+   "jp": "ブロンズ砂地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_76A0",
+   "at": "76A0",
+   "jp": "東西対抗大作戦",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_76BE",
+   "at": "76BE",
+   "jp": "西洋と東洋、いったいどちらが強いの",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_76E2",
+   "at": "76E2",
+   "jp": "かしら？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7706",
+   "at": "7706",
+   "jp": "チームを組んで戦って！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_772A",
+   "at": "772A",
+   "jp": "３０ターン終了時にチーム",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7748",
+   "at": "7748",
+   "jp": "総資産で勝つこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7784",
+   "at": "7784",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_77A2",
+   "at": "77A2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7834",
+   "at": "7834",
+   "jp": "チョウの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7844",
+   "at": "7844",
+   "jp": "パン神の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7854",
+   "at": "7854",
+   "jp": "キノコの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7A14",
+   "at": "7A14",
+   "jp": "カエルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7A24",
+   "at": "7A24",
+   "jp": "狩人の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7A34",
+   "at": "7A34",
+   "jp": "おおかみの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7BF4",
+   "at": "7BF4",
+   "jp": "妖精の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7C04",
+   "at": "7C04",
+   "jp": "ツグミの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7C14",
+   "at": "7C14",
+   "jp": "ウサギの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7DD4",
+   "at": "7DD4",
+   "jp": "ホタルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7DE4",
+   "at": "7DE4",
+   "jp": "ランの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7DF4",
+   "at": "7DF4",
+   "jp": "エルフの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7FC0",
+   "at": "7FC0",
+   "jp": "神々の戦い",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_7FDE",
+   "at": "7FDE",
+   "jp": "この世に滅びをもたらす魔王を倒す",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8002",
+   "at": "8002",
+   "jp": "ため、神々と人との大いなる闘いが",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8026",
+   "at": "8026",
+   "jp": "今はじまるわ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_804A",
+   "at": "804A",
+   "jp": "ダンテを破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_80A4",
+   "at": "80A4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_80C2",
+   "at": "80C2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8154",
+   "at": "8154",
+   "jp": "魔女の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8334",
+   "at": "8334",
+   "jp": "夢魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8514",
+   "at": "8514",
+   "jp": "おばけの国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_86F4",
+   "at": "86F4",
+   "jp": "がいこつ結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8704",
+   "at": "8704",
+   "jp": "がいこつ領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8714",
+   "at": "8714",
+   "jp": "がいこつ国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8724",
+   "at": "8724",
+   "jp": "がいこつ界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8734",
+   "at": "8734",
+   "jp": "使い魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8744",
+   "at": "8744",
+   "jp": "使い魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8754",
+   "at": "8754",
+   "jp": "使い魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8764",
+   "at": "8764",
+   "jp": "おばけの結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8774",
+   "at": "8774",
+   "jp": "おばけの領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8784",
+   "at": "8784",
+   "jp": "夢魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8794",
+   "at": "8794",
+   "jp": "夢魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_87A4",
+   "at": "87A4",
+   "jp": "魔女の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_87B4",
+   "at": "87B4",
+   "jp": "魔女の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_87C4",
+   "at": "87C4",
+   "jp": "魔王の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_87D4",
+   "at": "87D4",
+   "jp": "魔王の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_88E0",
+   "at": "88E0",
+   "jp": "エコノミックアニマル",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_88FE",
+   "at": "88FE",
+   "jp": "このフシギな街では何から何まで",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8922",
+   "at": "8922",
+   "jp": "ムチャクチャたかいの！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8946",
+   "at": "8946",
+   "jp": "なんとかヤリクリしてね！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_896A",
+   "at": "896A",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8988",
+   "at": "8988",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_89C4",
+   "at": "89C4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_89E2",
+   "at": "89E2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8A74",
+   "at": "8A74",
+   "jp": "工事げんば１",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8A84",
+   "at": "8A84",
+   "jp": "工事げんば３",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8A94",
+   "at": "8A94",
+   "jp": "女子校跡地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8AA4",
+   "at": "8AA4",
+   "jp": "病院跡地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8AB4",
+   "at": "8AB4",
+   "jp": "酒屋前",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8AC4",
+   "at": "8AC4",
+   "jp": "シカ公園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8AD4",
+   "at": "8AD4",
+   "jp": "二番商店街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8AE4",
+   "at": "8AE4",
+   "jp": "大学予定地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8C54",
+   "at": "8C54",
+   "jp": "デパート跡地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8C64",
+   "at": "8C64",
+   "jp": "一番商店街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8C74",
+   "at": "8C74",
+   "jp": "三番商店街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8C84",
+   "at": "8C84",
+   "jp": "ホテル予定地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8C94",
+   "at": "8C94",
+   "jp": "地下鉄予定地",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8E34",
+   "at": "8E34",
+   "jp": "工事げんば２",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8E44",
+   "at": "8E44",
+   "jp": "本屋前",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8E54",
+   "at": "8E54",
+   "jp": "電気屋前",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8E64",
+   "at": "8E64",
+   "jp": "ねこ公園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_8E74",
+   "at": "8E74",
+   "jp": "恋愛公園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9200",
+   "at": "9200",
+   "jp": "偽者の復讐",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_921E",
+   "at": "921E",
+   "jp": "さかうらみ…まさにそんなかんじ！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9242",
+   "at": "9242",
+   "jp": "こんどこそニセ者をコテンパンに",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9266",
+   "at": "9266",
+   "jp": "こらしめて！！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_928A",
+   "at": "928A",
+   "jp": "ニセ者を破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_92A8",
+   "at": "92A8",
+   "jp": "　",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_92E4",
+   "at": "92E4",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9302",
+   "at": "9302",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9394",
+   "at": "9394",
+   "jp": "カッパ温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_93A4",
+   "at": "93A4",
+   "jp": "テング温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9574",
+   "at": "9574",
+   "jp": "アシの原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9584",
+   "at": "9584",
+   "jp": "アシ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9594",
+   "at": "9594",
+   "jp": "アシの温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_95A4",
+   "at": "95A4",
+   "jp": "カッパ山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_95B4",
+   "at": "95B4",
+   "jp": "忍が原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_95C4",
+   "at": "95C4",
+   "jp": "忍び山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_95D4",
+   "at": "95D4",
+   "jp": "忍々温泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_95E4",
+   "at": "95E4",
+   "jp": "テング山",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9B20",
+   "at": "9B20",
+   "jp": "裏武闘会",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9B3E",
+   "at": "9B3E",
+   "jp": "あなたはいまや有名人で、世界中から",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9B62",
+   "at": "9B62",
+   "jp": "お呼びがかかってるわ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9B86",
+   "at": "9B86",
+   "jp": "今日も招待状が来てるけど…",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9BAA",
+   "at": "9BAA",
+   "jp": "ほかのキャラクターの土地を",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9BC8",
+   "at": "9BC8",
+   "jp": "すべて自分の土地にすること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9C04",
+   "at": "9C04",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9C22",
+   "at": "9C22",
+   "jp": "またはプレイヤーの土地が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9C40",
+   "at": "9C40",
+   "jp": "すべてなくなる。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9CB4",
+   "at": "9CB4",
+   "jp": "がいこつ結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9CC4",
+   "at": "9CC4",
+   "jp": "使い魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9CD4",
+   "at": "9CD4",
+   "jp": "おばけの領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9CE4",
+   "at": "9CE4",
+   "jp": "夢魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9E94",
+   "at": "9E94",
+   "jp": "がいこつ領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9EA4",
+   "at": "9EA4",
+   "jp": "使い魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9EB4",
+   "at": "9EB4",
+   "jp": "おばけの国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_9EC4",
+   "at": "9EC4",
+   "jp": "魔女の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A074",
+   "at": "A074",
+   "jp": "がいこつ界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A084",
+   "at": "A084",
+   "jp": "使い魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A094",
+   "at": "A094",
+   "jp": "夢魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A0A4",
+   "at": "A0A4",
+   "jp": "魔女の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A254",
+   "at": "A254",
+   "jp": "がいこつ国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A264",
+   "at": "A264",
+   "jp": "おばけの結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A274",
+   "at": "A274",
+   "jp": "夢魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A284",
+   "at": "A284",
+   "jp": "魔女の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A440",
+   "at": "A440",
+   "jp": "魔王の復活",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A45E",
+   "at": "A45E",
+   "jp": "倒したはずの魔王が軍勢をひき連れて",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A482",
+   "at": "A482",
+   "jp": "復活したわ！！あなた１人だけで",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A4A6",
+   "at": "A4A6",
+   "jp": "立ち向かうことができるかしら！？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A4CA",
+   "at": "A4CA",
+   "jp": "ほかのキャラクターすべてを",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A4E8",
+   "at": "A4E8",
+   "jp": "破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A524",
+   "at": "A524",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A542",
+   "at": "A542",
+   "jp": "またはプレイヤーの土地が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A560",
+   "at": "A560",
+   "jp": "すべてなくなる。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A5D4",
+   "at": "A5D4",
+   "jp": "がいこつ領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A5E4",
+   "at": "A5E4",
+   "jp": "がいこつ国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A5F4",
+   "at": "A5F4",
+   "jp": "使い魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A604",
+   "at": "A604",
+   "jp": "おばけの領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A614",
+   "at": "A614",
+   "jp": "夢魔の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A624",
+   "at": "A624",
+   "jp": "魔女の領土",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A7B4",
+   "at": "A7B4",
+   "jp": "がいこつ結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A7C4",
+   "at": "A7C4",
+   "jp": "使い魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A7D4",
+   "at": "A7D4",
+   "jp": "夢魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A994",
+   "at": "A994",
+   "jp": "がいこつ界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A9A4",
+   "at": "A9A4",
+   "jp": "おばけの結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_A9B4",
+   "at": "A9B4",
+   "jp": "夢魔の国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AB74",
+   "at": "AB74",
+   "jp": "使い魔の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AB84",
+   "at": "AB84",
+   "jp": "おばけの国",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AB94",
+   "at": "AB94",
+   "jp": "魔女の結界",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AD60",
+   "at": "AD60",
+   "jp": "決戦空中都市",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AD7E",
+   "at": "AD7E",
+   "jp": "数多の戦いを勝ち進み、あなたは",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_ADA2",
+   "at": "ADA2",
+   "jp": "ついにここまでたどりついたわ！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_ADC6",
+   "at": "ADC6",
+   "jp": "その手に栄光をつかめるのかしら？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_ADEA",
+   "at": "ADEA",
+   "jp": "ほかのキャラクターすべてを",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AE08",
+   "at": "AE08",
+   "jp": "破産させること。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AE44",
+   "at": "AE44",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AE62",
+   "at": "AE62",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AEF4",
+   "at": "AEF4",
+   "jp": "月の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AF04",
+   "at": "AF04",
+   "jp": "月の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AF14",
+   "at": "AF14",
+   "jp": "太陽の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_AF24",
+   "at": "AF24",
+   "jp": "太陽の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B0D4",
+   "at": "B0D4",
+   "jp": "がれきの広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B0E4",
+   "at": "B0E4",
+   "jp": "がれきの庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B0F4",
+   "at": "B0F4",
+   "jp": "がれきの遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B104",
+   "at": "B104",
+   "jp": "雷の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B114",
+   "at": "B114",
+   "jp": "雷の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B124",
+   "at": "B124",
+   "jp": "雷の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B2B4",
+   "at": "B2B4",
+   "jp": "忘却の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B2C4",
+   "at": "B2C4",
+   "jp": "忘却の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B2D4",
+   "at": "B2D4",
+   "jp": "忘却の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B2E4",
+   "at": "B2E4",
+   "jp": "鏡の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B2F4",
+   "at": "B2F4",
+   "jp": "鏡の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B304",
+   "at": "B304",
+   "jp": "鏡の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B314",
+   "at": "B314",
+   "jp": "シリウス広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B324",
+   "at": "B324",
+   "jp": "シリウス庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B334",
+   "at": "B334",
+   "jp": "シリウス遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B494",
+   "at": "B494",
+   "jp": "大理石の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4A4",
+   "at": "B4A4",
+   "jp": "大理石の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4B4",
+   "at": "B4B4",
+   "jp": "大理石の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4C4",
+   "at": "B4C4",
+   "jp": "風の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4D4",
+   "at": "B4D4",
+   "jp": "風の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4E4",
+   "at": "B4E4",
+   "jp": "風の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B4F4",
+   "at": "B4F4",
+   "jp": "星の広場",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B504",
+   "at": "B504",
+   "jp": "星の庭園",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B514",
+   "at": "B514",
+   "jp": "星の遺跡",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B680",
+   "at": "B680",
+   "jp": "女の戦い",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B69E",
+   "at": "B69E",
+   "jp": "ミス・ガイアマスターはだれ？",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B6C2",
+   "at": "B6C2",
+   "jp": "このこたえが今、明らかに！",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B70A",
+   "at": "B70A",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B728",
+   "at": "B728",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B764",
+   "at": "B764",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B782",
+   "at": "B782",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B814",
+   "at": "B814",
+   "jp": "スライム門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B824",
+   "at": "B824",
+   "jp": "ゴブリン通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B834",
+   "at": "B834",
+   "jp": "トロル街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B844",
+   "at": "B844",
+   "jp": "ミミック街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B854",
+   "at": "B854",
+   "jp": "聖騎士街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B864",
+   "at": "B864",
+   "jp": "ドラゴン通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B874",
+   "at": "B874",
+   "jp": "ヒドラ街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_B9F4",
+   "at": "B9F4",
+   "jp": "スライム通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA04",
+   "at": "BA04",
+   "jp": "ゴブリン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA14",
+   "at": "BA14",
+   "jp": "トロル門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA24",
+   "at": "BA24",
+   "jp": "ミミック通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA34",
+   "at": "BA34",
+   "jp": "聖騎士通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA44",
+   "at": "BA44",
+   "jp": "ドラゴン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BA54",
+   "at": "BA54",
+   "jp": "ヒドラ門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BBD4",
+   "at": "BBD4",
+   "jp": "スライム街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BBE4",
+   "at": "BBE4",
+   "jp": "ゴブリン門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BBF4",
+   "at": "BBF4",
+   "jp": "トロル通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BC04",
+   "at": "BC04",
+   "jp": "ミミック門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BC14",
+   "at": "BC14",
+   "jp": "聖騎士門",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BC24",
+   "at": "BC24",
+   "jp": "ドラゴン街",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BC34",
+   "at": "BC34",
+   "jp": "ヒドラ通り",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BFA0",
+   "at": "BFA0",
+   "jp": "異国の戦士",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BFBE",
+   "at": "BFBE",
+   "jp": "武者修行をしている戦士とであった",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_BFE2",
+   "at": "BFE2",
+   "jp": "あなたは、かれの修行につきあうこ",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C006",
+   "at": "C006",
+   "jp": "とになったの。",
+   "en": "",
+   "max": 35,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C02A",
+   "at": "C02A",
+   "jp": "３０ターン終了時に総資産が",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C048",
+   "at": "C048",
+   "jp": "最も多いこと。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C084",
+   "at": "C084",
+   "jp": "上記条件を満たせなかった時。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C0A2",
+   "at": "C0A2",
+   "jp": "またはプレイヤーの破産。",
+   "en": "",
+   "max": 29,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C134",
+   "at": "C134",
+   "jp": "ホタルの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C144",
+   "at": "C144",
+   "jp": "チョウの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C154",
+   "at": "C154",
+   "jp": "カエルの野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C164",
+   "at": "C164",
+   "jp": "ランの泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C174",
+   "at": "C174",
+   "jp": "妖精の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C314",
+   "at": "C314",
+   "jp": "ランの森",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C324",
+   "at": "C324",
+   "jp": "妖精の泉",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "scenarios_C334",
+   "at": "C334",
+   "jp": "パン神の野原",
+   "en": "",
+   "max": 15,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

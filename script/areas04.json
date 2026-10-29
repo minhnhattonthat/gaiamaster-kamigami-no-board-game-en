@@ -1,0 +1,80 @@
+{
+ "block": "areas04",
+ "file": "SCR_DATA.BDP/210/004/004.bin",
+ "copies": [],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "areas04_0000",
+   "at": "0000",
+   "jp": "ススキ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_000E",
+   "at": "000E",
+   "jp": "アシ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_001C",
+   "at": "001C",
+   "jp": "むじな",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_002A",
+   "at": "002A",
+   "jp": "カッパ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_0038",
+   "at": "0038",
+   "jp": "忍",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_0046",
+   "at": "0046",
+   "jp": "オニ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_0054",
+   "at": "0054",
+   "jp": "テング",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas04_0062",
+   "at": "0062",
+   "jp": "天女",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

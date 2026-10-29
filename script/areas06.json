@@ -1,0 +1,80 @@
+{
+ "block": "areas06",
+ "file": "SCR_DATA.BDP/210/006/004.bin",
+ "copies": [],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "areas06_0000",
+   "at": "0000",
+   "jp": "工事",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_000E",
+   "at": "000E",
+   "jp": "跡地",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_001C",
+   "at": "001C",
+   "jp": "商店前",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_002A",
+   "at": "002A",
+   "jp": "公園",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_0038",
+   "at": "0038",
+   "jp": "商店街",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_0046",
+   "at": "0046",
+   "jp": "予定地",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_0054",
+   "at": "0054",
+   "jp": "シネマ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas06_0062",
+   "at": "0062",
+   "jp": "スクエア",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

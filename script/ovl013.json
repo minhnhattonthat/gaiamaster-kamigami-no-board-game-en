@@ -1,0 +1,31 @@
+{
+ "block": "ovl013",
+ "file": "PRGPACK.BDP/013/000.bin",
+ "copies": [],
+ "kind": "code",
+ "base": "800C8450",
+ "strings": [
+  {
+   "id": "ovl013_800C8454",
+   "at": "800C8454",
+   "jp": "ラッキー！",
+   "en": "",
+   "max": 11,
+   "refs": [
+    "lui@E8/EC"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "ovl013_800C8464",
+   "at": "800C8464",
+   "jp": "/V%dゼニーひろったよ！/v",
+   "en": "",
+   "max": 27,
+   "refs": [
+    "lui@E0/E4"
+   ],
+   "notes": ""
+  }
+ ]
+}

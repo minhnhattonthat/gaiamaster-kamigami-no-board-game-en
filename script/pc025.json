@@ -1,0 +1,958 @@
+{
+ "block": "pc025",
+ "file": "PC_DATA.BDP/025/000.bin",
+ "copies": [],
+ "kind": "pool",
+ "strings": [
+  {
+   "id": "pc025_0470",
+   "at": "0470",
+   "jp": "くっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0478",
+   "at": "0478",
+   "jp": "うご！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@364"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0480",
+   "at": "0480",
+   "jp": "死ね！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@264"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0488",
+   "at": "0488",
+   "jp": "ヤッ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@244"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0490",
+   "at": "0490",
+   "jp": "ン…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@204"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0498",
+   "at": "0498",
+   "jp": "……！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04A0",
+   "at": "04A0",
+   "jp": "母上…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@184"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04A8",
+   "at": "04A8",
+   "jp": "ふん…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@174"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04B0",
+   "at": "04B0",
+   "jp": "ん…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@134"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04B8",
+   "at": "04B8",
+   "jp": "チッ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@104"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04C0",
+   "at": "04C0",
+   "jp": "！！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04C8",
+   "at": "04C8",
+   "jp": "山…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@94"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04D0",
+   "at": "04D0",
+   "jp": "ハッ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@84"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04D8",
+   "at": "04D8",
+   "jp": "フン！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@54"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04E0",
+   "at": "04E0",
+   "jp": "忍！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@44"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04E8",
+   "at": "04E8",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8",
+    "off@C",
+    "off@18",
+    "off@1C",
+    "off@2C",
+    "off@38",
+    "off@3C",
+    "off@48",
+    "off@4C",
+    "off@58",
+    "off@5C",
+    "off@68",
+    "off@6C",
+    "off@78",
+    "off@7C",
+    "off@88",
+    "off@8C",
+    "off@98",
+    "off@9C",
+    "off@A8",
+    "off@AC",
+    "off@B8",
+    "off@BC",
+    "off@C8",
+    "off@CC",
+    "off@D8",
+    "off@DC",
+    "off@E8",
+    "off@EC",
+    "off@F8",
+    "off@FC",
+    "off@108",
+    "off@10C",
+    "off@118",
+    "off@11C",
+    "off@128",
+    "off@12C",
+    "off@138",
+    "off@13C",
+    "off@148",
+    "off@14C",
+    "off@158",
+    "off@15C",
+    "off@168",
+    "off@16C",
+    "off@178",
+    "off@17C",
+    "off@188",
+    "off@18C",
+    "off@198",
+    "off@19C",
+    "off@1A8",
+    "off@1AC",
+    "off@1B8",
+    "off@1BC",
+    "off@1C8",
+    "off@1CC",
+    "off@1D8",
+    "off@1DC",
+    "off@1E8",
+    "off@1EC",
+    "off@1F8",
+    "off@1FC",
+    "off@208",
+    "off@20C",
+    "off@218",
+    "off@21C",
+    "off@228",
+    "off@22C",
+    "off@238",
+    "off@23C",
+    "off@248",
+    "off@24C",
+    "off@258",
+    "off@25C",
+    "off@268",
+    "off@26C",
+    "off@278",
+    "off@27C",
+    "off@288",
+    "off@28C",
+    "off@298",
+    "off@29C",
+    "off@2A8",
+    "off@2AC",
+    "off@2B8",
+    "off@2BC",
+    "off@2C8",
+    "off@2CC",
+    "off@2D8",
+    "off@2DC",
+    "off@2E8",
+    "off@2EC",
+    "off@2F8",
+    "off@2FC",
+    "off@308",
+    "off@30C",
+    "off@318",
+    "off@31C",
+    "off@328",
+    "off@32C",
+    "off@338",
+    "off@33C",
+    "off@348",
+    "off@34C",
+    "off@358",
+    "off@35C",
+    "off@368",
+    "off@36C",
+    "off@378",
+    "off@37C",
+    "off@388",
+    "off@38C",
+    "off@398",
+    "off@39C",
+    "off@3A8",
+    "off@3AC",
+    "off@3B8",
+    "off@3BC",
+    "off@3C8",
+    "off@3CC",
+    "off@3D8",
+    "off@3DC",
+    "off@3E8",
+    "off@3EC",
+    "off@3F8",
+    "off@3FC",
+    "off@408",
+    "off@40C",
+    "off@418",
+    "off@41C",
+    "off@428",
+    "off@42C",
+    "off@44C",
+    "off@458",
+    "off@45C"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04EC",
+   "at": "04EC",
+   "jp": "忍…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4",
+    "off@14"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_04F4",
+   "at": "04F4",
+   "jp": "まだ死ねぬな…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@454"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0504",
+   "at": "0504",
+   "jp": "殺される…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@448"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0514",
+   "at": "0514",
+   "jp": "俺達下忍は役に立たなくなれば",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@444"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0534",
+   "at": "0534",
+   "jp": "ヤツがいる…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@43C"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0544",
+   "at": "0544",
+   "jp": "のうのうとしている",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@438"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0558",
+   "at": "0558",
+   "jp": "俺達の死にあぐらをかいて",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@434"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0574",
+   "at": "0574",
+   "jp": "殺ったか…？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@424"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0584",
+   "at": "0584",
+   "jp": "おれは人間だ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@414"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0594",
+   "at": "0594",
+   "jp": "やるな…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@404"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05A0",
+   "at": "05A0",
+   "jp": "どうする…！？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05B0",
+   "at": "05B0",
+   "jp": "やむをえんか…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05C0",
+   "at": "05C0",
+   "jp": "カンがにぶったか…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05D4",
+   "at": "05D4",
+   "jp": "しまった…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05E4",
+   "at": "05E4",
+   "jp": "うぬ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05F0",
+   "at": "05F0",
+   "jp": "できる…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@394"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_05FC",
+   "at": "05FC",
+   "jp": "こやつ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@384"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0608",
+   "at": "0608",
+   "jp": "おのれ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@374"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0614",
+   "at": "0614",
+   "jp": "ぐぎゃっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@354"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0620",
+   "at": "0620",
+   "jp": "くちほどにもない…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@344"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0634",
+   "at": "0634",
+   "jp": "ムダだ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@334"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0640",
+   "at": "0640",
+   "jp": "任務完了…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@324"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0650",
+   "at": "0650",
+   "jp": "やめておけ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@314"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0660",
+   "at": "0660",
+   "jp": "よせっ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@304"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_066C",
+   "at": "066C",
+   "jp": "ばかなヤツだ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_067C",
+   "at": "067C",
+   "jp": "かかったな！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_068C",
+   "at": "068C",
+   "jp": "おれには向かないな…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_06A4",
+   "at": "06A4",
+   "jp": "今らくにしてやる",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_06B8",
+   "at": "06B8",
+   "jp": "気味が悪いな…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_06C8",
+   "at": "06C8",
+   "jp": "ふかいりするな…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_06DC",
+   "at": "06DC",
+   "jp": "殺さずにすんだか…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@294"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_06F0",
+   "at": "06F0",
+   "jp": "お館さまにごほうこくを…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@284"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_070C",
+   "at": "070C",
+   "jp": "よし…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@274"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0718",
+   "at": "0718",
+   "jp": "タァッ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@254"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0724",
+   "at": "0724",
+   "jp": "闇に生き、闇に死す…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@234"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_073C",
+   "at": "073C",
+   "jp": "風が変わった…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@224"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_074C",
+   "at": "074C",
+   "jp": "急がねば…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@214"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0758",
+   "at": "0758",
+   "jp": "ゆくぞ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0764",
+   "at": "0764",
+   "jp": "忍法ウツセミの術",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0778",
+   "at": "0778",
+   "jp": "おのれっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0784",
+   "at": "0784",
+   "jp": "はめられた！？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0794",
+   "at": "0794",
+   "jp": "さらば…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_07A0",
+   "at": "07A0",
+   "jp": "これでは里に帰れぬ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@194"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_07B8",
+   "at": "07B8",
+   "jp": "お館さま…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@164"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_07C4",
+   "at": "07C4",
+   "jp": "忍法乱れ手裏剣！！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@154"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_07D8",
+   "at": "07D8",
+   "jp": "うぬにはわしは斬れぬ…！！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@144"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_07F4",
+   "at": "07F4",
+   "jp": "ひけ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@124"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0800",
+   "at": "0800",
+   "jp": "無念…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@114"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_080C",
+   "at": "080C",
+   "jp": "ウッ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0818",
+   "at": "0818",
+   "jp": "むなしい…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0824",
+   "at": "0824",
+   "jp": "この身は風…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0834",
+   "at": "0834",
+   "jp": "母上…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0840",
+   "at": "0840",
+   "jp": "忍びは影の存在…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0854",
+   "at": "0854",
+   "jp": "帰りたいな、しのびの里へ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@74"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0870",
+   "at": "0870",
+   "jp": "ム…合図ののろしが…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@64"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_0888",
+   "at": "0888",
+   "jp": "光あるところ影あり…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@34"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_08A0",
+   "at": "08A0",
+   "jp": "乱れ手裏剣のハヤテ見参！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@28"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc025_08BC",
+   "at": "08BC",
+   "jp": "血車忍軍十傑衆が一人、",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@24"
+   ],
+   "notes": ""
+  }
+ ]
+}

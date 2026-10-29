@@ -1,0 +1,70 @@
+{
+ "block": "facilities02",
+ "file": "SCR_DATA.BDP/210/002/003.bin",
+ "copies": [
+  "SCR_DATA.BDP/210/003/003.bin",
+  "SCR_DATA.BDP/210/004/003.bin",
+  "SCR_DATA.BDP/210/005/003.bin",
+  "SCR_DATA.BDP/210/006/003.bin",
+  "SCR_DATA.BDP/210/008/003.bin",
+  "SCR_DATA.BDP/210/010/003.bin",
+  "SCR_DATA.BDP/210/011/003.bin"
+ ],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "facilities02_0000",
+   "at": "0000",
+   "jp": "病院",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "facilities02_000E",
+   "at": "000E",
+   "jp": "騎士団",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "facilities02_001C",
+   "at": "001C",
+   "jp": "修道会",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "facilities02_002A",
+   "at": "002A",
+   "jp": "れん金術",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "facilities02_0038",
+   "at": "0038",
+   "jp": "かじ屋",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "facilities02_0046",
+   "at": "0046",
+   "jp": "バンク",
+   "en": "",
+   "max": 10,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

@@ -18,4 +18,5 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 Tools: `tools/bdp.py` (archives), `tools/lz.py` (F1 LZ decode), `tools/tim.py` (TIM -> PNG), `tools/gfx_sweep.py`
 (TIM contact sheets), `tools/cells.py` (0x11 cells), `tools/font12.py` (EXE font sheet / code map),
-`tools/jpscan_tree.py` (SJIS scan of an unpacked tree). Unpack everything into `work/unpacked/`: see graphics.md.
+`tools/jpscan_tree.py` (SJIS scan of an unpacked tree), `tools/mips.py` (every lui-pair / pointer-word ref
+into a range), `tools/extract.py` + `tools/sjis.py` (script dump, text.md §Script). Unpack everything into `work/unpacked/`: see graphics.md.

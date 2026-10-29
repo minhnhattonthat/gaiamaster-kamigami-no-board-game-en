@@ -1,0 +1,73 @@
+{
+ "block": "areas02",
+ "file": "SCR_DATA.BDP/210/002/004.bin",
+ "copies": [
+  "SCR_DATA.BDP/210/008/004.bin"
+ ],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "areas02_0000",
+   "at": "0000",
+   "jp": "しかばね",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_000E",
+   "at": "000E",
+   "jp": "でこぼこ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_001C",
+   "at": "001C",
+   "jp": "無人",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_002A",
+   "at": "002A",
+   "jp": "化石",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_0046",
+   "at": "0046",
+   "jp": "ブロンズ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_0062",
+   "at": "0062",
+   "jp": "黄金",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas02_0070",
+   "at": "0070",
+   "jp": "ミスリル",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}

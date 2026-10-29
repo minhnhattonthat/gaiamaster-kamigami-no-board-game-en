@@ -1,0 +1,2085 @@
+{
+ "block": "pc022",
+ "file": "PC_DATA.BDP/022/000.bin",
+ "copies": [],
+ "kind": "pool",
+ "strings": [
+  {
+   "id": "pc022_0A00",
+   "at": "0A00",
+   "jp": "へー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@984"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A08",
+   "at": "0A08",
+   "jp": "で？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@954"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A10",
+   "at": "0A10",
+   "jp": "フウ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@944"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A18",
+   "at": "0A18",
+   "jp": "なにが",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@934"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A20",
+   "at": "0A20",
+   "jp": "そう",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@904"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A28",
+   "at": "0A28",
+   "jp": "ちぇっ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A30",
+   "at": "0A30",
+   "jp": "ホレ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@894"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A38",
+   "at": "0A38",
+   "jp": "はい",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@884"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A40",
+   "at": "0A40",
+   "jp": "ほい",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@834"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A48",
+   "at": "0A48",
+   "jp": "超ムカ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@774"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A50",
+   "at": "0A50",
+   "jp": "フン",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@764"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A58",
+   "at": "0A58",
+   "jp": "ケッ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@754"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A60",
+   "at": "0A60",
+   "jp": "ほら",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@734"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A68",
+   "at": "0A68",
+   "jp": "ふーん",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@724",
+    "off@8F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A70",
+   "at": "0A70",
+   "jp": "DUMMY",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@714"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A78",
+   "at": "0A78",
+   "jp": "どう？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A80",
+   "at": "0A80",
+   "jp": "ふう",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@534"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A88",
+   "at": "0A88",
+   "jp": "げっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@404"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A90",
+   "at": "0A90",
+   "jp": "あーあ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0A98",
+   "at": "0A98",
+   "jp": "ひゃ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AA0",
+   "at": "0AA0",
+   "jp": "あらら",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@384"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AA8",
+   "at": "0AA8",
+   "jp": "ワオ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@354"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AB0",
+   "at": "0AB0",
+   "jp": "よっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@304"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AB8",
+   "at": "0AB8",
+   "jp": "やっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AC0",
+   "at": "0AC0",
+   "jp": "本気？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@194"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AC8",
+   "at": "0AC8",
+   "jp": "XA21",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@154"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AD0",
+   "at": "0AD0",
+   "jp": "XA20",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@144"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AD8",
+   "at": "0AD8",
+   "jp": "XA19",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@134"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AE0",
+   "at": "0AE0",
+   "jp": "XA18",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@124"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AE8",
+   "at": "0AE8",
+   "jp": "XA17",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@114"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AF0",
+   "at": "0AF0",
+   "jp": "XA16",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@104"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0AF8",
+   "at": "0AF8",
+   "jp": "XA15",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B00",
+   "at": "0B00",
+   "jp": "XA14",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B08",
+   "at": "0B08",
+   "jp": "XA13",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B10",
+   "at": "0B10",
+   "jp": "XA12",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B18",
+   "at": "0B18",
+   "jp": "XA11",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B20",
+   "at": "0B20",
+   "jp": "XA10",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B28",
+   "at": "0B28",
+   "jp": "XA09",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@94"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B30",
+   "at": "0B30",
+   "jp": "XA08",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@84"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B38",
+   "at": "0B38",
+   "jp": "XA07",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@74"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B40",
+   "at": "0B40",
+   "jp": "XA06",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@64"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B48",
+   "at": "0B48",
+   "jp": "XA05",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@54"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B50",
+   "at": "0B50",
+   "jp": "XA04",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@44"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B58",
+   "at": "0B58",
+   "jp": "XA03",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@34"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B60",
+   "at": "0B60",
+   "jp": "XA02",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@24"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B68",
+   "at": "0B68",
+   "jp": "XA01",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@14"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B70",
+   "at": "0B70",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8",
+    "off@C",
+    "off@18",
+    "off@1C",
+    "off@28",
+    "off@2C",
+    "off@38",
+    "off@3C",
+    "off@48",
+    "off@4C",
+    "off@58",
+    "off@5C",
+    "off@68",
+    "off@6C",
+    "off@78",
+    "off@7C",
+    "off@88",
+    "off@8C",
+    "off@98",
+    "off@9C",
+    "off@A8",
+    "off@AC",
+    "off@B8",
+    "off@BC",
+    "off@C8",
+    "off@CC",
+    "off@D8",
+    "off@DC",
+    "off@E8",
+    "off@EC",
+    "off@F8",
+    "off@FC",
+    "off@108",
+    "off@10C",
+    "off@118",
+    "off@11C",
+    "off@128",
+    "off@12C",
+    "off@138",
+    "off@13C",
+    "off@148",
+    "off@14C",
+    "off@158",
+    "off@15C",
+    "off@168",
+    "off@16C",
+    "off@178",
+    "off@17C",
+    "off@188",
+    "off@18C",
+    "off@198",
+    "off@19C",
+    "off@1A8",
+    "off@1AC",
+    "off@1B8",
+    "off@1BC",
+    "off@1C8",
+    "off@1CC",
+    "off@1D8",
+    "off@1DC",
+    "off@1E8",
+    "off@1EC",
+    "off@1F8",
+    "off@1FC",
+    "off@208",
+    "off@20C",
+    "off@218",
+    "off@21C",
+    "off@228",
+    "off@22C",
+    "off@238",
+    "off@23C",
+    "off@24C",
+    "off@258",
+    "off@25C",
+    "off@268",
+    "off@26C",
+    "off@278",
+    "off@27C",
+    "off@288",
+    "off@28C",
+    "off@298",
+    "off@29C",
+    "off@2A8",
+    "off@2AC",
+    "off@2B8",
+    "off@2BC",
+    "off@2C8",
+    "off@2CC",
+    "off@2D8",
+    "off@2DC",
+    "off@2E8",
+    "off@2EC",
+    "off@2F8",
+    "off@2FC",
+    "off@308",
+    "off@30C",
+    "off@318",
+    "off@31C",
+    "off@328",
+    "off@32C",
+    "off@338",
+    "off@33C",
+    "off@348",
+    "off@34C",
+    "off@358",
+    "off@35C",
+    "off@368",
+    "off@36C",
+    "off@378",
+    "off@37C",
+    "off@388",
+    "off@38C",
+    "off@398",
+    "off@39C",
+    "off@3A8",
+    "off@3AC",
+    "off@3B8",
+    "off@3BC",
+    "off@3C8",
+    "off@3CC",
+    "off@3D8",
+    "off@3DC",
+    "off@3E8",
+    "off@3EC",
+    "off@3F8",
+    "off@3FC",
+    "off@408",
+    "off@40C",
+    "off@418",
+    "off@41C",
+    "off@428",
+    "off@42C",
+    "off@438",
+    "off@43C",
+    "off@448",
+    "off@44C",
+    "off@458",
+    "off@45C",
+    "off@468",
+    "off@46C",
+    "off@478",
+    "off@47C",
+    "off@488",
+    "off@48C",
+    "off@498",
+    "off@49C",
+    "off@4A8",
+    "off@4AC",
+    "off@4B8",
+    "off@4BC",
+    "off@4C8",
+    "off@4CC",
+    "off@4D8",
+    "off@4DC",
+    "off@4E8",
+    "off@4EC",
+    "off@4F8",
+    "off@4FC",
+    "off@508",
+    "off@50C",
+    "off@518",
+    "off@51C",
+    "off@528",
+    "off@52C",
+    "off@538",
+    "off@53C",
+    "off@548",
+    "off@54C",
+    "off@558",
+    "off@55C",
+    "off@568",
+    "off@56C",
+    "off@578",
+    "off@57C",
+    "off@588",
+    "off@58C",
+    "off@598",
+    "off@59C",
+    "off@5A8",
+    "off@5AC",
+    "off@5B8",
+    "off@5BC",
+    "off@5C8",
+    "off@5CC",
+    "off@5D8",
+    "off@5DC",
+    "off@5E8",
+    "off@5EC",
+    "off@5F8",
+    "off@5FC",
+    "off@608",
+    "off@60C",
+    "off@618",
+    "off@61C",
+    "off@628",
+    "off@62C",
+    "off@638",
+    "off@63C",
+    "off@648",
+    "off@64C",
+    "off@658",
+    "off@65C",
+    "off@668",
+    "off@66C",
+    "off@678",
+    "off@67C",
+    "off@688",
+    "off@68C",
+    "off@698",
+    "off@69C",
+    "off@6A8",
+    "off@6AC",
+    "off@6B8",
+    "off@6BC",
+    "off@6C8",
+    "off@6CC",
+    "off@6D8",
+    "off@6DC",
+    "off@6E8",
+    "off@6EC",
+    "off@6F8",
+    "off@6FC",
+    "off@708",
+    "off@70C",
+    "off@718",
+    "off@71C",
+    "off@728",
+    "off@72C",
+    "off@738",
+    "off@73C",
+    "off@748",
+    "off@74C",
+    "off@758",
+    "off@75C",
+    "off@768",
+    "off@76C",
+    "off@778",
+    "off@77C",
+    "off@788",
+    "off@78C",
+    "off@798",
+    "off@79C",
+    "off@7AC",
+    "off@7B8",
+    "off@7BC",
+    "off@7C8",
+    "off@7CC",
+    "off@7D8",
+    "off@7DC",
+    "off@7E8",
+    "off@7EC",
+    "off@7F8",
+    "off@7FC",
+    "off@808",
+    "off@80C",
+    "off@818",
+    "off@81C",
+    "off@828",
+    "off@82C",
+    "off@838",
+    "off@83C",
+    "off@848",
+    "off@84C",
+    "off@858",
+    "off@85C",
+    "off@868",
+    "off@86C",
+    "off@878",
+    "off@87C",
+    "off@888",
+    "off@88C",
+    "off@898",
+    "off@89C",
+    "off@8A8",
+    "off@8AC",
+    "off@8B8",
+    "off@8BC",
+    "off@8C8",
+    "off@8CC",
+    "off@8D8",
+    "off@8DC",
+    "off@8E8",
+    "off@8EC",
+    "off@8F8",
+    "off@8FC",
+    "off@908",
+    "off@90C",
+    "off@918",
+    "off@91C",
+    "off@928",
+    "off@92C",
+    "off@938",
+    "off@93C",
+    "off@948",
+    "off@94C",
+    "off@958",
+    "off@95C",
+    "off@968",
+    "off@96C",
+    "off@978",
+    "off@97C",
+    "off@988",
+    "off@98C",
+    "off@998",
+    "off@99C",
+    "off@9A8",
+    "off@9AC",
+    "off@9B8",
+    "off@9BC",
+    "off@9C8",
+    "off@9CC",
+    "off@9D8",
+    "off@9DC",
+    "off@9E8",
+    "off@9EC"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B74",
+   "at": "0B74",
+   "jp": "XA00",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B7C",
+   "at": "0B7C",
+   "jp": "ププッ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@9E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B88",
+   "at": "0B88",
+   "jp": "キシシ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@9D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0B94",
+   "at": "0B94",
+   "jp": "残念でした",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@9C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BA0",
+   "at": "0BA0",
+   "jp": "はいダメー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@9B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BAC",
+   "at": "0BAC",
+   "jp": "なってないね",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@9A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BBC",
+   "at": "0BBC",
+   "jp": "ダメじゃん",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@994"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BC8",
+   "at": "0BC8",
+   "jp": "さてと…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@974"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BD4",
+   "at": "0BD4",
+   "jp": "やあねえ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@964"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BE0",
+   "at": "0BE0",
+   "jp": "うかれちゃって",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@924"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0BF0",
+   "at": "0BF0",
+   "jp": "よかったわね。",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C00",
+   "at": "0C00",
+   "jp": "まだやるのお",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C10",
+   "at": "0C10",
+   "jp": "あきちゃった",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C20",
+   "at": "0C20",
+   "jp": "しんどー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@8B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C2C",
+   "at": "0C2C",
+   "jp": "自分でやれば？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@874"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C3C",
+   "at": "0C3C",
+   "jp": "んもう！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@864"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C48",
+   "at": "0C48",
+   "jp": "わかってるわよ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@854"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C5C",
+   "at": "0C5C",
+   "jp": "ふったよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@844"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C68",
+   "at": "0C68",
+   "jp": "はい、どーぞ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@824"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C78",
+   "at": "0C78",
+   "jp": "これでいい？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@814"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C88",
+   "at": "0C88",
+   "jp": "あー、だるー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@804"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0C98",
+   "at": "0C98",
+   "jp": "さっさとやれ？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CA8",
+   "at": "0CA8",
+   "jp": "早くしろよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CB4",
+   "at": "0CB4",
+   "jp": "バカじゃん？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CC4",
+   "at": "0CC4",
+   "jp": "バーカバーカ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CD4",
+   "at": "0CD4",
+   "jp": "帰ろっかな",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CE0",
+   "at": "0CE0",
+   "jp": "好きにすれば？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7A8"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CF0",
+   "at": "0CF0",
+   "jp": "しんない",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@7A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0CFC",
+   "at": "0CFC",
+   "jp": "うちゅうサイアク！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@794"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D10",
+   "at": "0D10",
+   "jp": "あんたサイテー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@784"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D20",
+   "at": "0D20",
+   "jp": "はいはい",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@744"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D2C",
+   "at": "0D2C",
+   "jp": "へいへい",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@704"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D38",
+   "at": "0D38",
+   "jp": "お好きにどうぞ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D48",
+   "at": "0D48",
+   "jp": "すればー？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D54",
+   "at": "0D54",
+   "jp": "やれば？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D60",
+   "at": "0D60",
+   "jp": "怒ってる？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D6C",
+   "at": "0D6C",
+   "jp": "やっちゃった～！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D80",
+   "at": "0D80",
+   "jp": "ごめんね！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@6A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D8C",
+   "at": "0D8C",
+   "jp": "エヘヘ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@694"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0D98",
+   "at": "0D98",
+   "jp": "ごめ～ん！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@684"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DA4",
+   "at": "0DA4",
+   "jp": "負けちゃダメ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@674"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DB4",
+   "at": "0DB4",
+   "jp": "がんばって！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@664"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DC4",
+   "at": "0DC4",
+   "jp": "気をおとさないで！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@654"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DD8",
+   "at": "0DD8",
+   "jp": "だいじょうぶ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@644"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DE8",
+   "at": "0DE8",
+   "jp": "いかが？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@634"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0DF4",
+   "at": "0DF4",
+   "jp": "ささ、どーぞ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@624"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E04",
+   "at": "0E04",
+   "jp": "いいねいいね",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@614"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E14",
+   "at": "0E14",
+   "jp": "ウォンチュ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@604"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E24",
+   "at": "0E24",
+   "jp": "おめでと！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E30",
+   "at": "0E30",
+   "jp": "いいぞー！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E3C",
+   "at": "0E3C",
+   "jp": "よかったね",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E48",
+   "at": "0E48",
+   "jp": "いけてるいけてる！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E5C",
+   "at": "0E5C",
+   "jp": "エ～ンヤコ～ラ～！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@5A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E70",
+   "at": "0E70",
+   "jp": "いっけー！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@594"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E7C",
+   "at": "0E7C",
+   "jp": "これでどう？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@584"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E8C",
+   "at": "0E8C",
+   "jp": "やったげる！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@574"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0E9C",
+   "at": "0E9C",
+   "jp": "まかせといて！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@564"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0EAC",
+   "at": "0EAC",
+   "jp": "思い切って行ってみるとか？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@554"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0EC8",
+   "at": "0EC8",
+   "jp": "なんかつかれちゃった",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@544"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0EE0",
+   "at": "0EE0",
+   "jp": "そーよね、フツーそうするわね",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@524"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F00",
+   "at": "0F00",
+   "jp": "いい調子？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@514"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F0C",
+   "at": "0F0C",
+   "jp": "あのさー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@504"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F18",
+   "at": "0F18",
+   "jp": "えへへ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F24",
+   "at": "0F24",
+   "jp": "ファイト、ファイト",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F38",
+   "at": "0F38",
+   "jp": "よしよし",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F44",
+   "at": "0F44",
+   "jp": "つかれちゃったね？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F58",
+   "at": "0F58",
+   "jp": "うんうん",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F64",
+   "at": "0F64",
+   "jp": "くよくよすんなっ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@4A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F78",
+   "at": "0F78",
+   "jp": "そーねえ、まようよねえ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@494"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F90",
+   "at": "0F90",
+   "jp": "がんばれー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@484"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0F9C",
+   "at": "0F9C",
+   "jp": "お腹すかない？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@474"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0FAC",
+   "at": "0FAC",
+   "jp": "ちょっと一休みしない？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@464"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0FC4",
+   "at": "0FC4",
+   "jp": "ところでさあー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@454"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0FD4",
+   "at": "0FD4",
+   "jp": "がんばるねえ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@444"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0FE4",
+   "at": "0FE4",
+   "jp": "自信持ちなさいよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@434"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_0FF8",
+   "at": "0FF8",
+   "jp": "ああん！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@424"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1004",
+   "at": "1004",
+   "jp": "やっばいよ～！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@414"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1014",
+   "at": "1014",
+   "jp": "うわあ…！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1020",
+   "at": "1020",
+   "jp": "どうするー？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1030",
+   "at": "1030",
+   "jp": "うひゃー！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_103C",
+   "at": "103C",
+   "jp": "たーいへん！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@3A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_104C",
+   "at": "104C",
+   "jp": "あちゃー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@394"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1058",
+   "at": "1058",
+   "jp": "ナイスよ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@374"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1064",
+   "at": "1064",
+   "jp": "ラッキー！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@364"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1070",
+   "at": "1070",
+   "jp": "ミラクル！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@344"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_107C",
+   "at": "107C",
+   "jp": "やった！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@334"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1088",
+   "at": "1088",
+   "jp": "たあっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@324"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1094",
+   "at": "1094",
+   "jp": "よっと！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@314"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10A0",
+   "at": "10A0",
+   "jp": "そーれっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10AC",
+   "at": "10AC",
+   "jp": "それっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10B8",
+   "at": "10B8",
+   "jp": "ええい！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10C4",
+   "at": "10C4",
+   "jp": "えいっ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10D0",
+   "at": "10D0",
+   "jp": "次いこっか",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@2A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10DC",
+   "at": "10DC",
+   "jp": "マジメにやってる？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@294"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_10F0",
+   "at": "10F0",
+   "jp": "なんかなあ…",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@284"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1100",
+   "at": "1100",
+   "jp": "あたしばっかはたらかせてさ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@274"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_111C",
+   "at": "111C",
+   "jp": "さっさと決めなさいよ！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@264"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1134",
+   "at": "1134",
+   "jp": "こうかいしたってしらないわよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@254"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1154",
+   "at": "1154",
+   "jp": "いいんじゃない？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@248",
+    "off@914"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1168",
+   "at": "1168",
+   "jp": "よーくかんがえた方が",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@244"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1180",
+   "at": "1180",
+   "jp": "あたしを信用しなさいよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@234"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1198",
+   "at": "1198",
+   "jp": "やめとかない？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@224"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_11A8",
+   "at": "11A8",
+   "jp": "ほら、早く！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@214"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_11B8",
+   "at": "11B8",
+   "jp": "はーい、そこまでえー",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@204"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_11D0",
+   "at": "11D0",
+   "jp": "それじゃあ、いってみよー！",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1F4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_11EC",
+   "at": "11EC",
+   "jp": "いよいよっ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1E4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_11F8",
+   "at": "11F8",
+   "jp": "お次はっ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1D4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1204",
+   "at": "1204",
+   "jp": "まずはっ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1C4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1210",
+   "at": "1210",
+   "jp": "はい、よかったね",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1B4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1224",
+   "at": "1224",
+   "jp": "どうする？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@1A4"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1230",
+   "at": "1230",
+   "jp": "かわりに何か売らないとダメよ",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@184"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1250",
+   "at": "1250",
+   "jp": "なにを売るの？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@174"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "pc022_1260",
+   "at": "1260",
+   "jp": "これでいいよね？",
+   "en": "",
+   "max": null,
+   "refs": [
+    "off@164"
+   ],
+   "notes": ""
+  }
+ ]
+}

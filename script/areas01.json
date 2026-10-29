@@ -1,0 +1,119 @@
+{
+ "block": "areas01",
+ "file": "SCR_DATA.BDP/210/001/004.bin",
+ "copies": [
+  "SCR_DATA.BDP/210/009/004.bin",
+  "SCR_DATA.BDP/210/011/004.bin"
+ ],
+ "kind": "fields",
+ "strings": [
+  {
+   "id": "areas01_0000",
+   "at": "0000",
+   "jp": "ホタル",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_000E",
+   "at": "000E",
+   "jp": "チョウ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_001C",
+   "at": "001C",
+   "jp": "カエル",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_002A",
+   "at": "002A",
+   "jp": "ラン",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_0038",
+   "at": "0038",
+   "jp": "妖精",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_0046",
+   "at": "0046",
+   "jp": "狩人",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_0054",
+   "at": "0054",
+   "jp": "パン神",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_0062",
+   "at": "0062",
+   "jp": "キノコ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_0070",
+   "at": "0070",
+   "jp": "ツグミ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_007E",
+   "at": "007E",
+   "jp": "ウサギ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_008C",
+   "at": "008C",
+   "jp": "おおかみ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "areas01_009A",
+   "at": "009A",
+   "jp": "エルフ",
+   "en": "",
+   "max": 13,
+   "refs": [],
+   "notes": ""
+  }
+ ]
+}
