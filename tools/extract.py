@@ -292,7 +292,7 @@ def scan():
                 runs.append([m.start(), m.end(), s])
         if runs:
             out[EXE if p.name == EXE else p.relative_to(UNP).as_posix()] = runs
-    SCAN.write_text(json.dumps(out, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    SCAN.write_text(json.dumps(out, ensure_ascii=False, indent=0) + "\n", encoding="utf-8", newline="\n")
     print("%d runs in %d files -> %s" % (sum(map(len, out.values())), len(out), SCAN))
 
 
@@ -310,7 +310,7 @@ def write(name, head, strings, force):
                     e["status"] = "jp-changed"
                     print("jp changed:", e["id"])
     path.write_text(json.dumps(dict(block=name, **head, strings=strings), ensure_ascii=False, indent=1) + "\n",
-                    encoding="utf-8")
+                    encoding="utf-8", newline="\n")
     return 1
 
 
