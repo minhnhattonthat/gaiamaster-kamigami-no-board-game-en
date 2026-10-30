@@ -8,7 +8,7 @@
    "id": "areas04_0000",
    "at": "0000",
    "jp": "ススキ",
-   "en": "",
+   "en": "Pampas Grass",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "areas04_000E",
    "at": "000E",
    "jp": "アシ",
-   "en": "",
+   "en": "Reed",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "areas04_001C",
    "at": "001C",
    "jp": "むじな",
-   "en": "",
+   "en": "Badger",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "areas04_002A",
    "at": "002A",
    "jp": "カッパ",
-   "en": "",
+   "en": "Kappa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "areas04_0038",
    "at": "0038",
    "jp": "忍",
-   "en": "",
+   "en": "Ninja",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "areas04_0046",
    "at": "0046",
    "jp": "オニ",
-   "en": "",
+   "en": "Oni",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "areas04_0054",
    "at": "0054",
    "jp": "テング",
-   "en": "",
+   "en": "Tengu",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "areas04_0062",
    "at": "0062",
    "jp": "天女",
-   "en": "",
+   "en": "Nymph",
    "max": 13,
    "refs": [],
    "notes": ""

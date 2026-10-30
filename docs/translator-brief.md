@@ -68,4 +68,7 @@ Never edit `glossary.md`. For a recurring name or term not in it, pick a form, u
 Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id - note`, `LONG: id - note`.
 
 ## Notes from earlier batches
-- (none yet)
+- Wave 1 rulings live in `glossary.md` (Terms table + "Decisions from earlier batches"): 体力 = HP, card lines,
+  %s-san kept, /V stays first in its row, reverse-order pointer tables, sprintf fragments (" used!").
+- Reviewers caught: invented words ("in the world"), dropped honorifics (-sama), shortened terms ("the Palace"
+  for 天宮), "a mere ape" for the Monkey King, mixed conventions for the same cry (Kyah / Eek).

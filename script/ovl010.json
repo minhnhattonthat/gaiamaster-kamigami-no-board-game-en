@@ -9,7 +9,7 @@
    "id": "ovl010_800A0174",
    "at": "800A0174",
    "jp": "チョー反応\n",
-   "en": "",
+   "en": "Super Reaction\n",
    "max": 11,
    "refs": [
     "lui@8100/8108"
@@ -20,7 +20,7 @@
    "id": "ovl010_800A0320",
    "at": "800A0320",
    "jp": "やったー！",
-   "en": "",
+   "en": "Hooray!",
    "max": 11,
    "refs": [
     "lui@BCFC/BD00"
@@ -31,7 +31,7 @@
    "id": "ovl010_800A032C",
    "at": "800A032C",
    "jp": "武器スキルがレベルアップ！！",
-   "en": "",
+   "en": "Weapon skill level up!!",
    "max": 31,
    "refs": [
     "lui@BD08/BD0C"
@@ -42,7 +42,7 @@
    "id": "ovl010_800A0350",
    "at": "800A0350",
    "jp": "%dＰ「%s」",
-   "en": "",
+   "en": "%d points: \"%s\"",
    "max": 11,
    "refs": [
     "lui@BD38/BD3C"
@@ -53,7 +53,7 @@
    "id": "ovl010_800A035C",
    "at": "800A035C",
    "jp": "「%s」が/V%dレベルに！",
-   "en": "",
+   "en": "\"%s\" is now Level /V%d!",
    "max": 23,
    "refs": [
     "lui@BD6C/BD70"
@@ -64,7 +64,7 @@
    "id": "ovl010_800A0374",
    "at": "800A0374",
    "jp": "「%s」が",
-   "en": "",
+   "en": "\"%s\"",
    "max": 11,
    "refs": [
     "lui@BEF4/BEF8"
@@ -75,7 +75,7 @@
    "id": "ovl010_800A0380",
    "at": "800A0380",
    "jp": "パワーアップしたよ！！",
-   "en": "",
+   "en": "got powered up!!",
    "max": 23,
    "refs": [
     "lui@BF80/BF84"
@@ -86,7 +86,7 @@
    "id": "ovl010_800A0398",
    "at": "800A0398",
    "jp": "Ａ",
-   "en": "",
+   "en": "A",
    "max": 3,
    "refs": [
     "ptr@161CC"
@@ -97,7 +97,7 @@
    "id": "ovl010_800A039C",
    "at": "800A039C",
    "jp": "Ｂ",
-   "en": "",
+   "en": "B",
    "max": 3,
    "refs": [
     "ptr@161C8"
@@ -108,7 +108,7 @@
    "id": "ovl010_800A03A0",
    "at": "800A03A0",
    "jp": "Ｃ",
-   "en": "",
+   "en": "C",
    "max": 3,
    "refs": [
     "ptr@161C4"
@@ -119,7 +119,7 @@
    "id": "ovl010_800A03A4",
    "at": "800A03A4",
    "jp": "Ｄ",
-   "en": "",
+   "en": "D",
    "max": 3,
    "refs": [
     "ptr@161C0"
@@ -130,7 +130,7 @@
    "id": "ovl010_800A03A8",
    "at": "800A03A8",
    "jp": "Ｅ",
-   "en": "",
+   "en": "E",
    "max": 3,
    "refs": [
     "ptr@161BC"
@@ -141,7 +141,7 @@
    "id": "ovl010_800A03AC",
    "at": "800A03AC",
    "jp": "（１）ポイント %d",
-   "en": "",
+   "en": "(1) Points %d",
    "max": 19,
    "refs": [
     "lui@C290/C294"
@@ -152,7 +152,7 @@
    "id": "ovl010_800A03C0",
    "at": "800A03C0",
    "jp": "ランク %s",
-   "en": "",
+   "en": "Rank %s",
    "max": 11,
    "refs": [
     "lui@C2BC/C2C4"
@@ -163,7 +163,7 @@
    "id": "ovl010_800A06F8",
    "at": "800A06F8",
    "jp": " 基準値 %d  ランダム %d \n",
-   "en": "",
+   "en": " Base %d  Random %d\n",
    "max": 27,
    "refs": [
     "lui@12EA0/12EA4"
@@ -174,7 +174,7 @@
    "id": "ovl010_800A0714",
    "at": "800A0714",
    "jp": "はずれ\n",
-   "en": "",
+   "en": "Miss\n",
    "max": 7,
    "refs": [
     "lui@12ED0/12ED8"
@@ -185,7 +185,7 @@
    "id": "ovl010_800A0740",
    "at": "800A0740",
    "jp": "使用できません",
-   "en": "",
+   "en": "this turn.",
    "max": 15,
    "refs": [
     "ptr@16354"
@@ -196,7 +196,7 @@
    "id": "ovl010_800A0750",
    "at": "800A0750",
    "jp": "今ターン中は",
-   "en": "",
+   "en": "Can't be used",
    "max": 15,
    "refs": [
     "ptr@16350"
@@ -207,7 +207,7 @@
    "id": "ovl010_800A0760",
    "at": "800A0760",
    "jp": "攻２４　速５",
-   "en": "",
+   "en": "Attack 24  Speed 5",
    "max": 15,
    "refs": [
     "ptr@16980"
@@ -218,7 +218,7 @@
    "id": "ovl010_800A0770",
    "at": "800A0770",
    "jp": "サンダー",
-   "en": "",
+   "en": "Thunder",
    "max": 11,
    "refs": [
     "ptr@16978"
@@ -229,7 +229,7 @@
    "id": "ovl010_800A077C",
    "at": "800A077C",
    "jp": "攻３２　速２",
-   "en": "",
+   "en": "Attack 32  Speed 2",
    "max": 15,
    "refs": [
     "ptr@16964"
@@ -240,7 +240,7 @@
    "id": "ovl010_800A078C",
    "at": "800A078C",
    "jp": "ハリケーン",
-   "en": "",
+   "en": "Hurricane",
    "max": 11,
    "refs": [
     "ptr@1695C"
@@ -251,7 +251,7 @@
    "id": "ovl010_800A0798",
    "at": "800A0798",
    "jp": "クロスボウ",
-   "en": "",
+   "en": "Crossbow",
    "max": 11,
    "refs": [
     "ptr@16940"
@@ -262,7 +262,7 @@
    "id": "ovl010_800A07A4",
    "at": "800A07A4",
    "jp": "ロングソード",
-   "en": "",
+   "en": "Long Sword",
    "max": 15,
    "refs": [
     "ptr@16924"
@@ -273,7 +273,7 @@
    "id": "ovl010_800A07B4",
    "at": "800A07B4",
    "jp": "攻２４　速４",
-   "en": "",
+   "en": "Attack 24  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16910"
@@ -284,7 +284,7 @@
    "id": "ovl010_800A07C4",
    "at": "800A07C4",
    "jp": "弓",
-   "en": "",
+   "en": "Bow",
    "max": 3,
    "refs": [
     "ptr@16908"
@@ -295,7 +295,7 @@
    "id": "ovl010_800A07C8",
    "at": "800A07C8",
    "jp": "ハンマー",
-   "en": "",
+   "en": "Hammer",
    "max": 11,
    "refs": [
     "ptr@168EC"
@@ -306,7 +306,7 @@
    "id": "ovl010_800A07D4",
    "at": "800A07D4",
    "jp": "を倒せるかも",
-   "en": "",
+   "en": "may defeat the foe",
    "max": 15,
    "refs": [
     "ptr@168E0"
@@ -317,7 +317,7 @@
    "id": "ovl010_800A07E4",
    "at": "800A07E4",
    "jp": "運がよければ敵",
-   "en": "",
+   "en": "With luck, you",
    "max": 15,
    "refs": [
     "ptr@168DC"
@@ -328,7 +328,7 @@
    "id": "ovl010_800A07F4",
    "at": "800A07F4",
    "jp": "特殊カード",
-   "en": "",
+   "en": "Special Card",
    "max": 11,
    "refs": [
     "ptr@168D4"
@@ -339,7 +339,7 @@
    "id": "ovl010_800A0800",
    "at": "800A0800",
    "jp": "いちかばちか",
-   "en": "",
+   "en": "All or Nothing",
    "max": 15,
    "refs": [
     "ptr@168D0"
@@ -350,7 +350,7 @@
    "id": "ovl010_800A0810",
    "at": "800A0810",
    "jp": "を破壊する",
-   "en": "",
+   "en": "chosen card",
    "max": 11,
    "refs": [
     "ptr@168C4"
@@ -361,7 +361,7 @@
    "id": "ovl010_800A081C",
    "at": "800A081C",
    "jp": "指定カード１枚",
-   "en": "",
+   "en": "Destroys 1",
    "max": 15,
    "refs": [
     "ptr@168C0"
@@ -372,7 +372,7 @@
    "id": "ovl010_800A082C",
    "at": "800A082C",
    "jp": "Ｃ．Ｆ．Ｃ．",
-   "en": "",
+   "en": "C.F.C.",
    "max": 15,
    "refs": [
     "ptr@168B4"
@@ -383,7 +383,7 @@
    "id": "ovl010_800A083C",
    "at": "800A083C",
    "jp": "みがわりに！？",
-   "en": "",
+   "en": "takes your place!?",
    "max": 15,
    "refs": [
     "ptr@168A8"
@@ -394,7 +394,7 @@
    "id": "ovl010_800A084C",
    "at": "800A084C",
    "jp": "ポリタンが",
-   "en": "",
+   "en": "A jerry can",
    "max": 11,
    "refs": [
     "ptr@168A4"
@@ -405,7 +405,7 @@
    "id": "ovl010_800A0858",
    "at": "800A0858",
    "jp": "速７  使い捨て",
-   "en": "",
+   "en": "Speed 7  Single use",
    "max": 15,
    "refs": [
     "ptr@168A0"
@@ -416,7 +416,7 @@
    "id": "ovl010_800A0868",
    "at": "800A0868",
    "jp": "防御カード",
-   "en": "",
+   "en": "Defense Card",
    "max": 11,
    "refs": [
     "ptr@1689C"
@@ -427,7 +427,7 @@
    "id": "ovl010_800A0874",
    "at": "800A0874",
    "jp": "みがわり",
-   "en": "",
+   "en": "Substitute",
    "max": 11,
    "refs": [
     "ptr@16898"
@@ -438,7 +438,7 @@
    "id": "ovl010_800A0880",
    "at": "800A0880",
    "jp": "攻２０　速４",
-   "en": "",
+   "en": "Attack 20  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16884",
@@ -450,7 +450,7 @@
    "id": "ovl010_800A0890",
    "at": "800A0890",
    "jp": "攻２５　速４",
-   "en": "",
+   "en": "Attack 25  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16868"
@@ -461,7 +461,7 @@
    "id": "ovl010_800A08A0",
    "at": "800A08A0",
    "jp": "攻２２　速５",
-   "en": "",
+   "en": "Attack 22  Speed 5",
    "max": 15,
    "refs": [
     "ptr@16830"
@@ -472,7 +472,7 @@
    "id": "ovl010_800A08B0",
    "at": "800A08B0",
    "jp": "攻２５　速５",
-   "en": "",
+   "en": "Attack 25  Speed 5",
    "max": 15,
    "refs": [
     "ptr@167F8"
@@ -483,7 +483,7 @@
    "id": "ovl010_800A08C0",
    "at": "800A08C0",
    "jp": "攻２５　速３",
-   "en": "",
+   "en": "Attack 25  Speed 3",
    "max": 15,
    "refs": [
     "ptr@167C0",
@@ -496,7 +496,7 @@
    "id": "ovl010_800A08D0",
    "at": "800A08D0",
    "jp": "攻２８　速４",
-   "en": "",
+   "en": "Attack 28  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16788"
@@ -507,7 +507,7 @@
    "id": "ovl010_800A08E0",
    "at": "800A08E0",
    "jp": "攻２０　速５",
-   "en": "",
+   "en": "Attack 20  Speed 5",
    "max": 15,
    "refs": [
     "ptr@1676C",
@@ -520,7 +520,7 @@
    "id": "ovl010_800A08F0",
    "at": "800A08F0",
    "jp": "攻３０　速３",
-   "en": "",
+   "en": "Attack 30  Speed 3",
    "max": 15,
    "refs": [
     "ptr@16750"
@@ -531,7 +531,7 @@
    "id": "ovl010_800A0900",
    "at": "800A0900",
    "jp": "攻２８　速２",
-   "en": "",
+   "en": "Attack 28  Speed 2",
    "max": 15,
    "refs": [
     "ptr@16734"
@@ -542,7 +542,7 @@
    "id": "ovl010_800A0910",
    "at": "800A0910",
    "jp": "魔法",
-   "en": "",
+   "en": "magic",
    "max": 7,
    "refs": [
     "ptr@16704",
@@ -554,7 +554,7 @@
    "id": "ovl010_800A0918",
    "at": "800A0918",
    "jp": "封いんされた",
-   "en": "",
+   "en": "Sealed",
    "max": 15,
    "refs": [
     "ptr@16700"
@@ -565,7 +565,7 @@
    "id": "ovl010_800A0928",
    "at": "800A0928",
    "jp": "攻５３　速３",
-   "en": "",
+   "en": "Attack 53  Speed 3",
    "max": 15,
    "refs": [
     "ptr@166FC"
@@ -576,7 +576,7 @@
    "id": "ovl010_800A0938",
    "at": "800A0938",
    "jp": "ダークメテオ",
-   "en": "",
+   "en": "Dark Meteor",
    "max": 15,
    "refs": [
     "ptr@166F4"
@@ -587,7 +587,7 @@
    "id": "ovl010_800A0948",
    "at": "800A0948",
    "jp": "攻５４　速２",
-   "en": "",
+   "en": "Attack 54  Speed 2",
    "max": 15,
    "refs": [
     "ptr@166E0"
@@ -598,7 +598,7 @@
    "id": "ovl010_800A0958",
    "at": "800A0958",
    "jp": "氷の弓",
-   "en": "",
+   "en": "Ice Bow",
    "max": 7,
    "refs": [
     "ptr@166D8"
@@ -609,7 +609,7 @@
    "id": "ovl010_800A0960",
    "at": "800A0960",
    "jp": "伝説の聖剣",
-   "en": "",
+   "en": "Legendary holy sword",
    "max": 11,
    "refs": [
     "ptr@166C8"
@@ -620,7 +620,7 @@
    "id": "ovl010_800A096C",
    "at": "800A096C",
    "jp": "攻５２　速４",
-   "en": "",
+   "en": "Attack 52  Speed 4",
    "max": 15,
    "refs": [
     "ptr@166C4"
@@ -631,7 +631,7 @@
    "id": "ovl010_800A097C",
    "at": "800A097C",
    "jp": "エクスカリバー",
-   "en": "",
+   "en": "Excalibur",
    "max": 15,
    "refs": [
     "ptr@166BC"
@@ -642,7 +642,7 @@
    "id": "ovl010_800A098C",
    "at": "800A098C",
    "jp": "１００で復活",
-   "en": "",
+   "en": "with 100 HP",
    "max": 15,
    "refs": [
     "ptr@166B0"
@@ -653,7 +653,7 @@
    "id": "ovl010_800A099C",
    "at": "800A099C",
    "jp": "死亡するとＨＰ",
-   "en": "",
+   "en": "If you die, revive",
    "max": 15,
    "refs": [
     "ptr@166AC"
@@ -664,7 +664,7 @@
    "id": "ovl010_800A09AC",
    "at": "800A09AC",
    "jp": "ＨＰ１００回復",
-   "en": "",
+   "en": "Restores 100 HP",
    "max": 15,
    "refs": [
     "ptr@166A8"
@@ -675,7 +675,7 @@
    "id": "ovl010_800A09BC",
    "at": "800A09BC",
    "jp": "復活の霊薬",
-   "en": "",
+   "en": "Revival Elixir",
    "max": 11,
    "refs": [
     "ptr@166A0"
@@ -686,7 +686,7 @@
    "id": "ovl010_800A09C8",
    "at": "800A09C8",
    "jp": "最強の魔法",
-   "en": "",
+   "en": "Mightiest magic",
    "max": 11,
    "refs": [
     "ptr@16690"
@@ -697,7 +697,7 @@
    "id": "ovl010_800A09D4",
    "at": "800A09D4",
    "jp": "攻５５　速１",
-   "en": "",
+   "en": "Attack 55  Speed 1",
    "max": 15,
    "refs": [
     "ptr@1668C"
@@ -708,7 +708,7 @@
    "id": "ovl010_800A09E4",
    "at": "800A09E4",
    "jp": "メテオフォール",
-   "en": "",
+   "en": "Meteor Fall",
    "max": 15,
    "refs": [
     "ptr@16684"
@@ -719,7 +719,7 @@
    "id": "ovl010_800A09F4",
    "at": "800A09F4",
    "jp": "最強の弓",
-   "en": "",
+   "en": "Mightiest bow",
    "max": 11,
    "refs": [
     "ptr@16674",
@@ -731,7 +731,7 @@
    "id": "ovl010_800A0A00",
    "at": "800A0A00",
    "jp": "攻５０　速４",
-   "en": "",
+   "en": "Attack 50  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16670"
@@ -742,7 +742,7 @@
    "id": "ovl010_800A0A10",
    "at": "800A0A10",
    "jp": "ほのおの弓",
-   "en": "",
+   "en": "Flame Bow",
    "max": 11,
    "refs": [
     "ptr@16668"
@@ -753,7 +753,7 @@
    "id": "ovl010_800A0A1C",
    "at": "800A0A1C",
    "jp": "最強の魔剣",
-   "en": "",
+   "en": "Mightiest demon blade",
    "max": 11,
    "refs": [
     "ptr@16658"
@@ -764,7 +764,7 @@
    "id": "ovl010_800A0A28",
    "at": "800A0A28",
    "jp": "攻６０　速２",
-   "en": "",
+   "en": "Attack 60  Speed 2",
    "max": 15,
    "refs": [
     "ptr@16654"
@@ -775,7 +775,7 @@
    "id": "ovl010_800A0A38",
    "at": "800A0A38",
    "jp": "魔剣ムラマサ",
-   "en": "",
+   "en": "Demon Muramasa",
    "max": 15,
    "refs": [
     "ptr@1664C"
@@ -786,7 +786,7 @@
    "id": "ovl010_800A0A48",
    "at": "800A0A48",
    "jp": "を落とす",
-   "en": "",
+   "en": "accuracy",
    "max": 11,
    "refs": [
     "ptr@1663C"
@@ -797,7 +797,7 @@
    "id": "ovl010_800A0A54",
    "at": "800A0A54",
    "jp": "あいての命中率",
-   "en": "",
+   "en": "Lowers the foe's",
    "max": 15,
    "refs": [
     "ptr@16638"
@@ -808,7 +808,7 @@
    "id": "ovl010_800A0A64",
    "at": "800A0A64",
    "jp": "まどわしの玉",
-   "en": "",
+   "en": "Bewitching Orb",
    "max": 15,
    "refs": [
     "ptr@16630"
@@ -819,7 +819,7 @@
    "id": "ovl010_800A0A74",
    "at": "800A0A74",
    "jp": "１枚を盗む",
-   "en": "",
+   "en": "weapon card",
    "max": 11,
    "refs": [
     "ptr@16624"
@@ -830,7 +830,7 @@
    "id": "ovl010_800A0A80",
    "at": "800A0A80",
    "jp": "指定武器カード",
-   "en": "",
+   "en": "Steals 1 chosen",
    "max": 15,
    "refs": [
     "ptr@16620"
@@ -841,7 +841,7 @@
    "id": "ovl010_800A0A90",
    "at": "800A0A90",
    "jp": "速６　使い捨て",
-   "en": "",
+   "en": "Speed 6  Single use",
    "max": 15,
    "refs": [
     "ptr@1661C",
@@ -854,7 +854,7 @@
    "id": "ovl010_800A0AA0",
    "at": "800A0AA0",
    "jp": "武器破壊カード",
-   "en": "",
+   "en": "Weapon Breaker",
    "max": 15,
    "refs": [
     "ptr@16618",
@@ -866,7 +866,7 @@
    "id": "ovl010_800A0AB0",
    "at": "800A0AB0",
    "jp": "盗賊のオーブ",
-   "en": "",
+   "en": "Thief's Orb",
    "max": 15,
    "refs": [
     "ptr@16614"
@@ -877,7 +877,7 @@
    "id": "ovl010_800A0AC0",
    "at": "800A0AC0",
    "jp": "攻４０　速２",
-   "en": "",
+   "en": "Attack 40  Speed 2",
    "max": 15,
    "refs": [
     "ptr@16600"
@@ -888,7 +888,7 @@
    "id": "ovl010_800A0AD0",
    "at": "800A0AD0",
    "jp": "アースクエイク",
-   "en": "",
+   "en": "Earthquake",
    "max": 15,
    "refs": [
     "ptr@165F8"
@@ -899,7 +899,7 @@
    "id": "ovl010_800A0AE0",
    "at": "800A0AE0",
    "jp": "攻４８　速２",
-   "en": "",
+   "en": "Attack 48  Speed 2",
    "max": 15,
    "refs": [
     "ptr@165E4"
@@ -910,7 +910,7 @@
    "id": "ovl010_800A0AF0",
    "at": "800A0AF0",
    "jp": "ストームソード",
-   "en": "",
+   "en": "Storm Sword",
    "max": 15,
    "refs": [
     "ptr@165DC"
@@ -921,7 +921,7 @@
    "id": "ovl010_800A0B00",
    "at": "800A0B00",
    "jp": "アップさせる",
-   "en": "",
+   "en": "attack",
    "max": 15,
    "refs": [
     "ptr@165CC"
@@ -932,7 +932,7 @@
    "id": "ovl010_800A0B10",
    "at": "800A0B10",
    "jp": "攻撃力を２倍に",
-   "en": "",
+   "en": "Doubles your",
    "max": 15,
    "refs": [
     "ptr@165C8"
@@ -943,7 +943,7 @@
    "id": "ovl010_800A0B20",
    "at": "800A0B20",
    "jp": "力の指輪",
-   "en": "",
+   "en": "Ring of Power",
    "max": 11,
    "refs": [
     "ptr@165C0"
@@ -954,7 +954,7 @@
    "id": "ovl010_800A0B2C",
    "at": "800A0B2C",
    "jp": "ＨＰ６０回復",
-   "en": "",
+   "en": "Restores 60 HP",
    "max": 15,
    "refs": [
     "ptr@165AC"
@@ -965,7 +965,7 @@
    "id": "ovl010_800A0B3C",
    "at": "800A0B3C",
    "jp": "いやしのうた",
-   "en": "",
+   "en": "Healing Song",
    "max": 15,
    "refs": [
     "ptr@165A4"
@@ -976,7 +976,7 @@
    "id": "ovl010_800A0B4C",
    "at": "800A0B4C",
    "jp": "攻３６　速５",
-   "en": "",
+   "en": "Attack 36  Speed 5",
    "max": 15,
    "refs": [
     "ptr@16590",
@@ -988,7 +988,7 @@
    "id": "ovl010_800A0B5C",
    "at": "800A0B5C",
    "jp": "フェザーレイ",
-   "en": "",
+   "en": "Feather Ray",
    "max": 15,
    "refs": [
     "ptr@16588"
@@ -999,7 +999,7 @@
    "id": "ovl010_800A0B6C",
    "at": "800A0B6C",
    "jp": "１／２を奪う",
-   "en": "",
+   "en": "the damage dealt",
    "max": 15,
    "refs": [
     "ptr@1657C",
@@ -1011,7 +1011,7 @@
    "id": "ovl010_800A0B7C",
    "at": "800A0B7C",
    "jp": "ダメージの",
-   "en": "",
+   "en": "Absorbs half of",
    "max": 11,
    "refs": [
     "ptr@16578",
@@ -1023,7 +1023,7 @@
    "id": "ovl010_800A0B88",
    "at": "800A0B88",
    "jp": "攻２４　速１",
-   "en": "",
+   "en": "Attack 24  Speed 1",
    "max": 15,
    "refs": [
     "ptr@16574"
@@ -1034,7 +1034,7 @@
    "id": "ovl010_800A0B98",
    "at": "800A0B98",
    "jp": "ブラッドスピア",
-   "en": "",
+   "en": "Blood Spear",
    "max": 15,
    "refs": [
     "ptr@1656C",
@@ -1046,7 +1046,7 @@
    "id": "ovl010_800A0BA8",
    "at": "800A0BA8",
    "jp": "なくする",
-   "en": "",
+   "en": "item use",
    "max": 11,
    "refs": [
     "ptr@1655C"
@@ -1057,7 +1057,7 @@
    "id": "ovl010_800A0BB4",
    "at": "800A0BB4",
    "jp": "アイテムを使え",
-   "en": "",
+   "en": "Blocks",
    "max": 15,
    "refs": [
     "ptr@16558"
@@ -1068,7 +1068,7 @@
    "id": "ovl010_800A0BC4",
    "at": "800A0BC4",
    "jp": "アイテム封じ",
-   "en": "",
+   "en": "Item Seal",
    "max": 15,
    "refs": [
     "ptr@16550"
@@ -1079,7 +1079,7 @@
    "id": "ovl010_800A0BD4",
    "at": "800A0BD4",
    "jp": "でやすい",
-   "en": "",
+   "en": "come often",
    "max": 11,
    "refs": [
     "ptr@16544",
@@ -1093,7 +1093,7 @@
    "id": "ovl010_800A0BE0",
    "at": "800A0BE0",
    "jp": "クリティカルが",
-   "en": "",
+   "en": "Critical hits",
    "max": 15,
    "refs": [
     "ptr@16540",
@@ -1107,7 +1107,7 @@
    "id": "ovl010_800A0BF0",
    "at": "800A0BF0",
    "jp": "攻２６　速１",
-   "en": "",
+   "en": "Attack 26  Speed 1",
    "max": 15,
    "refs": [
     "ptr@1653C",
@@ -1119,7 +1119,7 @@
    "id": "ovl010_800A0C00",
    "at": "800A0C00",
    "jp": "スノーストーム",
-   "en": "",
+   "en": "Snowstorm",
    "max": 15,
    "refs": [
     "ptr@16534",
@@ -1131,7 +1131,7 @@
    "id": "ovl010_800A0C10",
    "at": "800A0C10",
    "jp": "速度が速い",
-   "en": "",
+   "en": "High speed",
    "max": 11,
    "refs": [
     "ptr@16524",
@@ -1144,7 +1144,7 @@
    "id": "ovl010_800A0C1C",
    "at": "800A0C1C",
    "jp": "攻３０　速５",
-   "en": "",
+   "en": "Attack 30  Speed 5",
    "max": 15,
    "refs": [
     "ptr@16520",
@@ -1156,7 +1156,7 @@
    "id": "ovl010_800A0C2C",
    "at": "800A0C2C",
    "jp": "せつなの剣",
-   "en": "",
+   "en": "Instant Blade",
    "max": 11,
    "refs": [
     "ptr@16518",
@@ -1168,7 +1168,7 @@
    "id": "ovl010_800A0C38",
    "at": "800A0C38",
    "jp": "１／２にへらす",
-   "en": "",
+   "en": "in half",
    "max": 15,
    "refs": [
     "ptr@16508"
@@ -1179,7 +1179,7 @@
    "id": "ovl010_800A0C48",
    "at": "800A0C48",
    "jp": "ダメージを",
-   "en": "",
+   "en": "Cuts damage",
    "max": 11,
    "refs": [
     "ptr@16504"
@@ -1190,7 +1190,7 @@
    "id": "ovl010_800A0C54",
    "at": "800A0C54",
    "jp": "アイテムカード",
-   "en": "",
+   "en": "Item Card",
    "max": 15,
    "refs": [
     "ptr@16500",
@@ -1204,7 +1204,7 @@
    "id": "ovl010_800A0C64",
    "at": "800A0C64",
    "jp": "シールド",
-   "en": "",
+   "en": "Shield",
    "max": 11,
    "refs": [
     "ptr@164FC"
@@ -1215,7 +1215,7 @@
    "id": "ovl010_800A0C70",
    "at": "800A0C70",
    "jp": "使い捨てカード",
-   "en": "",
+   "en": "Single-Use Card",
    "max": 15,
    "refs": [
     "ptr@164EC",
@@ -1231,7 +1231,7 @@
    "id": "ovl010_800A0C80",
    "at": "800A0C80",
    "jp": "ＨＰ３０回復",
-   "en": "",
+   "en": "Restores 30 HP",
    "max": 15,
    "refs": [
     "ptr@164E8"
@@ -1242,7 +1242,7 @@
    "id": "ovl010_800A0C90",
    "at": "800A0C90",
    "jp": "回復アイテム",
-   "en": "",
+   "en": "Healing Item",
    "max": 15,
    "refs": [
     "ptr@164E4",
@@ -1255,7 +1255,7 @@
    "id": "ovl010_800A0CA0",
    "at": "800A0CA0",
    "jp": "丸薬",
-   "en": "",
+   "en": "Pills",
    "max": 7,
    "refs": [
     "ptr@164E0"
@@ -1266,7 +1266,7 @@
    "id": "ovl010_800A0CA8",
    "at": "800A0CA8",
    "jp": "ファイアボール",
-   "en": "",
+   "en": "Fireball",
    "max": 15,
    "refs": [
     "ptr@164C4"
@@ -1277,7 +1277,7 @@
    "id": "ovl010_800A0CB8",
    "at": "800A0CB8",
    "jp": "ダーツ",
-   "en": "",
+   "en": "Darts",
    "max": 7,
    "refs": [
     "ptr@164A8"
@@ -1288,7 +1288,7 @@
    "id": "ovl010_800A0CC0",
    "at": "800A0CC0",
    "jp": "攻２２　速３",
-   "en": "",
+   "en": "Attack 22  Speed 3",
    "max": 15,
    "refs": [
     "ptr@16494"
@@ -1299,7 +1299,7 @@
    "id": "ovl010_800A0CD0",
    "at": "800A0CD0",
    "jp": "エストック",
-   "en": "",
+   "en": "Estoc",
    "max": 11,
    "refs": [
     "ptr@1648C"
@@ -1310,7 +1310,7 @@
    "id": "ovl010_800A0CDC",
    "at": "800A0CDC",
    "jp": "魔法カード",
-   "en": "",
+   "en": "Magic Card",
    "max": 11,
    "refs": [
     "ptr@16474",
@@ -1330,7 +1330,7 @@
    "id": "ovl010_800A0CE8",
    "at": "800A0CE8",
    "jp": "ジプシータロウ",
-   "en": "",
+   "en": "Gypsy Tarot",
    "max": 15,
    "refs": [
     "ptr@16470",
@@ -1342,7 +1342,7 @@
    "id": "ovl010_800A0CF8",
    "at": "800A0CF8",
    "jp": "バトルアックス",
-   "en": "",
+   "en": "Battle Axe",
    "max": 15,
    "refs": [
     "ptr@16454",
@@ -1354,7 +1354,7 @@
    "id": "ovl010_800A0D08",
    "at": "800A0D08",
    "jp": "レイピア",
-   "en": "",
+   "en": "Rapier",
    "max": 11,
    "refs": [
     "ptr@16438",
@@ -1366,7 +1366,7 @@
    "id": "ovl010_800A0D14",
    "at": "800A0D14",
    "jp": "攻１８　速５",
-   "en": "",
+   "en": "Attack 18  Speed 5",
    "max": 15,
    "refs": [
     "ptr@16424",
@@ -1378,7 +1378,7 @@
    "id": "ovl010_800A0D24",
    "at": "800A0D24",
    "jp": "如意棒",
-   "en": "",
+   "en": "Nyoibo Staff",
    "max": 7,
    "refs": [
     "ptr@1641C",
@@ -1390,7 +1390,7 @@
    "id": "ovl010_800A0D2C",
    "at": "800A0D2C",
    "jp": "攻２０　速３",
-   "en": "",
+   "en": "Attack 20  Speed 3",
    "max": 15,
    "refs": [
     "ptr@16408",
@@ -1402,7 +1402,7 @@
    "id": "ovl010_800A0D3C",
    "at": "800A0D3C",
    "jp": "∞ガン",
-   "en": "",
+   "en": "∞ Gun",
    "max": 7,
    "refs": [
     "ptr@16400",
@@ -1414,7 +1414,7 @@
    "id": "ovl010_800A0D44",
    "at": "800A0D44",
    "jp": "攻１５　速５",
-   "en": "",
+   "en": "Attack 15  Speed 5",
    "max": 15,
    "refs": [
     "ptr@163EC"
@@ -1425,7 +1425,7 @@
    "id": "ovl010_800A0D54",
    "at": "800A0D54",
    "jp": "飛カード",
-   "en": "",
+   "en": "Ranged Card",
    "max": 11,
    "refs": [
     "ptr@163E8",
@@ -1447,7 +1447,7 @@
    "id": "ovl010_800A0D60",
    "at": "800A0D60",
    "jp": "クナイ",
-   "en": "",
+   "en": "Kunai",
    "max": 7,
    "refs": [
     "ptr@163E4",
@@ -1459,7 +1459,7 @@
    "id": "ovl010_800A0D68",
    "at": "800A0D68",
    "jp": "野太刀",
-   "en": "",
+   "en": "Nodachi",
    "max": 7,
    "refs": [
     "ptr@163C8",
@@ -1471,7 +1471,7 @@
    "id": "ovl010_800A0D70",
    "at": "800A0D70",
    "jp": "攻１８　速３",
-   "en": "",
+   "en": "Attack 18  Speed 3",
    "max": 15,
    "refs": [
     "ptr@163B4",
@@ -1483,7 +1483,7 @@
    "id": "ovl010_800A0D80",
    "at": "800A0D80",
    "jp": "メイス",
-   "en": "",
+   "en": "Mace",
    "max": 7,
    "refs": [
     "ptr@163AC",
@@ -1495,7 +1495,7 @@
    "id": "ovl010_800A0D88",
    "at": "800A0D88",
    "jp": "ジャンビーヤ",
-   "en": "",
+   "en": "Jambiya",
    "max": 15,
    "refs": [
     "ptr@16390",
@@ -1507,7 +1507,7 @@
    "id": "ovl010_800A0D98",
    "at": "800A0D98",
    "jp": "攻１８　速４",
-   "en": "",
+   "en": "Attack 18  Speed 4",
    "max": 15,
    "refs": [
     "ptr@1637C",
@@ -1520,7 +1520,7 @@
    "id": "ovl010_800A0DA8",
    "at": "800A0DA8",
    "jp": "クレイモア",
-   "en": "",
+   "en": "Claymore",
    "max": 11,
    "refs": [
     "ptr@16374",
@@ -1532,7 +1532,7 @@
    "id": "ovl010_800A0DB8",
    "at": "800A0DB8",
    "jp": "攻１５　速４",
-   "en": "",
+   "en": "Attack 15  Speed 4",
    "max": 15,
    "refs": [
     "ptr@16360",
@@ -1545,7 +1545,7 @@
    "id": "ovl010_800A0DC8",
    "at": "800A0DC8",
    "jp": "剣カード",
-   "en": "",
+   "en": "Sword Card",
    "max": 11,
    "refs": [
     "ptr@1635C",
@@ -1579,7 +1579,7 @@
    "id": "ovl010_800A0DD4",
    "at": "800A0DD4",
    "jp": "ボーイナイフ",
-   "en": "",
+   "en": "Bowie Knife",
    "max": 15,
    "refs": [
     "ptr@16358",
@@ -1591,7 +1591,7 @@
    "id": "ovl010_800A0DE4",
    "at": "800A0DE4",
    "jp": "カードを",
-   "en": "",
+   "en": " chooses a card...",
    "max": 11,
    "refs": [
     "ptr@16A10"
@@ -1602,7 +1602,7 @@
    "id": "ovl010_800A0DF0",
    "at": "800A0DF0",
    "jp": "なにもできない！！",
-   "en": "",
+   "en": "can't do a thing!!",
    "max": 19,
    "refs": [
     "ptr@16A04"
@@ -1613,7 +1613,7 @@
    "id": "ovl010_800A0E04",
    "at": "800A0E04",
    "jp": "特殊攻撃発動！！",
-   "en": "",
+   "en": "special attack!!",
    "max": 19,
    "refs": [
     "ptr@169F8"
@@ -1624,7 +1624,7 @@
    "id": "ovl010_800A0E18",
    "at": "800A0E18",
    "jp": "攻撃力が１．５倍になるよ！",
-   "en": "",
+   "en": "Attack goes up 1.5 times!",
    "max": 27,
    "refs": [
     "ptr@169F0"
@@ -1635,7 +1635,7 @@
    "id": "ovl010_800A0E34",
    "at": "800A0E34",
    "jp": "クリティカル！！",
-   "en": "",
+   "en": "critical hit!!",
    "max": 19,
    "refs": [
     "ptr@169EC"
@@ -1646,7 +1646,7 @@
    "id": "ovl010_800A0E48",
    "at": "800A0E48",
    "jp": "攻撃ははずれた！",
-   "en": "",
+   "en": "attack missed!",
    "max": 19,
    "refs": [
     "ptr@169E0"
@@ -1657,7 +1657,7 @@
    "id": "ovl010_800A0E5C",
    "at": "800A0E5C",
    "jp": "の",
-   "en": "",
+   "en": "'s",
    "max": 3,
    "refs": [
     "ptr@169DC",
@@ -1670,7 +1670,7 @@
    "id": "ovl010_800A0E60",
    "at": "800A0E60",
    "jp": "回復した！！",
-   "en": "",
+   "en": " HP!!",
    "max": 15,
    "refs": [
     "ptr@169D8"
@@ -1681,7 +1681,7 @@
    "id": "ovl010_800A0E70",
    "at": "800A0E70",
    "jp": "の勝利！！",
-   "en": "",
+   "en": "'s victory!!",
    "max": 11,
    "refs": [
     "ptr@169C4"
@@ -1692,7 +1692,7 @@
    "id": "ovl010_800A0E7C",
    "at": "800A0E7C",
    "jp": "のダメージを受けた！",
-   "en": "",
+   "en": " damage taken!",
    "max": 23,
    "refs": [
     "ptr@169BC"
@@ -1703,7 +1703,7 @@
    "id": "ovl010_800A0E94",
    "at": "800A0E94",
    "jp": "どのカードを",
-   "en": "",
+   "en": "which card",
    "max": 15,
    "refs": [
     "ptr@169B4"
@@ -1714,7 +1714,7 @@
    "id": "ovl010_800A0EA4",
    "at": "800A0EA4",
    "jp": "の先制攻撃！",
-   "en": "",
+   "en": "'s first strike!",
    "max": 15,
    "refs": [
     "ptr@169A0"
@@ -1725,7 +1725,7 @@
    "id": "ovl010_800A0EB4",
    "at": "800A0EB4",
    "jp": "を使った！",
-   "en": "",
+   "en": " used!",
    "max": 11,
    "refs": [
     "ptr@16998",
@@ -1738,7 +1738,7 @@
    "id": "ovl010_800A0EC0",
    "at": "800A0EC0",
    "jp": "は",
-   "en": "",
+   "en": ":",
    "max": 3,
    "refs": [
     "ptr@16994",
@@ -1754,7 +1754,7 @@
    "id": "ovl010_800A0EC4",
    "at": "800A0EC4",
    "jp": "使えるから上手に使ってね",
-   "en": "",
+   "en": "any weapon, so use them wisely!",
    "max": 27,
    "refs": [
     "ptr@16A40"
@@ -1765,7 +1765,7 @@
    "id": "ovl010_800A0EE0",
    "at": "800A0EE0",
    "jp": "回復などのアイテムは武器と関係なく",
-   "en": "",
+   "en": "Healing items and such work with",
    "max": 35,
    "refs": [
     "ptr@16A3C"
@@ -1776,7 +1776,7 @@
    "id": "ovl010_800A0F04",
    "at": "800A0F04",
    "jp": "回復できるわ",
-   "en": "",
+   "en": "square or at a Hospital.",
    "max": 15,
    "refs": [
     "ptr@16A34"
@@ -1787,7 +1787,7 @@
    "id": "ovl010_800A0F14",
    "at": "800A0F14",
    "jp": "ＨＰはＧＯマスを通るか、病院で",
-   "en": "",
+   "en": "You restore HP by passing the GO",
    "max": 31,
    "refs": [
     "ptr@16A30"
@@ -1798,7 +1798,7 @@
    "id": "ovl010_800A0F34",
    "at": "800A0F34",
    "jp": "するわ",
-   "en": "",
+   "en": "attacks first.",
    "max": 7,
    "refs": [
     "ptr@16A28"
@@ -1809,7 +1809,7 @@
    "id": "ovl010_800A0F3C",
    "at": "800A0F3C",
    "jp": "速度が同じ場合は防御がわが先に攻撃",
-   "en": "",
+   "en": "If speeds are equal, the defender",
    "max": 35,
    "refs": [
     "ptr@16A24"
@@ -1820,7 +1820,7 @@
    "id": "ovl010_800A0F60",
    "at": "800A0F60",
    "jp": "をえらんでね",
-   "en": "",
+   "en": "choose your card.",
    "max": 15,
    "refs": [
     "ptr@16A20"
@@ -1831,7 +1831,7 @@
    "id": "ovl010_800A0F70",
    "at": "800A0F70",
    "jp": "たいおうしたボタンをおしてカード",
-   "en": "",
+   "en": "Press the matching button to",
    "max": 35,
    "refs": [
     "ptr@16A1C"
@@ -1842,7 +1842,7 @@
    "id": "ovl010_800A0F94",
    "at": "800A0F94",
    "jp": "３回戦ってＨＰの多い方が勝ちよ！",
-   "en": "",
+   "en": "Fight 3 rounds; most HP left wins!",
    "max": 35,
    "refs": [
     "ptr@16A18"
@@ -1853,7 +1853,7 @@
    "id": "ovl010_800A0FC4",
    "at": "800A0FC4",
    "jp": "%s破壊するの？",
-   "en": "",
+   "en": "Destroy %s?",
    "max": 15,
    "refs": [
     "lui@136CC/136DC"
@@ -1864,7 +1864,7 @@
    "id": "ovl010_800A0FD4",
    "at": "800A0FD4",
    "jp": "%s盗むの？",
-   "en": "",
+   "en": "Steal %s?",
    "max": 11,
    "refs": [
     "lui@136E0/136F0"
@@ -1875,7 +1875,7 @@
    "id": "ovl010_800A0FE8",
    "at": "800A0FE8",
    "jp": "体力が%d%s",
-   "en": "",
+   "en": "Restored %d%s",
    "max": 11,
    "refs": [
     "lui@1385C/13870"
@@ -1886,7 +1886,7 @@
    "id": "ovl010_800A0FF4",
    "at": "800A0FF4",
    "jp": "%s破壊できない！",
-   "en": "",
+   "en": "%sCan't destroy it!",
    "max": 19,
    "refs": [
     "lui@13A90/13AA0"
@@ -1897,7 +1897,7 @@
    "id": "ovl010_800A1008",
    "at": "800A1008",
    "jp": "%s盗めない！",
-   "en": "",
+   "en": "%sCan't steal it!",
    "max": 15,
    "refs": [
     "lui@13AA4/13AB0"
@@ -1908,7 +1908,7 @@
    "id": "ovl010_800A1018",
    "at": "800A1018",
    "jp": "%sのラッキー！！",
-   "en": "",
+   "en": "%s's Lucky!!",
    "max": 19,
    "refs": [
     "lui@13BC4/13BC8"
@@ -1919,7 +1919,7 @@
    "id": "ovl010_800A102C",
    "at": "800A102C",
    "jp": "攻撃をかわしたよ！！",
-   "en": "",
+   "en": "Dodged the attack!!",
    "max": 23,
    "refs": [
     "lui@13BF4/13BFC"
@@ -1930,7 +1930,7 @@
    "id": "ovl010_800A1044",
    "at": "800A1044",
    "jp": "攻撃力が２倍になるよ！！",
-   "en": "",
+   "en": "Attack is doubled!!",
    "max": 27,
    "refs": [
     "lui@13C04/13C08"
@@ -1941,7 +1941,7 @@
    "id": "ovl010_800A10A4",
    "at": "800A10A4",
    "jp": "カードエディット",
-   "en": "",
+   "en": "Card Edit",
    "max": 19,
    "refs": [
     "lui@143D4/143DC"
@@ -1952,7 +1952,7 @@
    "id": "ovl010_800A10D4",
    "at": "800A10D4",
    "jp": "デバッグメッセージ  無し／普通／速い",
-   "en": "",
+   "en": "Debug Messages  Off, Normal, Fast",
    "max": 39,
    "refs": [
     "lui@14424/1442C"
@@ -1963,7 +1963,7 @@
    "id": "ovl010_800A10FC",
    "at": "800A10FC",
    "jp": "せんとうのループ    無し／固定／変化",
-   "en": "",
+   "en": "Battle Loop     Off, Fixed, Varied",
    "max": 39,
    "refs": [
     "lui@1444C/14454"
@@ -1974,7 +1974,7 @@
    "id": "ovl010_800A1124",
    "at": "800A1124",
    "jp": "へんすうひょうじ    無し／あり",
-   "en": "",
+   "en": "Show Variables  Off, On",
    "max": 31,
    "refs": [
     "lui@1448C/14494"
@@ -1985,7 +1985,7 @@
    "id": "ovl010_800A1144",
    "at": "800A1144",
    "jp": "ランク  Ａ／Ｂ／Ｃ／Ｄ／Ｅ",
-   "en": "",
+   "en": "Rank  A, B, C, D, E",
    "max": 27,
    "refs": [
     "lui@144B4/144BC"
@@ -1996,7 +1996,7 @@
    "id": "ovl010_800A1168",
    "at": "800A1168",
    "jp": "テレる",
-   "en": "",
+   "en": "Bashful",
    "max": 7,
    "refs": [
     "ptr@16A70"
@@ -2007,7 +2007,7 @@
    "id": "ovl010_800A1170",
    "at": "800A1170",
    "jp": "負け",
-   "en": "",
+   "en": "Lose",
    "max": 7,
    "refs": [
     "ptr@16A6C"
@@ -2018,7 +2018,7 @@
    "id": "ovl010_800A1178",
    "at": "800A1178",
    "jp": "勝利",
-   "en": "",
+   "en": "Win",
    "max": 7,
    "refs": [
     "ptr@16A68"
@@ -2029,7 +2029,7 @@
    "id": "ovl010_800A1180",
    "at": "800A1180",
    "jp": "回復／武器破壊",
-   "en": "",
+   "en": "Heal or Break Weapon",
    "max": 15,
    "refs": [
     "ptr@16A64"
@@ -2040,7 +2040,7 @@
    "id": "ovl010_800A1190",
    "at": "800A1190",
    "jp": "ダメージ",
-   "en": "",
+   "en": "Damage",
    "max": 11,
    "refs": [
     "ptr@16A60"
@@ -2051,7 +2051,7 @@
    "id": "ovl010_800A119C",
    "at": "800A119C",
    "jp": "防御",
-   "en": "",
+   "en": "Guard",
    "max": 7,
    "refs": [
     "ptr@16A5C"
@@ -2062,7 +2062,7 @@
    "id": "ovl010_800A11A4",
    "at": "800A11A4",
    "jp": "クリティカル",
-   "en": "",
+   "en": "Critical",
    "max": 15,
    "refs": [
     "ptr@16A58"
@@ -2073,7 +2073,7 @@
    "id": "ovl010_800A11B4",
    "at": "800A11B4",
    "jp": "投射攻撃",
-   "en": "",
+   "en": "Projectile",
    "max": 11,
    "refs": [
     "ptr@16A50"
@@ -2084,7 +2084,7 @@
    "id": "ovl010_800A11C0",
    "at": "800A11C0",
    "jp": "通常攻撃",
-   "en": "",
+   "en": "Normal Attack",
    "max": 11,
    "refs": [
     "ptr@16A4C"
@@ -2095,7 +2095,7 @@
    "id": "ovl010_800A11CC",
    "at": "800A11CC",
    "jp": "通常",
-   "en": "",
+   "en": "Normal",
    "max": 7,
    "refs": [
     "ptr@16A48"
@@ -2106,7 +2106,7 @@
    "id": "ovl010_800A11D4",
    "at": "800A11D4",
    "jp": "上下－セレクト  ○－実行 スタート－終了",
-   "en": "",
+   "en": "Up, Down: Select  ○: Run  Start: Quit",
    "max": 39,
    "refs": [
     "lui@14ED4/14EDC"
@@ -2117,7 +2117,7 @@
    "id": "ovl010_800A11FC",
    "at": "800A11FC",
    "jp": "クリティカルは実行後Ｌ１おしつづけ",
-   "en": "",
+   "en": "Critical: hold L1 after Run",
    "max": 35,
    "refs": [
     "lui@14EFC/14F04"

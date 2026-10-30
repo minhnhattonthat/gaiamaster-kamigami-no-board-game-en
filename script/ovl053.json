@@ -9,7 +9,7 @@
    "id": "ovl053_800C8454",
    "at": "800C8454",
    "jp": "２",
-   "en": "",
+   "en": "2",
    "max": 3,
    "refs": [
     "ptr@2BD0"
@@ -20,7 +20,7 @@
    "id": "ovl053_800C8458",
    "at": "800C8458",
    "jp": "１",
-   "en": "",
+   "en": "1",
    "max": 3,
    "refs": [
     "ptr@2BCC"
@@ -31,7 +31,7 @@
    "id": "ovl053_800C8460",
    "at": "800C8460",
    "jp": "%sの「%s」と",
-   "en": "",
+   "en": "Swapped %s-san's \"%s\"",
    "max": 15,
    "refs": [
     "lui@33C/340"
@@ -42,7 +42,7 @@
    "id": "ovl053_800C8470",
    "at": "800C8470",
    "jp": "%sの「%s」を",
-   "en": "",
+   "en": "with %s-san's \"%s\".",
    "max": 15,
    "refs": [
     "lui@380/384"
@@ -53,7 +53,7 @@
    "id": "ovl053_800C8480",
    "at": "800C8480",
    "jp": "交換したよ。",
-   "en": "",
+   "en": "All done!",
    "max": 15,
    "refs": [
     "lui@3AC/3B4"
@@ -64,7 +64,7 @@
    "id": "ovl053_800C8490",
    "at": "800C8490",
    "jp": "でも、カードの枚数が足りないみたい",
-   "en": "",
+   "en": "But you don't have enough cards.",
    "max": 35,
    "refs": [
     "lui@4D0/4D8"
@@ -75,7 +75,7 @@
    "id": "ovl053_800C84B4",
    "at": "800C84B4",
    "jp": "でも、みんなカードの枚数が",
-   "en": "",
+   "en": "But it seems nobody has",
    "max": 27,
    "refs": [
     "lui@5FC/604"
@@ -86,7 +86,7 @@
    "id": "ovl053_800C84D0",
    "at": "800C84D0",
    "jp": "足りないみたい",
-   "en": "",
+   "en": "enough cards.",
    "max": 15,
    "refs": [
     "lui@60C/614"
@@ -97,7 +97,7 @@
    "id": "ovl053_800C84E0",
    "at": "800C84E0",
    "jp": "あいてをえらんで○ボタンをおしてね",
-   "en": "",
+   "en": "Pick an opponent and press ○.",
    "max": 35,
    "refs": [
     "lui@704/70C"
@@ -119,7 +119,7 @@
    "id": "ovl053_800C8538",
    "at": "800C8538",
    "jp": "何枚こうかんする？",
-   "en": "",
+   "en": "How many cards to swap?",
    "max": 19,
    "refs": [
     "lui@A98/AA0"
@@ -130,7 +130,7 @@
    "id": "ovl053_800C854C",
    "at": "800C854C",
    "jp": "　１枚　　　２枚",
-   "en": "",
+   "en": "　1 Card　　2 Cards",
    "max": 19,
    "refs": [
     "lui@AA8/AB0"
@@ -141,7 +141,7 @@
    "id": "ovl053_800C8560",
    "at": "800C8560",
    "jp": "%sさんは",
-   "en": "",
+   "en": "%s-san doesn't have",
    "max": 11,
    "refs": [
     "lui@C70/C84"
@@ -152,7 +152,7 @@
    "id": "ovl053_800C856C",
    "at": "800C856C",
    "jp": "武器カードの枚数が足りないよ",
-   "en": "",
+   "en": "enough weapon cards.",
    "max": 31,
    "refs": [
     "lui@C8C/C94"
@@ -163,7 +163,7 @@
    "id": "ovl053_800C858C",
    "at": "800C858C",
    "jp": "ほかの人をえらんでね",
-   "en": "",
+   "en": "Pick someone else.",
    "max": 23,
    "refs": [
     "lui@C9C/CA4"
@@ -174,7 +174,7 @@
    "id": "ovl053_800C85A4",
    "at": "800C85A4",
    "jp": "欲しいカードを%s枚えらんでね",
-   "en": "",
+   "en": "Pick cards to take: %s",
    "max": 31,
    "refs": [
     "lui@D08/D14"
@@ -185,7 +185,7 @@
    "id": "ovl053_800C85C4",
    "at": "800C85C4",
    "jp": "カードにカーソルを合わせて",
-   "en": "",
+   "en": "Move the cursor to a card",
    "max": 27,
    "refs": [
     "lui@D1C/D24",
@@ -197,7 +197,7 @@
    "id": "ovl053_800C85E0",
    "at": "800C85E0",
    "jp": "○ボタンをおすのよ",
-   "en": "",
+   "en": "and press ○.",
    "max": 19,
    "refs": [
     "lui@D2C/D34",
@@ -209,7 +209,7 @@
    "id": "ovl053_800C85F4",
    "at": "800C85F4",
    "jp": "わたすカードを%s枚えらんでね",
-   "en": "",
+   "en": "Pick cards to give: %s",
    "max": 31,
    "refs": [
     "lui@E54/E60"
@@ -220,7 +220,7 @@
    "id": "ovl053_800C8614",
    "at": "800C8614",
    "jp": "これでいい？",
-   "en": "",
+   "en": "Is this OK?",
    "max": 15,
    "refs": [
     "lui@F48/F50"
@@ -231,7 +231,7 @@
    "id": "ovl053_800C8624",
    "at": "800C8624",
    "jp": "ＯＫ　　　：○ボタン",
-   "en": "",
+   "en": "OK　: ○ Button",
    "max": 23,
    "refs": [
     "lui@F58/F60"
@@ -242,7 +242,7 @@
    "id": "ovl053_800C863C",
    "at": "800C863C",
    "jp": "やりなおす：×ボタン",
-   "en": "",
+   "en": "Redo: × Button",
    "max": 23,
    "refs": [
     "lui@F68/F70"

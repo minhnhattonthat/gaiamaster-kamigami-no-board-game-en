@@ -8,7 +8,7 @@
    "id": "areas10_0000",
    "at": "0000",
    "jp": "スライム",
-   "en": "",
+   "en": "Slime",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "areas10_000E",
    "at": "000E",
    "jp": "ゴブリン",
-   "en": "",
+   "en": "Goblin",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "areas10_001C",
    "at": "001C",
    "jp": "トロル",
-   "en": "",
+   "en": "Troll",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "areas10_002A",
    "at": "002A",
    "jp": "ミミック",
-   "en": "",
+   "en": "Mimic",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "areas10_0038",
    "at": "0038",
    "jp": "ゴーレム",
-   "en": "",
+   "en": "Golem",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "areas10_0046",
    "at": "0046",
    "jp": "キマイラ",
-   "en": "",
+   "en": "Chimera",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "areas10_0054",
    "at": "0054",
    "jp": "聖騎士",
-   "en": "",
+   "en": "Paladin",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "areas10_0062",
    "at": "0062",
    "jp": "ドラゴン",
-   "en": "",
+   "en": "Dragon",
    "max": 13,
    "refs": [],
    "notes": ""

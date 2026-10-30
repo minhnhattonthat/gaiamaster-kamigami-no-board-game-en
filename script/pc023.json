@@ -19,7 +19,7 @@
    "id": "pc023_0464",
    "at": "0464",
    "jp": "うっ！",
-   "en": "",
+   "en": "Ugh!",
    "max": null,
    "refs": [
     "off@194"
@@ -30,7 +30,7 @@
    "id": "pc023_046C",
    "at": "046C",
    "jp": "くっ！",
-   "en": "",
+   "en": "Ngh!",
    "max": null,
    "refs": [
     "off@184"
@@ -41,7 +41,7 @@
    "id": "pc023_0474",
    "at": "0474",
    "jp": "ヘン！",
-   "en": "",
+   "en": "Heh!",
    "max": null,
    "refs": [
     "off@124"
@@ -52,7 +52,7 @@
    "id": "pc023_047C",
    "at": "047C",
    "jp": "よし！",
-   "en": "",
+   "en": "Yes!",
    "max": null,
    "refs": [
     "off@74"
@@ -208,7 +208,7 @@
    "id": "pc023_0488",
    "at": "0488",
    "jp": "人の心は金じゃ買えねぇんだよ！",
-   "en": "",
+   "en": "Money can't buy a person's heart!",
    "max": null,
    "refs": [
     "off@444"
@@ -219,7 +219,7 @@
    "id": "pc023_04A8",
    "at": "04A8",
    "jp": "おなかすいたな…",
-   "en": "",
+   "en": "I'm hungry...",
    "max": null,
    "refs": [
     "off@438"
@@ -230,7 +230,7 @@
    "id": "pc023_04BC",
    "at": "04BC",
    "jp": "いつか俺だって…！",
-   "en": "",
+   "en": "Someday, I'll...!",
    "max": null,
    "refs": [
     "off@424"
@@ -241,7 +241,7 @@
    "id": "pc023_04D0",
    "at": "04D0",
    "jp": "いっけね！",
-   "en": "",
+   "en": "Oops!",
    "max": null,
    "refs": [
     "off@414"
@@ -252,7 +252,7 @@
    "id": "pc023_04DC",
    "at": "04DC",
    "jp": "うっそー！",
-   "en": "",
+   "en": "No way!",
    "max": null,
    "refs": [
     "off@404"
@@ -263,7 +263,7 @@
    "id": "pc023_04E8",
    "at": "04E8",
    "jp": "ねぎっ！",
-   "en": "",
+   "en": "Discount!",
    "max": null,
    "refs": [
     "off@3F4"
@@ -274,7 +274,7 @@
    "id": "pc023_04F4",
    "at": "04F4",
    "jp": "ぐぎゃっ！",
-   "en": "",
+   "en": "Gyah!",
    "max": null,
    "refs": [
     "off@3E4"
@@ -285,7 +285,7 @@
    "id": "pc023_0500",
    "at": "0500",
    "jp": "そら、次も行くぜー！",
-   "en": "",
+   "en": "C'mon, next one!",
    "max": null,
    "refs": [
     "off@3D4"
@@ -296,7 +296,7 @@
    "id": "pc023_0518",
    "at": "0518",
    "jp": "もういっちょ！！",
-   "en": "",
+   "en": "One more time!!",
    "max": null,
    "refs": [
     "off@3C4"
@@ -307,7 +307,7 @@
    "id": "pc023_052C",
    "at": "052C",
    "jp": "あんた、いいヤツ！！",
-   "en": "",
+   "en": "You're alright!!",
    "max": null,
    "refs": [
     "off@3B4"
@@ -318,7 +318,7 @@
    "id": "pc023_0544",
    "at": "0544",
    "jp": "ラッキー",
-   "en": "",
+   "en": "Lucky!",
    "max": null,
    "refs": [
     "off@3A4"
@@ -329,7 +329,7 @@
    "id": "pc023_0550",
    "at": "0550",
    "jp": "どーすんだよ～",
-   "en": "",
+   "en": "What do I do now~",
    "max": null,
    "refs": [
     "off@394"
@@ -340,7 +340,7 @@
    "id": "pc023_0560",
    "at": "0560",
    "jp": "なんだかなぁ…",
-   "en": "",
+   "en": "Ugh, man...",
    "max": null,
    "refs": [
     "off@384"
@@ -351,7 +351,7 @@
    "id": "pc023_0570",
    "at": "0570",
    "jp": "いやすぎ…",
-   "en": "",
+   "en": "This sucks...",
    "max": null,
    "refs": [
     "off@374"
@@ -362,7 +362,7 @@
    "id": "pc023_057C",
    "at": "057C",
    "jp": "うわっ！つらい…",
-   "en": "",
+   "en": "Whoa! That's rough...",
    "max": null,
    "refs": [
     "off@364"
@@ -373,7 +373,7 @@
    "id": "pc023_0590",
    "at": "0590",
    "jp": "かんべんしてよ！",
-   "en": "",
+   "en": "Gimme a break!",
    "max": null,
    "refs": [
     "off@354"
@@ -384,7 +384,7 @@
    "id": "pc023_05A4",
    "at": "05A4",
    "jp": "ジョーダンじゃないよ！",
-   "en": "",
+   "en": "You gotta be kidding!",
    "max": null,
    "refs": [
     "off@344"
@@ -395,7 +395,7 @@
    "id": "pc023_05BC",
    "at": "05BC",
    "jp": "この野郎！！",
-   "en": "",
+   "en": "You jerk!!",
    "max": null,
    "refs": [
     "off@334"
@@ -406,7 +406,7 @@
    "id": "pc023_05CC",
    "at": "05CC",
    "jp": "母ちゃーん！！",
-   "en": "",
+   "en": "Mooom!!",
    "max": null,
    "refs": [
     "off@324"
@@ -417,7 +417,7 @@
    "id": "pc023_05DC",
    "at": "05DC",
    "jp": "もうだめだー！！",
-   "en": "",
+   "en": "I'm done for!!",
    "max": null,
    "refs": [
     "off@314"
@@ -428,7 +428,7 @@
    "id": "pc023_05F0",
    "at": "05F0",
    "jp": "好きなだけ笑えよっ！！",
-   "en": "",
+   "en": "Laugh all you want!!",
    "max": null,
    "refs": [
     "off@304"
@@ -439,7 +439,7 @@
    "id": "pc023_0608",
    "at": "0608",
    "jp": "うるせー、見んなよ！",
-   "en": "",
+   "en": "Shut up, don't look!",
    "max": null,
    "refs": [
     "off@2F4"
@@ -450,7 +450,7 @@
    "id": "pc023_0620",
    "at": "0620",
    "jp": "おうし！",
-   "en": "",
+   "en": "Okay!",
    "max": null,
    "refs": [
     "off@2E4"
@@ -461,7 +461,7 @@
    "id": "pc023_062C",
    "at": "062C",
    "jp": "やったぜー！！",
-   "en": "",
+   "en": "Yeahhh!!",
    "max": null,
    "refs": [
     "off@2D4"
@@ -472,7 +472,7 @@
    "id": "pc023_063C",
    "at": "063C",
    "jp": "見せてやらあ、とっておきをよ！！",
-   "en": "",
+   "en": "I'll show you my secret weapon!!",
    "max": null,
    "refs": [
     "off@2C4"
@@ -483,7 +483,7 @@
    "id": "pc023_0660",
    "at": "0660",
    "jp": "ガキだと思ってあまく見たな！！",
-   "en": "",
+   "en": "Thought I was just a kid, huh!!",
    "max": null,
    "refs": [
     "off@2B4"
@@ -494,7 +494,7 @@
    "id": "pc023_0680",
    "at": "0680",
    "jp": "やめとくぜ",
-   "en": "",
+   "en": "I'll pass.",
    "max": null,
    "refs": [
     "off@2A4"
@@ -505,7 +505,7 @@
    "id": "pc023_068C",
    "at": "068C",
    "jp": "これでいいよ",
-   "en": "",
+   "en": "This'll do.",
    "max": null,
    "refs": [
     "off@294"
@@ -516,7 +516,7 @@
    "id": "pc023_069C",
    "at": "069C",
    "jp": "エリナ…",
-   "en": "",
+   "en": "Erina...",
    "max": null,
    "refs": [
     "off@284"
@@ -527,7 +527,7 @@
    "id": "pc023_06A8",
    "at": "06A8",
    "jp": "そんなあ～",
-   "en": "",
+   "en": "No way~",
    "max": null,
    "refs": [
     "off@274"
@@ -538,7 +538,7 @@
    "id": "pc023_06B4",
    "at": "06B4",
    "jp": "バカヤローッ！",
-   "en": "",
+   "en": "You idiot!",
    "max": null,
    "refs": [
     "off@264"
@@ -549,7 +549,7 @@
    "id": "pc023_06C4",
    "at": "06C4",
    "jp": "忘れるなよッ！",
-   "en": "",
+   "en": "Don't you forget it!",
    "max": null,
    "refs": [
     "off@254"
@@ -560,7 +560,7 @@
    "id": "pc023_06D4",
    "at": "06D4",
    "jp": "大人はうそつきだっ！",
-   "en": "",
+   "en": "Grown-ups are liars!",
    "max": null,
    "refs": [
     "off@244"
@@ -571,7 +571,7 @@
    "id": "pc023_06EC",
    "at": "06EC",
    "jp": "見てろよっ！",
-   "en": "",
+   "en": "Just you watch!",
    "max": null,
    "refs": [
     "off@234"
@@ -582,7 +582,7 @@
    "id": "pc023_06FC",
    "at": "06FC",
    "jp": "負けるもんか！",
-   "en": "",
+   "en": "I won't lose!",
    "max": null,
    "refs": [
     "off@224"
@@ -593,7 +593,7 @@
    "id": "pc023_070C",
    "at": "070C",
    "jp": "ちくしょー！",
-   "en": "",
+   "en": "Damn it!",
    "max": null,
    "refs": [
     "off@214"
@@ -604,7 +604,7 @@
    "id": "pc023_071C",
    "at": "071C",
    "jp": "くそーっ！",
-   "en": "",
+   "en": "Dang it!",
    "max": null,
    "refs": [
     "off@204"
@@ -615,7 +615,7 @@
    "id": "pc023_0728",
    "at": "0728",
    "jp": "やったなあ！",
-   "en": "",
+   "en": "Why, you!",
    "max": null,
    "refs": [
     "off@1F4"
@@ -626,7 +626,7 @@
    "id": "pc023_0738",
    "at": "0738",
    "jp": "あ～あ…",
-   "en": "",
+   "en": "Aww...",
    "max": null,
    "refs": [
     "off@1E4"
@@ -637,7 +637,7 @@
    "id": "pc023_0744",
    "at": "0744",
    "jp": "なんだよお～！",
-   "en": "",
+   "en": "Aw, come on~!",
    "max": null,
    "refs": [
     "off@1D4"
@@ -648,7 +648,7 @@
    "id": "pc023_0754",
    "at": "0754",
    "jp": "ぐうっ！！",
-   "en": "",
+   "en": "Gwah!!",
    "max": null,
    "refs": [
     "off@1C4"
@@ -659,7 +659,7 @@
    "id": "pc023_0760",
    "at": "0760",
    "jp": "痛てッ！",
-   "en": "",
+   "en": "Ow!",
    "max": null,
    "refs": [
     "off@1B4"
@@ -670,7 +670,7 @@
    "id": "pc023_076C",
    "at": "076C",
    "jp": "うわっ！",
-   "en": "",
+   "en": "Whoa!",
    "max": null,
    "refs": [
     "off@1A4"
@@ -681,7 +681,7 @@
    "id": "pc023_0778",
    "at": "0778",
    "jp": "もうけもうけ！",
-   "en": "",
+   "en": "Easy money!",
    "max": null,
    "refs": [
     "off@174"
@@ -692,7 +692,7 @@
    "id": "pc023_0788",
    "at": "0788",
    "jp": "やりィ～！",
-   "en": "",
+   "en": "Score~!",
    "max": null,
    "refs": [
     "off@164"
@@ -703,7 +703,7 @@
    "id": "pc023_0794",
    "at": "0794",
    "jp": "やったぜ！",
-   "en": "",
+   "en": "Yeah!",
    "max": null,
    "refs": [
     "off@154"
@@ -714,7 +714,7 @@
    "id": "pc023_07A0",
    "at": "07A0",
    "jp": "フフ～ン",
-   "en": "",
+   "en": "Heh heh~",
    "max": null,
    "refs": [
     "off@144"
@@ -725,7 +725,7 @@
    "id": "pc023_07AC",
    "at": "07AC",
    "jp": "ようし！",
-   "en": "",
+   "en": "Alright!",
    "max": null,
    "refs": [
     "off@134"
@@ -736,7 +736,7 @@
    "id": "pc023_07B8",
    "at": "07B8",
    "jp": "う～ん…",
-   "en": "",
+   "en": "Hmmm...",
    "max": null,
    "refs": [
     "off@114"
@@ -747,7 +747,7 @@
    "id": "pc023_07C4",
    "at": "07C4",
    "jp": "ふざけんな！",
-   "en": "",
+   "en": "Quit messing around!",
    "max": null,
    "refs": [
     "off@104"
@@ -758,7 +758,7 @@
    "id": "pc023_07D4",
    "at": "07D4",
    "jp": "見たかァ！",
-   "en": "",
+   "en": "Did ya see that!?",
    "max": null,
    "refs": [
     "off@F4"
@@ -769,7 +769,7 @@
    "id": "pc023_07E0",
    "at": "07E0",
    "jp": "どうだ！？",
-   "en": "",
+   "en": "How's that!?",
    "max": null,
    "refs": [
     "off@E4"
@@ -780,7 +780,7 @@
    "id": "pc023_07EC",
    "at": "07EC",
    "jp": "王さまなんていらないぜ！",
-   "en": "",
+   "en": "need some king!",
    "max": null,
    "refs": [
     "off@D8"
@@ -791,7 +791,7 @@
    "id": "pc023_0808",
    "at": "0808",
    "jp": "おれたちの街に",
-   "en": "",
+   "en": "Our town doesn't",
    "max": null,
    "refs": [
     "off@D4"
@@ -802,7 +802,7 @@
    "id": "pc023_0818",
    "at": "0818",
    "jp": "エリナ、おれはお前を…！",
-   "en": "",
+   "en": "Erina, it's you I...!",
    "max": null,
    "refs": [
     "off@C4"
@@ -813,7 +813,7 @@
    "id": "pc023_0834",
    "at": "0834",
    "jp": "いくぜオラァ！",
-   "en": "",
+   "en": "Here I come!",
    "max": null,
    "refs": [
     "off@B4"
@@ -824,7 +824,7 @@
    "id": "pc023_0844",
    "at": "0844",
    "jp": "これでどうだっ！",
-   "en": "",
+   "en": "How about this!",
    "max": null,
    "refs": [
     "off@A4"
@@ -835,7 +835,7 @@
    "id": "pc023_0858",
    "at": "0858",
    "jp": "やりにくいな…",
-   "en": "",
+   "en": "This is tricky...",
    "max": null,
    "refs": [
     "off@94"
@@ -846,7 +846,7 @@
    "id": "pc023_0868",
    "at": "0868",
    "jp": "もらったぜ！",
-   "en": "",
+   "en": "Mine!",
    "max": null,
    "refs": [
     "off@84"
@@ -857,7 +857,7 @@
    "id": "pc023_0878",
    "at": "0878",
    "jp": "やらせるかよっ！",
-   "en": "",
+   "en": "Not on my watch!",
    "max": null,
    "refs": [
     "off@64"
@@ -868,7 +868,7 @@
    "id": "pc023_088C",
    "at": "088C",
    "jp": "当たれっ！",
-   "en": "",
+   "en": "Land it!",
    "max": null,
    "refs": [
     "off@54"
@@ -879,7 +879,7 @@
    "id": "pc023_0898",
    "at": "0898",
    "jp": "ていっ！",
-   "en": "",
+   "en": "Hyah!",
    "max": null,
    "refs": [
     "off@44"
@@ -890,7 +890,7 @@
    "id": "pc023_08A4",
    "at": "08A4",
    "jp": "いくぜ！",
-   "en": "",
+   "en": "Here I go!",
    "max": null,
    "refs": [
     "off@34"
@@ -901,7 +901,7 @@
    "id": "pc023_08B0",
    "at": "08B0",
    "jp": "俺にはな！",
-   "en": "",
+   "en": "to me anyway!",
    "max": null,
    "refs": [
     "off@18"
@@ -912,7 +912,7 @@
    "id": "pc023_08BC",
    "at": "08BC",
    "jp": "金なんかより大事なものがあるんだ、",
-   "en": "",
+   "en": "Some things matter more than money,",
    "max": null,
    "refs": [
     "off@14"
@@ -923,7 +923,7 @@
    "id": "pc023_08E0",
    "at": "08E0",
    "jp": "ようし、行くぜ！",
-   "en": "",
+   "en": "Alright, let's go!",
    "max": null,
    "refs": [
     "off@4",

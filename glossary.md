@@ -170,6 +170,31 @@ Weapon / skill cards (EXE table, 15 bytes) and event / symbol cards (14 bytes); 
 | 攻撃力 | attack | | | |
 | 速度 | speed | | | |
 | ＨＰ | HP | | | |
+| 体力 | HP | | the same stat as ＨＰ (healed at GO / the hospital) | stamina, health |
+| サラリー | salary | | money paid each round | |
+| 分岐マス | fork square | | the squares say "Fork Square" | branch square |
+| 金斗雲 | Kinto Cloud | | Gokuh's cloud; キント雲の術 "Kinto Cloud Art" | Kintoun |
+| プール金 | pool | | the shared money pool | |
+| お店 | shop | | | |
+| 武器屋 | Armory | 9 | the EXE's name for the weapon facility; boards call it かじ屋 Smithy | |
+| 金こ棒 | Golden Hoop Rod | | Gokuh's staff in dialogue (the card is 如意棒 Nyoibo Staff) | gold-banded staff |
+| 乱れ手裏剣 | Storm Shuriken | | "Hayate of the Storm Shuriken" | Scattered Shuriken |
+| 忍法ウツセミの術 | Ninja Art: Cicada Shell | | Hayate's skill | |
+| 下忍 | lower ninja | | 上忍 upper ninja | |
+| 西王母 | Seiobo | | with さま "Seiobo-sama" | Queen Mother of the West |
+| 天宮 | Heavenly Palace | | never shortened to "the Palace" | |
+| 黙示録の四騎士 | Four Horsemen of the Apocalypse | | Dante's servants | |
+| 聖騎士 | Paladin | | | |
+| 夢魔 | Dream | | area / square name part (13 bytes) | Nightmare |
+| 天女 | Nymph | | area / square name part | Sky Maiden |
+| 商店街 | Arcade | | "1st Arcade" | Market Street |
+| 通り | Road | | | |
+| 泉 | Fount | | | |
+| 森 | Woods | | area / square name part | |
+| 温泉 | Spa | | in square names; the card is Hot Spring | |
+| 使い魔 | Imp | | | |
+| 跡地 | Old | | "Old Hospital" | |
+| 予定地 | Future | | "Future Site" names | |
 | 武闘大会 | Martial Arts Tournament | | | |
 | 初心者向け | For Beginners | | character type | |
 | テクニカルタイプ | Technical Type | | | |
@@ -186,7 +211,7 @@ Weapon / skill cards (EXE table, 15 bytes) and event / symbol cards (14 bytes); 
 | かじ屋 | Smithy | 9 | facility | |
 | バンク | Bank | 9 | facility | |
 | 野原 | Field | | area / square name part | |
-| 原野 | Plains | | | |
+| 原野 | Plain | | singular: "Mithril Plains" would not fit 13 bytes | |
 | 岩場 | Rocks | | | |
 | 砂地 | Sands | | | |
 | 遺跡 | Ruins | | | |
@@ -196,4 +221,13 @@ Weapon / skill cards (EXE table, 15 bytes) and event / symbol cards (14 bytes); 
 | 黄金 | Golden | | | |
 
 ## Decisions from earlier batches
-- <batch> <JP> -> <EN> (reason)
+- wave 1: scenario card lines are fixed: win "Have the most total assets" / "at the end of turn N."; lose "If the
+  above isn't met," / "or if the player is bankrupt." (29-byte field); "or if the player loses" / "all of their
+  land."; "Bankrupt every" / "other character."
+- wave 1: %sさん keeps "-san" ("%s-san"), also on player names in Belial's announcements.
+- wave 1: /V ... /v wraps a span; English may put words between /V and the number ("/VIn place %d").
+- wave 1: card help texts are stored line 3, line 2, title (reverse address order); the ovl052 tips and ovl029
+  prologue pointer tables also run in reverse address order: rows are translated in the game's reading order.
+- wave 1: ovl010 battle lines are sprintf "%s%s" (name or card + fragment): は -> ":", の -> "'s", and fragments
+  that follow a name start with a space (" used!").
+- wave 1: joke cries kept as references (Akimaaan!!, Chun-Li!, Mazinga!!, "You are already dead!").

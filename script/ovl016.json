@@ -9,7 +9,7 @@
    "id": "ovl016_800C8454",
    "at": "800C8454",
    "jp": "魔法使いの援助！",
-   "en": "",
+   "en": "Wizard's Aid!",
    "max": 19,
    "refs": [
     "lui@E4/E8"
@@ -20,7 +20,7 @@
    "id": "ovl016_800C8468",
    "at": "800C8468",
    "jp": "みんなから２００ゼニーもらったよ！",
-   "en": "",
+   "en": "You got 200 zenny from everyone!",
    "max": 35,
    "refs": [
     "lui@F0/F4"

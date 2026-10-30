@@ -9,7 +9,7 @@
    "id": "ovl044_800C8454",
    "at": "800C8454",
    "jp": "ガイアマスターの勝者よ",
-   "en": "",
+   "en": "Victor of GaiaMaster,",
    "max": 23,
    "refs": [
     "lui@338/33C"
@@ -20,7 +20,7 @@
    "id": "ovl044_800C846C",
    "at": "800C846C",
    "jp": "定めどおり、望みをかなえよう",
-   "en": "",
+   "en": "as decreed, I shall grant your wish.",
    "max": 31,
    "refs": [
     "lui@344/348"
@@ -31,7 +31,7 @@
    "id": "ovl044_800C848C",
    "at": "800C848C",
    "jp": "なにを望む？金か？力か？",
-   "en": "",
+   "en": "What do you desire? Gold? Power?",
    "max": 27,
    "refs": [
     "lui@350/354"
@@ -42,7 +42,7 @@
    "id": "ovl044_800C84A8",
    "at": "800C84A8",
    "jp": "ガイアマスターをつかさどる神々よ",
-   "en": "",
+   "en": "O gods who rule over GaiaMaster,",
    "max": 35,
    "refs": [
     "lui@388/38C"
@@ -53,7 +53,7 @@
    "id": "ovl044_800C84CC",
    "at": "800C84CC",
    "jp": "お前たちは、自分の楽しみのために、",
-   "en": "",
+   "en": "for your own amusement, you have",
    "max": 35,
    "refs": [
     "lui@394/398"
@@ -64,7 +64,7 @@
    "id": "ovl044_800C84F0",
    "at": "800C84F0",
    "jp": "世界にわざわいをもたらした",
-   "en": "",
+   "en": "brought calamity upon the world.",
    "max": 27,
    "refs": [
     "lui@3A0/3A4"
@@ -75,7 +75,7 @@
    "id": "ovl044_800C850C",
    "at": "800C850C",
    "jp": "お前たちがふりまいたかなしみが、",
-   "en": "",
+   "en": "The sorrow you have spread",
    "max": 35,
    "refs": [
     "lui@3D8/3DC"
@@ -86,7 +86,7 @@
    "id": "ovl044_800C8530",
    "at": "800C8530",
    "jp": "私をこの世に生んだのだ！",
-   "en": "",
+   "en": "is what gave birth to me!",
    "max": 27,
    "refs": [
     "lui@3E4/3E8"
@@ -97,7 +97,7 @@
    "id": "ovl044_800C8550",
    "at": "800C8550",
    "jp": "…なにを望むのだ？",
-   "en": "",
+   "en": "...What is it you desire?",
    "max": 19,
    "refs": [
     "lui@428/42C"
@@ -108,7 +108,7 @@
    "id": "ovl044_800C8564",
    "at": "800C8564",
    "jp": "これさ！",
-   "en": "",
+   "en": "This!",
    "max": 11,
    "refs": [
     "lui@468/46C"
@@ -119,7 +119,7 @@
    "id": "ovl044_800C8570",
    "at": "800C8570",
    "jp": "ジャスティス・サーブル！！",
-   "en": "",
+   "en": "Justice Saber!!",
    "max": 27,
    "refs": [
     "lui@4A8/4AC"
@@ -130,7 +130,7 @@
    "id": "ovl044_800C858C",
    "at": "800C858C",
    "jp": "う…お…！！",
-   "en": "",
+   "en": "Gh... ah...!!",
    "max": 15,
    "refs": [
     "lui@4E8/4EC"
@@ -141,7 +141,7 @@
    "id": "ovl044_800C859C",
    "at": "800C859C",
    "jp": "∞ヌ＠★＋ッ＋％！！！！",
-   "en": "",
+   "en": "∞#@★+k+&!!!!",
    "max": 27,
    "refs": [
     "lui@4F4/4F8"
@@ -152,7 +152,7 @@
    "id": "ovl044_800C85B8",
    "at": "800C85B8",
    "jp": "人の世にあだなす者よ！",
-   "en": "",
+   "en": "Foe of the human world!",
    "max": 23,
    "refs": [
     "lui@594/598"
@@ -163,7 +163,7 @@
    "id": "ovl044_800C85D0",
    "at": "800C85D0",
    "jp": "滅びるがいい！！",
-   "en": "",
+   "en": "Perish!!",
    "max": 19,
    "refs": [
     "lui@5A0/5A4"
@@ -174,7 +174,7 @@
    "id": "ovl044_800C85E4",
    "at": "800C85E4",
    "jp": "すごい！",
-   "en": "",
+   "en": "Amazing!",
    "max": 11,
    "refs": [
     "lui@5DC/5E0"
@@ -185,7 +185,7 @@
    "id": "ovl044_800C85F0",
    "at": "800C85F0",
    "jp": "神々をやっつけちゃうなんて！！",
-   "en": "",
+   "en": "You actually beat the gods!!",
    "max": 31,
    "refs": [
     "lui@5E8/5EC"
@@ -196,7 +196,7 @@
    "id": "ovl044_800C8610",
    "at": "800C8610",
    "jp": "この都市はもうおしまいよ",
-   "en": "",
+   "en": "This city is finished.",
    "max": 27,
    "refs": [
     "lui@624/628"
@@ -207,7 +207,7 @@
    "id": "ovl044_800C862C",
    "at": "800C862C",
    "jp": "あなたも早くお逃げなさい",
-   "en": "",
+   "en": "You must flee quickly as well.",
    "max": 27,
    "refs": [
     "lui@630/634"
@@ -218,7 +218,7 @@
    "id": "ovl044_800C8648",
    "at": "800C8648",
    "jp": "すべてが終わった…",
-   "en": "",
+   "en": "It is all over...",
    "max": 19,
    "refs": [
     "lui@66C/670"
@@ -229,7 +229,7 @@
    "id": "ovl044_800C865C",
    "at": "800C865C",
    "jp": "この都市がくずれさる時、",
-   "en": "",
+   "en": "When this city crumbles away,",
    "max": 27,
    "refs": [
     "lui@678/67C"
@@ -240,7 +240,7 @@
    "id": "ovl044_800C8678",
    "at": "800C8678",
    "jp": "エンジェルティアラも消える…",
-   "en": "",
+   "en": "Angel Tiara shall vanish too...",
    "max": 31,
    "refs": [
     "lui@684/688"
@@ -251,7 +251,7 @@
    "id": "ovl044_800C8698",
    "at": "800C8698",
    "jp": "この剣ももう必要ないわ",
-   "en": "",
+   "en": "I no longer need this sword.",
    "max": 23,
    "refs": [
     "lui@6BC/6C0"
@@ -262,7 +262,7 @@
    "id": "ovl044_800C86B0",
    "at": "800C86B0",
    "jp": "さよなら、エンジェルティアラ",
-   "en": "",
+   "en": "Farewell, Angel Tiara.",
    "max": 29,
    "refs": [
     "lui@6C8/6CC"

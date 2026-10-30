@@ -8,7 +8,7 @@
    "id": "pc025_0470",
    "at": "0470",
    "jp": "くっ！",
-   "en": "",
+   "en": "Kh!",
    "max": null,
    "refs": [
     "off@3F4"
@@ -19,7 +19,7 @@
    "id": "pc025_0478",
    "at": "0478",
    "jp": "うご！",
-   "en": "",
+   "en": "Ugh!",
    "max": null,
    "refs": [
     "off@364"
@@ -30,7 +30,7 @@
    "id": "pc025_0480",
    "at": "0480",
    "jp": "死ね！",
-   "en": "",
+   "en": "Die!",
    "max": null,
    "refs": [
     "off@264"
@@ -41,7 +41,7 @@
    "id": "pc025_0488",
    "at": "0488",
    "jp": "ヤッ！",
-   "en": "",
+   "en": "Yah!",
    "max": null,
    "refs": [
     "off@244"
@@ -52,7 +52,7 @@
    "id": "pc025_0490",
    "at": "0490",
    "jp": "ン…",
-   "en": "",
+   "en": "Mm...",
    "max": null,
    "refs": [
     "off@204"
@@ -63,7 +63,7 @@
    "id": "pc025_0498",
    "at": "0498",
    "jp": "……！",
-   "en": "",
+   "en": "......!",
    "max": null,
    "refs": [
     "off@1D4"
@@ -74,7 +74,7 @@
    "id": "pc025_04A0",
    "at": "04A0",
    "jp": "母上…",
-   "en": "",
+   "en": "Mother...",
    "max": null,
    "refs": [
     "off@184"
@@ -85,7 +85,7 @@
    "id": "pc025_04A8",
    "at": "04A8",
    "jp": "ふん…",
-   "en": "",
+   "en": "Hmph...",
    "max": null,
    "refs": [
     "off@174"
@@ -96,7 +96,7 @@
    "id": "pc025_04B0",
    "at": "04B0",
    "jp": "ん…",
-   "en": "",
+   "en": "Hm...",
    "max": null,
    "refs": [
     "off@134"
@@ -107,7 +107,7 @@
    "id": "pc025_04B8",
    "at": "04B8",
    "jp": "チッ！",
-   "en": "",
+   "en": "Tch!",
    "max": null,
    "refs": [
     "off@104"
@@ -118,7 +118,7 @@
    "id": "pc025_04C0",
    "at": "04C0",
    "jp": "！！",
-   "en": "",
+   "en": "!!",
    "max": null,
    "refs": [
     "off@F4"
@@ -129,7 +129,7 @@
    "id": "pc025_04C8",
    "at": "04C8",
    "jp": "山…",
-   "en": "",
+   "en": "Mountain...",
    "max": null,
    "refs": [
     "off@94"
@@ -140,7 +140,7 @@
    "id": "pc025_04D0",
    "at": "04D0",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "max": null,
    "refs": [
     "off@84"
@@ -151,7 +151,7 @@
    "id": "pc025_04D8",
    "at": "04D8",
    "jp": "フン！",
-   "en": "",
+   "en": "Hmph!",
    "max": null,
    "refs": [
     "off@54"
@@ -162,7 +162,7 @@
    "id": "pc025_04E0",
    "at": "04E0",
    "jp": "忍！",
-   "en": "",
+   "en": "Nin!",
    "max": null,
    "refs": [
     "off@44"
@@ -319,7 +319,7 @@
    "id": "pc025_04EC",
    "at": "04EC",
    "jp": "忍…",
-   "en": "",
+   "en": "Nin...",
    "max": null,
    "refs": [
     "off@4",
@@ -331,7 +331,7 @@
    "id": "pc025_04F4",
    "at": "04F4",
    "jp": "まだ死ねぬな…",
-   "en": "",
+   "en": "I can't die yet...",
    "max": null,
    "refs": [
     "off@454"
@@ -342,7 +342,7 @@
    "id": "pc025_0504",
    "at": "0504",
    "jp": "殺される…！",
-   "en": "",
+   "en": "are killed...!",
    "max": null,
    "refs": [
     "off@448"
@@ -353,7 +353,7 @@
    "id": "pc025_0514",
    "at": "0514",
    "jp": "俺達下忍は役に立たなくなれば",
-   "en": "",
+   "en": "We lowly ninja, once we're useless,",
    "max": null,
    "refs": [
     "off@444"
@@ -364,7 +364,7 @@
    "id": "pc025_0534",
    "at": "0534",
    "jp": "ヤツがいる…！",
-   "en": "",
+   "en": "the bastard...!",
    "max": null,
    "refs": [
     "off@43C"
@@ -375,7 +375,7 @@
    "id": "pc025_0544",
    "at": "0544",
    "jp": "のうのうとしている",
-   "en": "",
+   "en": "living without a care,",
    "max": null,
    "refs": [
     "off@438"
@@ -386,7 +386,7 @@
    "id": "pc025_0558",
    "at": "0558",
    "jp": "俺達の死にあぐらをかいて",
-   "en": "",
+   "en": "Someone sits fat on our deaths,",
    "max": null,
    "refs": [
     "off@434"
@@ -397,7 +397,7 @@
    "id": "pc025_0574",
    "at": "0574",
    "jp": "殺ったか…？",
-   "en": "",
+   "en": "Did I get him...?",
    "max": null,
    "refs": [
     "off@424"
@@ -408,7 +408,7 @@
    "id": "pc025_0584",
    "at": "0584",
    "jp": "おれは人間だ！",
-   "en": "",
+   "en": "I am human!",
    "max": null,
    "refs": [
     "off@414"
@@ -419,7 +419,7 @@
    "id": "pc025_0594",
    "at": "0594",
    "jp": "やるな…！",
-   "en": "",
+   "en": "Not bad...!",
    "max": null,
    "refs": [
     "off@404"
@@ -430,7 +430,7 @@
    "id": "pc025_05A0",
    "at": "05A0",
    "jp": "どうする…！？",
-   "en": "",
+   "en": "What now...!?",
    "max": null,
    "refs": [
     "off@3E4"
@@ -441,7 +441,7 @@
    "id": "pc025_05B0",
    "at": "05B0",
    "jp": "やむをえんか…",
-   "en": "",
+   "en": "No choice, then...",
    "max": null,
    "refs": [
     "off@3D4"
@@ -452,7 +452,7 @@
    "id": "pc025_05C0",
    "at": "05C0",
    "jp": "カンがにぶったか…",
-   "en": "",
+   "en": "Have my instincts dulled...?",
    "max": null,
    "refs": [
     "off@3C4"
@@ -463,7 +463,7 @@
    "id": "pc025_05D4",
    "at": "05D4",
    "jp": "しまった…！",
-   "en": "",
+   "en": "Blast...!",
    "max": null,
    "refs": [
     "off@3B4"
@@ -474,7 +474,7 @@
    "id": "pc025_05E4",
    "at": "05E4",
    "jp": "うぬ…！",
-   "en": "",
+   "en": "Ngh...!",
    "max": null,
    "refs": [
     "off@3A4"
@@ -485,7 +485,7 @@
    "id": "pc025_05F0",
    "at": "05F0",
    "jp": "できる…！",
-   "en": "",
+   "en": "He's good...!",
    "max": null,
    "refs": [
     "off@394"
@@ -496,7 +496,7 @@
    "id": "pc025_05FC",
    "at": "05FC",
    "jp": "こやつ…！",
-   "en": "",
+   "en": "This one...!",
    "max": null,
    "refs": [
     "off@384"
@@ -507,7 +507,7 @@
    "id": "pc025_0608",
    "at": "0608",
    "jp": "おのれ…！",
-   "en": "",
+   "en": "Curse you...!",
    "max": null,
    "refs": [
     "off@374"
@@ -518,7 +518,7 @@
    "id": "pc025_0614",
    "at": "0614",
    "jp": "ぐぎゃっ！",
-   "en": "",
+   "en": "Gyaah!",
    "max": null,
    "refs": [
     "off@354"
@@ -529,7 +529,7 @@
    "id": "pc025_0620",
    "at": "0620",
    "jp": "くちほどにもない…",
-   "en": "",
+   "en": "All talk...",
    "max": null,
    "refs": [
     "off@344"
@@ -540,7 +540,7 @@
    "id": "pc025_0634",
    "at": "0634",
    "jp": "ムダだ…！",
-   "en": "",
+   "en": "Useless...!",
    "max": null,
    "refs": [
     "off@334"
@@ -551,7 +551,7 @@
    "id": "pc025_0640",
    "at": "0640",
    "jp": "任務完了…！",
-   "en": "",
+   "en": "Mission complete...!",
    "max": null,
    "refs": [
     "off@324"
@@ -562,7 +562,7 @@
    "id": "pc025_0650",
    "at": "0650",
    "jp": "やめておけ！",
-   "en": "",
+   "en": "Don't!",
    "max": null,
    "refs": [
     "off@314"
@@ -573,7 +573,7 @@
    "id": "pc025_0660",
    "at": "0660",
    "jp": "よせっ…！",
-   "en": "",
+   "en": "Stop...!",
    "max": null,
    "refs": [
     "off@304"
@@ -584,7 +584,7 @@
    "id": "pc025_066C",
    "at": "066C",
    "jp": "ばかなヤツだ…",
-   "en": "",
+   "en": "Fool...",
    "max": null,
    "refs": [
     "off@2F4"
@@ -595,7 +595,7 @@
    "id": "pc025_067C",
    "at": "067C",
    "jp": "かかったな！",
-   "en": "",
+   "en": "Got you!",
    "max": null,
    "refs": [
     "off@2E4"
@@ -606,7 +606,7 @@
    "id": "pc025_068C",
    "at": "068C",
    "jp": "おれには向かないな…",
-   "en": "",
+   "en": "Not my kind of thing...",
    "max": null,
    "refs": [
     "off@2D4"
@@ -617,7 +617,7 @@
    "id": "pc025_06A4",
    "at": "06A4",
    "jp": "今らくにしてやる",
-   "en": "",
+   "en": "I'll end your pain now",
    "max": null,
    "refs": [
     "off@2C4"
@@ -628,7 +628,7 @@
    "id": "pc025_06B8",
    "at": "06B8",
    "jp": "気味が悪いな…",
-   "en": "",
+   "en": "Creepy...",
    "max": null,
    "refs": [
     "off@2B4"
@@ -639,7 +639,7 @@
    "id": "pc025_06C8",
    "at": "06C8",
    "jp": "ふかいりするな…",
-   "en": "",
+   "en": "Don't go too deep...",
    "max": null,
    "refs": [
     "off@2A4"
@@ -650,7 +650,7 @@
    "id": "pc025_06DC",
    "at": "06DC",
    "jp": "殺さずにすんだか…",
-   "en": "",
+   "en": "No need to kill, then...",
    "max": null,
    "refs": [
     "off@294"
@@ -661,7 +661,7 @@
    "id": "pc025_06F0",
    "at": "06F0",
    "jp": "お館さまにごほうこくを…！",
-   "en": "",
+   "en": "I must report to my lord...!",
    "max": null,
    "refs": [
     "off@284"
@@ -672,7 +672,7 @@
    "id": "pc025_070C",
    "at": "070C",
    "jp": "よし…！",
-   "en": "",
+   "en": "Good...!",
    "max": null,
    "refs": [
     "off@274"
@@ -683,7 +683,7 @@
    "id": "pc025_0718",
    "at": "0718",
    "jp": "タァッ！",
-   "en": "",
+   "en": "Taah!",
    "max": null,
    "refs": [
     "off@254"
@@ -694,7 +694,7 @@
    "id": "pc025_0724",
    "at": "0724",
    "jp": "闇に生き、闇に死す…",
-   "en": "",
+   "en": "Live in darkness, die in darkness...",
    "max": null,
    "refs": [
     "off@234"
@@ -705,7 +705,7 @@
    "id": "pc025_073C",
    "at": "073C",
    "jp": "風が変わった…",
-   "en": "",
+   "en": "The wind has changed...",
    "max": null,
    "refs": [
     "off@224"
@@ -716,7 +716,7 @@
    "id": "pc025_074C",
    "at": "074C",
    "jp": "急がねば…",
-   "en": "",
+   "en": "I must hurry...",
    "max": null,
    "refs": [
     "off@214"
@@ -727,7 +727,7 @@
    "id": "pc025_0758",
    "at": "0758",
    "jp": "ゆくぞ…！",
-   "en": "",
+   "en": "Here I come...!",
    "max": null,
    "refs": [
     "off@1F4"
@@ -738,7 +738,7 @@
    "id": "pc025_0764",
    "at": "0764",
    "jp": "忍法ウツセミの術",
-   "en": "",
+   "en": "Ninja Art: Cicada Shell",
    "max": null,
    "refs": [
     "off@1E4"
@@ -749,7 +749,7 @@
    "id": "pc025_0778",
    "at": "0778",
    "jp": "おのれっ！",
-   "en": "",
+   "en": "Damn you!",
    "max": null,
    "refs": [
     "off@1C4"
@@ -760,7 +760,7 @@
    "id": "pc025_0784",
    "at": "0784",
    "jp": "はめられた！？",
-   "en": "",
+   "en": "A trap!?",
    "max": null,
    "refs": [
     "off@1B4"
@@ -771,7 +771,7 @@
    "id": "pc025_0794",
    "at": "0794",
    "jp": "さらば…！",
-   "en": "",
+   "en": "Farewell...!",
    "max": null,
    "refs": [
     "off@1A4"
@@ -782,7 +782,7 @@
    "id": "pc025_07A0",
    "at": "07A0",
    "jp": "これでは里に帰れぬ…",
-   "en": "",
+   "en": "I can't go home like this...",
    "max": null,
    "refs": [
     "off@194"
@@ -793,7 +793,7 @@
    "id": "pc025_07B8",
    "at": "07B8",
    "jp": "お館さま…",
-   "en": "",
+   "en": "My lord...",
    "max": null,
    "refs": [
     "off@164"
@@ -804,7 +804,7 @@
    "id": "pc025_07C4",
    "at": "07C4",
    "jp": "忍法乱れ手裏剣！！",
-   "en": "",
+   "en": "Ninja Art: Storm Shuriken!!",
    "max": null,
    "refs": [
     "off@154"
@@ -815,7 +815,7 @@
    "id": "pc025_07D8",
    "at": "07D8",
    "jp": "うぬにはわしは斬れぬ…！！",
-   "en": "",
+   "en": "You cannot cut me down...!!",
    "max": null,
    "refs": [
     "off@144"
@@ -826,7 +826,7 @@
    "id": "pc025_07F4",
    "at": "07F4",
    "jp": "ひけ…！",
-   "en": "",
+   "en": "Fall back...!",
    "max": null,
    "refs": [
     "off@124"
@@ -837,7 +837,7 @@
    "id": "pc025_0800",
    "at": "0800",
    "jp": "無念…！",
-   "en": "",
+   "en": "Curses...!",
    "max": null,
    "refs": [
     "off@114"
@@ -848,7 +848,7 @@
    "id": "pc025_080C",
    "at": "080C",
    "jp": "ウッ…！",
-   "en": "",
+   "en": "Ugh...!",
    "max": null,
    "refs": [
     "off@E4"
@@ -859,7 +859,7 @@
    "id": "pc025_0818",
    "at": "0818",
    "jp": "むなしい…",
-   "en": "",
+   "en": "Empty...",
    "max": null,
    "refs": [
     "off@D4"
@@ -870,7 +870,7 @@
    "id": "pc025_0824",
    "at": "0824",
    "jp": "この身は風…",
-   "en": "",
+   "en": "I am the wind...",
    "max": null,
    "refs": [
     "off@C4"
@@ -881,7 +881,7 @@
    "id": "pc025_0834",
    "at": "0834",
    "jp": "母上…！",
-   "en": "",
+   "en": "Mother...!",
    "max": null,
    "refs": [
     "off@B4"
@@ -892,7 +892,7 @@
    "id": "pc025_0840",
    "at": "0840",
    "jp": "忍びは影の存在…",
-   "en": "",
+   "en": "A ninja lives in the shadows...",
    "max": null,
    "refs": [
     "off@A4"
@@ -903,7 +903,7 @@
    "id": "pc025_0854",
    "at": "0854",
    "jp": "帰りたいな、しのびの里へ…",
-   "en": "",
+   "en": "I long for home, the ninja village...",
    "max": null,
    "refs": [
     "off@74"
@@ -914,7 +914,7 @@
    "id": "pc025_0870",
    "at": "0870",
    "jp": "ム…合図ののろしが…",
-   "en": "",
+   "en": "Hm... the signal smoke...",
    "max": null,
    "refs": [
     "off@64"
@@ -925,7 +925,7 @@
    "id": "pc025_0888",
    "at": "0888",
    "jp": "光あるところ影あり…！",
-   "en": "",
+   "en": "Where there's light, there's shadow...!",
    "max": null,
    "refs": [
     "off@34"
@@ -936,7 +936,7 @@
    "id": "pc025_08A0",
    "at": "08A0",
    "jp": "乱れ手裏剣のハヤテ見参！",
-   "en": "",
+   "en": "Hayate of the Storm Shuriken, here!",
    "max": null,
    "refs": [
     "off@28"
@@ -947,7 +947,7 @@
    "id": "pc025_08BC",
    "at": "08BC",
    "jp": "血車忍軍十傑衆が一人、",
-   "en": "",
+   "en": "One of the Bloodwheel Elite Ten,",
    "max": null,
    "refs": [
     "off@24"

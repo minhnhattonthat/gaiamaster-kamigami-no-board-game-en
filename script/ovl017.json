@@ -9,7 +9,7 @@
    "id": "ovl017_800C8478",
    "at": "800C8478",
    "jp": "壊せるシンボルがないよ！",
-   "en": "",
+   "en": "No symbols to wreck!",
    "max": 27,
    "refs": [
     "ptr@48"
@@ -20,7 +20,7 @@
    "id": "ovl017_800C84CC",
    "at": "800C84CC",
    "jp": "地震よーっ！",
-   "en": "",
+   "en": "It's a Tremor!",
    "max": 15,
    "refs": [
     "lui@B78/B7C",
@@ -32,7 +32,7 @@
    "id": "ovl017_800C84DC",
    "at": "800C84DC",
    "jp": "でも、誰もシンボルを持ってなかった",
-   "en": "",
+   "en": "But it seems nobody had",
    "max": 35,
    "refs": [
     "lui@B84/B88"
@@ -43,7 +43,7 @@
    "id": "ovl017_800C8500",
    "at": "800C8500",
    "jp": "みたい",
-   "en": "",
+   "en": "any symbols.",
    "max": 7,
    "refs": [
     "lui@B90/B98"
@@ -54,7 +54,7 @@
    "id": "ovl017_800C8508",
    "at": "800C8508",
    "jp": "シンボルがつぶれちゃった！！",
-   "en": "",
+   "en": "The symbols got crushed!!",
    "max": 31,
    "refs": [
     "lui@BB4/BB8"

@@ -8,7 +8,7 @@
    "id": "squares05_0028",
    "at": "0028",
    "jp": "ＧＯマス",
-   "en": "",
+   "en": "GO Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "squares05_0050",
    "at": "0050",
    "jp": "がいこつ結界",
-   "en": "",
+   "en": "Skull Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "squares05_0078",
    "at": "0078",
    "jp": "がいこつ領土",
-   "en": "",
+   "en": "Skull Domain",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "squares05_00A0",
    "at": "00A0",
    "jp": "がいこつ国",
-   "en": "",
+   "en": "Skull Realm",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "squares05_00C8",
    "at": "00C8",
    "jp": "がいこつ界",
-   "en": "",
+   "en": "Skull World",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "squares05_00F0",
    "at": "00F0",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "squares05_0118",
    "at": "0118",
    "jp": "使い魔の結界",
-   "en": "",
+   "en": "Imp Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "squares05_0140",
    "at": "0140",
    "jp": "使い魔の領土",
-   "en": "",
+   "en": "Imp Domain",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -80,7 +80,7 @@
    "id": "squares05_0168",
    "at": "0168",
    "jp": "使い魔の国",
-   "en": "",
+   "en": "Imp Realm",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -89,7 +89,7 @@
    "id": "squares05_0190",
    "at": "0190",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -98,7 +98,7 @@
    "id": "squares05_01B8",
    "at": "01B8",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -107,7 +107,7 @@
    "id": "squares05_01E0",
    "at": "01E0",
    "jp": "おばけの結界",
-   "en": "",
+   "en": "Ghost Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -116,7 +116,7 @@
    "id": "squares05_0208",
    "at": "0208",
    "jp": "おばけの領土",
-   "en": "",
+   "en": "Ghost Domain",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -125,7 +125,7 @@
    "id": "squares05_0230",
    "at": "0230",
    "jp": "おばけの国",
-   "en": "",
+   "en": "Ghost Realm",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -134,7 +134,7 @@
    "id": "squares05_0258",
    "at": "0258",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -143,7 +143,7 @@
    "id": "squares05_0280",
    "at": "0280",
    "jp": "夢魔の結界",
-   "en": "",
+   "en": "Dream Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -152,7 +152,7 @@
    "id": "squares05_02A8",
    "at": "02A8",
    "jp": "夢魔の領土",
-   "en": "",
+   "en": "Dream Domain",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -161,7 +161,7 @@
    "id": "squares05_02D0",
    "at": "02D0",
    "jp": "夢魔の国",
-   "en": "",
+   "en": "Dream Realm",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -170,7 +170,7 @@
    "id": "squares05_02F8",
    "at": "02F8",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -179,7 +179,7 @@
    "id": "squares05_0320",
    "at": "0320",
    "jp": "魔女の結界",
-   "en": "",
+   "en": "Witch Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -188,7 +188,7 @@
    "id": "squares05_0348",
    "at": "0348",
    "jp": "魔女の領土",
-   "en": "",
+   "en": "Witch Domain",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -197,7 +197,7 @@
    "id": "squares05_0370",
    "at": "0370",
    "jp": "魔女の国",
-   "en": "",
+   "en": "Witch Realm",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -206,7 +206,7 @@
    "id": "squares05_0398",
    "at": "0398",
    "jp": "聖地マス",
-   "en": "",
+   "en": "Sanctuary",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -215,7 +215,7 @@
    "id": "squares05_03C0",
    "at": "03C0",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -224,7 +224,7 @@
    "id": "squares05_03E8",
    "at": "03E8",
    "jp": "魔王の結界",
-   "en": "",
+   "en": "Demon Barrier",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -233,7 +233,7 @@
    "id": "squares05_0410",
    "at": "0410",
    "jp": "魔王の領土",
-   "en": "",
+   "en": "Demon Domain",
    "max": 13,
    "refs": [],
    "notes": ""

@@ -9,7 +9,7 @@
    "id": "ovl013_800C8454",
    "at": "800C8454",
    "jp": "ラッキー！",
-   "en": "",
+   "en": "Lucky!",
    "max": 11,
    "refs": [
     "lui@E8/EC"
@@ -20,7 +20,7 @@
    "id": "ovl013_800C8464",
    "at": "800C8464",
    "jp": "/V%dゼニーひろったよ！/v",
-   "en": "",
+   "en": "/VYou found %d zenny!/v",
    "max": 27,
    "refs": [
     "lui@E0/E4"

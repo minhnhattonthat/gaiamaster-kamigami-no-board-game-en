@@ -9,7 +9,7 @@
    "id": "ovl019_800C8544",
    "at": "800C8544",
    "jp": "これはチャンスよ！",
-   "en": "",
+   "en": "This is your chance!",
    "max": 19,
    "refs": [
     "lui@340/344"
@@ -20,7 +20,7 @@
    "id": "ovl019_800C8558",
    "at": "800C8558",
    "jp": "好きな土地を買うことができるわ",
-   "en": "",
+   "en": "You can buy any land you like.",
    "max": 31,
    "refs": [
     "lui@34C/350"
@@ -31,7 +31,7 @@
    "id": "ovl019_800C8578",
    "at": "800C8578",
    "jp": "どれか１つえらんでね",
-   "en": "",
+   "en": "Pick any one.",
    "max": 23,
    "refs": [
     "lui@358/35C"
@@ -42,7 +42,7 @@
    "id": "ovl019_800C8590",
    "at": "800C8590",
    "jp": "でも、空き地が１つもないみたい",
-   "en": "",
+   "en": "But there's no vacant land at all.",
    "max": 31,
    "refs": [
     "lui@388/38C"
@@ -53,7 +53,7 @@
    "id": "ovl019_800C85B0",
    "at": "800C85B0",
    "jp": "やめとくね",
-   "en": "",
+   "en": "I'll pass.",
    "max": 11,
    "refs": [
     "lui@4C4/4CC",
@@ -65,7 +65,7 @@
    "id": "ovl019_800C85C0",
    "at": "800C85C0",
    "jp": "%sを購入したよ",
-   "en": "",
+   "en": "Bought %s!",
    "max": 15,
    "refs": [
     "lui@540/544",
@@ -77,7 +77,7 @@
    "id": "ovl019_800C85D0",
    "at": "800C85D0",
    "jp": "%dゼニーはらってね",
-   "en": "",
+   "en": "Pay %d zenny.",
    "max": 19,
    "refs": [
     "lui@574/578",
@@ -89,7 +89,7 @@
    "id": "ovl019_800C85E4",
    "at": "800C85E4",
    "jp": "やったー！！",
-   "en": "",
+   "en": "Yay!!",
    "max": 15,
    "refs": [
     "lui@7D4/7D8",
@@ -101,7 +101,7 @@
    "id": "ovl019_800C85F4",
    "at": "800C85F4",
    "jp": "このエリアはあなたのものよ！！",
-   "en": "",
+   "en": "This area is yours!!",
    "max": 31,
    "refs": [
     "lui@7EC/7F4",
@@ -113,7 +113,7 @@
    "id": "ovl019_800C8614",
    "at": "800C8614",
    "jp": "このエリアはあなたたちのものよ！！",
-   "en": "",
+   "en": "This area belongs to your team!!",
    "max": 35,
    "refs": [
     "lui@7F8/7FC",
@@ -125,7 +125,7 @@
    "id": "ovl019_800C8638",
    "at": "800C8638",
    "jp": "土地の資産価値もどーんとアップ！",
-   "en": "",
+   "en": "Land asset value shoots way up!",
    "max": 35,
    "refs": [
     "lui@B28/B2C"
@@ -136,7 +136,7 @@
    "id": "ovl019_800C865C",
    "at": "800C865C",
    "jp": "お金たりないわよ",
-   "en": "",
+   "en": "Not enough money!",
    "max": 19,
    "refs": [
     "lui@810/818"
@@ -147,7 +147,7 @@
    "id": "ovl019_800C8670",
    "at": "800C8670",
    "jp": "不足金額：%dゼニー",
-   "en": "",
+   "en": "Short by %d zenny",
    "max": 18,
    "refs": [
     "lui@830/834"

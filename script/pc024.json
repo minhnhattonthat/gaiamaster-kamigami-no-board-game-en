@@ -8,7 +8,7 @@
    "id": "pc024_04F0",
    "at": "04F0",
    "jp": "あばよ",
-   "en": "",
+   "en": "See ya.",
    "max": null,
    "refs": [
     "off@1F4"
@@ -19,7 +19,7 @@
    "id": "pc024_04F8",
    "at": "04F8",
    "jp": "悪いな",
-   "en": "",
+   "en": "Sorry.",
    "max": null,
    "refs": [
     "off@1E4"
@@ -30,7 +30,7 @@
    "id": "pc024_0500",
    "at": "0500",
    "jp": "殺すぞ",
-   "en": "",
+   "en": "I'll kill you.",
    "max": null,
    "refs": [
     "off@144"
@@ -41,7 +41,7 @@
    "id": "pc024_0508",
    "at": "0508",
    "jp": "お！？",
-   "en": "",
+   "en": "Oh!?",
    "max": null,
    "refs": [
     "off@134"
@@ -52,7 +52,7 @@
    "id": "pc024_0510",
    "at": "0510",
    "jp": "フフン",
-   "en": "",
+   "en": "Heh.",
    "max": null,
    "refs": [
     "off@104"
@@ -63,7 +63,7 @@
    "id": "pc024_0518",
    "at": "0518",
    "jp": "次、次",
-   "en": "",
+   "en": "Next, next.",
    "max": null,
    "refs": [
     "off@84"
@@ -236,7 +236,7 @@
    "id": "pc024_0524",
    "at": "0524",
    "jp": "女ってやつはわからねぇ…",
-   "en": "",
+   "en": "Women... can't figure 'em out...",
    "max": null,
    "refs": [
     "off@4D4"
@@ -247,7 +247,7 @@
    "id": "pc024_0540",
    "at": "0540",
    "jp": "いちかばちか…！",
-   "en": "",
+   "en": "All or nothing...!",
    "max": null,
    "refs": [
     "off@4C4"
@@ -258,7 +258,7 @@
    "id": "pc024_0554",
    "at": "0554",
    "jp": "あまいな…！",
-   "en": "",
+   "en": "Too soft...!",
    "max": null,
    "refs": [
     "off@4B4"
@@ -269,7 +269,7 @@
    "id": "pc024_0564",
    "at": "0564",
    "jp": "とかく女は金に弱いもんだ",
-   "en": "",
+   "en": "Women always fall for money",
    "max": null,
    "refs": [
     "off@4A4"
@@ -280,7 +280,7 @@
    "id": "pc024_0580",
    "at": "0580",
    "jp": "ヒッヒッヒッ…",
-   "en": "",
+   "en": "Heh heh heh...",
    "max": null,
    "refs": [
     "off@498"
@@ -291,7 +291,7 @@
    "id": "pc024_0590",
    "at": "0590",
    "jp": "一財産こしらえてあの子やこの子と",
-   "en": "",
+   "en": "Get rich, then her and her and her...",
    "max": null,
    "refs": [
     "off@494"
@@ -302,7 +302,7 @@
    "id": "pc024_05B4",
    "at": "05B4",
    "jp": "おサカナちゃん！",
-   "en": "",
+   "en": "Hey there, little fishy!",
    "max": null,
    "refs": [
     "off@484"
@@ -313,7 +313,7 @@
    "id": "pc024_05C8",
    "at": "05C8",
    "jp": "なぐさめてくれよぅ",
-   "en": "",
+   "en": "Come on, comfort me~",
    "max": null,
    "refs": [
     "off@478"
@@ -324,7 +324,7 @@
    "id": "pc024_05DC",
    "at": "05DC",
    "jp": "さびしいんだよ…",
-   "en": "",
+   "en": "I'm so lonely...",
    "max": null,
    "refs": [
     "off@474"
@@ -335,7 +335,7 @@
    "id": "pc024_05F0",
    "at": "05F0",
    "jp": "俺のしあわせのために死んでくれ",
-   "en": "",
+   "en": "Die for my happiness, will ya?",
    "max": null,
    "refs": [
     "off@464"
@@ -346,7 +346,7 @@
    "id": "pc024_0610",
    "at": "0610",
    "jp": "勝つのは俺さ…！",
-   "en": "",
+   "en": "The winner's gonna be me...!",
    "max": null,
    "refs": [
     "off@454"
@@ -357,7 +357,7 @@
    "id": "pc024_0624",
    "at": "0624",
    "jp": "いくぜ！",
-   "en": "",
+   "en": "Here I go!",
    "max": null,
    "refs": [
     "off@444"
@@ -368,7 +368,7 @@
    "id": "pc024_0630",
    "at": "0630",
    "jp": "バカ野郎が！",
-   "en": "",
+   "en": "You idiot!",
    "max": null,
    "refs": [
     "off@434"
@@ -379,7 +379,7 @@
    "id": "pc024_0640",
    "at": "0640",
    "jp": "オレを本気にさせたな！",
-   "en": "",
+   "en": "Now you've made me serious!",
    "max": null,
    "refs": [
     "off@424"
@@ -390,7 +390,7 @@
    "id": "pc024_0658",
    "at": "0658",
    "jp": "てめぇ…死ぬぜ！",
-   "en": "",
+   "en": "You... are dead!",
    "max": null,
    "refs": [
     "off@414"
@@ -401,7 +401,7 @@
    "id": "pc024_066C",
    "at": "066C",
    "jp": "今日は星回りが悪いやね",
-   "en": "",
+   "en": "Stars just ain't with you today",
    "max": null,
    "refs": [
     "off@404"
@@ -412,7 +412,7 @@
    "id": "pc024_0684",
    "at": "0684",
    "jp": "ごしゅうしょうさま！",
-   "en": "",
+   "en": "My condolences!",
    "max": null,
    "refs": [
     "off@3F4"
@@ -423,7 +423,7 @@
    "id": "pc024_069C",
    "at": "069C",
    "jp": "悪く思うなよ！",
-   "en": "",
+   "en": "No hard feelings!",
    "max": null,
    "refs": [
     "off@3E4"
@@ -434,7 +434,7 @@
    "id": "pc024_06AC",
    "at": "06AC",
    "jp": "ごめんよ、ハニー＠",
-   "en": "",
+   "en": "Sorry, honey@",
    "max": null,
    "refs": [
     "off@3D4"
@@ -445,7 +445,7 @@
    "id": "pc024_06C0",
    "at": "06C0",
    "jp": "身ぐるみ脱いでおいてきなっ！",
-   "en": "",
+   "en": "Strip down and leave it all here!",
    "max": null,
    "refs": [
     "off@3C4"
@@ -456,7 +456,7 @@
    "id": "pc024_06E0",
    "at": "06E0",
    "jp": "運がなかったな？",
-   "en": "",
+   "en": "Out of luck, huh?",
    "max": null,
    "refs": [
     "off@3B4"
@@ -467,7 +467,7 @@
    "id": "pc024_06F4",
    "at": "06F4",
    "jp": "まかせときな！",
-   "en": "",
+   "en": "Leave it to me!",
    "max": null,
    "refs": [
     "off@3A4"
@@ -478,7 +478,7 @@
    "id": "pc024_0704",
    "at": "0704",
    "jp": "オレしかいないだろ！",
-   "en": "",
+   "en": "Who else but me?!",
    "max": null,
    "refs": [
     "off@394"
@@ -489,7 +489,7 @@
    "id": "pc024_071C",
    "at": "071C",
    "jp": "おっと、ごめんよ！",
-   "en": "",
+   "en": "Whoops, my bad!",
    "max": null,
    "refs": [
     "off@384"
@@ -500,7 +500,7 @@
    "id": "pc024_0730",
    "at": "0730",
    "jp": "うれしいね！",
-   "en": "",
+   "en": "Now that's what I like!",
    "max": null,
    "refs": [
     "off@374"
@@ -511,7 +511,7 @@
    "id": "pc024_0740",
    "at": "0740",
    "jp": "愛してるぜ！",
-   "en": "",
+   "en": "I love ya!",
    "max": null,
    "refs": [
     "off@364"
@@ -522,7 +522,7 @@
    "id": "pc024_0750",
    "at": "0750",
    "jp": "どうすりゃいいの？",
-   "en": "",
+   "en": "What am I supposed to do?",
    "max": null,
    "refs": [
     "off@354"
@@ -533,7 +533,7 @@
    "id": "pc024_0764",
    "at": "0764",
    "jp": "俺が悪いのか～？",
-   "en": "",
+   "en": "So it's MY fault~?",
    "max": null,
    "refs": [
     "off@344"
@@ -544,7 +544,7 @@
    "id": "pc024_0778",
    "at": "0778",
    "jp": "あいたたた",
-   "en": "",
+   "en": "Ow ow ow...",
    "max": null,
    "refs": [
     "off@334"
@@ -555,7 +555,7 @@
    "id": "pc024_0784",
    "at": "0784",
    "jp": "だからイヤだったのに…",
-   "en": "",
+   "en": "This is why I didn't wanna...",
    "max": null,
    "refs": [
     "off@324"
@@ -566,7 +566,7 @@
    "id": "pc024_079C",
    "at": "079C",
    "jp": "やかましいっ！",
-   "en": "",
+   "en": "Shut your trap!",
    "max": null,
    "refs": [
     "off@314"
@@ -577,7 +577,7 @@
    "id": "pc024_07AC",
    "at": "07AC",
    "jp": "うへぇ！",
-   "en": "",
+   "en": "Yeesh!",
    "max": null,
    "refs": [
     "off@304"
@@ -588,7 +588,7 @@
    "id": "pc024_07B8",
    "at": "07B8",
    "jp": "マジかよ！",
-   "en": "",
+   "en": "Seriously?!",
    "max": null,
    "refs": [
     "off@2F4"
@@ -599,7 +599,7 @@
    "id": "pc024_07C4",
    "at": "07C4",
    "jp": "死にてぇらしいな…！",
-   "en": "",
+   "en": "Looks like you wanna die...!",
    "max": null,
    "refs": [
     "off@2E4"
@@ -610,7 +610,7 @@
    "id": "pc024_07DC",
    "at": "07DC",
    "jp": "オレってサイテイだぜ…",
-   "en": "",
+   "en": "I'm the lowest of the low...",
    "max": null,
    "refs": [
     "off@2D4"
@@ -621,7 +621,7 @@
    "id": "pc024_07F4",
    "at": "07F4",
    "jp": "ハッ、まあこんなとこだろうよ",
-   "en": "",
+   "en": "Hah, about what I figured.",
    "max": null,
    "refs": [
     "off@2C4"
@@ -632,7 +632,7 @@
    "id": "pc024_0814",
    "at": "0814",
    "jp": "オレにほれるなよ",
-   "en": "",
+   "en": "Don't fall for me.",
    "max": null,
    "refs": [
     "off@2B4"
@@ -643,7 +643,7 @@
    "id": "pc024_0828",
    "at": "0828",
    "jp": "オレってカッコイイぜ！",
-   "en": "",
+   "en": "Man, I'm cool!",
    "max": null,
    "refs": [
     "off@2A4"
@@ -654,7 +654,7 @@
    "id": "pc024_0840",
    "at": "0840",
    "jp": "死にな…！",
-   "en": "",
+   "en": "Die...!",
    "max": null,
    "refs": [
     "off@294"
@@ -665,7 +665,7 @@
    "id": "pc024_084C",
    "at": "084C",
    "jp": "おっと、あんたが悪いんだぜ…！",
-   "en": "",
+   "en": "Whoops, you asked for this...!",
    "max": null,
    "refs": [
     "off@284"
@@ -676,7 +676,7 @@
    "id": "pc024_086C",
    "at": "086C",
    "jp": "もらってくぜ",
-   "en": "",
+   "en": "I'll take that.",
    "max": null,
    "refs": [
     "off@274"
@@ -687,7 +687,7 @@
    "id": "pc024_087C",
    "at": "087C",
    "jp": "サンキュウ！",
-   "en": "",
+   "en": "Thank you!",
    "max": null,
    "refs": [
     "off@264"
@@ -698,7 +698,7 @@
    "id": "pc024_088C",
    "at": "088C",
    "jp": "やめてくれ…",
-   "en": "",
+   "en": "Stop it...",
    "max": null,
    "refs": [
     "off@254"
@@ -709,7 +709,7 @@
    "id": "pc024_089C",
    "at": "089C",
    "jp": "げぶっ！",
-   "en": "",
+   "en": "Gbuh!",
    "max": null,
    "refs": [
     "off@244"
@@ -720,7 +720,7 @@
    "id": "pc024_08A8",
    "at": "08A8",
    "jp": "ひいっ！",
-   "en": "",
+   "en": "Eek!",
    "max": null,
    "refs": [
     "off@234"
@@ -731,7 +731,7 @@
    "id": "pc024_08B4",
    "at": "08B4",
    "jp": "オレをそっとしておいてくれ…",
-   "en": "",
+   "en": "Just leave me alone...",
    "max": null,
    "refs": [
     "off@224"
@@ -742,7 +742,7 @@
    "id": "pc024_08D4",
    "at": "08D4",
    "jp": "おいおい",
-   "en": "",
+   "en": "Hey, hey.",
    "max": null,
    "refs": [
     "off@214"
@@ -753,7 +753,7 @@
    "id": "pc024_08E0",
    "at": "08E0",
    "jp": "うぐっ！",
-   "en": "",
+   "en": "Urgh!",
    "max": null,
    "refs": [
     "off@204"
@@ -764,7 +764,7 @@
    "id": "pc024_08EC",
    "at": "08EC",
    "jp": "マジ～！？",
-   "en": "",
+   "en": "For real~!?",
    "max": null,
    "refs": [
     "off@1D4"
@@ -775,7 +775,7 @@
    "id": "pc024_08F8",
    "at": "08F8",
    "jp": "ウソだろ～！？",
-   "en": "",
+   "en": "You're kidding~!?",
    "max": null,
    "refs": [
     "off@1C4"
@@ -786,7 +786,7 @@
    "id": "pc024_0908",
    "at": "0908",
    "jp": "だから言ったのに…！",
-   "en": "",
+   "en": "I told you so...!",
    "max": null,
    "refs": [
     "off@1B4"
@@ -797,7 +797,7 @@
    "id": "pc024_0920",
    "at": "0920",
    "jp": "ごめんちゃい",
-   "en": "",
+   "en": "Sowwy.",
    "max": null,
    "refs": [
     "off@1A4"
@@ -808,7 +808,7 @@
    "id": "pc024_0930",
    "at": "0930",
    "jp": "マジかよ！？",
-   "en": "",
+   "en": "Seriously!?",
    "max": null,
    "refs": [
     "off@194"
@@ -819,7 +819,7 @@
    "id": "pc024_0940",
    "at": "0940",
    "jp": "え～っ！？",
-   "en": "",
+   "en": "Whaaat!?",
    "max": null,
    "refs": [
     "off@184"
@@ -830,7 +830,7 @@
    "id": "pc024_094C",
    "at": "094C",
    "jp": "あー、オレはもうダメだ…！",
-   "en": "",
+   "en": "Ah, I'm finished...!",
    "max": null,
    "refs": [
     "off@174"
@@ -841,7 +841,7 @@
    "id": "pc024_0968",
    "at": "0968",
    "jp": "どーなってんの？",
-   "en": "",
+   "en": "What's going on?",
    "max": null,
    "refs": [
     "off@164"
@@ -852,7 +852,7 @@
    "id": "pc024_097C",
    "at": "097C",
    "jp": "死ぬしかないな",
-   "en": "",
+   "en": "Guess I gotta die.",
    "max": null,
    "refs": [
     "off@154"
@@ -863,7 +863,7 @@
    "id": "pc024_098C",
    "at": "098C",
    "jp": "ざっとこんなもんさ",
-   "en": "",
+   "en": "Easy as that.",
    "max": null,
    "refs": [
     "off@124"
@@ -874,7 +874,7 @@
    "id": "pc024_09A0",
    "at": "09A0",
    "jp": "当然だろ",
-   "en": "",
+   "en": "Naturally.",
    "max": null,
    "refs": [
     "off@114"
@@ -885,7 +885,7 @@
    "id": "pc024_09AC",
    "at": "09AC",
    "jp": "そらよ！",
-   "en": "",
+   "en": "There ya go!",
    "max": null,
    "refs": [
     "off@F4"
@@ -896,7 +896,7 @@
    "id": "pc024_09B8",
    "at": "09B8",
    "jp": "ほいっ！",
-   "en": "",
+   "en": "Hup!",
    "max": null,
    "refs": [
     "off@E4"
@@ -907,7 +907,7 @@
    "id": "pc024_09C4",
    "at": "09C4",
    "jp": "あー、なんかなあ",
-   "en": "",
+   "en": "Ah, I dunno...",
    "max": null,
    "refs": [
     "off@D4"
@@ -918,7 +918,7 @@
    "id": "pc024_09D8",
    "at": "09D8",
    "jp": "フッ…！",
-   "en": "",
+   "en": "Heh...!",
    "max": null,
    "refs": [
     "off@C4"
@@ -929,7 +929,7 @@
    "id": "pc024_09E4",
    "at": "09E4",
    "jp": "気楽にやろうぜ",
-   "en": "",
+   "en": "Take it easy.",
    "max": null,
    "refs": [
     "off@B4"
@@ -940,7 +940,7 @@
    "id": "pc024_09F4",
    "at": "09F4",
    "jp": "愛だろ、愛！",
-   "en": "",
+   "en": "It's love, baby, love!",
    "max": null,
    "refs": [
     "off@A4"
@@ -951,7 +951,7 @@
    "id": "pc024_0A04",
    "at": "0A04",
    "jp": "オラオラ！",
-   "en": "",
+   "en": "C'mon, c'mon!",
    "max": null,
    "refs": [
     "off@94"
@@ -962,7 +962,7 @@
    "id": "pc024_0A10",
    "at": "0A10",
    "jp": "勝利の女神はメンクイなのさ",
-   "en": "",
+   "en": "Lady Luck likes a pretty face.",
    "max": null,
    "refs": [
     "off@74"
@@ -973,7 +973,7 @@
    "id": "pc024_0A2C",
    "at": "0A2C",
    "jp": "どうだ？",
-   "en": "",
+   "en": "How's that?",
    "max": null,
    "refs": [
     "off@64"
@@ -984,7 +984,7 @@
    "id": "pc024_0A38",
    "at": "0A38",
    "jp": "へっへっへ",
-   "en": "",
+   "en": "Heh heh heh.",
    "max": null,
    "refs": [
     "off@54"
@@ -995,7 +995,7 @@
    "id": "pc024_0A44",
    "at": "0A44",
    "jp": "どいつもこいつもカモばっかりだ…",
-   "en": "",
+   "en": "Suckers, every last one of 'em...",
    "max": null,
    "refs": [
     "off@44"
@@ -1006,7 +1006,7 @@
    "id": "pc024_0A68",
    "at": "0A68",
    "jp": "オレさまグレート！",
-   "en": "",
+   "en": "I'm the greatest!",
    "max": null,
    "refs": [
     "off@34"
@@ -1017,7 +1017,7 @@
    "id": "pc024_0A7C",
    "at": "0A7C",
    "jp": "こまるぜ",
-   "en": "",
+   "en": "forgetting about me!",
    "max": null,
    "refs": [
     "off@28"
@@ -1028,7 +1028,7 @@
    "id": "pc024_0A88",
    "at": "0A88",
    "jp": "おっと、俺を忘れてもらっちゃ",
-   "en": "",
+   "en": "Whoa, don't you go",
    "max": null,
    "refs": [
     "off@24"
@@ -1039,7 +1039,7 @@
    "id": "pc024_0AA8",
    "at": "0AA8",
    "jp": "ないのさ",
-   "en": "",
+   "en": "can't steal!",
    "max": null,
    "refs": [
     "off@18"
@@ -1050,7 +1050,7 @@
    "id": "pc024_0AB4",
    "at": "0AB4",
    "jp": "大盗賊のオレさまに盗めないものは",
-   "en": "",
+   "en": "There's nothing this great bandit",
    "max": null,
    "refs": [
     "off@14"
@@ -1061,7 +1061,7 @@
    "id": "pc024_0AD8",
    "at": "0AD8",
    "jp": "いいセンスしてるぜ、あんた！",
-   "en": "",
+   "en": "You've got good taste, pal!",
    "max": null,
    "refs": [
     "off@4"

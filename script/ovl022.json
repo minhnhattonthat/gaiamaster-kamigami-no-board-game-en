@@ -9,7 +9,7 @@
    "id": "ovl022_800C8454",
    "at": "800C8454",
    "jp": "魔王のきょうふ",
-   "en": "",
+   "en": "Demon's Terror",
    "max": 15,
    "refs": [
     "lui@A74/A78"
@@ -20,7 +20,7 @@
    "id": "ovl022_800C8464",
    "at": "800C8464",
    "jp": "%sには",
-   "en": "",
+   "en": "Looks like %s",
    "max": 7,
    "refs": [
     "lui@A98/A9C"
@@ -31,7 +31,7 @@
    "id": "ovl022_800C846C",
    "at": "800C846C",
    "jp": "効かなかったみたい",
-   "en": "",
+   "en": "wasn't affected.",
    "max": 19,
    "refs": [
     "lui@AB8/ABC"
@@ -42,7 +42,7 @@
    "id": "ovl022_800C8480",
    "at": "800C8480",
    "jp": "あまりのおそろしさに１回お休み",
-   "en": "",
+   "en": "So scared you skip a turn!",
    "max": 31,
    "refs": [
     "lui@B08/B0C"

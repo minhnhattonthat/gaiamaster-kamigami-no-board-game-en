@@ -9,7 +9,7 @@
    "id": "ovl033_8009F9C0",
    "at": "8009F9C0",
    "jp": "　　　　…これがギヤマンというものか！",
-   "en": "",
+   "en": "　　　　...So this is what they call glass!",
    "max": 39,
    "refs": [
     "lui@5928/592C"
@@ -20,7 +20,7 @@
    "id": "ovl033_8009F9E8",
    "at": "8009F9E8",
    "jp": "　　　　面妖なものよのう…。",
-   "en": "",
+   "en": "　　　　How very curious...",
    "max": 31,
    "refs": [
     "lui@5930/5934"
@@ -31,7 +31,7 @@
    "id": "ovl033_8009FA08",
    "at": "8009FA08",
    "jp": "　　　　ほほう、これなどはスゴいぞ…！",
-   "en": "",
+   "en": "　　　　Oho, this one is marvelous...!",
    "max": 39,
    "refs": [
     "lui@5948/5958"
@@ -42,7 +42,7 @@
    "id": "ovl033_8009FA34",
    "at": "8009FA34",
    "jp": "　　　　ヤスツナ殿！",
-   "en": "",
+   "en": "　　　　Yasutsuna-dono!",
    "max": 23,
    "refs": [
     "lui@5B64/5B68"
@@ -53,7 +53,7 @@
    "id": "ovl033_8009FA4C",
    "at": "8009FA4C",
    "jp": "　　　　なあに、ほんのスイキョウで",
-   "en": "",
+   "en": "　　　　Nay, it was but",
    "max": 35,
    "refs": [
     "lui@5D30/5D34"
@@ -64,7 +64,7 @@
    "id": "ovl033_8009FA70",
    "at": "8009FA70",
    "jp": "　　　　ござるよ…！",
-   "en": "",
+   "en": "　　　　a passing whim...!",
    "max": 23,
    "refs": [
     "lui@5D38/5D3C"
@@ -75,7 +75,7 @@
    "id": "ovl033_8009FA88",
    "at": "8009FA88",
    "jp": "　　　　…というなりゆきよ。",
-   "en": "",
+   "en": "　　　　...And that is how it came about.",
    "max": 31,
    "refs": [
     "lui@5DE8/5DEC"
@@ -86,7 +86,7 @@
    "id": "ovl033_8009FAA8",
    "at": "8009FAA8",
    "jp": "　　　　伊勢守黒沢三十郎ヤスツナ、",
-   "en": "",
+   "en": "　　　　Sanjuro Yasutsuna Kurosawa,",
    "max": 35,
    "refs": [
     "lui@5E2C/5E30",
@@ -98,7 +98,7 @@
    "id": "ovl033_8009FACC",
    "at": "8009FACC",
    "jp": "　　　　日の本一の武者とうたわれた",
-   "en": "",
+   "en": "　　　　Governor of Ise, hailed as the finest",
    "max": 35,
    "refs": [
     "lui@5E58/5E5C"
@@ -109,7 +109,7 @@
    "id": "ovl033_8009FAF0",
    "at": "8009FAF0",
    "jp": "　　　　そちならば、異国の手だれを",
-   "en": "",
+   "en": "　　　　warrior in Japan, you would not fall",
    "max": 35,
    "refs": [
     "lui@5E60/5E64"
@@ -120,7 +120,7 @@
    "id": "ovl033_8009FB14",
    "at": "8009FB14",
    "jp": "　　　　あいてどってもひけをとるまい！",
-   "en": "",
+   "en": "　　　　short even against foreign masters!",
    "max": 39,
    "refs": [
     "lui@5E68/5E6C"
@@ -131,7 +131,7 @@
    "id": "ovl033_8009FB3C",
    "at": "8009FB3C",
    "jp": "　　　　「がいあますたあ」に",
-   "en": "",
+   "en": "　　　　Will you enter \"Gaiamasutaa\"",
    "max": 31,
    "refs": [
     "lui@5E8C/5E90"
@@ -142,7 +142,7 @@
    "id": "ovl033_8009FB5C",
    "at": "8009FB5C",
    "jp": "　　　　出てくれるか、ヤスツナ！",
-   "en": "",
+   "en": "　　　　for me, Yasutsuna?!",
    "max": 35,
    "refs": [
     "lui@5E94/5E98"
@@ -153,7 +153,7 @@
    "id": "ovl033_8009FB80",
    "at": "8009FB80",
    "jp": "　　　　はは、一命にかえましても。",
-   "en": "",
+   "en": "　　　　Aye, even should it cost my life.",
    "max": 35,
    "refs": [
     "lui@5EE8/5EEC"
@@ -164,7 +164,7 @@
    "id": "ovl033_8009FBA4",
    "at": "8009FBA4",
    "jp": "　　　　うむ！楽しみに待っておるぞ！",
-   "en": "",
+   "en": "　　　　Good! I shall look forward to it!",
    "max": 39,
    "refs": [
     "lui@5F58/5F5C"
@@ -175,7 +175,7 @@
    "id": "ovl033_8009FBCC",
    "at": "8009FBCC",
    "jp": "　　　　ははっ！",
-   "en": "",
+   "en": "　　　　Yes, my lord!",
    "max": 19,
    "refs": [
     "lui@5F94/5F98"
@@ -186,7 +186,7 @@
    "id": "ovl033_8009FBE0",
    "at": "8009FBE0",
    "jp": "　　　　ただいま戻りましてござる。",
-   "en": "",
+   "en": "　　　　I have returned, my lord.",
    "max": 35,
    "refs": [
     "lui@6074/6078"
@@ -197,7 +197,7 @@
    "id": "ovl033_8009FC04",
    "at": "8009FC04",
    "jp": "　　　　うむ、あっぱれじゃヤスツナ！",
-   "en": "",
+   "en": "　　　　Splendid, Yasutsuna! Well done!",
    "max": 39,
    "refs": [
     "lui@60D8/60DC"
@@ -208,7 +208,7 @@
    "id": "ovl033_8009FC2C",
    "at": "8009FC2C",
    "jp": "　　　　ほめてつかわす！",
-   "en": "",
+   "en": "　　　　You have my praise!",
    "max": 27,
    "refs": [
     "lui@60E0/60E4"
@@ -219,7 +219,7 @@
    "id": "ovl033_8009FC48",
    "at": "8009FC48",
    "jp": "　　　　さてもめずらしき品の数々…。",
-   "en": "",
+   "en": "　　　　Such a wealth of rare treasures...",
    "max": 39,
    "refs": [
     "lui@6148/614C"
@@ -230,7 +230,7 @@
    "id": "ovl033_8009FC70",
    "at": "8009FC70",
    "jp": "　　　　ははっ…。",
-   "en": "",
+   "en": "　　　　Yes, my lord...",
    "max": 19,
    "refs": [
     "lui@6194/6198"
@@ -241,7 +241,7 @@
    "id": "ovl033_8009FC84",
    "at": "8009FC84",
    "jp": "　　　　おお、これは兼光殿。",
-   "en": "",
+   "en": "　　　　Ah, if it isn't Kanemitsu-dono.",
    "max": 31,
    "refs": [
     "lui@62AC/62B0"
@@ -252,7 +252,7 @@
    "id": "ovl033_8009FCA4",
    "at": "8009FCA4",
    "jp": "　　　　ひさしゅうござる。",
-   "en": "",
+   "en": "　　　　It has been a long while.",
    "max": 27,
    "refs": [
     "lui@62B4/62B8"
@@ -263,7 +263,7 @@
    "id": "ovl033_8009FCC0",
    "at": "8009FCC0",
    "jp": "　　　　ヤスツナ殿、命がけではるばる",
-   "en": "",
+   "en": "　　　　Yasutsuna-dono, I hear you risked",
    "max": 39,
    "refs": [
     "lui@62F0/62F4"
@@ -274,7 +274,7 @@
    "id": "ovl033_8009FCE8",
    "at": "8009FCE8",
    "jp": "　　　　異国におもむかれ、",
-   "en": "",
+   "en": "　　　　your life to journey abroad",
    "max": 27,
    "refs": [
     "lui@62F8/62FC"
@@ -285,7 +285,7 @@
    "id": "ovl033_8009FD04",
    "at": "8009FD04",
    "jp": "　　　　見ん事主命を果たされたとか。",
-   "en": "",
+   "en": "　　　　and splendidly did our lord's bidding.",
    "max": 39,
    "refs": [
     "lui@6300/6304"
@@ -296,7 +296,7 @@
    "id": "ovl033_8009FD2C",
    "at": "8009FD2C",
    "jp": "　　　　ハチマンダイボサツの",
-   "en": "",
+   "en": "　　　　Only by the grace of",
    "max": 31,
    "refs": [
     "lui@6330/6334"
@@ -307,7 +307,7 @@
    "id": "ovl033_8009FD4C",
    "at": "8009FD4C",
    "jp": "　　　　ゴカゴがあり申せば。",
-   "en": "",
+   "en": "　　　　Hachiman Daibosatsu.",
    "max": 31,
    "refs": [
     "lui@6338/633C"
@@ -318,7 +318,7 @@
    "id": "ovl033_8009FD6C",
    "at": "8009FD6C",
    "jp": "　　　　して、それはいかような",
-   "en": "",
+   "en": "　　　　And what, pray tell,",
    "max": 31,
    "refs": [
     "lui@6368/636C"
@@ -329,7 +329,7 @@
    "id": "ovl033_8009FD8C",
    "at": "8009FD8C",
    "jp": "　　　　ご下命だったのでござるか？",
-   "en": "",
+   "en": "　　　　was the order you were given?",
    "max": 35,
    "refs": [
     "lui@6370/6374"
@@ -340,7 +340,7 @@
    "id": "ovl033_8009FDB0",
    "at": "8009FDB0",
    "jp": "　　　　殿が異国まで攻め取られる",
-   "en": "",
+   "en": "　　　　Surely our lord does not mean",
    "max": 35,
    "refs": [
     "lui@6398/639C"
@@ -351,7 +351,7 @@
    "id": "ovl033_8009FDD4",
    "at": "8009FDD4",
    "jp": "　　　　おつもりとも思われぬが…。",
-   "en": "",
+   "en": "　　　　to conquer foreign lands...",
    "max": 35,
    "refs": [
     "lui@63A0/63A4"
@@ -377,7 +377,7 @@
    "id": "ovl033_8009FE80",
    "at": "8009FE80",
    "jp": "　　　　この前に人を呪い殺してから",
-   "en": "",
+   "en": "　　　　Since I last cursed a soul to death,",
    "max": 35,
    "refs": [
     "lui@6DDC/6DE0"
@@ -388,7 +388,7 @@
    "id": "ovl033_8009FEA4",
    "at": "8009FEA4",
    "jp": "　　　　もう１００年くらいかしら…。",
-   "en": "",
+   "en": "　　　　has it been about 100 years...?",
    "max": 39,
    "refs": [
     "lui@6DE4/6DE8"
@@ -399,7 +399,7 @@
    "id": "ovl033_8009FECC",
    "at": "8009FECC",
    "jp": "　　　　……さびしいわ…。",
-   "en": "",
+   "en": "　　　　...I'm so lonely...",
    "max": 27,
    "refs": [
     "lui@6E30/6E34"
@@ -410,7 +410,7 @@
    "id": "ovl033_8009FEE8",
    "at": "8009FEE8",
    "jp": "　　　　ガイアマスターの、",
-   "en": "",
+   "en": "　　　　From GaiaMaster,",
    "max": 27,
    "refs": [
     "lui@7278/727C"
@@ -421,7 +421,7 @@
    "id": "ovl033_8009FF04",
    "at": "8009FF04",
    "jp": "　　　　おしらせ…。",
-   "en": "",
+   "en": "　　　　an announcement...",
    "max": 23,
    "refs": [
     "lui@7280/7284"
@@ -432,7 +432,7 @@
    "id": "ovl033_8009FF1C",
    "at": "8009FF1C",
    "jp": "　　　　…こんなものに出たところで",
-   "en": "",
+   "en": "　　　　...Entering something like this",
    "max": 35,
    "refs": [
     "lui@72C8/72CC"
@@ -443,7 +443,7 @@
    "id": "ovl033_8009FF40",
    "at": "8009FF40",
    "jp": "　　　　私の心のアナはうまるはずも",
-   "en": "",
+   "en": "　　　　could never fill the hole",
    "max": 35,
    "refs": [
     "lui@72D0/72D4"
@@ -454,7 +454,7 @@
    "id": "ovl033_8009FF64",
    "at": "8009FF64",
    "jp": "　　　　ないわ…。",
-   "en": "",
+   "en": "　　　　in my heart...",
    "max": 19,
    "refs": [
     "lui@72D8/72DC"
@@ -465,7 +465,7 @@
    "id": "ovl033_8009FF78",
    "at": "8009FF78",
    "jp": "　　　　…でも…人に会うのも",
-   "en": "",
+   "en": "　　　　...But...it's been so long",
    "max": 31,
    "refs": [
     "lui@74E0/74E4"
@@ -476,7 +476,7 @@
    "id": "ovl033_8009FF98",
    "at": "8009FF98",
    "jp": "　　　　ひさしぶりだし…、",
-   "en": "",
+   "en": "　　　　since I've met anyone...",
    "max": 27,
    "refs": [
     "lui@74E8/74EC"
@@ -487,7 +487,7 @@
    "id": "ovl033_8009FFB4",
    "at": "8009FFB4",
    "jp": "　　　　外に出てみるのも",
-   "en": "",
+   "en": "　　　　Maybe going outside",
    "max": 27,
    "refs": [
     "lui@7510/7514"
@@ -498,7 +498,7 @@
    "id": "ovl033_8009FFD0",
    "at": "8009FFD0",
    "jp": "　　　　悪くないかもね…。",
-   "en": "",
+   "en": "　　　　wouldn't be so bad...",
    "max": 27,
    "refs": [
     "lui@7518/751C"
@@ -509,7 +509,7 @@
    "id": "ovl033_800A0010",
    "at": "800A0010",
    "jp": "　　　　ガイアマスターに",
-   "en": "",
+   "en": "　　　　Just because I won",
    "max": 27,
    "refs": [
     "lui@7CB4/7CB8"
@@ -520,7 +520,7 @@
    "id": "ovl033_800A002C",
    "at": "800A002C",
    "jp": "　　　　勝ったからって、",
-   "en": "",
+   "en": "　　　　GaiaMaster...",
    "max": 27,
    "refs": [
     "lui@7CBC/7CC0"
@@ -531,7 +531,7 @@
    "id": "ovl033_800A0048",
    "at": "800A0048",
    "jp": "　　　　私のさびしさが消える",
-   "en": "",
+   "en": "　　　　doesn't mean my loneliness",
    "max": 31,
    "refs": [
     "lui@7CF0/7CF4"
@@ -542,7 +542,7 @@
    "id": "ovl033_800A0068",
    "at": "800A0068",
    "jp": "　　　　わけじゃないものね…。",
-   "en": "",
+   "en": "　　　　will go away...",
    "max": 31,
    "refs": [
     "lui@7CF8/7CFC"
@@ -553,7 +553,7 @@
    "id": "ovl033_800A0088",
    "at": "800A0088",
    "jp": "　　　　あなただけが私の友達よ…。",
-   "en": "",
+   "en": "　　　　You're my only friend...",
    "max": 35,
    "refs": [
     "lui@7EE4/7EE8"
@@ -564,7 +564,7 @@
    "id": "ovl033_800A00AC",
    "at": "800A00AC",
    "jp": "　　　　あん…。",
-   "en": "",
+   "en": "　　　　Ah...",
    "max": 19,
    "refs": [
     "lui@7FDC/7FE0"
@@ -586,7 +586,7 @@
    "id": "ovl033_800A00D0",
    "at": "800A00D0",
    "jp": "　　　　ハア…。",
-   "en": "",
+   "en": "　　　　Hah...",
    "max": 19,
    "refs": [
     "lui@802C/8030"
@@ -597,7 +597,7 @@
    "id": "ovl033_800A00E4",
    "at": "800A00E4",
    "jp": "　　　　いいかげんにしろっ！！",
-   "en": "",
+   "en": "　　　　That's enough!!",
    "max": 31,
    "refs": [
     "lui@8124/8128"
@@ -608,7 +608,7 @@
    "id": "ovl033_800A0104",
    "at": "800A0104",
    "jp": "　　　　あ…",
-   "en": "",
+   "en": "　　　　Oh...",
    "max": 15,
    "refs": [
     "lui@8220/8224"
@@ -619,7 +619,7 @@
    "id": "ovl033_800A0114",
    "at": "800A0114",
    "jp": "　　　　来てくれたの…うれしい……。",
-   "en": "",
+   "en": "　　　　You came... I'm so happy...",
    "max": 39,
    "refs": [
     "lui@8228/822C"
@@ -630,7 +630,7 @@
    "id": "ovl033_800A013C",
    "at": "800A013C",
    "jp": "　　　　うぬぼれるなっ！！",
-   "en": "",
+   "en": "　　　　Don't flatter yourself!!",
    "max": 27,
    "refs": [
     "lui@8294/8298"
@@ -641,7 +641,7 @@
    "id": "ovl033_800A0158",
    "at": "800A0158",
    "jp": "　　　　電話が止まってるから",
-   "en": "",
+   "en": "　　　　Your phone was cut off,",
    "max": 31,
    "refs": [
     "lui@82CC/82D0"
@@ -652,7 +652,7 @@
    "id": "ovl033_800A0178",
    "at": "800A0178",
    "jp": "　　　　もしやと思って来てみれば…。",
-   "en": "",
+   "en": "　　　　so I came, fearing the worst...",
    "max": 39,
    "refs": [
     "lui@82D4/82D8"
@@ -663,7 +663,7 @@
    "id": "ovl033_800A01A0",
    "at": "800A01A0",
    "jp": "　　　　自堕落な生活を",
-   "en": "",
+   "en": "　　　　Quit living such",
    "max": 23,
    "refs": [
     "lui@8310/8314"
@@ -674,7 +674,7 @@
    "id": "ovl033_800A01B8",
    "at": "800A01B8",
    "jp": "　　　　してるんじゃない！",
-   "en": "",
+   "en": "　　　　a dissolute life!",
    "max": 27,
    "refs": [
     "lui@8318/831C"
@@ -685,7 +685,7 @@
    "id": "ovl033_800A01D4",
    "at": "800A01D4",
    "jp": "　　　　あーもう、",
-   "en": "",
+   "en": "　　　　Ugh, honestly,",
    "max": 19,
    "refs": [
     "lui@83D4/83D8"
@@ -696,7 +696,7 @@
    "id": "ovl033_800A01E8",
    "at": "800A01E8",
    "jp": "　　　　こんな店屋物ばかり取って！",
-   "en": "",
+   "en": "　　　　nothing but takeout orders!",
    "max": 35,
    "refs": [
     "lui@83DC/83E0"
@@ -707,7 +707,7 @@
    "id": "ovl033_800A020C",
    "at": "800A020C",
    "jp": "　　　　なんでどんぶりはすぐに",
-   "en": "",
+   "en": "　　　　Why don't you return",
    "max": 31,
    "refs": [
     "lui@864C/8650"
@@ -718,7 +718,7 @@
    "id": "ovl033_800A022C",
    "at": "800A022C",
    "jp": "　　　　返さないんだ！",
-   "en": "",
+   "en": "　　　　the delivery bowls right away?!",
    "max": 23,
    "refs": [
     "lui@8654/8658"
@@ -729,7 +729,7 @@
    "id": "ovl033_800A0244",
    "at": "800A0244",
    "jp": "　　　　ああ、それは食べちゃダメよ。",
-   "en": "",
+   "en": "　　　　Ah, you mustn't eat that.",
    "max": 39,
    "refs": [
     "lui@891C/8920"
@@ -740,7 +740,7 @@
    "id": "ovl033_800A026C",
    "at": "800A026C",
    "jp": "　　　　お前がちゃんとエサをやれ！！",
-   "en": "",
+   "en": "　　　　Then YOU feed it properly!!",
    "max": 39,
    "refs": [
     "lui@8AB0/8AB4"
@@ -751,7 +751,7 @@
    "id": "ovl033_800A0294",
    "at": "800A0294",
    "jp": "　　　　お前みたいなヤツを見ていると",
-   "en": "",
+   "en": "　　　　Seeing people like you",
    "max": 39,
    "refs": [
     "lui@8C04/8C08"
@@ -762,7 +762,7 @@
    "id": "ovl033_800A02BC",
    "at": "800A02BC",
    "jp": "　　　　腹が立つ！",
-   "en": "",
+   "en": "　　　　makes me so angry!",
    "max": 19,
    "refs": [
     "lui@8C0C/8C10"
@@ -773,7 +773,7 @@
    "id": "ovl033_800A02D0",
    "at": "800A02D0",
    "jp": "　　　　いいか、日ごろのたゆみない",
-   "en": "",
+   "en": "　　　　Listen! Without tireless,",
    "max": 35,
    "refs": [
     "lui@8C38/8C3C"
@@ -784,7 +784,7 @@
    "id": "ovl033_800A02F4",
    "at": "800A02F4",
    "jp": "　　　　努力なくして、",
-   "en": "",
+   "en": "　　　　everyday effort,",
    "max": 23,
    "refs": [
     "lui@8C40/8C44"
@@ -795,7 +795,7 @@
    "id": "ovl033_800A030C",
    "at": "800A030C",
    "jp": "　　　　野望の達成などありえんのだ！",
-   "en": "",
+   "en": "　　　　no ambition can ever be achieved!",
    "max": 39,
    "refs": [
     "lui@8C48/8C4C"
@@ -806,7 +806,7 @@
    "id": "ovl033_800A0334",
    "at": "800A0334",
    "jp": "　　　　やさしいのね…。",
-   "en": "",
+   "en": "　　　　You're so kind...",
    "max": 27,
    "refs": [
     "lui@8C80/8C84"
@@ -817,7 +817,7 @@
    "id": "ovl033_800A0350",
    "at": "800A0350",
    "jp": "　　　　ひたってないでメシをくえっ！",
-   "en": "",
+   "en": "　　　　Quit wallowing and eat your food!",
    "max": 39,
    "refs": [
     "lui@8CC0/8CC4"
@@ -828,7 +828,7 @@
    "id": "ovl033_800A0378",
    "at": "800A0378",
    "jp": "　　　　フン、しけた教会よ。",
-   "en": "",
+   "en": "　　　　Hmph, what a shabby church.",
    "max": 31,
    "refs": [
     "lui@8F54/8F58"
@@ -839,7 +839,7 @@
    "id": "ovl033_800A0398",
    "at": "800A0398",
    "jp": "　　　　酒も女もないときた。",
-   "en": "",
+   "en": "　　　　No booze, no women, nothing.",
    "max": 31,
    "refs": [
     "lui@8F5C/8F60"
@@ -850,7 +850,7 @@
    "id": "ovl033_800A03B8",
    "at": "800A03B8",
    "jp": "　　　　前任者はクソまじめに",
-   "en": "",
+   "en": "　　　　Seems my predecessor ran it",
    "max": 31,
    "refs": [
     "lui@8F8C/8F90"
@@ -861,7 +861,7 @@
    "id": "ovl033_800A03D8",
    "at": "800A03D8",
    "jp": "　　　　やっておったようだわい。",
-   "en": "",
+   "en": "　　　　all damned seriously, bah.",
    "max": 35,
    "refs": [
     "lui@8F94/8F98"
@@ -872,7 +872,7 @@
    "id": "ovl033_800A03FC",
    "at": "800A03FC",
    "jp": "　　　　こんなイナカの教会で",
-   "en": "",
+   "en": "　　　　Rotting away in a backwater",
    "max": 31,
    "refs": [
     "lui@8FD0/8FD4"
@@ -883,7 +883,7 @@
    "id": "ovl033_800A041C",
    "at": "800A041C",
    "jp": "　　　　うもれるなぞ、夢も野望も",
-   "en": "",
+   "en": "　　　　church like this? That's for cowards",
    "max": 35,
    "refs": [
     "lui@8FD8/8FDC"
@@ -894,7 +894,7 @@
    "id": "ovl033_800A0440",
    "at": "800A0440",
    "jp": "　　　　持たんコシぬけのやる事よ。",
-   "en": "",
+   "en": "　　　　with no dreams, no ambition!",
    "max": 35,
    "refs": [
     "lui@8FE0/8FE4"
@@ -905,7 +905,7 @@
    "id": "ovl033_800A0464",
    "at": "800A0464",
    "jp": "　　　　だが、わしはもっと",
-   "en": "",
+   "en": "　　　　But I'm going to",
    "max": 27,
    "refs": [
     "lui@9020/9024"
@@ -916,7 +916,7 @@
    "id": "ovl033_800A0480",
    "at": "800A0480",
    "jp": "　　　　ビッグになる！",
-   "en": "",
+   "en": "　　　　make it BIG!",
    "max": 23,
    "refs": [
     "lui@9028/902C"
@@ -927,7 +927,7 @@
    "id": "ovl033_800A0498",
    "at": "800A0498",
    "jp": "　　　　手はじめにガイアマスターに",
-   "en": "",
+   "en": "　　　　First, I'll dive into GaiaMaster,",
    "max": 35,
    "refs": [
     "lui@9064/9068"
@@ -938,7 +938,7 @@
    "id": "ovl033_800A04BC",
    "at": "800A04BC",
    "jp": "　　　　のり出し、神の威光を武器に",
-   "en": "",
+   "en": "　　　　and with divine glory as my weapon,",
    "max": 35,
    "refs": [
     "lui@906C/9070"
@@ -949,7 +949,7 @@
    "id": "ovl033_800A04E0",
    "at": "800A04E0",
    "jp": "　　　　ブイブイ言わせてやるわい。",
-   "en": "",
+   "en": "　　　　I'll lord it over the lot of them!",
    "max": 35,
    "refs": [
     "lui@9074/9078"
@@ -960,7 +960,7 @@
    "id": "ovl033_800A0504",
    "at": "800A0504",
    "jp": "　　　　金も女も権力も、",
-   "en": "",
+   "en": "　　　　Money, women, power...",
    "max": 27,
    "refs": [
     "lui@9098/909C"
@@ -971,7 +971,7 @@
    "id": "ovl033_800A0520",
    "at": "800A0520",
    "jp": "　　　　このわしが手に入れる！",
-   "en": "",
+   "en": "　　　　I'll have them all!",
    "max": 31,
    "refs": [
     "lui@90A0/90A4"
@@ -982,7 +982,7 @@
    "id": "ovl033_800A0540",
    "at": "800A0540",
    "jp": "　　　　よーし、わしはやるぞー！",
-   "en": "",
+   "en": "　　　　Right! Here I go!",
    "max": 35,
    "refs": [
     "lui@912C/9130"
@@ -993,7 +993,7 @@
    "id": "ovl033_800A0564",
    "at": "800A0564",
    "jp": "　　　　がっはっは、金に女に名誉！",
-   "en": "",
+   "en": "　　　　Gahaha! Money, women, glory!",
    "max": 35,
    "refs": [
     "lui@9678/967C"
@@ -1004,7 +1004,7 @@
    "id": "ovl033_800A0588",
    "at": "800A0588",
    "jp": "　　　　たまらんのう！ゆかいゆかい！",
-   "en": "",
+   "en": "　　　　Irresistible! What fun, what fun!",
    "max": 39,
    "refs": [
     "lui@9680/9684"
@@ -1015,7 +1015,7 @@
    "id": "ovl033_800A05B0",
    "at": "800A05B0",
    "jp": "　　　　ほれ、酒をつがんかい！",
-   "en": "",
+   "en": "　　　　Here, pour me a drink!",
    "max": 31,
    "refs": [
     "lui@9688/968C"
@@ -1026,7 +1026,7 @@
    "id": "ovl033_800A05D0",
    "at": "800A05D0",
    "jp": "　　　　司祭ゴライアス、貴公が地位を",
-   "en": "",
+   "en": "　　　　Father Goliath, that you abused",
    "max": 39,
    "refs": [
     "lui@9788/978C"
@@ -1037,7 +1037,7 @@
    "id": "ovl033_800A05F8",
    "at": "800A05F8",
    "jp": "　　　　不当に利用して",
-   "en": "",
+   "en": "　　　　your position,",
    "max": 23,
    "refs": [
     "lui@9790/9794"
@@ -1048,7 +1048,7 @@
    "id": "ovl033_800A0610",
    "at": "800A0610",
    "jp": "　　　　おしょくを行ない、",
-   "en": "",
+   "en": "　　　　engaged in corruption,",
    "max": 27,
    "refs": [
     "lui@9798/979C"
@@ -1059,7 +1059,7 @@
    "id": "ovl033_800A062C",
    "at": "800A062C",
    "jp": "　　　　私腹をこやしたことは",
-   "en": "",
+   "en": "　　　　and lined your own pockets",
    "max": 31,
    "refs": [
     "lui@97BC/97C0"
@@ -1070,7 +1070,7 @@
    "id": "ovl033_800A064C",
    "at": "800A064C",
    "jp": "　　　　調査により明らかになった。",
-   "en": "",
+   "en": "　　　　has been proven by our inquiry.",
    "max": 35,
    "refs": [
     "lui@97C4/97C8"
@@ -1081,7 +1081,7 @@
    "id": "ovl033_800A0670",
    "at": "800A0670",
    "jp": "　　　　よって本調査団は教会の名に",
-   "en": "",
+   "en": "　　　　In the Church's name, this panel",
    "max": 35,
    "refs": [
     "lui@97EC/97F0"
@@ -1092,7 +1092,7 @@
    "id": "ovl033_800A0694",
    "at": "800A0694",
    "jp": "　　　　おいて、司祭ゴライアスを",
-   "en": "",
+   "en": "　　　　excommunicates Father Goliath",
    "max": 35,
    "refs": [
     "lui@97F4/97F8"
@@ -1103,7 +1103,7 @@
    "id": "ovl033_800A06B8",
    "at": "800A06B8",
    "jp": "　　　　破門、追ほうする！",
-   "en": "",
+   "en": "　　　　and banishes him!",
    "max": 27,
    "refs": [
     "lui@97FC/9800"
@@ -1114,7 +1114,7 @@
    "id": "ovl033_800A06D4",
    "at": "800A06D4",
    "jp": "　　　　予定よりチイとばかり、みじかかっ",
-   "en": "",
+   "en": "　　　　A wee bit shorter than planned,",
    "max": 43,
    "refs": [
     "lui@989C/98A0"
@@ -1125,7 +1125,7 @@
    "id": "ovl033_800A0700",
    "at": "800A0700",
    "jp": "　　　　たが、まあ司祭というのも、",
-   "en": "",
+   "en": "　　　　but being a priest",
    "max": 35,
    "refs": [
     "lui@98A4/98A8"
@@ -1136,7 +1136,7 @@
    "id": "ovl033_800A0724",
    "at": "800A0724",
    "jp": "　　　　なかなかおもしろかったわい。",
-   "en": "",
+   "en": "　　　　was rather amusing, I must say.",
    "max": 39,
    "refs": [
     "lui@98AC/98B0"
@@ -1160,7 +1160,7 @@
    "id": "ovl033_800A0758",
    "at": "800A0758",
    "jp": "　　　　さて、次は王さまでも",
-   "en": "",
+   "en": "　　　　Now then, perhaps I'll try",
    "max": 31,
    "refs": [
     "lui@9988/998C"
@@ -1171,7 +1171,7 @@
    "id": "ovl033_800A0778",
    "at": "800A0778",
    "jp": "　　　　やるかのう！",
-   "en": "",
+   "en": "　　　　being a king next!",
    "max": 23,
    "refs": [
     "lui@9990/9994"
@@ -1182,7 +1182,7 @@
    "id": "ovl033_800A0790",
    "at": "800A0790",
    "jp": "　　　　ガハハハ！",
-   "en": "",
+   "en": "　　　　Gahahaha!",
    "max": 19,
    "refs": [
     "lui@9998/999C"
@@ -1193,7 +1193,7 @@
    "id": "ovl033_800A07A4",
    "at": "800A07A4",
    "jp": "　　　　なんじゃ、なんじゃ？",
-   "en": "",
+   "en": "　　　　What's this, what's this?",
    "max": 31,
    "refs": [
     "lui@9DD0/9DD4"
@@ -1204,7 +1204,7 @@
    "id": "ovl033_800A07C4",
    "at": "800A07C4",
    "jp": "　　　　まさか本山の…。",
-   "en": "",
+   "en": "　　　　Surely not from headquarters...",
    "max": 27,
    "refs": [
     "lui@9DD8/9DDC"
@@ -1215,7 +1215,7 @@
    "id": "ovl033_800A07E0",
    "at": "800A07E0",
    "jp": "　　　　ガラハッド殿。",
-   "en": "",
+   "en": "　　　　Galahad-dono.",
    "max": 23,
    "refs": [
     "lui@A7E8/A7EC"
@@ -1226,7 +1226,7 @@
    "id": "ovl033_800A07F8",
    "at": "800A07F8",
    "jp": "　　　　いいながめだ。",
-   "en": "",
+   "en": "　　　　A fine view.",
    "max": 23,
    "refs": [
     "lui@A820/A824"
@@ -1237,7 +1237,7 @@
    "id": "ovl033_800A0810",
    "at": "800A0810",
    "jp": "　　　　ここからなら、王都を",
-   "en": "",
+   "en": "　　　　From here, you can see",
    "max": 31,
    "refs": [
     "lui@A828/A82C"
@@ -1248,7 +1248,7 @@
    "id": "ovl033_800A0830",
    "at": "800A0830",
    "jp": "　　　　一望できるな。",
-   "en": "",
+   "en": "　　　　the whole royal capital.",
    "max": 23,
    "refs": [
     "lui@A830/A834"
@@ -1259,7 +1259,7 @@
    "id": "ovl033_800A0848",
    "at": "800A0848",
    "jp": "　　　　国の危機に目を向けず、権力",
-   "en": "",
+   "en": "　　　　A city of people who ignore the",
    "max": 35,
    "refs": [
     "lui@A8E4/A8E8"
@@ -1270,7 +1270,7 @@
    "id": "ovl033_800A086C",
    "at": "800A086C",
    "jp": "　　　　あらそいをしている連中の街です。",
-   "en": "",
+   "en": "　　　　realm's peril to squabble over power.",
    "max": 43,
    "refs": [
     "lui@A8EC/A8F0"
@@ -1281,7 +1281,7 @@
    "id": "ovl033_800A0898",
    "at": "800A0898",
    "jp": "　　　　そんなやつらのためにあなたが",
-   "en": "",
+   "en": "　　　　For you to fight for the likes",
    "max": 39,
    "refs": [
     "lui@A920/A924"
@@ -1292,7 +1292,7 @@
    "id": "ovl033_800A08C0",
    "at": "800A08C0",
    "jp": "　　　　戦うなんて、バカげてる！",
-   "en": "",
+   "en": "　　　　of them is absurd!",
    "max": 35,
    "refs": [
     "lui@A928/A92C"
@@ -1303,7 +1303,7 @@
    "id": "ovl033_800A08E4",
    "at": "800A08E4",
    "jp": "　　　　騎士が剣を持つのは、",
-   "en": "",
+   "en": "　　　　A knight bears his sword",
    "max": 31,
    "refs": [
     "lui@A9C4/A9C8"
@@ -1314,7 +1314,7 @@
    "id": "ovl033_800A0904",
    "at": "800A0904",
    "jp": "　　　　民の生活を守るためだ。",
-   "en": "",
+   "en": "　　　　to protect the people's lives.",
    "max": 31,
    "refs": [
     "lui@A9CC/A9D0"
@@ -1325,7 +1325,7 @@
    "id": "ovl033_800A0924",
    "at": "800A0924",
    "jp": "　　　　この剣にかけて、",
-   "en": "",
+   "en": "　　　　Upon this sword,",
    "max": 27,
    "refs": [
     "lui@A9F4/A9F8"
@@ -1336,7 +1336,7 @@
    "id": "ovl033_800A0940",
    "at": "800A0940",
    "jp": "　　　　私は務めを果たす。",
-   "en": "",
+   "en": "　　　　I shall do my duty.",
    "max": 27,
    "refs": [
     "lui@A9FC/AA00"
@@ -1347,7 +1347,7 @@
    "id": "ovl033_800A095C",
    "at": "800A095C",
    "jp": "　　　　ガラハッド殿…。",
-   "en": "",
+   "en": "　　　　Galahad-dono...",
    "max": 27,
    "refs": [
     "lui@AAB0/AAB4",
@@ -1359,7 +1359,7 @@
    "id": "ovl033_800A0978",
    "at": "800A0978",
    "jp": "　　　　お前たちはここに残って",
-   "en": "",
+   "en": "　　　　You will all stay here",
    "max": 31,
    "refs": [
     "lui@AAF4/AAF8"
@@ -1370,7 +1370,7 @@
    "id": "ovl033_800A0998",
    "at": "800A0998",
    "jp": "　　　　務めを果たせ。",
-   "en": "",
+   "en": "　　　　and do your duty.",
    "max": 23,
    "refs": [
     "lui@AAFC/AB00"
@@ -1381,7 +1381,7 @@
    "id": "ovl033_800A09B0",
    "at": "800A09B0",
    "jp": "　　　　心配するな、 ",
-   "en": "",
+   "en": "　　　　Fear not, ",
    "max": 23,
    "refs": [
     "lui@AB24/AB28"
@@ -1392,7 +1392,7 @@
    "id": "ovl033_800A09C8",
    "at": "800A09C8",
    "jp": "　　　　私は決して負けはしない。",
-   "en": "",
+   "en": "　　　　I will never be defeated.",
    "max": 35,
    "refs": [
     "lui@AB2C/AB30"
@@ -1403,7 +1403,7 @@
    "id": "ovl033_800A09EC",
    "at": "800A09EC",
    "jp": "　　　　では行くとするか。",
-   "en": "",
+   "en": "　　　　Well, then, I am off.",
    "max": 27,
    "refs": [
     "lui@AB54/AB58"
@@ -1414,7 +1414,7 @@
    "id": "ovl033_800A0A08",
    "at": "800A0A08",
    "jp": "　　　　いざ、ガイアマスターへ！",
-   "en": "",
+   "en": "　　　　Onward, to GaiaMaster!",
    "max": 35,
    "refs": [
     "lui@AC10/AC14"
@@ -1425,7 +1425,7 @@
    "id": "ovl033_800A0A2C",
    "at": "800A0A2C",
    "jp": "　　　　ガラハッド殿！",
-   "en": "",
+   "en": "　　　　Galahad-dono!",
    "max": 23,
    "refs": [
     "lui@B0A0/B0A4"
@@ -1436,7 +1436,7 @@
    "id": "ovl033_800A0A44",
    "at": "800A0A44",
    "jp": "　　　　ガラハッド殿、",
-   "en": "",
+   "en": "　　　　Galahad-dono,",
    "max": 23,
    "refs": [
     "lui@B1C0/B1C4"
@@ -1447,7 +1447,7 @@
    "id": "ovl033_800A0A5C",
    "at": "800A0A5C",
    "jp": "　　　　もう戻られるんですか？",
-   "en": "",
+   "en": "　　　　you're going back already?",
    "max": 31,
    "refs": [
     "lui@B1C8/B1CC"
@@ -1458,7 +1458,7 @@
    "id": "ovl033_800A0A7C",
    "at": "800A0A7C",
    "jp": "　　　　ああ。",
-   "en": "",
+   "en": "　　　　Yes.",
    "max": 15,
    "refs": [
     "lui@B298/B29C"
@@ -1469,7 +1469,7 @@
    "id": "ovl033_800A0A8C",
    "at": "800A0A8C",
    "jp": "　　　　ガイアマスターの英雄が、ろくな",
-   "en": "",
+   "en": "　　　　The hero of GaiaMaster, with barely",
    "max": 39,
    "refs": [
     "lui@B35C/B360"
@@ -1480,7 +1480,7 @@
    "id": "ovl033_800A0AB4",
    "at": "800A0AB4",
    "jp": "　　　　恩賞もなく、追われるように",
-   "en": "",
+   "en": "　　　　a reward, leaving the capital",
    "max": 35,
    "refs": [
     "lui@B364/B368"
@@ -1491,7 +1491,7 @@
    "id": "ovl033_800A0AD8",
    "at": "800A0AD8",
    "jp": "　　　　王都をさるなんて…。",
-   "en": "",
+   "en": "　　　　as if chased out...",
    "max": 31,
    "refs": [
     "lui@B36C/B370"
@@ -1502,7 +1502,7 @@
    "id": "ovl033_800A0AF8",
    "at": "800A0AF8",
    "jp": "　　　　宮廷の方々は私を",
-   "en": "",
+   "en": "　　　　The gentlemen of the court",
    "max": 27,
    "refs": [
     "lui@B438/B43C"
@@ -1513,7 +1513,7 @@
    "id": "ovl033_800A0B14",
    "at": "800A0B14",
    "jp": "　　　　おとしいれる準備に",
-   "en": "",
+   "en": "　　　　seem busy preparing",
    "max": 27,
    "refs": [
     "lui@B440/B444"
@@ -1524,7 +1524,7 @@
    "id": "ovl033_800A0B30",
    "at": "800A0B30",
    "jp": "　　　　いそがしいようだ。",
-   "en": "",
+   "en": "　　　　to frame me.",
    "max": 27,
    "refs": [
     "lui@B448/B44C"
@@ -1535,7 +1535,7 @@
    "id": "ovl033_800A0B4C",
    "at": "800A0B4C",
    "jp": "　　　　王都の権力あらそいに私が",
-   "en": "",
+   "en": "　　　　They're convinced I'll join",
    "max": 35,
    "refs": [
     "lui@B474/B478"
@@ -1546,7 +1546,7 @@
    "id": "ovl033_800A0B70",
    "at": "800A0B70",
    "jp": "　　　　参加すると思いこんでね。",
-   "en": "",
+   "en": "　　　　the capital's power struggles.",
    "max": 35,
    "refs": [
     "lui@B47C/B480"
@@ -1557,7 +1557,7 @@
    "id": "ovl033_800A0B94",
    "at": "800A0B94",
    "jp": "　　　　私の剣は、権力あらそいを",
-   "en": "",
+   "en": "　　　　My sword is not for",
    "max": 35,
    "refs": [
     "lui@B4A4/B4A8"
@@ -1568,7 +1568,7 @@
    "id": "ovl033_800A0BB8",
    "at": "800A0BB8",
    "jp": "　　　　するためでなく、騎士の務め、",
-   "en": "",
+   "en": "　　　　power struggles, but for my duty",
    "max": 39,
    "refs": [
     "lui@B4AC/B4B0"
@@ -1579,7 +1579,7 @@
    "id": "ovl033_800A0BE0",
    "at": "800A0BE0",
    "jp": "　　　　民を守るためにある。",
-   "en": "",
+   "en": "　　　　as a knight: protecting the people.",
    "max": 31,
    "refs": [
     "lui@B4B4/B4B8"
@@ -1590,7 +1590,7 @@
    "id": "ovl033_800A0C00",
    "at": "800A0C00",
    "jp": "　　　　平時のここに私の居場所は",
-   "en": "",
+   "en": "　　　　In peacetime, there's no place",
    "max": 35,
    "refs": [
     "lui@B4EC/B4F0"
@@ -1601,7 +1601,7 @@
    "id": "ovl033_800A0C24",
    "at": "800A0C24",
    "jp": "　　　　ないよ。",
-   "en": "",
+   "en": "　　　　for me here.",
    "max": 19,
    "refs": [
     "lui@B4F4/B4F8"
@@ -1612,7 +1612,7 @@
    "id": "ovl033_800A0C38",
    "at": "800A0C38",
    "jp": "　　　　…あーあ、これだからあなたは",
-   "en": "",
+   "en": "　　　　...Sheesh, this is exactly why you",
    "max": 39,
    "refs": [
     "lui@B6FC/B700"
@@ -1623,7 +1623,7 @@
    "id": "ovl033_800A0C60",
    "at": "800A0C60",
    "jp": "　　　　出世できないんですよ。",
-   "en": "",
+   "en": "　　　　never get promoted.",
    "max": 31,
    "refs": [
     "lui@B704/B708"
@@ -1634,7 +1634,7 @@
    "id": "ovl033_800A0C80",
    "at": "800A0C80",
    "jp": "　　　　ははは、お前たちには",
-   "en": "",
+   "en": "　　　　Hahaha, I'm sorry to cause",
    "max": 31,
    "refs": [
     "lui@B7D4/B7D8"
@@ -1645,7 +1645,7 @@
    "id": "ovl033_800A0CA0",
    "at": "800A0CA0",
    "jp": "　　　　メイワクをかけるな。",
-   "en": "",
+   "en": "　　　　you all such trouble.",
    "max": 31,
    "refs": [
     "lui@B7DC/B7E0"
@@ -1656,7 +1656,7 @@
    "id": "ovl033_800A0CC0",
    "at": "800A0CC0",
    "jp": "　　　　そういうあなただから、",
-   "en": "",
+   "en": "　　　　It's because you're like that",
    "max": 31,
    "refs": [
     "lui@B89C/B8A0"
@@ -1667,7 +1667,7 @@
    "id": "ovl033_800A0CE0",
    "at": "800A0CE0",
    "jp": "　　　　我々は信頼してついていけるん",
-   "en": "",
+   "en": "　　　　that we trust you and follow",
    "max": 39,
    "refs": [
     "lui@B8A4/B8A8"
@@ -1678,7 +1678,7 @@
    "id": "ovl033_800A0D08",
    "at": "800A0D08",
    "jp": "　　　　ですよ。",
-   "en": "",
+   "en": "　　　　you.",
    "max": 19,
    "refs": [
     "lui@B8AC/B8B0"
@@ -1689,7 +1689,7 @@
    "id": "ovl033_800A0D1C",
    "at": "800A0D1C",
    "jp": "　　　　もう少し欲があっても…。",
-   "en": "",
+   "en": "　　　　But a little more ambition...",
    "max": 35,
    "refs": [
     "lui@B95C/B960"
@@ -1700,7 +1700,7 @@
    "id": "ovl033_800A0D40",
    "at": "800A0D40",
    "jp": "　　　　さあ、出発するとしよう。",
-   "en": "",
+   "en": "　　　　Now, let us be off.",
    "max": 35,
    "refs": [
     "lui@B9A0/B9A4"
@@ -1711,7 +1711,7 @@
    "id": "ovl033_800A0D64",
    "at": "800A0D64",
    "jp": "　　　　家族が待っているしな。",
-   "en": "",
+   "en": "　　　　My family is waiting.",
    "max": 31,
    "refs": [
     "lui@BA48/BA4C"
@@ -1722,7 +1722,7 @@
    "id": "ovl033_800A0E04",
    "at": "800A0E04",
    "jp": "　　　　まあ、きれいな景色！",
-   "en": "",
+   "en": "　　　　Oh, what a lovely view!",
    "max": 31,
    "refs": [
     "lui@C8F4/C8F8"
@@ -1733,7 +1733,7 @@
    "id": "ovl033_800A0E24",
    "at": "800A0E24",
    "jp": "　　　　お城の外って、こんなに",
-   "en": "",
+   "en": "　　　　I never knew the world outside",
    "max": 31,
    "refs": [
     "lui@CBA0/CBA4"
@@ -1744,7 +1744,7 @@
    "id": "ovl033_800A0E44",
    "at": "800A0E44",
    "jp": "　　　　広かったんですのね！",
-   "en": "",
+   "en": "　　　　the castle was so vast!",
    "max": 31,
    "refs": [
     "lui@CBA8/CBAC"
@@ -1755,7 +1755,7 @@
    "id": "ovl033_800A0E64",
    "at": "800A0E64",
    "jp": "　　　　あおい空！",
-   "en": "",
+   "en": "　　　　Blue skies!",
    "max": 19,
    "refs": [
     "lui@CE64/CE68"
@@ -1766,7 +1766,7 @@
    "id": "ovl033_800A0E78",
    "at": "800A0E78",
    "jp": "　　　　流れる雲！",
-   "en": "",
+   "en": "　　　　Drifting clouds!",
    "max": 19,
    "refs": [
     "lui@D110/D114"
@@ -1777,7 +1777,7 @@
    "id": "ovl033_800A0E8C",
    "at": "800A0E8C",
    "jp": "　　　　そよ風がとっても",
-   "en": "",
+   "en": "　　　　The breeze feels",
    "max": 27,
    "refs": [
     "lui@D3D0/D3D4"
@@ -1788,7 +1788,7 @@
    "id": "ovl033_800A0EA8",
    "at": "800A0EA8",
    "jp": "　　　　気持ちいいわ。",
-   "en": "",
+   "en": "　　　　simply delightful.",
    "max": 23,
    "refs": [
     "lui@D3D8/D3DC"
@@ -1799,7 +1799,7 @@
    "id": "ovl033_800A0EC0",
    "at": "800A0EC0",
    "jp": "　　　　素敵！",
-   "en": "",
+   "en": "　　　　Lovely!",
    "max": 15,
    "refs": [
     "lui@D6D4/D6D8"
@@ -1810,7 +1810,7 @@
    "id": "ovl033_800A0ED0",
    "at": "800A0ED0",
    "jp": "　　　　ずるいわ、誰も外の世界が",
-   "en": "",
+   "en": "　　　　How unfair! No one ever",
    "max": 35,
    "refs": [
     "lui@D9BC/D9C0"
@@ -1821,7 +1821,7 @@
    "id": "ovl033_800A0EF4",
    "at": "800A0EF4",
    "jp": "　　　　こんなに素晴らしいなんて",
-   "en": "",
+   "en": "　　　　told me the outside world",
    "max": 35,
    "refs": [
     "lui@D9C4/D9C8"
@@ -1832,7 +1832,7 @@
    "id": "ovl033_800A0F18",
    "at": "800A0F18",
    "jp": "　　　　教えてくれなかったんですもの！",
-   "en": "",
+   "en": "　　　　was this wonderful!",
    "max": 39,
    "refs": [
     "lui@D9CC/D9D0"
@@ -1843,7 +1843,7 @@
    "id": "ovl033_800A0F40",
    "at": "800A0F40",
    "jp": "　　　　さあ、行かなくちゃ！",
-   "en": "",
+   "en": "　　　　Now, I simply must go!",
    "max": 31,
    "refs": [
     "lui@DCAC/DCB0"
@@ -1854,7 +1854,7 @@
    "id": "ovl033_800A0F60",
    "at": "800A0F60",
    "jp": "　　　　お城をぬけ出してきた",
-   "en": "",
+   "en": "　　　　Out of the castle slipped",
    "max": 31,
    "refs": [
     "lui@DF00/DF04"
@@ -1865,7 +1865,7 @@
    "id": "ovl033_800A0F80",
    "at": "800A0F80",
    "jp": "　　　　王女・ティアラ姫。",
-   "en": "",
+   "en": "　　　　Princess Tiara.",
    "max": 27,
    "refs": [
     "lui@DF08/DF0C"
@@ -1876,7 +1876,7 @@
    "id": "ovl033_800A0F9C",
    "at": "800A0F9C",
    "jp": "　　　　一見ただの世間しらずのお姫さまに",
-   "en": "",
+   "en": "　　　　She seems a merely sheltered",
    "max": 43,
    "refs": [
     "lui@DF38/DF3C"
@@ -1887,7 +1887,7 @@
    "id": "ovl033_800A0FC8",
    "at": "800A0FC8",
    "jp": "　　　　見えるかのじょには、実は大きな",
-   "en": "",
+   "en": "　　　　princess, but in truth she harbors",
    "max": 39,
    "refs": [
     "lui@DF40/DF44"
@@ -1898,7 +1898,7 @@
    "id": "ovl033_800A0FF0",
    "at": "800A0FF0",
    "jp": "　　　　ヒミツがあったのです…。",
-   "en": "",
+   "en": "　　　　a great secret...",
    "max": 35,
    "refs": [
     "lui@DF48/DF4C"
@@ -1909,7 +1909,7 @@
    "id": "ovl033_800A1078",
    "at": "800A1078",
    "jp": "　　　　姫さま、",
-   "en": "",
+   "en": "　　　　Princess,",
    "max": 19,
    "refs": [
     "lui@E85C/E860"
@@ -1920,7 +1920,7 @@
    "id": "ovl033_800A108C",
    "at": "800A108C",
    "jp": "　　　　ばあや心配いたしましたよ。",
-   "en": "",
+   "en": "　　　　your old nanny was worried sick.",
    "max": 35,
    "refs": [
     "lui@E864/E868"
@@ -1931,7 +1931,7 @@
    "id": "ovl033_800A10B0",
    "at": "800A10B0",
    "jp": "　　　　本当にごめんなさいね。",
-   "en": "",
+   "en": "　　　　I'm truly sorry.",
    "max": 31,
    "refs": [
     "lui@E898/E89C"
@@ -1942,7 +1942,7 @@
    "id": "ovl033_800A10D0",
    "at": "800A10D0",
    "jp": "　　　　父王さまには、このことは",
-   "en": "",
+   "en": "　　　　I have said nothing of this",
    "max": 35,
    "refs": [
     "lui@E8CC/E8D0"
@@ -1953,7 +1953,7 @@
    "id": "ovl033_800A10F4",
    "at": "800A10F4",
    "jp": "　　　　申し上げておりません。",
-   "en": "",
+   "en": "　　　　to His Majesty, your father.",
    "max": 31,
    "refs": [
     "lui@E8D4/E8D8"
@@ -1964,7 +1964,7 @@
    "id": "ovl033_800A1114",
    "at": "800A1114",
    "jp": "　　　　ありがとう…。",
-   "en": "",
+   "en": "　　　　Thank you...",
    "max": 23,
    "refs": [
     "lui@E908/E90C"
@@ -1975,7 +1975,7 @@
    "id": "ovl033_800A112C",
    "at": "800A112C",
    "jp": "　　　　さあ、今夜は舞踏会ですよ。",
-   "en": "",
+   "en": "　　　　Now then, tonight is the ball.",
    "max": 35,
    "refs": [
     "lui@E93C/E940"
@@ -1986,7 +1986,7 @@
    "id": "ovl033_800A1150",
    "at": "800A1150",
    "jp": "　　　　なんでも、りんこくの王子さまも",
-   "en": "",
+   "en": "　　　　They say the prince of the",
    "max": 39,
    "refs": [
     "lui@E968/E96C"
@@ -1997,7 +1997,7 @@
    "id": "ovl033_800A1178",
    "at": "800A1178",
    "jp": "　　　　いらっしゃるとか。",
-   "en": "",
+   "en": "　　　　neighboring kingdom will attend.",
    "max": 27,
    "refs": [
     "lui@E970/E974"
@@ -2008,7 +2008,7 @@
    "id": "ovl033_800A1194",
    "at": "800A1194",
    "jp": "　　　　ささ、早くおめし物を…。",
-   "en": "",
+   "en": "　　　　Come, quickly, your gown...",
    "max": 35,
    "refs": [
     "lui@E978/E97C"
@@ -2019,7 +2019,7 @@
    "id": "ovl033_800A11B8",
    "at": "800A11B8",
    "jp": "　　　　へっへっへ、",
-   "en": "",
+   "en": "　　　　Heh heh heh,",
    "max": 23,
    "refs": [
     "lui@EA28/EA2C"
@@ -2030,7 +2030,7 @@
    "id": "ovl033_800A11D0",
    "at": "800A11D0",
    "jp": "　　　　ないて、さけんでも",
-   "en": "",
+   "en": "　　　　cry and scream all you want,",
    "max": 27,
    "refs": [
     "lui@EA30/EA34"
@@ -2041,7 +2041,7 @@
    "id": "ovl033_800A11EC",
    "at": "800A11EC",
    "jp": "　　　　誰も助けちゃくれねーよ！",
-   "en": "",
+   "en": "　　　　nobody's gonna help you!",
    "max": 35,
    "refs": [
     "lui@EA38/EA3C"
@@ -2052,7 +2052,7 @@
    "id": "ovl033_800A1210",
    "at": "800A1210",
    "jp": "　　　　やめてーっ！！",
-   "en": "",
+   "en": "　　　　Nooo!!",
    "max": 23,
    "refs": [
     "lui@EA68/EA6C"
@@ -2063,7 +2063,7 @@
    "id": "ovl033_800A1228",
    "at": "800A1228",
    "jp": "　　　　おとなしくしなっ！",
-   "en": "",
+   "en": "　　　　Hold still!",
    "max": 27,
    "refs": [
     "lui@EA94/EA98"
@@ -2074,7 +2074,7 @@
    "id": "ovl033_800A1244",
    "at": "800A1244",
    "jp": "　　　　待ちなさい！",
-   "en": "",
+   "en": "　　　　Hold it right there!",
    "max": 23,
    "refs": [
     "lui@EB00/EB04"
@@ -2085,7 +2085,7 @@
    "id": "ovl033_800A125C",
    "at": "800A125C",
    "jp": "　　　　なにっ！？",
-   "en": "",
+   "en": "　　　　What!?",
    "max": 19,
    "refs": [
     "lui@EB2C/EB30"
@@ -2096,7 +2096,7 @@
    "id": "ovl033_800A1270",
    "at": "800A1270",
    "jp": "　　　　誰だ！？どこにいる！？",
-   "en": "",
+   "en": "　　　　Who's there!? Where are you!?",
    "max": 31,
    "refs": [
     "lui@EB88/EB8C"
@@ -2107,7 +2107,7 @@
    "id": "ovl033_800A1290",
    "at": "800A1290",
    "jp": "　　　　出てきやがれ！！",
-   "en": "",
+   "en": "　　　　Show yourself!!",
    "max": 27,
    "refs": [
     "lui@EB90/EB94"
@@ -2118,7 +2118,7 @@
    "id": "ovl033_800A12AC",
    "at": "800A12AC",
    "jp": "　　　　ハハハ、ここさ！！",
-   "en": "",
+   "en": "　　　　Hahaha, right here!!",
    "max": 27,
    "refs": [
     "lui@EBC8/EBCC"
@@ -2129,7 +2129,7 @@
    "id": "ovl033_800A12C8",
    "at": "800A12C8",
    "jp": "　　　　！！",
-   "en": "",
+   "en": "　　　　!!",
    "max": 15,
    "refs": [
     "lui@ED48/ED4C",
@@ -2141,7 +2141,7 @@
    "id": "ovl033_800A12D8",
    "at": "800A12D8",
    "jp": "　　　　弱き者をしいたげる悪人ども、",
-   "en": "",
+   "en": "　　　　You villains who oppress the weak,",
    "max": 39,
    "refs": [
     "lui@EE6C/EE70"
@@ -2152,7 +2152,7 @@
    "id": "ovl033_800A1300",
    "at": "800A1300",
    "jp": "　　　　覚悟しろ！",
-   "en": "",
+   "en": "　　　　prepare yourselves!",
    "max": 19,
    "refs": [
     "lui@EE74/EE78"
@@ -2163,7 +2163,7 @@
    "id": "ovl033_800A1314",
    "at": "800A1314",
    "jp": "　　　　お、お前はいったい…！？",
-   "en": "",
+   "en": "　　　　Wh-who the heck are you...!?",
    "max": 35,
    "refs": [
     "lui@EEA8/EEAC"
@@ -2174,7 +2174,7 @@
    "id": "ovl033_800A1338",
    "at": "800A1338",
    "jp": "　　　　人呼んで、天界よりの使者！",
-   "en": "",
+   "en": "　　　　Some call me the envoy from heaven!",
    "max": 35,
    "refs": [
     "lui@EF90/EF94"
@@ -2185,7 +2185,7 @@
    "id": "ovl033_800A135C",
    "at": "800A135C",
    "jp": "　　　　エンジェル・ティアラさ！！",
-   "en": "",
+   "en": "　　　　I'm Angel Tiara!!",
    "max": 35,
    "refs": [
     "lui@EFD0/EFD4"
@@ -2196,7 +2196,7 @@
    "id": "ovl033_800A13D8",
    "at": "800A13D8",
    "jp": "　　　　う～い、いい酒だ。",
-   "en": "",
+   "en": "　　　　Ahh~, now that's good booze.",
    "max": 27,
    "refs": [
     "lui@F560/F564"
@@ -2207,7 +2207,7 @@
    "id": "ovl033_800A13F4",
    "at": "800A13F4",
    "jp": "　　　　しかもとびっきり上等の",
-   "en": "",
+   "en": "　　　　And the finest beauties",
    "max": 31,
    "refs": [
     "lui@F568/F56C"
@@ -2218,7 +2218,7 @@
    "id": "ovl033_800A1414",
    "at": "800A1414",
    "jp": "　　　　美女達。",
-   "en": "",
+   "en": "　　　　around, to boot.",
    "max": 19,
    "refs": [
     "lui@F570/F574"
@@ -2229,7 +2229,7 @@
    "id": "ovl033_800A1428",
    "at": "800A1428",
    "jp": "　　　　これこそ、",
-   "en": "",
+   "en": "　　　　Now this is",
    "max": 19,
    "refs": [
     "lui@F594/F598"
@@ -2240,7 +2240,7 @@
    "id": "ovl033_800A143C",
    "at": "800A143C",
    "jp": "　　　　一度きりしかない人生を",
-   "en": "",
+   "en": "　　　　worth betting the one life",
    "max": 31,
    "refs": [
     "lui@F59C/F5A0"
@@ -2251,7 +2251,7 @@
    "id": "ovl033_800A145C",
    "at": "800A145C",
    "jp": "　　　　かける価値のあるものだぜ。",
-   "en": "",
+   "en": "　　　　you only get once.",
    "max": 35,
    "refs": [
     "lui@F5A4/F5A8"
@@ -2262,7 +2262,7 @@
    "id": "ovl033_800A1480",
    "at": "800A1480",
    "jp": "　　　　や～だぁ＠",
-   "en": "",
+   "en": "　　　　Oh, stop it@",
    "max": 19,
    "refs": [
     "lui@F5D4/F5D8"
@@ -2273,7 +2273,7 @@
    "id": "ovl033_800A1494",
    "at": "800A1494",
    "jp": "　　　　うふふ…＠",
-   "en": "",
+   "en": "　　　　Hee hee...@",
    "max": 19,
    "refs": [
     "lui@F600/F604"
@@ -2284,7 +2284,7 @@
    "id": "ovl033_800A14A8",
    "at": "800A14A8",
    "jp": "　　　　…ああ、お前さんは",
-   "en": "",
+   "en": "　　　　...Ah, you're",
    "max": 27,
    "refs": [
     "lui@F638/F63C"
@@ -2295,7 +2295,7 @@
    "id": "ovl033_800A14C4",
    "at": "800A14C4",
    "jp": "　　　　いい子だ。",
-   "en": "",
+   "en": "　　　　a good girl.",
    "max": 19,
    "refs": [
     "lui@F640/F644"
@@ -2306,7 +2306,7 @@
    "id": "ovl033_800A14D8",
    "at": "800A14D8",
    "jp": "　　　　もっと近くに来いよ…。",
-   "en": "",
+   "en": "　　　　Come a little closer...",
    "max": 31,
    "refs": [
     "lui@F648/F64C"
@@ -2328,7 +2328,7 @@
    "id": "ovl033_800A14FC",
    "at": "800A14FC",
    "jp": "　　　　ねえシンバッド、",
-   "en": "",
+   "en": "　　　　Hey, Sinbad,",
    "max": 27,
    "refs": [
     "lui@F678/F67C"
@@ -2339,7 +2339,7 @@
    "id": "ovl033_800A1518",
    "at": "800A1518",
    "jp": "　　　　あたしヒスイのくびかざりが",
-   "en": "",
+   "en": "　　　　I really want a jade",
    "max": 35,
    "refs": [
     "lui@F680/F684"
@@ -2350,7 +2350,7 @@
    "id": "ovl033_800A153C",
    "at": "800A153C",
    "jp": "　　　　ほしいなぁ…＠",
-   "en": "",
+   "en": "　　　　necklace...@",
    "max": 23,
    "refs": [
     "lui@F688/F68C"
@@ -2361,7 +2361,7 @@
    "id": "ovl033_800A1554",
    "at": "800A1554",
    "jp": "　　　　　　カツーン…",
-   "en": "",
+   "en": "　　　　　　Clack...",
    "max": 23,
    "refs": [
     "lui@F6BC/F6C0"
@@ -2372,7 +2372,7 @@
    "id": "ovl033_800A156C",
    "at": "800A156C",
    "jp": "　　　　　カツーン…",
-   "en": "",
+   "en": "　　　　　Clack...",
    "max": 23,
    "refs": [
     "lui@F6EC/F6F0"
@@ -2383,7 +2383,7 @@
    "id": "ovl033_800A1584",
    "at": "800A1584",
    "jp": "　　　　カツーン…",
-   "en": "",
+   "en": "　　　　Clack...",
    "max": 19,
    "refs": [
     "lui@F71C/F720"
@@ -2394,7 +2394,7 @@
    "id": "ovl033_800A1598",
    "at": "800A1598",
    "jp": "　　　　コラッ！！だれだキサマは！！",
-   "en": "",
+   "en": "　　　　Hey!! Who the devil are you!!",
    "max": 39,
    "refs": [
     "lui@F7B4/F7B8"
@@ -2405,7 +2405,7 @@
    "id": "ovl033_800A15C0",
    "at": "800A15C0",
    "jp": "　　　　ワシのハーレムでなにをしとる！！",
-   "en": "",
+   "en": "　　　　What are you doing in my harem!!",
    "max": 43,
    "refs": [
     "lui@F7BC/F7C0"
@@ -2416,7 +2416,7 @@
    "id": "ovl033_800A15EC",
    "at": "800A15EC",
    "jp": "　　　　衛兵！衛兵はおらぬか！",
-   "en": "",
+   "en": "　　　　Guards! Where are my guards!",
    "max": 31,
    "refs": [
     "lui@F7E4/F7E8"
@@ -2427,7 +2427,7 @@
    "id": "ovl033_800A160C",
    "at": "800A160C",
    "jp": "　　　　やべえ、気付かれたか！",
-   "en": "",
+   "en": "　　　　Uh-oh, I've been spotted!",
    "max": 31,
    "refs": [
     "lui@F8A8/F8AC"
@@ -2438,7 +2438,7 @@
    "id": "ovl033_800A162C",
    "at": "800A162C",
    "jp": "　　　　あばよ、かわい子ちゃん達",
-   "en": "",
+   "en": "　　　　So long, my lovelies,",
    "max": 35,
    "refs": [
     "lui@F8E8/F8EC"
@@ -2449,7 +2449,7 @@
    "id": "ovl033_800A1650",
    "at": "800A1650",
    "jp": "　　　　楽しかったぜ…。",
-   "en": "",
+   "en": "　　　　it's been fun...",
    "max": 27,
    "refs": [
     "lui@F8F0/F8F4"
@@ -2460,7 +2460,7 @@
    "id": "ovl033_800A166C",
    "at": "800A166C",
    "jp": "　　　　あ～ん、ざんねん！",
-   "en": "",
+   "en": "　　　　Awww, what a shame!",
    "max": 27,
    "refs": [
     "lui@F9FC/FA00"
@@ -2471,7 +2471,7 @@
    "id": "ovl033_800A1688",
    "at": "800A1688",
    "jp": "　　　　シンバッド、またね～！",
-   "en": "",
+   "en": "　　　　Bye, Sinbad, see you~!",
    "max": 31,
    "refs": [
     "lui@FA34/FA38"
@@ -2482,7 +2482,7 @@
    "id": "ovl033_800A16A8",
    "at": "800A16A8",
    "jp": "　　　　俺の名はシンバッド。",
-   "en": "",
+   "en": "　　　　The name's Sinbad.",
    "max": 31,
    "refs": [
     "lui@FAD4/FAD8"
@@ -2493,7 +2493,7 @@
    "id": "ovl033_800A16C8",
    "at": "800A16C8",
    "jp": "　　　　美女と財宝、",
-   "en": "",
+   "en": "　　　　A bandit after beauties,",
    "max": 23,
    "refs": [
     "lui@FADC/FAE0"
@@ -2504,7 +2504,7 @@
    "id": "ovl033_800A16E0",
    "at": "800A16E0",
    "jp": "　　　　そして冒険をもとめる盗賊だ。",
-   "en": "",
+   "en": "　　　　treasure and adventure.",
    "max": 39,
    "refs": [
     "lui@FAE4/FAE8"
@@ -2515,7 +2515,7 @@
    "id": "ovl033_800A1708",
    "at": "800A1708",
    "jp": "　　　　今度の俺の冒険の舞台は",
-   "en": "",
+   "en": "　　　　The stage for my next adventure",
    "max": 31,
    "refs": [
     "lui@FB14/FB18"
@@ -2526,7 +2526,7 @@
    "id": "ovl033_800A1728",
    "at": "800A1728",
    "jp": "　　　　「ガイアマスター」。",
-   "en": "",
+   "en": "　　　　is \"GaiaMaster\".",
    "max": 31,
    "refs": [
     "lui@FB1C/FB20"
@@ -2537,7 +2537,7 @@
    "id": "ovl033_800A1748",
    "at": "800A1748",
    "jp": "　　　　ちょっとばかりキナくさいが、",
-   "en": "",
+   "en": "　　　　Smells a little fishy,",
    "max": 39,
    "refs": [
     "lui@FB58/FB5C"
@@ -2548,7 +2548,7 @@
    "id": "ovl033_800A1770",
    "at": "800A1770",
    "jp": "　　　　それがまた",
-   "en": "",
+   "en": "　　　　but that's what",
    "max": 19,
    "refs": [
     "lui@FB60/FB64"
@@ -2559,7 +2559,7 @@
    "id": "ovl033_800A1784",
    "at": "800A1784",
    "jp": "　　　　なかなか楽しめそうだ…！",
-   "en": "",
+   "en": "　　　　makes it fun...!",
    "max": 35,
    "refs": [
     "lui@FB68/FB6C"
@@ -2570,7 +2570,7 @@
    "id": "ovl033_800A17E4",
    "at": "800A17E4",
    "jp": "　　　　金目の物はねえようだな…。",
-   "en": "",
+   "en": "　　　　Nothing worth stealing here...",
    "max": 35,
    "refs": [
     "lui@10454/10458"
@@ -2581,7 +2581,7 @@
    "id": "ovl033_800A1808",
    "at": "800A1808",
    "jp": "　　　　俺としたことが、",
-   "en": "",
+   "en": "　　　　Me, of all people,",
    "max": 27,
    "refs": [
     "lui@10494/10498"
@@ -2592,7 +2592,7 @@
    "id": "ovl033_800A1824",
    "at": "800A1824",
    "jp": "　　　　見こみ違いか…。",
-   "en": "",
+   "en": "　　　　misjudged it...",
    "max": 27,
    "refs": [
     "lui@1049C/104A0"
@@ -2603,7 +2603,7 @@
    "id": "ovl033_800A1840",
    "at": "800A1840",
    "jp": "　　　　だれ…？",
-   "en": "",
+   "en": "　　　　Who's there...?",
    "max": 19,
    "refs": [
     "lui@104D4/104D8"
@@ -2614,7 +2614,7 @@
    "id": "ovl033_800A1854",
    "at": "800A1854",
    "jp": "　　　　…なんだ、女かよ。",
-   "en": "",
+   "en": "　　　　...Oh, just a woman.",
    "max": 27,
    "refs": [
     "lui@106B4/106B8"
@@ -2625,7 +2625,7 @@
    "id": "ovl033_800A1870",
    "at": "800A1870",
    "jp": "　　　　おどかしっこなしだぜ…。",
-   "en": "",
+   "en": "　　　　Don't scare me like that...",
    "max": 35,
    "refs": [
     "lui@106F0/106F4"
@@ -2636,7 +2636,7 @@
    "id": "ovl033_800A1894",
    "at": "800A1894",
    "jp": "　　　　あんたの顔、しってるわ。",
-   "en": "",
+   "en": "　　　　I know your face.",
    "max": 35,
    "refs": [
     "lui@10724/10728"
@@ -2647,7 +2647,7 @@
    "id": "ovl033_800A18B8",
    "at": "800A18B8",
    "jp": "　　　　この前ガイアマスターで優勝した",
-   "en": "",
+   "en": "　　　　You're the one who won the last",
    "max": 39,
    "refs": [
     "lui@10758/1075C"
@@ -2658,7 +2658,7 @@
    "id": "ovl033_800A18E0",
    "at": "800A18E0",
    "jp": "　　　　人でしょう？",
-   "en": "",
+   "en": "　　　　GaiaMaster, aren't you?",
    "max": 23,
    "refs": [
     "lui@10760/10764"
@@ -2669,7 +2669,7 @@
    "id": "ovl033_800A18F8",
    "at": "800A18F8",
    "jp": "　　　　ごめんな、",
-   "en": "",
+   "en": "　　　　Sorry,",
    "max": 19,
    "refs": [
     "lui@10794/10798"
@@ -2680,7 +2680,7 @@
    "id": "ovl033_800A190C",
    "at": "800A190C",
    "jp": "　　　　お土産はなしだ。",
-   "en": "",
+   "en": "　　　　I didn't bring you a gift.",
    "max": 27,
    "refs": [
     "lui@1079C/107A0"
@@ -2691,7 +2691,7 @@
    "id": "ovl033_800A1928",
    "at": "800A1928",
    "jp": "　　　　ガイアマスターの賞金なんて、",
-   "en": "",
+   "en": "　　　　The GaiaMaster prize money?",
    "max": 39,
    "refs": [
     "lui@107C4/107C8"
@@ -2702,7 +2702,7 @@
    "id": "ovl033_800A1950",
    "at": "800A1950",
    "jp": "　　　　とっくのムカシに",
-   "en": "",
+   "en": "　　　　I blew it all",
    "max": 27,
    "refs": [
     "lui@107CC/107D0"
@@ -2713,7 +2713,7 @@
    "id": "ovl033_800A196C",
    "at": "800A196C",
    "jp": "　　　　すっちまってね。",
-   "en": "",
+   "en": "　　　　ages ago.",
    "max": 27,
    "refs": [
     "lui@107D4/107D8"
@@ -2724,7 +2724,7 @@
    "id": "ovl033_800A1988",
    "at": "800A1988",
    "jp": "　　　　今日は仕事さ。",
-   "en": "",
+   "en": "　　　　Today I'm here on business.",
    "max": 23,
    "refs": [
     "lui@107F8/107FC"
@@ -2735,7 +2735,7 @@
    "id": "ovl033_800A19A0",
    "at": "800A19A0",
    "jp": "　　　　あきれた人ね…！",
-   "en": "",
+   "en": "　　　　You're hopeless...!",
    "max": 27,
    "refs": [
     "lui@10850/10854"
@@ -2746,7 +2746,7 @@
    "id": "ovl033_800A19BC",
    "at": "800A19BC",
    "jp": "　　　　だが、このウデと才覚が",
-   "en": "",
+   "en": "　　　　But with skill and smarts",
    "max": 31,
    "refs": [
     "lui@10888/1088C"
@@ -2757,7 +2757,7 @@
    "id": "ovl033_800A19DC",
    "at": "800A19DC",
    "jp": "　　　　あれば、チャンスは",
-   "en": "",
+   "en": "　　　　like mine, chances come",
    "max": 27,
    "refs": [
     "lui@10890/10894"
@@ -2768,7 +2768,7 @@
    "id": "ovl033_800A19F8",
    "at": "800A19F8",
    "jp": "　　　　いくらだってある。",
-   "en": "",
+   "en": "　　　　along all the time.",
    "max": 27,
    "refs": [
     "lui@10898/1089C"
@@ -2779,7 +2779,7 @@
    "id": "ovl033_800A1A14",
    "at": "800A1A14",
    "jp": "　　　　そいつが人生ってもんだろ？",
-   "en": "",
+   "en": "　　　　That's what life is, right?",
    "max": 35,
    "refs": [
     "lui@108D8/108DC"
@@ -2790,7 +2790,7 @@
    "id": "ovl033_800A1A38",
    "at": "800A1A38",
    "jp": "　　　　いいわね、あんたは自由で…。",
-   "en": "",
+   "en": "　　　　Must be nice, being free...",
    "max": 39,
    "refs": [
     "lui@1090C/10910"
@@ -2801,7 +2801,7 @@
    "id": "ovl033_800A1A60",
    "at": "800A1A60",
    "jp": "　　　　私はずっとここの主人に",
-   "en": "",
+   "en": "　　　　I have to serve the master",
    "max": 31,
    "refs": [
     "lui@10940/10944"
@@ -2812,7 +2812,7 @@
    "id": "ovl033_800A1A80",
    "at": "800A1A80",
    "jp": "　　　　仕えなきゃいけないの。",
-   "en": "",
+   "en": "　　　　of this house forever.",
    "max": 31,
    "refs": [
     "lui@10948/1094C"
@@ -2823,7 +2823,7 @@
    "id": "ovl033_800A1AA0",
    "at": "800A1AA0",
    "jp": "　　　　クラい顔するなよ、",
-   "en": "",
+   "en": "　　　　Don't look so gloomy,",
    "max": 27,
    "refs": [
     "lui@1097C/10980"
@@ -2834,7 +2834,7 @@
    "id": "ovl033_800A1ABC",
    "at": "800A1ABC",
    "jp": "　　　　美人が台無しだぜ。",
-   "en": "",
+   "en": "　　　　it spoils that pretty face.",
    "max": 27,
    "refs": [
     "lui@109B0/109B4"
@@ -2845,7 +2845,7 @@
    "id": "ovl033_800A1AD8",
    "at": "800A1AD8",
    "jp": "　　　　よし、俺がお前さんを",
-   "en": "",
+   "en": "　　　　Tell you what, I'll",
    "max": 31,
    "refs": [
     "lui@109F8/109FC"
@@ -2856,7 +2856,7 @@
    "id": "ovl033_800A1AF8",
    "at": "800A1AF8",
    "jp": "　　　　盗み出してやるぜ。",
-   "en": "",
+   "en": "　　　　steal you away from here.",
    "max": 27,
    "refs": [
     "lui@10A00/10A04"
@@ -2867,7 +2867,7 @@
    "id": "ovl033_800A1B14",
    "at": "800A1B14",
    "jp": "　　　　そんなことして、",
-   "en": "",
+   "en": "　　　　Can you really get",
    "max": 27,
    "refs": [
     "lui@10A30/10A34"
@@ -2878,7 +2878,7 @@
    "id": "ovl033_800A1B30",
    "at": "800A1B30",
    "jp": "　　　　だいじょうぶなの！？",
-   "en": "",
+   "en": "　　　　away with that!?",
    "max": 31,
    "refs": [
     "lui@10A38/10A3C"
@@ -2889,7 +2889,7 @@
    "id": "ovl033_800A1B50",
    "at": "800A1B50",
    "jp": "　　　　俺は盗賊だ。",
-   "en": "",
+   "en": "　　　　I'm a bandit.",
    "max": 23,
    "refs": [
     "lui@10A6C/10A70"
@@ -2900,7 +2900,7 @@
    "id": "ovl033_800A1B68",
    "at": "800A1B68",
    "jp": "　　　　気に入った物は盗み出して",
-   "en": "",
+   "en": "　　　　When I like something, I make",
    "max": 35,
    "refs": [
     "lui@10AA0/10AA4"
@@ -2911,7 +2911,7 @@
    "id": "ovl033_800A1B8C",
    "at": "800A1B8C",
    "jp": "　　　　いく主義なのさ…。",
-   "en": "",
+   "en": "　　　　it a rule to steal it...",
    "max": 27,
    "refs": [
     "lui@10AA8/10AAC"
@@ -2922,7 +2922,7 @@
    "id": "ovl033_800A1BA8",
    "at": "800A1BA8",
    "jp": "　　　　これからどうする気…？",
-   "en": "",
+   "en": "　　　　So what will you do now...?",
    "max": 31,
    "refs": [
     "lui@10DA4/10DA8"
@@ -2933,7 +2933,7 @@
    "id": "ovl033_800A1BC8",
    "at": "800A1BC8",
    "jp": "　　　　さあてね。",
-   "en": "",
+   "en": "　　　　Who knows.",
    "max": 19,
    "refs": [
     "lui@10E28/10E2C"
@@ -2944,7 +2944,7 @@
    "id": "ovl033_800A1BDC",
    "at": "800A1BDC",
    "jp": "　　　　見ろよ、",
-   "en": "",
+   "en": "　　　　Look at that,",
    "max": 19,
    "refs": [
     "lui@10E64/10E68"
@@ -2955,7 +2955,7 @@
    "id": "ovl033_800A1BF0",
    "at": "800A1BF0",
    "jp": "　　　　世界は広いぜ…。",
-   "en": "",
+   "en": "　　　　the world is a big place...",
    "max": 27,
    "refs": [
     "lui@10E98/10E9C"
@@ -2966,7 +2966,7 @@
    "id": "ovl033_800A1D30",
    "at": "800A1D30",
    "jp": "　　　　えっ…あの乱暴者が？",
-   "en": "",
+   "en": "　　　　Huh... that hooligan?",
    "max": 31,
    "refs": [
     "lui@117A8/117AC"
@@ -2977,7 +2977,7 @@
    "id": "ovl033_800A1D50",
    "at": "800A1D50",
    "jp": "　　　　やあやあ、闘戦勝仏、",
-   "en": "",
+   "en": "　　　　Yo! Victorious Fighting Buddha,",
    "max": 31,
    "refs": [
     "lui@11B28/11B2C"
@@ -2988,7 +2988,7 @@
    "id": "ovl033_800A1D70",
    "at": "800A1D70",
    "jp": "　　　　またの名を斉天大聖",
-   "en": "",
+   "en": "　　　　also known as the Great Sage",
    "max": 27,
    "refs": [
     "lui@11B30/11B34"
@@ -2999,7 +2999,7 @@
    "id": "ovl033_800A1D8C",
    "at": "800A1D8C",
    "jp": "　　　　孫悟空さまのお帰りだ！！",
-   "en": "",
+   "en": "　　　　Son Gokuh-sama has returned!!",
    "max": 35,
    "refs": [
     "lui@11B38/11B3C"
@@ -3010,7 +3010,7 @@
    "id": "ovl033_800A1DB0",
    "at": "800A1DB0",
    "jp": "　　　　ああ、のどがかわいた。",
-   "en": "",
+   "en": "　　　　Ahh, I'm parched.",
    "max": 31,
    "refs": [
     "lui@11E94/11E98",
@@ -3022,7 +3022,7 @@
    "id": "ovl033_800A1DD0",
    "at": "800A1DD0",
    "jp": "　　　　れい酒を一パイもらおうか。",
-   "en": "",
+   "en": "　　　　Pour me a cup of sacred wine.",
    "max": 35,
    "refs": [
     "lui@11E9C/11EA0",
@@ -3034,7 +3034,7 @@
    "id": "ovl033_800A1DF4",
    "at": "800A1DF4",
    "jp": "　　　　ま、まさか",
-   "en": "",
+   "en": "　　　　D-don't tell me...",
    "max": 19,
    "refs": [
     "lui@12044/12048"
@@ -3045,7 +3045,7 @@
    "id": "ovl033_800A1E08",
    "at": "800A1E08",
    "jp": "　　　　また西王母さまの仙桃を…。",
-   "en": "",
+   "en": "　　　　Seiobo-sama's peaches again...",
    "max": 35,
    "refs": [
     "lui@1204C/12050"
@@ -3056,7 +3056,7 @@
    "id": "ovl033_800A1E2C",
    "at": "800A1E2C",
    "jp": "　　　　ああ、かまわねえよ、",
-   "en": "",
+   "en": "　　　　Oh, don't trouble yourself,",
    "max": 31,
    "refs": [
     "lui@1208C/12090"
@@ -3067,7 +3067,7 @@
    "id": "ovl033_800A1E4C",
    "at": "800A1E4C",
    "jp": "　　　　自分で取るから。",
-   "en": "",
+   "en": "　　　　I'll help myself.",
    "max": 27,
    "refs": [
     "lui@12094/12098"
@@ -3078,7 +3078,7 @@
    "id": "ovl033_800A1E68",
    "at": "800A1E68",
    "jp": "　　　　ああっ！",
-   "en": "",
+   "en": "　　　　Aaah!",
    "max": 19,
    "refs": [
     "lui@12158/1215C"
@@ -3089,7 +3089,7 @@
    "id": "ovl033_800A1E7C",
    "at": "800A1E7C",
    "jp": "　　　　ところでどうなの、",
-   "en": "",
+   "en": "　　　　So, how's it going,",
    "max": 27,
    "refs": [
     "lui@121CC/121D0"
@@ -3100,7 +3100,7 @@
    "id": "ovl033_800A1E98",
    "at": "800A1E98",
    "jp": "　　　　太上老君さんよ。",
-   "en": "",
+   "en": "　　　　Taijo Rokun-san?",
    "max": 27,
    "refs": [
     "lui@121D4/121D8"
@@ -3111,7 +3111,7 @@
    "id": "ovl033_800A1EB4",
    "at": "800A1EB4",
    "jp": "　　　　最近元お師匠さまは元気にしてる？",
-   "en": "",
+   "en": "　　　　How's my ex-master doing lately?",
    "max": 43,
    "refs": [
     "lui@121DC/121E0"
@@ -3122,7 +3122,7 @@
    "id": "ovl033_800A1EE0",
    "at": "800A1EE0",
    "jp": "　　　　取経の旅が終わってから",
-   "en": "",
+   "en": "　　　　I haven't seen him for a while",
    "max": 31,
    "refs": [
     "lui@12298/1229C"
@@ -3133,7 +3133,7 @@
    "id": "ovl033_800A1F00",
    "at": "800A1F00",
    "jp": "　　　　しばらく会ってないんだけど",
-   "en": "",
+   "en": "　　　　since our sutra journey ended.",
    "max": 35,
    "refs": [
     "lui@122A0/122A4"
@@ -3144,7 +3144,7 @@
    "id": "ovl033_800A1F24",
    "at": "800A1F24",
    "jp": "　　　　さあ。",
-   "en": "",
+   "en": "　　　　Couldn't say.",
    "max": 15,
    "refs": [
     "lui@122A8/122AC"
@@ -3155,7 +3155,7 @@
    "id": "ovl033_800A1F34",
    "at": "800A1F34",
    "jp": "　　　　こりゃっ！！不老不死のありがたい",
-   "en": "",
+   "en": "　　　　Hey!! Don't crunch the precious",
    "max": 43,
    "refs": [
     "lui@122E8/122EC"
@@ -3166,7 +3166,7 @@
    "id": "ovl033_800A1F60",
    "at": "800A1F60",
    "jp": "　　　　金丹をイリマメのようにバリバリ",
-   "en": "",
+   "en": "　　　　golden pills of immortality like",
    "max": 39,
    "refs": [
     "lui@122F0/122F4"
@@ -3177,7 +3177,7 @@
    "id": "ovl033_800A1F88",
    "at": "800A1F88",
    "jp": "　　　　食うんじゃない！！",
-   "en": "",
+   "en": "　　　　roasted beans!!",
    "max": 27,
    "refs": [
     "lui@122F8/122FC"
@@ -3188,7 +3188,7 @@
    "id": "ovl033_800A1FA4",
    "at": "800A1FA4",
    "jp": "　　　　なんだよ、ケチケチすんなよ！！",
-   "en": "",
+   "en": "　　　　Aw, come on, don't be so stingy!!",
    "max": 39,
    "refs": [
     "lui@12330/12334"
@@ -3199,7 +3199,7 @@
    "id": "ovl033_800A1FCC",
    "at": "800A1FCC",
    "jp": "　　　　誰じゃ、",
-   "en": "",
+   "en": "　　　　Who on earth",
    "max": 19,
    "refs": [
     "lui@123F0/123F4"
@@ -3210,7 +3210,7 @@
    "id": "ovl033_800A1FE0",
    "at": "800A1FE0",
    "jp": "　　　　こんなヤツを神にしたのは…。",
-   "en": "",
+   "en": "　　　　made this creature a god...",
    "max": 39,
    "refs": [
     "lui@123F8/123FC"
@@ -3221,7 +3221,7 @@
    "id": "ovl033_800A2008",
    "at": "800A2008",
    "jp": "　　　　なにいっ、聞こえたぞコラァ！！",
-   "en": "",
+   "en": "　　　　What!? I heard that, you!!",
    "max": 39,
    "refs": [
     "lui@124F4/124F8"
@@ -3232,7 +3232,7 @@
    "id": "ovl033_800A2030",
    "at": "800A2030",
    "jp": "　　　　うわー！！",
-   "en": "",
+   "en": "　　　　Waaah!!",
    "max": 19,
    "refs": [
     "lui@125B4/125B8"
@@ -3243,7 +3243,7 @@
    "id": "ovl033_800A2044",
    "at": "800A2044",
    "jp": "　　　　誰ぞ、二郎真君と天兵を",
-   "en": "",
+   "en": "　　　　Someone, summon Jiro Shinkun",
    "max": 31,
    "refs": [
     "lui@1265C/12660"
@@ -3254,7 +3254,7 @@
    "id": "ovl033_800A2064",
    "at": "800A2064",
    "jp": "　　　　呼べ～！",
-   "en": "",
+   "en": "　　　　and the heavenly troops~!",
    "max": 19,
    "refs": [
     "lui@12664/12668"
@@ -3265,7 +3265,7 @@
    "id": "ovl033_800A2078",
    "at": "800A2078",
    "jp": "　　　　この孫さまと",
-   "en": "",
+   "en": "　　　　You wanna throw down",
    "max": 23,
    "refs": [
     "lui@126E0/126E4"
@@ -3276,7 +3276,7 @@
    "id": "ovl033_800A2090",
    "at": "800A2090",
    "jp": "　　　　撃ち合おうってのかあ！？",
-   "en": "",
+   "en": "　　　　with the great Son!?",
    "max": 35,
    "refs": [
     "lui@126E8/126EC"
@@ -3287,7 +3287,7 @@
    "id": "ovl033_800A20B4",
    "at": "800A20B4",
    "jp": "　　　　ひ～っ！！",
-   "en": "",
+   "en": "　　　　Eeek!!",
    "max": 19,
    "refs": [
     "lui@127A4/127A8"
@@ -3298,7 +3298,7 @@
    "id": "ovl033_800A20C8",
    "at": "800A20C8",
    "jp": "　　　　そいつを天宮から",
-   "en": "",
+   "en": "　　　　Throw him out of",
    "max": 27,
    "refs": [
     "lui@128A0/128A4"
@@ -3309,7 +3309,7 @@
    "id": "ovl033_800A20E4",
    "at": "800A20E4",
    "jp": "　　　　たたき出せ！",
-   "en": "",
+   "en": "　　　　the Heavenly Palace!",
    "max": 23,
    "refs": [
     "lui@128A8/128AC",
@@ -3321,7 +3321,7 @@
    "id": "ovl033_800A20FC",
    "at": "800A20FC",
    "jp": "　　　　チッ、神さまのくせに",
-   "en": "",
+   "en": "　　　　Tch, for gods, they sure",
    "max": 31,
    "refs": [
     "lui@129B0/129B4"
@@ -3332,7 +3332,7 @@
    "id": "ovl033_800A211C",
    "at": "800A211C",
    "jp": "　　　　了見のせまいヤツらだぜ。",
-   "en": "",
+   "en": "　　　　are a narrow-minded bunch.",
    "max": 35,
    "refs": [
     "lui@129B8/129BC"
@@ -3343,7 +3343,7 @@
    "id": "ovl033_800A2140",
    "at": "800A2140",
    "jp": "　　　　まあ天宮にもあきあきしてたとこ",
-   "en": "",
+   "en": "　　　　Well, I was sick of the Heavenly",
    "max": 39,
    "refs": [
     "lui@12A98/12A9C"
@@ -3354,7 +3354,7 @@
    "id": "ovl033_800A2168",
    "at": "800A2168",
    "jp": "　　　　だ。ちょっくら下界のようすでも",
-   "en": "",
+   "en": "　　　　Palace anyway. Guess I'll go",
    "max": 39,
    "refs": [
     "lui@12AA0/12AA4"
@@ -3365,7 +3365,7 @@
    "id": "ovl033_800A2190",
    "at": "800A2190",
    "jp": "　　　　見てくるとするか。",
-   "en": "",
+   "en": "　　　　check out the mortal world.",
    "max": 27,
    "refs": [
     "lui@12AA8/12AAC"
@@ -3376,7 +3376,7 @@
    "id": "ovl033_800A21AC",
    "at": "800A21AC",
    "jp": "　　　　えっ…まさか…！",
-   "en": "",
+   "en": "　　　　Huh... it can't be...!",
    "max": 27,
    "refs": [
     "lui@12F54/12F58"
@@ -3387,7 +3387,7 @@
    "id": "ovl033_800A21C8",
    "at": "800A21C8",
    "jp": "　　　　やあやあ、",
-   "en": "",
+   "en": "　　　　Hey hey,",
    "max": 19,
    "refs": [
     "lui@130C8/130CC"
@@ -3398,7 +3398,7 @@
    "id": "ovl033_800A21DC",
    "at": "800A21DC",
    "jp": "　　　　大聖さまのお帰りだ！！",
-   "en": "",
+   "en": "　　　　the Great Sage has returned!!",
    "max": 31,
    "refs": [
     "lui@130D0/130D4"
@@ -3409,7 +3409,7 @@
    "id": "ovl033_800A21FC",
    "at": "800A21FC",
    "jp": "　　　　あの…その桃は…。",
-   "en": "",
+   "en": "　　　　Um... those peaches...",
    "max": 27,
    "refs": [
     "lui@13364/13368"
@@ -3420,7 +3420,7 @@
    "id": "ovl033_800A2218",
    "at": "800A2218",
    "jp": "　　　　いやあ、俺さまも神さまだし？",
-   "en": "",
+   "en": "　　　　Well, this great one's a god too,",
    "max": 39,
    "refs": [
     "lui@134A0/134A4"
@@ -3431,7 +3431,7 @@
    "id": "ovl033_800A2240",
    "at": "800A2240",
    "jp": "　　　　下界を見て色々かんがえたり",
-   "en": "",
+   "en": "　　　　so I went and saw the mortal world",
    "max": 35,
    "refs": [
     "lui@134A8/134AC"
@@ -3442,7 +3442,7 @@
    "id": "ovl033_800A2264",
    "at": "800A2264",
    "jp": "　　　　したわけよ。",
-   "en": "",
+   "en": "　　　　and did a lot of thinking.",
    "max": 23,
    "refs": [
     "lui@134B0/134B4"
@@ -3453,7 +3453,7 @@
    "id": "ovl033_800A227C",
    "at": "800A227C",
    "jp": "　　　　食うなと言っとるじゃろ！！",
-   "en": "",
+   "en": "　　　　I told you not to eat those!!",
    "max": 35,
    "refs": [
     "lui@13540/13544"
@@ -3464,7 +3464,7 @@
    "id": "ovl033_800A22A0",
    "at": "800A22A0",
    "jp": "　　　　西洋って神さま一人しかいないん",
-   "en": "",
+   "en": "　　　　Turns out the West only has",
    "max": 39,
    "refs": [
     "lui@13580/13584"
@@ -3475,7 +3475,7 @@
    "id": "ovl033_800A22C8",
    "at": "800A22C8",
    "jp": "　　　　だよねえ。",
-   "en": "",
+   "en": "　　　　one god. Gods and Buddhas",
    "max": 19,
    "refs": [
     "lui@13588/1358C"
@@ -3486,7 +3486,7 @@
    "id": "ovl033_800A22DC",
    "at": "800A22DC",
    "jp": "　　　　もうちっとほら、神仏習合っての？",
-   "en": "",
+   "en": "　　　　oughta blend a bit more, y'know?",
    "max": 43,
    "refs": [
     "lui@13590/13594"
@@ -3497,7 +3497,7 @@
    "id": "ovl033_800A2308",
    "at": "800A2308",
    "jp": "　　　　誰か！誰かおりませぬか！",
-   "en": "",
+   "en": "　　　　Someone! Is anyone there!",
    "max": 35,
    "refs": [
     "lui@13614/13618"
@@ -3508,7 +3508,7 @@
    "id": "ovl033_800A232C",
    "at": "800A232C",
    "jp": "　　　　やっぱり、",
-   "en": "",
+   "en": "　　　　I mean,",
    "max": 19,
    "refs": [
     "lui@13658/1365C"
@@ -3519,7 +3519,7 @@
    "id": "ovl033_800A2340",
    "at": "800A2340",
    "jp": "　　　　共存共栄っていうかさー…。",
-   "en": "",
+   "en": "　　　　everyone living in harmony...",
    "max": 35,
    "refs": [
     "lui@13660/13664"
@@ -3530,7 +3530,7 @@
    "id": "ovl033_800A2364",
    "at": "800A2364",
    "jp": "　　　　早くそいつを天宮から",
-   "en": "",
+   "en": "　　　　Hurry, throw him out of the...",
    "max": 31,
    "refs": [
     "lui@136C0/136C4"
@@ -3541,7 +3541,7 @@
    "id": "ovl033_800A2384",
    "at": "800A2384",
    "jp": "　　　　俺さまも、いちいち金こ棒で",
-   "en": "",
+   "en": "　　　　And I figure pounding everyone",
    "max": 35,
    "refs": [
     "lui@13704/13708"
@@ -3552,7 +3552,7 @@
    "id": "ovl033_800A23A8",
    "at": "800A23A8",
    "jp": "　　　　肉モチにしちまうのも",
-   "en": "",
+   "en": "　　　　into mush with my Golden Hoop Rod",
    "max": 31,
    "refs": [
     "lui@1370C/13710"
@@ -3563,7 +3563,7 @@
    "id": "ovl033_800A23C8",
    "at": "800A23C8",
    "jp": "　　　　大人げないかなあって…。",
-   "en": "",
+   "en": "　　　　is kinda childish, y'know...",
    "max": 35,
    "refs": [
     "lui@13714/13718"
@@ -3574,7 +3574,7 @@
    "id": "ovl033_800A23EC",
    "at": "800A23EC",
    "jp": "　　　　二郎真君！",
-   "en": "",
+   "en": "　　　　Jiro Shinkun!",
    "max": 19,
    "refs": [
     "lui@13774/13778"
@@ -3585,7 +3585,7 @@
    "id": "ovl033_800A2400",
    "at": "800A2400",
    "jp": "　　　　二郎真君はおらぬか！",
-   "en": "",
+   "en": "　　　　Where is Jiro Shinkun!",
    "max": 31,
    "refs": [
     "lui@1377C/13780"
@@ -3596,7 +3596,7 @@
    "id": "ovl033_800A2420",
    "at": "800A2420",
    "jp": "　　　　だからこんなヤツを",
-   "en": "",
+   "en": "　　　　This is why I said",
    "max": 27,
    "refs": [
     "lui@13818/1381C"
@@ -3607,7 +3607,7 @@
    "id": "ovl033_800A243C",
    "at": "800A243C",
    "jp": "　　　　神にするのはよせと",
-   "en": "",
+   "en": "　　　　not to make this creature",
    "max": 27,
    "refs": [
     "lui@13820/13824"
@@ -3618,7 +3618,7 @@
    "id": "ovl033_800A2458",
    "at": "800A2458",
    "jp": "　　　　いうたのに…！",
-   "en": "",
+   "en": "　　　　a god...!",
    "max": 23,
    "refs": [
     "lui@13828/1382C"
@@ -3629,7 +3629,7 @@
    "id": "ovl033_800A2470",
    "at": "800A2470",
    "jp": "　　　　うん、",
-   "en": "",
+   "en": "　　　　Yep,",
    "max": 15,
    "refs": [
     "lui@138E4/138E8"
@@ -3640,7 +3640,7 @@
    "id": "ovl033_800A2480",
    "at": "800A2480",
    "jp": "　　　　やっぱりここの桃はイケル…。",
-   "en": "",
+   "en": "　　　　the peaches here are the best...",
    "max": 39,
    "refs": [
     "lui@138EC/138F0"
@@ -3651,7 +3651,7 @@
    "id": "ovl033_800A24F0",
    "at": "800A24F0",
    "jp": "ジガー          ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Jiggar          OP-ED",
    "max": 27,
    "refs": [
     "lui@14D94/14D98"
@@ -3662,7 +3662,7 @@
    "id": "ovl033_800A250C",
    "at": "800A250C",
    "jp": "シンバッド      ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Sinbad          OP-ED",
    "max": 27,
    "refs": [
     "lui@14DA0/14DA4"
@@ -3673,7 +3673,7 @@
    "id": "ovl033_800A2528",
    "at": "800A2528",
    "jp": "ハヤテ          ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Hayate          OP-ED",
    "max": 27,
    "refs": [
     "lui@14DAC/14DB0"
@@ -3684,7 +3684,7 @@
    "id": "ovl033_800A2544",
    "at": "800A2544",
    "jp": "アガート        ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Agathe          OP-ED",
    "max": 27,
    "refs": [
     "lui@14DB8/14DBC"
@@ -3695,7 +3695,7 @@
    "id": "ovl033_800A2560",
    "at": "800A2560",
    "jp": "メグメグ        ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Meg-meg         OP-ED",
    "max": 27,
    "refs": [
     "lui@14DC4/14DC8"
@@ -3706,7 +3706,7 @@
    "id": "ovl033_800A257C",
    "at": "800A257C",
    "jp": "ガラハッド      ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Galahad         OP-ED",
    "max": 27,
    "refs": [
     "lui@14DD0/14DD4"
@@ -3717,7 +3717,7 @@
    "id": "ovl033_800A2598",
    "at": "800A2598",
    "jp": "ゴライアス      ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Goliath         OP-ED",
    "max": 27,
    "refs": [
     "lui@14DDC/14DE0"
@@ -3728,7 +3728,7 @@
    "id": "ovl033_800A25B4",
    "at": "800A25B4",
    "jp": "ティアラ        ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Tiara           OP-ED",
    "max": 27,
    "refs": [
     "lui@14DE8/14DEC"
@@ -3739,7 +3739,7 @@
    "id": "ovl033_800A25D0",
    "at": "800A25D0",
    "jp": "ヤスツナ        ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Yasutsuna       OP-ED",
    "max": 27,
    "refs": [
     "lui@14DF4/14DF8"
@@ -3750,7 +3750,7 @@
    "id": "ovl033_800A25EC",
    "at": "800A25EC",
    "jp": "孫悟空          ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Son Gokuh       OP-ED",
    "max": 27,
    "refs": [
     "lui@14E00/14E04"
@@ -3761,7 +3761,7 @@
    "id": "ovl033_800A2608",
    "at": "800A2608",
    "jp": "ダンテ          ＯＰ／ＥＤ",
-   "en": "",
+   "en": "Dante           OP-ED",
    "max": 27,
    "refs": [
     "lui@14E0C/14E10"
@@ -3772,7 +3772,7 @@
    "id": "ovl033_800A26CC",
    "at": "800A26CC",
    "jp": "　　　　そうよ、これだわ！",
-   "en": "",
+   "en": "　　　　Yes, this is it!",
    "max": 27,
    "refs": [
     "lui@16000/16004"
@@ -3783,7 +3783,7 @@
    "id": "ovl033_800A26EC",
    "at": "800A26EC",
    "jp": "　　　　きっとガイアマスターには、",
-   "en": "",
+   "en": "　　　　I just know GaiaMaster",
    "max": 35,
    "refs": [
     "lui@16070/16074"
@@ -3794,7 +3794,7 @@
    "id": "ovl033_800A2710",
    "at": "800A2710",
    "jp": "　　　　素敵で、あたしの怪力が",
-   "en": "",
+   "en": "　　　　will be full of dreamy, strong",
    "max": 31,
    "refs": [
     "lui@16078/1607C"
@@ -3805,7 +3805,7 @@
    "id": "ovl033_800A2730",
    "at": "800A2730",
    "jp": "　　　　目立たなくなるような",
-   "en": "",
+   "en": "　　　　guys who'll make my muscles",
    "max": 31,
    "refs": [
     "lui@16080/16084"
@@ -3816,7 +3816,7 @@
    "id": "ovl033_800A2750",
    "at": "800A2750",
    "jp": "　　　　強いおとこの人がたくさん",
-   "en": "",
+   "en": "　　　　look like nothing at all,",
    "max": 35,
    "refs": [
     "lui@160A4/160A8"
@@ -3827,7 +3827,7 @@
    "id": "ovl033_800A2774",
    "at": "800A2774",
    "jp": "　　　　参加しているはずよ！",
-   "en": "",
+   "en": "　　　　all signed up to play!",
    "max": 31,
    "refs": [
     "lui@160AC/160B0"
@@ -3838,7 +3838,7 @@
    "id": "ovl033_800A2794",
    "at": "800A2794",
    "jp": "　　　　あれ、あの子かじ屋の…。",
-   "en": "",
+   "en": "　　　　Oh, isn't that the smithy's girl...",
    "max": 35,
    "refs": [
     "lui@160E4/160E8"
@@ -3849,7 +3849,7 @@
    "id": "ovl033_800A27B8",
    "at": "800A27B8",
    "jp": "　　　　まだヨメにもらってくれる人が",
-   "en": "",
+   "en": "　　　　I hear she still hasn't found",
    "max": 39,
    "refs": [
     "lui@16110/16114"
@@ -3860,7 +3860,7 @@
    "id": "ovl033_800A27E0",
    "at": "800A27E0",
    "jp": "　　　　見つからないんだってね。",
-   "en": "",
+   "en": "　　　　anyone who'll marry her.",
    "max": 35,
    "refs": [
     "lui@16118/1611C"
@@ -3871,7 +3871,7 @@
    "id": "ovl033_800A2804",
    "at": "800A2804",
    "jp": "　　　　かわいそうに、",
-   "en": "",
+   "en": "　　　　Poor thing,",
    "max": 23,
    "refs": [
     "lui@16140/16144"
@@ -3882,7 +3882,7 @@
    "id": "ovl033_800A281C",
    "at": "800A281C",
    "jp": "　　　　いい子なんだけどねえ…。",
-   "en": "",
+   "en": "　　　　she's a nice girl, too...",
    "max": 35,
    "refs": [
     "lui@16148/1614C"
@@ -3893,7 +3893,7 @@
    "id": "ovl033_800A2840",
    "at": "800A2840",
    "jp": "　　　　あのうでっぷしの強さじゃ…。",
-   "en": "",
+   "en": "　　　　But with arms that strong...",
    "max": 39,
    "refs": [
     "lui@161A0/161A4"
@@ -3904,7 +3904,7 @@
    "id": "ovl033_800A2868",
    "at": "800A2868",
    "jp": "　　　　その中には、あたしと",
-   "en": "",
+   "en": "　　　　And among them, surely, is",
    "max": 31,
    "refs": [
     "lui@161E0/161E4"
@@ -3915,7 +3915,7 @@
    "id": "ovl033_800A2888",
    "at": "800A2888",
    "jp": "　　　　赤いいと＠でむすばれた",
-   "en": "",
+   "en": "　　　　the one tied to me by the red",
    "max": 31,
    "refs": [
     "lui@161E8/161EC"
@@ -3926,7 +3926,7 @@
    "id": "ovl033_800A28A8",
    "at": "800A28A8",
    "jp": "　　　　運命の人がきっと…。",
-   "en": "",
+   "en": "　　　　thread@ of fate...",
    "max": 31,
    "refs": [
     "lui@161F0/161F4"
@@ -3937,7 +3937,7 @@
    "id": "ovl033_800A28C8",
    "at": "800A28C8",
    "jp": "　　　　「メグメグ、君こそぼくの",
-   "en": "",
+   "en": "　　　　\"Meg-meg, you're the ideal",
    "max": 35,
    "refs": [
     "lui@162AC/162B0"
@@ -3948,7 +3948,7 @@
    "id": "ovl033_800A28EC",
    "at": "800A28EC",
    "jp": "　　　　探していた理想の女性だ！」",
-   "en": "",
+   "en": "　　　　woman I've been searching for!\"",
    "max": 35,
    "refs": [
     "lui@162B4/162B8"
@@ -3959,7 +3959,7 @@
    "id": "ovl033_800A2910",
    "at": "800A2910",
    "jp": "　　　　「ぜひぼくとケッコンしてくれ！」",
-   "en": "",
+   "en": "　　　　\"Please, you must marry me!\"",
    "max": 43,
    "refs": [
     "lui@162DC/162E0"
@@ -3970,7 +3970,7 @@
    "id": "ovl033_800A293C",
    "at": "800A293C",
    "jp": "　　　　なーんて…。",
-   "en": "",
+   "en": "　　　　Or something...",
    "max": 23,
    "refs": [
     "lui@162E4/162E8"
@@ -3981,7 +3981,7 @@
    "id": "ovl033_800A2954",
    "at": "800A2954",
    "jp": "　　　　キャッ＠",
-   "en": "",
+   "en": "　　　　Kyaa@",
    "max": 19,
    "refs": [
     "lui@1630C/16310"
@@ -3992,7 +3992,7 @@
    "id": "ovl033_800A2968",
    "at": "800A2968",
    "jp": "　　　　いけないわ、そんな…！",
-   "en": "",
+   "en": "　　　　Oh, I couldn't, really...!",
    "max": 31,
    "refs": [
     "lui@16314/16318"
@@ -4003,7 +4003,7 @@
    "id": "ovl033_800A2988",
    "at": "800A2988",
    "jp": "　　　　私たちまだ出会ったばかり",
-   "en": "",
+   "en": "　　　　We've only just",
    "max": 35,
    "refs": [
     "lui@1633C/16340"
@@ -4014,7 +4014,7 @@
    "id": "ovl033_800A29AC",
    "at": "800A29AC",
    "jp": "　　　　なのに…＠",
-   "en": "",
+   "en": "　　　　met...@",
    "max": 19,
    "refs": [
     "lui@16344/16348"
@@ -4025,7 +4025,7 @@
    "id": "ovl033_800A29C0",
    "at": "800A29C0",
    "jp": "　　　　ママー、",
-   "en": "",
+   "en": "　　　　Mommy,",
    "max": 19,
    "refs": [
     "lui@1637C/16380"
@@ -4036,7 +4036,7 @@
    "id": "ovl033_800A29D4",
    "at": "800A29D4",
    "jp": "　　　　あのおねえちゃん、変！",
-   "en": "",
+   "en": "　　　　that lady's acting weird!",
    "max": 31,
    "refs": [
     "lui@16384/16388"
@@ -4047,7 +4047,7 @@
    "id": "ovl033_800A29F4",
    "at": "800A29F4",
    "jp": "　　　　しっ、見ちゃいけません…！",
-   "en": "",
+   "en": "　　　　Shh, don't look...!",
    "max": 35,
    "refs": [
     "lui@163B0/163B4"
@@ -4058,7 +4058,7 @@
    "id": "ovl033_800A2A18",
    "at": "800A2A18",
    "jp": "　　　　はたしてそれでいいのか！？",
-   "en": "",
+   "en": "　　　　Is that really okay!?",
    "max": 35,
    "refs": [
     "lui@163E8/163EC",
@@ -4070,7 +4070,7 @@
    "id": "ovl033_800A2A3C",
    "at": "800A2A3C",
    "jp": "　　　　目を覚ませ、メグメグ！！",
-   "en": "",
+   "en": "　　　　Wake up, Meg-meg!!",
    "max": 35,
    "refs": [
     "lui@1640C/16410",
@@ -4082,7 +4082,7 @@
    "id": "ovl033_800A2A8C",
    "at": "800A2A8C",
    "jp": "　　　　ガイアマスターに優勝したメグメグ",
-   "en": "",
+   "en": "　　　　Meg-meg, winner of GaiaMaster,",
    "max": 43,
    "refs": [
     "lui@16A64/16A68"
@@ -4093,7 +4093,7 @@
    "id": "ovl033_800A2AB8",
    "at": "800A2AB8",
    "jp": "　　　　は、その怪力と剛勇をみとめられ",
-   "en": "",
+   "en": "　　　　was honored for her might and valor",
    "max": 39,
    "refs": [
     "lui@16A6C/16A70"
@@ -4104,7 +4104,7 @@
    "id": "ovl033_800A2AE0",
    "at": "800A2AE0",
    "jp": "　　　　王国の騎士団長に任命された。",
-   "en": "",
+   "en": "　　　　and made Captain of the Knights.",
    "max": 39,
    "refs": [
     "lui@16A74/16A78"
@@ -4115,7 +4115,7 @@
    "id": "ovl033_800A2B08",
    "at": "800A2B08",
    "jp": "　　　　こんなはずじゃ",
-   "en": "",
+   "en": "　　　　This isn't how it",
    "max": 23,
    "refs": [
     "lui@16C28/16C2C"
@@ -4126,7 +4126,7 @@
    "id": "ovl033_800A2B20",
    "at": "800A2B20",
    "jp": "　　　　なかったのに…！",
-   "en": "",
+   "en": "　　　　was supposed to go...!",
    "max": 27,
    "refs": [
     "lui@16C30/16C34"
@@ -4137,7 +4137,7 @@
    "id": "ovl033_800A2B3C",
    "at": "800A2B3C",
    "jp": "　　　　おムコさんを見つけて、",
-   "en": "",
+   "en": "　　　　My dream of finding a husband",
    "max": 31,
    "refs": [
     "lui@16C60/16C64"
@@ -4148,7 +4148,7 @@
    "id": "ovl033_800A2B5C",
    "at": "800A2B5C",
    "jp": "　　　　ささやかだけどあたたかい",
-   "en": "",
+   "en": "　　　　and making a small but",
    "max": 35,
    "refs": [
     "lui@16C68/16C6C"
@@ -4159,7 +4159,7 @@
    "id": "ovl033_800A2B80",
    "at": "800A2B80",
    "jp": "　　　　家庭をきずくという",
-   "en": "",
+   "en": "　　　　warm home together",
    "max": 27,
    "refs": [
     "lui@16C70/16C74"
@@ -4170,7 +4170,7 @@
    "id": "ovl033_800A2B9C",
    "at": "800A2B9C",
    "jp": "　　　　あたしの夢はどんどん遠く",
-   "en": "",
+   "en": "　　　　just keeps getting further",
    "max": 35,
    "refs": [
     "lui@16C94/16C98"
@@ -4181,7 +4181,7 @@
    "id": "ovl033_800A2BC0",
    "at": "800A2BC0",
    "jp": "　　　　なるばかり…。",
-   "en": "",
+   "en": "　　　　and further away...",
    "max": 23,
    "refs": [
     "lui@16C9C/16CA0"
@@ -4192,7 +4192,7 @@
    "id": "ovl033_800A2BD8",
    "at": "800A2BD8",
    "jp": "　　　　ああ神さま、",
-   "en": "",
+   "en": "　　　　Oh, heavens,",
    "max": 23,
    "refs": [
     "lui@16CD8/16CDC"
@@ -4203,7 +4203,7 @@
    "id": "ovl033_800A2BF0",
    "at": "800A2BF0",
    "jp": "　　　　あたしのしあわせの",
-   "en": "",
+   "en": "　　　　where is my bluebird",
    "max": 27,
    "refs": [
     "lui@16CE0/16CE4"
@@ -4214,7 +4214,7 @@
    "id": "ovl033_800A2C0C",
    "at": "800A2C0C",
    "jp": "　　　　あおいトリはどこ？",
-   "en": "",
+   "en": "　　　　of happiness?",
    "max": 27,
    "refs": [
     "lui@16CE8/16CEC"
@@ -4225,7 +4225,7 @@
    "id": "ovl033_800A2C28",
    "at": "800A2C28",
    "jp": "　　　　メグメグどの、",
-   "en": "",
+   "en": "　　　　Meg-meg-dono,",
    "max": 23,
    "refs": [
     "lui@16D1C/16D20"
@@ -4236,7 +4236,7 @@
    "id": "ovl033_800A2C40",
    "at": "800A2C40",
    "jp": "　　　　勇名は聞きおよんでおります。",
-   "en": "",
+   "en": "　　　　I have heard tales of your valor.",
    "max": 39,
    "refs": [
     "lui@16D24/16D28"
@@ -4247,7 +4247,7 @@
    "id": "ovl033_800A2C68",
    "at": "800A2C68",
    "jp": "　　　　ハッ！！",
-   "en": "",
+   "en": "　　　　Oh!!",
    "max": 19,
    "refs": [
     "lui@16F6C/16F70"
@@ -4258,7 +4258,7 @@
    "id": "ovl033_800A2C7C",
    "at": "800A2C7C",
    "jp": "　　　　今後ともよろしく。",
-   "en": "",
+   "en": "　　　　I look forward to serving with you.",
    "max": 27,
    "refs": [
     "lui@16FA0/16FA4"
@@ -4269,7 +4269,7 @@
    "id": "ovl033_800A2C98",
    "at": "800A2C98",
    "jp": "　　　　おたがい騎士として",
-   "en": "",
+   "en": "　　　　Let us both do our best",
    "max": 27,
    "refs": [
     "lui@16FA8/16FAC"
@@ -4280,7 +4280,7 @@
    "id": "ovl033_800A2CB4",
    "at": "800A2CB4",
    "jp": "　　　　がんばりましょう。",
-   "en": "",
+   "en": "　　　　as knights.",
    "max": 27,
    "refs": [
     "lui@16FB0/16FB4"
@@ -4291,7 +4291,7 @@
    "id": "ovl033_800A2CD0",
    "at": "800A2CD0",
    "jp": "　　　　えっ、ええ、よろこんで！！",
-   "en": "",
+   "en": "　　　　Oh, y-yes, gladly!!",
    "max": 35,
    "refs": [
     "lui@1706C/17070"
@@ -4302,7 +4302,7 @@
    "id": "ovl033_800A2CF4",
    "at": "800A2CF4",
    "jp": "　　　　…ステキ＠",
-   "en": "",
+   "en": "　　　　...Dreamy@",
    "max": 19,
    "refs": [
     "lui@17180/17184"
@@ -4313,7 +4313,7 @@
    "id": "ovl033_800A2D08",
    "at": "800A2D08",
    "jp": "　　　　しあわせのあおいトリって、",
-   "en": "",
+   "en": "　　　　Maybe the bluebird of happiness",
    "max": 35,
    "refs": [
     "lui@171AC/171B0"
@@ -4324,7 +4324,7 @@
    "id": "ovl033_800A2D2C",
    "at": "800A2D2C",
    "jp": "　　　　あんがい近くにいるのかも",
-   "en": "",
+   "en": "　　　　was closer than I thought",
    "max": 35,
    "refs": [
     "lui@171B4/171B8"
@@ -4335,7 +4335,7 @@
    "id": "ovl033_800A2D50",
    "at": "800A2D50",
    "jp": "　　　　しれないわ！",
-   "en": "",
+   "en": "　　　　all along!",
    "max": 23,
    "refs": [
     "lui@171BC/171C0"
@@ -4346,7 +4346,7 @@
    "id": "ovl033_800A2DE0",
    "at": "800A2DE0",
    "jp": "　　　　…だれ？",
-   "en": "",
+   "en": "　　　　...Who's there?",
    "max": 19,
    "refs": [
     "lui@181A4/181A8"
@@ -4357,7 +4357,7 @@
    "id": "ovl033_800A2DF8",
    "at": "800A2DF8",
    "jp": "　　　　当ててみな。",
-   "en": "",
+   "en": "　　　　Guess.",
    "max": 23,
    "refs": [
     "lui@181D4/181D8"
@@ -4368,7 +4368,7 @@
    "id": "ovl033_800A2E10",
    "at": "800A2E10",
    "jp": "　　　　ジガーでしょう？",
-   "en": "",
+   "en": "　　　　It's Jiggar, right?",
    "max": 27,
    "refs": [
     "lui@18208/1820C",
@@ -4380,7 +4380,7 @@
    "id": "ovl033_800A2E2C",
    "at": "800A2E2C",
    "jp": "　　　　まちがえっこないわ。",
-   "en": "",
+   "en": "　　　　I'd know you anywhere.",
    "max": 31,
    "refs": [
     "lui@18210/18214"
@@ -4391,7 +4391,7 @@
    "id": "ovl033_800A2E4C",
    "at": "800A2E4C",
    "jp": "　　　　今日はどんなお話を",
-   "en": "",
+   "en": "　　　　What story will you",
    "max": 27,
    "refs": [
     "lui@18534/18538"
@@ -4402,7 +4402,7 @@
    "id": "ovl033_800A2E68",
    "at": "800A2E68",
    "jp": "　　　　聞かせてくれるの？",
-   "en": "",
+   "en": "　　　　tell me today?",
    "max": 27,
    "refs": [
     "lui@1853C/18540"
@@ -4413,7 +4413,7 @@
    "id": "ovl033_800A2E84",
    "at": "800A2E84",
    "jp": "　　　　エリナ、今日はお話はなしだ。",
-   "en": "",
+   "en": "　　　　Erina, no story today.",
    "max": 39,
    "refs": [
     "lui@18584/18588"
@@ -4424,7 +4424,7 @@
    "id": "ovl033_800A2EAC",
    "at": "800A2EAC",
    "jp": "　　　　俺、ガイアマスターに出るんだ。",
-   "en": "",
+   "en": "　　　　I'm entering GaiaMaster.",
    "max": 39,
    "refs": [
     "lui@185B0/185B4"
@@ -4435,7 +4435,7 @@
    "id": "ovl033_800A2ED4",
    "at": "800A2ED4",
    "jp": "　　　　ガイアマスター…！",
-   "en": "",
+   "en": "　　　　GaiaMaster...!",
    "max": 27,
    "refs": [
     "lui@185EC/185F0"
@@ -4446,7 +4446,7 @@
    "id": "ovl033_800A2EF0",
    "at": "800A2EF0",
    "jp": "　　　　しばらく会いに来れないけど、",
-   "en": "",
+   "en": "　　　　I can't come see you for a while,",
    "max": 39,
    "refs": [
     "lui@18624/18628"
@@ -4457,7 +4457,7 @@
    "id": "ovl033_800A2F18",
    "at": "800A2F18",
    "jp": "　　　　うまく戻って来たら、その時は",
-   "en": "",
+   "en": "　　　　but if I make it back, then",
    "max": 39,
    "refs": [
     "lui@1862C/18630"
@@ -4468,7 +4468,7 @@
    "id": "ovl033_800A2F40",
    "at": "800A2F40",
    "jp": "　　　　俺のお話なんていらなくなる。",
-   "en": "",
+   "en": "　　　　you won't need my stories anymore.",
    "max": 39,
    "refs": [
     "lui@18634/18638"
@@ -4479,7 +4479,7 @@
    "id": "ovl033_800A2F68",
    "at": "800A2F68",
    "jp": "　　　　お前の目を治せる薬を…、",
-   "en": "",
+   "en": "　　　　Medicine that can cure your eyes...",
    "max": 35,
    "refs": [
     "lui@1866C/18670"
@@ -4490,7 +4490,7 @@
    "id": "ovl033_800A2F8C",
    "at": "800A2F8C",
    "jp": "　　　　霊薬エリキサーを手に入れて",
-   "en": "",
+   "en": "　　　　I'm gonna bring you back",
    "max": 35,
    "refs": [
     "lui@18698/1869C"
@@ -4501,7 +4501,7 @@
    "id": "ovl033_800A2FB0",
    "at": "800A2FB0",
    "jp": "　　　　くるぜ！",
-   "en": "",
+   "en": "　　　　the miracle Elixir!",
    "max": 19,
    "refs": [
     "lui@186A0/186A4"
@@ -4512,7 +4512,7 @@
    "id": "ovl033_800A2FC4",
    "at": "800A2FC4",
    "jp": "　　　　ジガー？…ジガー、",
-   "en": "",
+   "en": "　　　　Jiggar? ...Jiggar,",
    "max": 27,
    "refs": [
     "lui@18B90/18B94"
@@ -4523,7 +4523,7 @@
    "id": "ovl033_800A2FE0",
    "at": "800A2FE0",
    "jp": "　　　　もう行っちゃったの？",
-   "en": "",
+   "en": "　　　　are you gone already?",
    "max": 31,
    "refs": [
     "lui@18B98/18B9C"
@@ -4534,7 +4534,7 @@
    "id": "ovl033_800A3024",
    "at": "800A3024",
    "jp": "　　　　ジガー！",
-   "en": "",
+   "en": "　　　　Jiggar!",
    "max": 19,
    "refs": [
     "lui@19330/19334"
@@ -4545,7 +4545,7 @@
    "id": "ovl033_800A3038",
    "at": "800A3038",
    "jp": "　　　　…よくわかったな。",
-   "en": "",
+   "en": "　　　　...How'd you know?",
    "max": 27,
    "refs": [
     "lui@193A4/193A8"
@@ -4556,7 +4556,7 @@
    "id": "ovl033_800A3054",
    "at": "800A3054",
    "jp": "　　　　足音でわかるわ。",
-   "en": "",
+   "en": "　　　　I know your footsteps.",
    "max": 27,
    "refs": [
     "lui@193E0/193E4"
@@ -4567,7 +4567,7 @@
    "id": "ovl033_800A3070",
    "at": "800A3070",
    "jp": "　　　　戻って来てくれたのね…。",
-   "en": "",
+   "en": "　　　　You came back to me...",
    "max": 35,
    "refs": [
     "lui@19414/19418"
@@ -4578,7 +4578,7 @@
    "id": "ovl033_800A3094",
    "at": "800A3094",
    "jp": "　　　　エリナ、ほら、これ…。",
-   "en": "",
+   "en": "　　　　Erina, here, look...",
    "max": 31,
    "refs": [
     "lui@1944C/19450"
@@ -4589,7 +4589,7 @@
    "id": "ovl033_800A30B4",
    "at": "800A30B4",
    "jp": "　　　　手に入れてきたぜ、",
-   "en": "",
+   "en": "　　　　I got it,",
    "max": 27,
    "refs": [
     "lui@19494/19498"
@@ -4600,7 +4600,7 @@
    "id": "ovl033_800A30D0",
    "at": "800A30D0",
    "jp": "　　　　やくそくのエリキサーだ。",
-   "en": "",
+   "en": "　　　　the Elixir I promised you.",
    "max": 35,
    "refs": [
     "lui@194C8/194CC"
@@ -4611,7 +4611,7 @@
    "id": "ovl033_800A30F4",
    "at": "800A30F4",
    "jp": "　　　　あ…。",
-   "en": "",
+   "en": "　　　　Oh...",
    "max": 15,
    "refs": [
     "lui@19D38/19D3C"
@@ -4633,7 +4633,7 @@
    "id": "ovl033_800A3114",
    "at": "800A3114",
    "jp": "　　　　見える…見えるわ！",
-   "en": "",
+   "en": "　　　　I can see... I can see!",
    "max": 27,
    "refs": [
     "lui@19E44/19E48"
@@ -4644,7 +4644,7 @@
    "id": "ovl033_800A3130",
    "at": "800A3130",
    "jp": "　　　　わたしの目、見える！",
-   "en": "",
+   "en": "　　　　My eyes can see!",
    "max": 31,
    "refs": [
     "lui@19E4C/19E50"
@@ -4655,7 +4655,7 @@
    "id": "ovl033_800A3150",
    "at": "800A3150",
    "jp": "　　　　ねえジガー…！",
-   "en": "",
+   "en": "　　　　Jiggar, look...!",
    "max": 23,
    "refs": [
     "lui@19E8C/19E90"
@@ -4666,7 +4666,7 @@
    "id": "ovl033_800A3168",
    "at": "800A3168",
    "jp": "　　　　…ジガー？",
-   "en": "",
+   "en": "　　　　...Jiggar?",
    "max": 19,
    "refs": [
     "lui@19F30/19F34"
@@ -4677,7 +4677,7 @@
    "id": "ovl033_800A317C",
    "at": "800A317C",
    "jp": "　　　　ジガーどこなの？",
-   "en": "",
+   "en": "　　　　Jiggar, where are you?",
    "max": 27,
    "refs": [
     "lui@19F64/19F68"
@@ -4688,7 +4688,7 @@
    "id": "ovl033_800A3198",
    "at": "800A3198",
    "jp": "　　　　いいの？",
-   "en": "",
+   "en": "　　　　You sure about this?",
    "max": 19,
    "refs": [
     "lui@19FE8/19FEC"
@@ -4699,7 +4699,7 @@
    "id": "ovl033_800A31AC",
    "at": "800A31AC",
    "jp": "　　　　黙って出てきちゃって。",
-   "en": "",
+   "en": "　　　　Sneaking off without a word?",
    "max": 31,
    "refs": [
     "lui@19FF0/19FF4"
@@ -4710,7 +4710,7 @@
    "id": "ovl033_800A31CC",
    "at": "800A31CC",
    "jp": "　　　　いいんだよ、これで。",
-   "en": "",
+   "en": "　　　　It's better this way.",
    "max": 31,
    "refs": [
     "lui@1A034/1A038"
@@ -4721,7 +4721,7 @@
    "id": "ovl033_800A31EC",
    "at": "800A31EC",
    "jp": "　　　　俺はしがない",
-   "en": "",
+   "en": "　　　　I'm just a lowly",
    "max": 23,
    "refs": [
     "lui@1A068/1A06C"
@@ -4732,7 +4732,7 @@
    "id": "ovl033_800A3204",
    "at": "800A3204",
    "jp": "　　　　トレジャ－ハンター、",
-   "en": "",
+   "en": "　　　　treasure hunter.",
    "max": 31,
    "refs": [
     "lui@1A070/1A074"
@@ -4743,7 +4743,7 @@
    "id": "ovl033_800A3224",
    "at": "800A3224",
    "jp": "　　　　国一番のふごうのムスメとは",
-   "en": "",
+   "en": "　　　　The richest man's daughter",
    "max": 35,
    "refs": [
     "lui@1A0A0/1A0A4"
@@ -4754,7 +4754,7 @@
    "id": "ovl033_800A3248",
    "at": "800A3248",
    "jp": "　　　　世界が違うぜ。",
-   "en": "",
+   "en": "　　　　lives in another world.",
    "max": 23,
    "refs": [
     "lui@1A0A8/1A0AC"
@@ -4765,7 +4765,7 @@
    "id": "ovl033_800A3260",
    "at": "800A3260",
    "jp": "　　　　こんなくらし、",
-   "en": "",
+   "en": "　　　　A life like this?",
    "max": 23,
    "refs": [
     "lui@1A0EC/1A0F0"
@@ -4776,7 +4776,7 @@
    "id": "ovl033_800A3278",
    "at": "800A3278",
    "jp": "　　　　エリナにさせられるかよ。",
-   "en": "",
+   "en": "　　　　I can't put Erina through that.",
    "max": 35,
    "refs": [
     "lui@1A0F4/1A0F8"
@@ -4787,7 +4787,7 @@
    "id": "ovl033_800A329C",
    "at": "800A329C",
    "jp": "　　　　ふーん、そうなんだ…。",
-   "en": "",
+   "en": "　　　　Hmm, I see...",
    "max": 31,
    "refs": [
     "lui@1A138/1A13C"
@@ -4798,7 +4798,7 @@
    "id": "ovl033_800A32BC",
    "at": "800A32BC",
    "jp": "　　　　ほら、なに落ちこんでんの！",
-   "en": "",
+   "en": "　　　　Come on, quit moping!",
    "max": 35,
    "refs": [
     "lui@1A204/1A208"
@@ -4809,7 +4809,7 @@
    "id": "ovl033_800A32E0",
    "at": "800A32E0",
    "jp": "　　　　あたしがずっとついてて",
-   "en": "",
+   "en": "　　　　I'll stick by you",
    "max": 31,
    "refs": [
     "lui@1A24C/1A250"
@@ -4820,7 +4820,7 @@
    "id": "ovl033_800A3300",
    "at": "800A3300",
    "jp": "　　　　あげるわよ！",
-   "en": "",
+   "en": "　　　　forever!",
    "max": 23,
    "refs": [
     "lui@1A254/1A258"
@@ -4831,7 +4831,7 @@
    "id": "ovl033_800A3318",
    "at": "800A3318",
    "jp": "　　　　でっけえお世話だ、",
-   "en": "",
+   "en": "　　　　Mind your own business,",
    "max": 27,
    "refs": [
     "lui@1A298/1A29C"
@@ -4842,7 +4842,7 @@
    "id": "ovl033_800A3334",
    "at": "800A3334",
    "jp": "　　　　コンチュウ！",
-   "en": "",
+   "en": "　　　　bug!",
    "max": 23,
    "refs": [
     "lui@1A2A0/1A2A4"
@@ -4853,7 +4853,7 @@
    "id": "ovl033_800A334C",
    "at": "800A334C",
    "jp": "　　　　こっ、",
-   "en": "",
+   "en": "　　　　B-,",
    "max": 15,
    "refs": [
     "lui@1A2E4/1A2E8"
@@ -4864,7 +4864,7 @@
    "id": "ovl033_800A335C",
    "at": "800A335C",
    "jp": "　　　　ここコンチュウ～っ！？",
-   "en": "",
+   "en": "　　　　b-b-bug~!?",
    "max": 31,
    "refs": [
     "lui@1A2EC/1A2F0"
@@ -4875,7 +4875,7 @@
    "id": "ovl033_800A337C",
    "at": "800A337C",
    "jp": "　　　　し、シツレイねっっ！！",
-   "en": "",
+   "en": "　　　　H-how rude!!",
    "max": 31,
    "refs": [
     "lui@1A31C/1A320"
@@ -4886,7 +4886,7 @@
    "id": "ovl033_800A339C",
    "at": "800A339C",
    "jp": "　　　　あたしはこれでも",
-   "en": "",
+   "en": "　　　　For your information, I'm from",
    "max": 27,
    "refs": [
     "lui@1A350/1A354"
@@ -4897,7 +4897,7 @@
    "id": "ovl033_800A33B8",
    "at": "800A33B8",
    "jp": "　　　　ユイショ正しい妖精族の…！",
-   "en": "",
+   "en": "　　　　a pixie line of noble pedigree...!",
    "max": 35,
    "refs": [
     "lui@1A358/1A35C"
@@ -4908,7 +4908,7 @@
    "id": "ovl033_800A33DC",
    "at": "800A33DC",
    "jp": "　　　　へいへい。",
-   "en": "",
+   "en": "　　　　Yeah, yeah.",
    "max": 19,
    "refs": [
     "lui@1A39C/1A3A0"
@@ -4919,7 +4919,7 @@
    "id": "ovl033_800A33F0",
    "at": "800A33F0",
    "jp": "　　　　まじめに聞きなさいよっ！！",
-   "en": "",
+   "en": "　　　　Listen to me properly!!",
    "max": 35,
    "refs": [
     "lui@1A3E4/1A3E8"
@@ -4930,7 +4930,7 @@
    "id": "ovl033_800A3414",
    "at": "800A3414",
    "jp": "　　　　そもそも元をたどれば",
-   "en": "",
+   "en": "　　　　If you trace it back to the start,",
    "max": 31,
    "refs": [
     "lui@1A418/1A41C"
@@ -4941,7 +4941,7 @@
    "id": "ovl033_800A3434",
    "at": "800A3434",
    "jp": "　　　　妖精女王ティタニアまで",
-   "en": "",
+   "en": "　　　　it goes all the way to Titania,",
    "max": 31,
    "refs": [
     "lui@1A420/1A424"
@@ -4952,7 +4952,7 @@
    "id": "ovl033_800A3454",
    "at": "800A3454",
    "jp": "　　　　さかのぼる…。",
-   "en": "",
+   "en": "　　　　queen of the pixies...",
    "max": 23,
    "refs": [
     "lui@1A428/1A42C"
@@ -4963,7 +4963,7 @@
    "id": "ovl033_800A346C",
    "at": "800A346C",
    "jp": "　　　　待ちなさいったら、",
-   "en": "",
+   "en": "　　　　Wait, I said!",
    "max": 27,
    "refs": [
     "lui@1A468/1A46C"
@@ -4974,7 +4974,7 @@
    "id": "ovl033_800A3488",
    "at": "800A3488",
    "jp": "　　　　ちょっとお！",
-   "en": "",
+   "en": "　　　　Hey, you!",
    "max": 23,
    "refs": [
     "lui@1A470/1A474"
@@ -4996,7 +4996,7 @@
    "id": "ovl033_800A34D0",
    "at": "800A34D0",
    "jp": "　　　　ハヤテ！ハヤテはおらぬか！",
-   "en": "",
+   "en": "　　　　Hayate! Where is Hayate!",
    "max": 35,
    "refs": [
     "lui@1B1F8/1B1FC"
@@ -5007,7 +5007,7 @@
    "id": "ovl033_800A34F4",
    "at": "800A34F4",
    "jp": "　　　　これに…！",
-   "en": "",
+   "en": "　　　　Here...!",
    "max": 19,
    "refs": [
     "lui@1B2F4/1B2F8"
@@ -5018,7 +5018,7 @@
    "id": "ovl033_800A3508",
    "at": "800A3508",
    "jp": "　　　　海の向こう、異国で行われる",
-   "en": "",
+   "en": "　　　　Across the sea, in a foreign land,",
    "max": 35,
    "refs": [
     "lui@1B334/1B338"
@@ -5029,7 +5029,7 @@
    "id": "ovl033_800A352C",
    "at": "800A352C",
    "jp": "　　　　「がいあますたあ」なる戦いが",
-   "en": "",
+   "en": "　　　　a battle called \"GaiaMaster\"",
    "max": 39,
    "refs": [
     "lui@1B33C/1B340"
@@ -5040,7 +5040,7 @@
    "id": "ovl033_800A3554",
    "at": "800A3554",
    "jp": "　　　　ある。",
-   "en": "",
+   "en": "　　　　is held.",
    "max": 15,
    "refs": [
     "lui@1B344/1B348"
@@ -5051,7 +5051,7 @@
    "id": "ovl033_800A3564",
    "at": "800A3564",
    "jp": "　　　　乱れ手裏剣のハヤテよ、",
-   "en": "",
+   "en": "　　　　Hayate of the Storm Shuriken,",
    "max": 31,
    "refs": [
     "lui@1B36C/1B370"
@@ -5062,7 +5062,7 @@
    "id": "ovl033_800A3584",
    "at": "800A3584",
    "jp": "　　　　「がいあますたあ」に潜入し",
-   "en": "",
+   "en": "　　　　infiltrate this \"GaiaMaster\"",
    "max": 35,
    "refs": [
     "lui@1B374/1B378"
@@ -5073,7 +5073,7 @@
    "id": "ovl033_800A35A8",
    "at": "800A35A8",
    "jp": "　　　　内情を探ってくるのだ。",
-   "en": "",
+   "en": "　　　　and learn its secrets.",
    "max": 31,
    "refs": [
     "lui@1B37C/1B380"
@@ -5084,7 +5084,7 @@
    "id": "ovl033_800A35C8",
    "at": "800A35C8",
    "jp": "　　　　ゆけ！",
-   "en": "",
+   "en": "　　　　Go!",
    "max": 15,
    "refs": [
     "lui@1B3A4/1B3A8"
@@ -5095,7 +5095,7 @@
    "id": "ovl033_800A35D8",
    "at": "800A35D8",
    "jp": "　　　　はっ…！",
-   "en": "",
+   "en": "　　　　Yes, sir...!",
    "max": 19,
    "refs": [
     "lui@1B3DC/1B3E0",
@@ -5107,7 +5107,7 @@
    "id": "ovl033_800A35EC",
    "at": "800A35EC",
    "jp": "　　　　…そのまま異国でくちるもよし、",
-   "en": "",
+   "en": "　　　　...If he rots in a foreign land, fine.",
    "max": 39,
    "refs": [
     "lui@1B4B4/1B4B8"
@@ -5118,7 +5118,7 @@
    "id": "ovl033_800A3614",
    "at": "800A3614",
    "jp": "　　　　戻って来るもよし、",
-   "en": "",
+   "en": "　　　　If he returns, also fine.",
    "max": 27,
    "refs": [
     "lui@1B4BC/1B4C0"
@@ -5129,7 +5129,7 @@
    "id": "ovl033_800A3630",
    "at": "800A3630",
    "jp": "　　　　下忍などしょせん捨てゴマよ…。",
-   "en": "",
+   "en": "　　　　A lower ninja is a throwaway pawn...",
    "max": 39,
    "refs": [
     "lui@1B4C4/1B4C8"
@@ -5151,7 +5151,7 @@
    "id": "ovl033_800A3660",
    "at": "800A3660",
    "jp": "　　　　お館さま、",
-   "en": "",
+   "en": "　　　　My lord,",
    "max": 19,
    "refs": [
     "lui@1BB84/1BB88"
@@ -5162,7 +5162,7 @@
    "id": "ovl033_800A3674",
    "at": "800A3674",
    "jp": "　　　　ハヤテただいま戻りました。",
-   "en": "",
+   "en": "　　　　Hayate has returned.",
    "max": 35,
    "refs": [
     "lui@1BB8C/1BB90"
@@ -5173,7 +5173,7 @@
    "id": "ovl033_800A3698",
    "at": "800A3698",
    "jp": "　　　　ほうこくは聞いておる。",
-   "en": "",
+   "en": "　　　　I have heard your report.",
    "max": 31,
    "refs": [
     "lui@1BBC0/1BBC4"
@@ -5184,7 +5184,7 @@
    "id": "ovl033_800A36B8",
    "at": "800A36B8",
    "jp": "　　　　下がって休むがよい。",
-   "en": "",
+   "en": "　　　　You may go and rest.",
    "max": 31,
    "refs": [
     "lui@1BBC8/1BBCC"
@@ -5195,7 +5195,7 @@
    "id": "ovl033_800A36D8",
    "at": "800A36D8",
    "jp": "　　　　母上、戻ったよ。",
-   "en": "",
+   "en": "　　　　Mother, I'm home.",
    "max": 27,
    "refs": [
     "lui@1BDF0/1BDF4"
@@ -5206,7 +5206,7 @@
    "id": "ovl033_800A36F4",
    "at": "800A36F4",
    "jp": "　　　　まあまあ、よく戻って来たねえ、",
-   "en": "",
+   "en": "　　　　My, my, welcome home,",
    "max": 39,
    "refs": [
     "lui@1BE30/1BE34"
@@ -5217,7 +5217,7 @@
    "id": "ovl033_800A371C",
    "at": "800A371C",
    "jp": "　　　　ハヤテ。",
-   "en": "",
+   "en": "　　　　Hayate.",
    "max": 19,
    "refs": [
     "lui@1BE38/1BE3C"
@@ -5228,7 +5228,7 @@
    "id": "ovl033_800A3730",
    "at": "800A3730",
    "jp": "　　　　ははは、お前たちとも",
-   "en": "",
+   "en": "　　　　Ha ha ha, it's been a while",
    "max": 31,
    "refs": [
     "lui@1BEAC/1BEB0"
@@ -5239,7 +5239,7 @@
    "id": "ovl033_800A3750",
    "at": "800A3750",
    "jp": "　　　　ひさしぶりだな、",
-   "en": "",
+   "en": "　　　　for you lot too.",
    "max": 27,
    "refs": [
     "lui@1BEB4/1BEB8"
@@ -5250,7 +5250,7 @@
    "id": "ovl033_800A376C",
    "at": "800A376C",
    "jp": "　　　　元気にしてたか？",
-   "en": "",
+   "en": "　　　　Have you been well?",
    "max": 27,
    "refs": [
     "lui@1BEBC/1BEC0"
@@ -5261,7 +5261,7 @@
    "id": "ovl033_800A3788",
    "at": "800A3788",
    "jp": "　　　　長旅でつかれたろう、",
-   "en": "",
+   "en": "　　　　You must be tired from the trip.",
    "max": 31,
    "refs": [
     "lui@1BF10/1BF14"
@@ -5272,7 +5272,7 @@
    "id": "ovl033_800A37A8",
    "at": "800A37A8",
    "jp": "　　　　さあ、たんとおあがり。",
-   "en": "",
+   "en": "　　　　Come, eat all you like.",
    "max": 31,
    "refs": [
     "lui@1BF18/1BF1C"
@@ -5283,7 +5283,7 @@
    "id": "ovl033_800A37C8",
    "at": "800A37C8",
    "jp": "　　　　いただきます…。",
-   "en": "",
+   "en": "　　　　Let's eat...",
    "max": 27,
    "refs": [
     "lui@1BF94/1BF98"
@@ -5294,7 +5294,7 @@
    "id": "ovl033_800A37E4",
    "at": "800A37E4",
    "jp": "　　　　（俺には母上も、",
-   "en": "",
+   "en": "　　　　(I have Mother,",
    "max": 27,
    "refs": [
     "lui@1C090/1C094"
@@ -5305,7 +5305,7 @@
    "id": "ovl033_800A3800",
    "at": "800A3800",
    "jp": "　　　　動物たちもいる…。）",
-   "en": "",
+   "en": "　　　　and the animals...)",
    "max": 31,
    "refs": [
     "lui@1C098/1C09C"
@@ -5316,7 +5316,7 @@
    "id": "ovl033_800A3820",
    "at": "800A3820",
    "jp": "　　　　（俺たち下忍は、はたらけば手がら",
-   "en": "",
+   "en": "　　　　(For us lower ninja, our deeds",
    "max": 43,
    "refs": [
     "lui@1C0C0/1C0C4"
@@ -5327,7 +5327,7 @@
    "id": "ovl033_800A384C",
    "at": "800A384C",
    "jp": "　　　　は上忍のものとなり、死しても、",
-   "en": "",
+   "en": "　　　　go to the upper ninja, and when",
    "max": 39,
    "refs": [
     "lui@1C0C8/1C0CC"
@@ -5338,7 +5338,7 @@
    "id": "ovl033_800A3874",
    "at": "800A3874",
    "jp": "　　　　かえりみられることはない…。）",
-   "en": "",
+   "en": "　　　　we die, no one gives a thought...)",
    "max": 39,
    "refs": [
     "lui@1C0D0/1C0D4"
@@ -5349,7 +5349,7 @@
    "id": "ovl033_800A389C",
    "at": "800A389C",
    "jp": "　　　　（俺はけっして死ぬものか。",
-   "en": "",
+   "en": "　　　　(I will never die.",
    "max": 35,
    "refs": [
     "lui@1C0F4/1C0F8"
@@ -5360,7 +5360,7 @@
    "id": "ovl033_800A38C0",
    "at": "800A38C0",
    "jp": "　　　　生きて、生きて、",
-   "en": "",
+   "en": "　　　　I'll live, and live,",
    "max": 27,
    "refs": [
     "lui@1C0FC/1C100"
@@ -5371,7 +5371,7 @@
    "id": "ovl033_800A38DC",
    "at": "800A38DC",
    "jp": "　　　　生きぬいてやる…！）",
-   "en": "",
+   "en": "　　　　and keep on living...!)",
    "max": 31,
    "refs": [
     "lui@1C104/1C108"
@@ -5382,7 +5382,7 @@
    "id": "ovl033_800A38FC",
    "at": "800A38FC",
    "jp": "　　　　この一人の忍びがその命を",
-   "en": "",
+   "en": "　　　　Whether this lone ninja",
    "max": 35,
    "refs": [
     "lui@1C15C/1C160"
@@ -5393,7 +5393,7 @@
    "id": "ovl033_800A3920",
    "at": "800A3920",
    "jp": "　　　　全うしたのか、",
-   "en": "",
+   "en": "　　　　lived out his life in full,",
    "max": 23,
    "refs": [
     "lui@1C164/1C168"
@@ -5404,7 +5404,7 @@
    "id": "ovl033_800A3938",
    "at": "800A3938",
    "jp": "　　　　それは誰もしらない…。",
-   "en": "",
+   "en": "　　　　no one knows...",
    "max": 31,
    "refs": [
     "lui@1C16C/1C170"
@@ -5426,7 +5426,7 @@
    "id": "ovl033_800A3988",
    "at": "800A3988",
    "jp": "　　　　…ユウキュウのねむりより、",
-   "en": "",
+   "en": "　　　　...Who dares wake me",
    "max": 35,
    "refs": [
     "lui@1D510/1D514"
@@ -5437,7 +5437,7 @@
    "id": "ovl033_800A39AC",
    "at": "800A39AC",
    "jp": "　　　　我を呼び覚ますのは誰だ？",
-   "en": "",
+   "en": "　　　　from my eternal slumber?",
    "max": 35,
    "refs": [
     "lui@1D518/1D51C"
@@ -5448,7 +5448,7 @@
    "id": "ovl033_800A39D0",
    "at": "800A39D0",
    "jp": "　　　　…ほほう、",
-   "en": "",
+   "en": "　　　　...Oho,",
    "max": 19,
    "refs": [
     "lui@1D554/1D558"
@@ -5459,7 +5459,7 @@
    "id": "ovl033_800A39E4",
    "at": "800A39E4",
    "jp": "　　　　地上にはまだ人間が生き死にを",
-   "en": "",
+   "en": "　　　　so humans still live and die,",
    "max": 39,
    "refs": [
     "lui@1D55C/1D560"
@@ -5470,7 +5470,7 @@
    "id": "ovl033_800A3A0C",
    "at": "800A3A0C",
    "jp": "　　　　くりかえしているのか。",
-   "en": "",
+   "en": "　　　　over and over, upon the earth.",
    "max": 31,
    "refs": [
     "lui@1D564/1D568"
@@ -5481,7 +5481,7 @@
    "id": "ovl033_800A3A2C",
    "at": "800A3A2C",
    "jp": "　　　　よかろう、",
-   "en": "",
+   "en": "　　　　Very well,",
    "max": 19,
    "refs": [
     "lui@1D588/1D58C"
@@ -5492,7 +5492,7 @@
    "id": "ovl033_800A3A40",
    "at": "800A3A40",
    "jp": "　　　　ヒマつぶしにはちょうどいい。",
-   "en": "",
+   "en": "　　　　they shall do to pass the time.",
    "max": 39,
    "refs": [
     "lui@1D590/1D594"
@@ -5514,7 +5514,7 @@
    "id": "ovl033_800A3A74",
    "at": "800A3A74",
    "jp": "　　　　滅びを定められし者どもの",
-   "en": "",
+   "en": "　　　　Those who are doomed to perish...",
    "max": 35,
    "refs": [
     "lui@1D5D0/1D5D4"
@@ -5525,7 +5525,7 @@
    "id": "ovl033_800A3A98",
    "at": "800A3A98",
    "jp": "　　　　せつなのあがきに、しばし",
-   "en": "",
+   "en": "　　　　I shall humor their fleeting",
    "max": 35,
    "refs": [
     "lui@1D5D8/1D5DC"
@@ -5536,7 +5536,7 @@
    "id": "ovl033_800A3ABC",
    "at": "800A3ABC",
    "jp": "　　　　つき合ってやるとしようか…。",
-   "en": "",
+   "en": "　　　　struggles for a while...",
    "max": 39,
    "refs": [
     "lui@1D5E0/1D5E4"
@@ -5547,7 +5547,7 @@
    "id": "ovl033_800A3B00",
    "at": "800A3B00",
    "jp": "　　　　なかなかいいヒマつぶしでは",
-   "en": "",
+   "en": "　　　　That was quite a fine way",
    "max": 35,
    "refs": [
     "lui@1DD00/1DD04"
@@ -5558,7 +5558,7 @@
    "id": "ovl033_800A3B24",
    "at": "800A3B24",
    "jp": "　　　　あったな。",
-   "en": "",
+   "en": "　　　　to pass the time.",
    "max": 19,
    "refs": [
     "lui@1DD08/1DD0C"
@@ -5569,7 +5569,7 @@
    "id": "ovl033_800A3B38",
    "at": "800A3B38",
    "jp": "　　　　さて、そろそろ仕事に",
-   "en": "",
+   "en": "　　　　Now then, it is time",
    "max": 31,
    "refs": [
     "lui@1DD40/1DD44"
@@ -5580,7 +5580,7 @@
    "id": "ovl033_800A3B58",
    "at": "800A3B58",
    "jp": "　　　　かかるか…。",
-   "en": "",
+   "en": "　　　　to begin my work...",
    "max": 23,
    "refs": [
     "lui@1DD48/1DD4C"
@@ -5591,7 +5591,7 @@
    "id": "ovl033_800A3B70",
    "at": "800A3B70",
    "jp": "　　　　「飢え」よ！",
-   "en": "",
+   "en": "　　　　\"Famine\"!",
    "max": 23,
    "refs": [
     "lui@1DD8C/1DD90"
@@ -5602,7 +5602,7 @@
    "id": "ovl033_800A3B88",
    "at": "800A3B88",
    "jp": "　　　　はっ！",
-   "en": "",
+   "en": "　　　　Sire!",
    "max": 15,
    "refs": [
     "lui@1DE68/1DE6C"
@@ -5613,7 +5613,7 @@
    "id": "ovl033_800A3B98",
    "at": "800A3B98",
    "jp": "　　　　「えき病」よ！",
-   "en": "",
+   "en": "　　　　\"Pestilence\"!",
    "max": 23,
    "refs": [
     "lui@1DEB0/1DEB4"
@@ -5624,7 +5624,7 @@
    "id": "ovl033_800A3BB0",
    "at": "800A3BB0",
    "jp": "　　　　ここに！",
-   "en": "",
+   "en": "　　　　Here!",
    "max": 19,
    "refs": [
     "lui@1DF94/1DF98"
@@ -5635,7 +5635,7 @@
    "id": "ovl033_800A3BC4",
    "at": "800A3BC4",
    "jp": "　　　　「にくしみ」よ！",
-   "en": "",
+   "en": "　　　　\"Hatred\"!",
    "max": 27,
    "refs": [
     "lui@1DFD8/1DFDC"
@@ -5646,7 +5646,7 @@
    "id": "ovl033_800A3BE0",
    "at": "800A3BE0",
    "jp": "　　　　参上しました…！",
-   "en": "",
+   "en": "　　　　At your service...!",
    "max": 27,
    "refs": [
     "lui@1E0B0/1E0B4"
@@ -5657,7 +5657,7 @@
    "id": "ovl033_800A3BFC",
    "at": "800A3BFC",
    "jp": "　　　　「死」よ！",
-   "en": "",
+   "en": "　　　　\"Death\"!",
    "max": 19,
    "refs": [
     "lui@1E0F4/1E0F8"
@@ -5668,7 +5668,7 @@
    "id": "ovl033_800A3C10",
    "at": "800A3C10",
    "jp": "　　　　ははっ！",
-   "en": "",
+   "en": "　　　　My lord!",
    "max": 19,
    "refs": [
     "lui@1E1D8/1E1DC"
@@ -5679,7 +5679,7 @@
    "id": "ovl033_800A3C24",
    "at": "800A3C24",
    "jp": "　　　　我がしもべ、黙示録の四騎士よ！",
-   "en": "",
+   "en": "　　　　My servants, the Four Horsemen!",
    "max": 39,
    "refs": [
     "lui@1E2A8/1E2AC"
@@ -5690,7 +5690,7 @@
    "id": "ovl033_800A3C4C",
    "at": "800A3C4C",
    "jp": "　　　　お前たちの軍勢を率いて",
-   "en": "",
+   "en": "　　　　Lead your hordes",
    "max": 31,
    "refs": [
     "lui@1E2B0/1E2B4"
@@ -5701,7 +5701,7 @@
    "id": "ovl033_800A3C6C",
    "at": "800A3C6C",
    "jp": "　　　　地上を攻撃せよ！",
-   "en": "",
+   "en": "　　　　and attack the earth!",
    "max": 27,
    "refs": [
     "lui@1E2B8/1E2BC"
@@ -5712,7 +5712,7 @@
    "id": "ovl033_800A3C88",
    "at": "800A3C88",
    "jp": "　　　　今こそ時は来た…。",
-   "en": "",
+   "en": "　　　　Now the time has come...",
    "max": 27,
    "refs": [
     "lui@1E300/1E304"
@@ -5723,7 +5723,7 @@
    "id": "ovl033_800A3CA4",
    "at": "800A3CA4",
    "jp": "　　　　魔の時代のまくあけだ！",
-   "en": "",
+   "en": "　　　　The age of demons begins!",
    "max": 31,
    "refs": [
     "lui@1E308/1E328"
@@ -5734,7 +5734,7 @@
    "id": "ovl033_800A3D00",
    "at": "800A3D00",
    "jp": "キャスト",
-   "en": "",
+   "en": "Cast",
    "max": 11,
    "refs": [
     "lui@1FF80/1FF84"
@@ -5745,7 +5745,7 @@
    "id": "ovl033_800A3D10",
    "at": "800A3D10",
    "jp": "関　俊彦",
-   "en": "",
+   "en": "Toshihiko Seki",
    "max": 11,
    "refs": [
     "lui@1FF98/1FF9C"
@@ -5756,7 +5756,7 @@
    "id": "ovl033_800A3D1C",
    "at": "800A3D1C",
    "jp": "ａｓ",
-   "en": "",
+   "en": "as",
    "max": 7,
    "refs": [
     "lui@1FFA0/1FFA4"
@@ -5767,7 +5767,7 @@
    "id": "ovl033_800A3D24",
    "at": "800A3D24",
    "jp": "Ｊｉｇｇａｒ",
-   "en": "",
+   "en": "Jiggar",
    "max": 15,
    "refs": [
     "lui@1FFAC/1FFB0"
@@ -5778,7 +5778,7 @@
    "id": "ovl033_800A3D34",
    "at": "800A3D34",
    "jp": "ｔｈｅ　ｔｒｅａｓｕｒｅｈｕｎｔｅｒ",
-   "en": "",
+   "en": "the treasure hunter",
    "max": 39,
    "refs": [
     "lui@1FFB8/1FFBC"
@@ -5789,7 +5789,7 @@
    "id": "ovl033_800A3D5C",
    "at": "800A3D5C",
    "jp": "広川　太一郎",
-   "en": "",
+   "en": "Taichiro Hirokawa",
    "max": 15,
    "refs": [
     "lui@1FFC4/1FFC8"
@@ -5800,7 +5800,7 @@
    "id": "ovl033_800A3D6C",
    "at": "800A3D6C",
    "jp": "Ｇａｌａｈａｄ　ｔｈｅ　ｐａｌａｄｉｎ",
-   "en": "",
+   "en": "Galahad the paladin",
    "max": 39,
    "refs": [
     "lui@1FFD0/1FFD4"
@@ -5811,7 +5811,7 @@
    "id": "ovl033_800A3D94",
    "at": "800A3D94",
    "jp": "篠原　恵美",
-   "en": "",
+   "en": "Emi Shinohara",
    "max": 11,
    "refs": [
     "lui@1FFDC/1FFE0"
@@ -5822,7 +5822,7 @@
    "id": "ovl033_800A3DA0",
    "at": "800A3DA0",
    "jp": "Ｍｅｇ－ｍｅｇ　ｔｈｅ　ｗａｒｒｉｏｒ",
-   "en": "",
+   "en": "Meg-meg the warrior",
    "max": 39,
    "refs": [
     "lui@1FFE8/1FFEC"
@@ -5833,7 +5833,7 @@
    "id": "ovl033_800A3DC8",
    "at": "800A3DC8",
    "jp": "銀河　万丈",
-   "en": "",
+   "en": "Banjo Ginga",
    "max": 11,
    "refs": [
     "lui@1FFF4/1FFF8"
@@ -5844,7 +5844,7 @@
    "id": "ovl033_800A3DD4",
    "at": "800A3DD4",
    "jp": "Ｇｏｌｉａｔｈ",
-   "en": "",
+   "en": "Goliath",
    "max": 15,
    "refs": [
     "lui@20000/20004"
@@ -5855,7 +5855,7 @@
    "id": "ovl033_800A3DE4",
    "at": "800A3DE4",
    "jp": "ｔｈｅ　ｒｏｇｕｅ　ｐｒｉｅｓｔ",
-   "en": "",
+   "en": "the rogue priest",
    "max": 35,
    "refs": [
     "lui@2000C/20010"
@@ -5866,7 +5866,7 @@
    "id": "ovl033_800A3E08",
    "at": "800A3E08",
    "jp": "石野　竜三",
-   "en": "",
+   "en": "Ryuzo Ishino",
    "max": 11,
    "refs": [
     "lui@20018/2001C"
@@ -5877,7 +5877,7 @@
    "id": "ovl033_800A3E14",
    "at": "800A3E14",
    "jp": "Ｎｉｎｊａ　ｍａｓｔｅｒ　Ｈａｙａｔｅ",
-   "en": "",
+   "en": "Ninja master Hayate",
    "max": 39,
    "refs": [
     "lui@20024/20028"
@@ -5888,7 +5888,7 @@
    "id": "ovl033_800A3E3C",
    "at": "800A3E3C",
    "jp": "矢島　晶子",
-   "en": "",
+   "en": "Akiko Yajima",
    "max": 11,
    "refs": [
     "lui@20030/20034"
@@ -5899,7 +5899,7 @@
    "id": "ovl033_800A3E48",
    "at": "800A3E48",
    "jp": "Ｐｒｉｎｃｅｓｓ　Ｔｉａｒａ",
-   "en": "",
+   "en": "Princess Tiara",
    "max": 31,
    "refs": [
     "lui@2003C/20040"
@@ -5910,7 +5910,7 @@
    "id": "ovl033_800A3E68",
    "at": "800A3E68",
    "jp": "大塚　周夫",
-   "en": "",
+   "en": "Chikao Otsuka",
    "max": 11,
    "refs": [
     "lui@20048/2004C"
@@ -5921,7 +5921,7 @@
    "id": "ovl033_800A3E74",
    "at": "800A3E74",
    "jp": "Ｓａｍｕｒａｉ　ｗａｒｒｉｏｒ",
-   "en": "",
+   "en": "Samurai warrior",
    "max": 31,
    "refs": [
     "lui@200A0/200A4"
@@ -5932,7 +5932,7 @@
    "id": "ovl033_800A3E94",
    "at": "800A3E94",
    "jp": "Ｙａｓｕｔｓｕｎａ",
-   "en": "",
+   "en": "Yasutsuna",
    "max": 19,
    "refs": [
     "lui@200AC/200B0"
@@ -5943,7 +5943,7 @@
    "id": "ovl033_800A3EA8",
    "at": "800A3EA8",
    "jp": "野沢　那智",
-   "en": "",
+   "en": "Nachi Nozawa",
    "max": 11,
    "refs": [
     "lui@200B8/200BC"
@@ -5954,7 +5954,7 @@
    "id": "ovl033_800A3EB4",
    "at": "800A3EB4",
    "jp": "Ｓｉｎｂａｄ　ｔｈｅ　ｂａｎｄｉｔ",
-   "en": "",
+   "en": "Sinbad the bandit",
    "max": 35,
    "refs": [
     "lui@200C4/200C8"
@@ -5965,7 +5965,7 @@
    "id": "ovl033_800A3ED8",
    "at": "800A3ED8",
    "jp": "藩　恵子",
-   "en": "",
+   "en": "Keiko Han",
    "max": 11,
    "refs": [
     "lui@200D0/200D4"
@@ -5976,7 +5976,7 @@
    "id": "ovl033_800A3EE4",
    "at": "800A3EE4",
    "jp": "Ａｇａｔｈｅ　ｔｈｅ　ｗｉｔｃｈ",
-   "en": "",
+   "en": "Agathe the witch",
    "max": 35,
    "refs": [
     "lui@200DC/200E0"
@@ -5987,7 +5987,7 @@
    "id": "ovl033_800A3F08",
    "at": "800A3F08",
    "jp": "松本　梨香",
-   "en": "",
+   "en": "Rica Matsumoto",
    "max": 11,
    "refs": [
     "lui@200E8/200EC"
@@ -5998,7 +5998,7 @@
    "id": "ovl033_800A3F14",
    "at": "800A3F14",
    "jp": "Ｍａｇｉｃ　ｍｏｎｋｅｙ",
-   "en": "",
+   "en": "Magic monkey",
    "max": 27,
    "refs": [
     "lui@200F4/200F8"
@@ -6009,7 +6009,7 @@
    "id": "ovl033_800A3F30",
    "at": "800A3F30",
    "jp": "Ｓｏｎ　Ｇｏｋｕｈ",
-   "en": "",
+   "en": "Son Gokuh",
    "max": 19,
    "refs": [
     "lui@20100/20104"
@@ -6020,7 +6020,7 @@
    "id": "ovl033_800A3F44",
    "at": "800A3F44",
    "jp": "小桜　エツ子",
-   "en": "",
+   "en": "Etsuko Kozakura",
    "max": 15,
    "refs": [
     "lui@2010C/20110"
@@ -6031,7 +6031,7 @@
    "id": "ovl033_800A3F54",
    "at": "800A3F54",
    "jp": "Ｂｅｌｉａｌ　ｔｈｅ　ｐｉｘｉｅ",
-   "en": "",
+   "en": "Belial the pixie",
    "max": 35,
    "refs": [
     "lui@20118/2011C"
@@ -6042,7 +6042,7 @@
    "id": "ovl033_800A3F78",
    "at": "800A3F78",
    "jp": "森　功至",
-   "en": "",
+   "en": "Katsuji Mori",
    "max": 11,
    "refs": [
     "lui@20124/20128"
@@ -6053,7 +6053,7 @@
    "id": "ovl033_800A3F84",
    "at": "800A3F84",
    "jp": "Ｄａｎｔｅ　ｔｈｅ　ｄｉａｂｏｌｕｓ",
-   "en": "",
+   "en": "Dante the diabolus",
    "max": 39,
    "refs": [
     "lui@20130/20134"
@@ -6064,7 +6064,7 @@
    "id": "ovl033_800A3FAC",
    "at": "800A3FAC",
    "jp": "キャラクターデザイン",
-   "en": "",
+   "en": "Character Design",
    "max": 23,
    "refs": [
     "lui@2013C/20140"
@@ -6075,7 +6075,7 @@
    "id": "ovl033_800A3FC4",
    "at": "800A3FC4",
    "jp": "西村　キヌ",
-   "en": "",
+   "en": "Kinu Nishimura",
    "max": 11,
    "refs": [
     "lui@20148/2014C"
@@ -6086,7 +6086,7 @@
    "id": "ovl033_800A3FD0",
    "at": "800A3FD0",
    "jp": "企画",
-   "en": "",
+   "en": "Planning",
    "max": 7,
    "refs": [
     "lui@201A0/201A4"
@@ -6097,7 +6097,7 @@
    "id": "ovl033_800A3FD8",
    "at": "800A3FD8",
    "jp": "藤崎　浩和",
-   "en": "",
+   "en": "Hirokazu Fujisaki",
    "max": 11,
    "refs": [
     "lui@201AC/201B0"
@@ -6108,7 +6108,7 @@
    "id": "ovl033_800A3FE4",
    "at": "800A3FE4",
    "jp": "瀬戸　康洋",
-   "en": "",
+   "en": "Yasuhiro Seto",
    "max": 11,
    "refs": [
     "lui@201B8/201BC"
@@ -6119,7 +6119,7 @@
    "id": "ovl033_800A3FF0",
    "at": "800A3FF0",
    "jp": "岡野　修身（ネクサスインターラクト）",
-   "en": "",
+   "en": "Osami Okano (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@201C4/201C8"
@@ -6130,7 +6130,7 @@
    "id": "ovl033_800A4018",
    "at": "800A4018",
    "jp": "橋詰　正樹（ネクサスインターラクト）",
-   "en": "",
+   "en": "Masaki Hashizume (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@201D0/201D4"
@@ -6141,7 +6141,7 @@
    "id": "ovl033_800A4040",
    "at": "800A4040",
    "jp": "プログラマー",
-   "en": "",
+   "en": "Programmers",
    "max": 15,
    "refs": [
     "lui@201DC/201E0"
@@ -6152,7 +6152,7 @@
    "id": "ovl033_800A4050",
    "at": "800A4050",
    "jp": "阿閉　雅宏（ネクサスインターラクト）",
-   "en": "",
+   "en": "Masahiro Atoji (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@201E8/201EC"
@@ -6163,7 +6163,7 @@
    "id": "ovl033_800A4078",
    "at": "800A4078",
    "jp": "佐藤　慎一（ネクサスインターラクト）",
-   "en": "",
+   "en": "Shinichi Sato (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@201F4/201F8"
@@ -6174,7 +6174,7 @@
    "id": "ovl033_800A40A0",
    "at": "800A40A0",
    "jp": "川西　大輝（ネクサスインターラクト）",
-   "en": "",
+   "en": "Daiki Kawanishi (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@20200/20204"
@@ -6185,7 +6185,7 @@
    "id": "ovl033_800A40C8",
    "at": "800A40C8",
    "jp": "鈴木　一秋（ネクサスインターラクト）",
-   "en": "",
+   "en": "Kazuaki Suzuki (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@2020C/20210"
@@ -6196,7 +6196,7 @@
    "id": "ovl033_800A40F0",
    "at": "800A40F0",
    "jp": "本内　敦（ネクサスインターラクト）",
-   "en": "",
+   "en": "Atsushi Motouchi (Nexus Interact)",
    "max": 35,
    "refs": [
     "lui@20218/2021C"
@@ -6207,7 +6207,7 @@
    "id": "ovl033_800A4114",
    "at": "800A4114",
    "jp": "加藤　正彦（ネクサスインターラクト）",
-   "en": "",
+   "en": "Masahiko Kato (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@20224/20228"
@@ -6218,7 +6218,7 @@
    "id": "ovl033_800A413C",
    "at": "800A413C",
    "jp": "塩野　一成（ネクサスインターラクト）",
-   "en": "",
+   "en": "Kazunari Shiono (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@20230/20234"
@@ -6229,7 +6229,7 @@
    "id": "ovl033_800A4164",
    "at": "800A4164",
    "jp": "金子　清巳",
-   "en": "",
+   "en": "Kiyomi Kaneko",
    "max": 11,
    "refs": [
     "lui@2023C/20240"
@@ -6240,7 +6240,7 @@
    "id": "ovl033_800A4170",
    "at": "800A4170",
    "jp": "篠原　雅嗣",
-   "en": "",
+   "en": "Masatsugu Shinohara",
    "max": 11,
    "refs": [
     "lui@20248/2024C"
@@ -6251,7 +6251,7 @@
    "id": "ovl033_800A417C",
    "at": "800A417C",
    "jp": "オブジェクトデザイナー",
-   "en": "",
+   "en": "Object Designers",
    "max": 23,
    "refs": [
     "lui@20254/20258"
@@ -6262,7 +6262,7 @@
    "id": "ovl033_800A4194",
    "at": "800A4194",
    "jp": "藤本　千枝",
-   "en": "",
+   "en": "Chie Fujimoto",
    "max": 11,
    "refs": [
     "lui@20260/20264"
@@ -6273,7 +6273,7 @@
    "id": "ovl033_800A41A0",
    "at": "800A41A0",
    "jp": "山添　公雄",
-   "en": "",
+   "en": "Kimio Yamazoe",
    "max": 11,
    "refs": [
     "lui@2026C/20270"
@@ -6284,7 +6284,7 @@
    "id": "ovl033_800A41AC",
    "at": "800A41AC",
    "jp": "戸田　勝巳",
-   "en": "",
+   "en": "Katsumi Toda",
    "max": 11,
    "refs": [
     "lui@20278/2027C"
@@ -6295,7 +6295,7 @@
    "id": "ovl033_800A41B8",
    "at": "800A41B8",
    "jp": "片桐　秀朗",
-   "en": "",
+   "en": "Hideaki Katagiri",
    "max": 11,
    "refs": [
     "lui@20284/20288"
@@ -6306,7 +6306,7 @@
    "id": "ovl033_800A41C4",
    "at": "800A41C4",
    "jp": "栗原　明美",
-   "en": "",
+   "en": "Akemi Kurihara",
    "max": 11,
    "refs": [
     "lui@20290/20294"
@@ -6317,7 +6317,7 @@
    "id": "ovl033_800A41D0",
    "at": "800A41D0",
    "jp": "木本　壮紀",
-   "en": "",
+   "en": "Masanori Kimoto",
    "max": 11,
    "refs": [
     "lui@2029C/202A0"
@@ -6328,7 +6328,7 @@
    "id": "ovl033_800A41DC",
    "at": "800A41DC",
    "jp": "伊野　英樹",
-   "en": "",
+   "en": "Hideki Ino",
    "max": 11,
    "refs": [
     "lui@202A8/202AC"
@@ -6339,7 +6339,7 @@
    "id": "ovl033_800A41E8",
    "at": "800A41E8",
    "jp": "今村　雄二",
-   "en": "",
+   "en": "Yuji Imamura",
    "max": 11,
    "refs": [
     "lui@202B4/202B8"
@@ -6350,7 +6350,7 @@
    "id": "ovl033_800A41F4",
    "at": "800A41F4",
    "jp": "西村　啓生",
-   "en": "",
+   "en": "Hiroo Nishimura",
    "max": 11,
    "refs": [
     "lui@202E4/202E8"
@@ -6361,7 +6361,7 @@
    "id": "ovl033_800A4200",
    "at": "800A4200",
    "jp": "スクロールデザイナー",
-   "en": "",
+   "en": "Scroll Designers",
    "max": 23,
    "refs": [
     "lui@202F0/202F4"
@@ -6372,7 +6372,7 @@
    "id": "ovl033_800A4218",
    "at": "800A4218",
    "jp": "長嶋　昭子",
-   "en": "",
+   "en": "Akiko Nagashima",
    "max": 11,
    "refs": [
     "lui@202FC/20300"
@@ -6383,7 +6383,7 @@
    "id": "ovl033_800A4224",
    "at": "800A4224",
    "jp": "中山　一樹",
-   "en": "",
+   "en": "Kazuki Nakayama",
    "max": 11,
    "refs": [
     "lui@20308/2030C"
@@ -6394,7 +6394,7 @@
    "id": "ovl033_800A4230",
    "at": "800A4230",
    "jp": "広瀬　悦子",
-   "en": "",
+   "en": "Etsuko Hirose",
    "max": 11,
    "refs": [
     "lui@20314/20318"
@@ -6405,7 +6405,7 @@
    "id": "ovl033_800A423C",
    "at": "800A423C",
    "jp": "出納　清行",
-   "en": "",
+   "en": "Kiyoyuki Suito",
    "max": 11,
    "refs": [
     "lui@20320/20324"
@@ -6416,7 +6416,7 @@
    "id": "ovl033_800A4248",
    "at": "800A4248",
    "jp": "サウンド",
-   "en": "",
+   "en": "Sound",
    "max": 11,
    "refs": [
     "lui@2032C/20330"
@@ -6427,7 +6427,7 @@
    "id": "ovl033_800A4254",
    "at": "800A4254",
    "jp": "尾形　雅史（ＡＭＳ　ｃｏ．，ｌｔｄ．）",
-   "en": "",
+   "en": "Masashi Ogata (AMS Co., Ltd.)",
    "max": 39,
    "refs": [
     "lui@20338/2033C"
@@ -6438,7 +6438,7 @@
    "id": "ovl033_800A427C",
    "at": "800A427C",
    "jp": "梶野　俊夫",
-   "en": "",
+   "en": "Toshio Kajino",
    "max": 11,
    "refs": [
     "lui@20344/20348"
@@ -6449,7 +6449,7 @@
    "id": "ovl033_800A4288",
    "at": "800A4288",
    "jp": "販売・企画",
-   "en": "",
+   "en": "Sales Planning",
    "max": 11,
    "refs": [
     "lui@20350/20354"
@@ -6460,7 +6460,7 @@
    "id": "ovl033_800A4294",
    "at": "800A4294",
    "jp": "伊藤　基由志",
-   "en": "",
+   "en": "Motoyoshi Ito",
    "max": 15,
    "refs": [
     "lui@2035C/20360"
@@ -6471,7 +6471,7 @@
    "id": "ovl033_800A42A4",
    "at": "800A42A4",
    "jp": "田中　徳良",
-   "en": "",
+   "en": "Noriyoshi Tanaka",
    "max": 11,
    "refs": [
     "lui@20368/2036C"
@@ -6482,7 +6482,7 @@
    "id": "ovl033_800A42B0",
    "at": "800A42B0",
    "jp": "小川　佐織",
-   "en": "",
+   "en": "Saori Ogawa",
    "max": 11,
    "refs": [
     "lui@20374/20378"
@@ -6493,7 +6493,7 @@
    "id": "ovl033_800A42BC",
    "at": "800A42BC",
    "jp": "マーケティング",
-   "en": "",
+   "en": "Marketing",
    "max": 15,
    "refs": [
     "lui@20380/20384"
@@ -6504,7 +6504,7 @@
    "id": "ovl033_800A42CC",
    "at": "800A42CC",
    "jp": "古別府　宏充",
-   "en": "",
+   "en": "Hiromitsu Furubeppu",
    "max": 15,
    "refs": [
     "lui@2038C/20390"
@@ -6515,7 +6515,7 @@
    "id": "ovl033_800A42DC",
    "at": "800A42DC",
    "jp": "中嶋　浩二",
-   "en": "",
+   "en": "Koji Nakajima",
    "max": 11,
    "refs": [
     "lui@20398/2039C"
@@ -6526,7 +6526,7 @@
    "id": "ovl033_800A42E8",
    "at": "800A42E8",
    "jp": "パブリシティ",
-   "en": "",
+   "en": "Publicity",
    "max": 15,
    "refs": [
     "lui@203A4/203A8"
@@ -6537,7 +6537,7 @@
    "id": "ovl033_800A42F8",
    "at": "800A42F8",
    "jp": "永井　淳一",
-   "en": "",
+   "en": "Junichi Nagai",
    "max": 11,
    "refs": [
     "lui@203B0/203B4"
@@ -6548,7 +6548,7 @@
    "id": "ovl033_800A4304",
    "at": "800A4304",
    "jp": "中村　裕子",
-   "en": "",
+   "en": "Yuko Nakamura",
    "max": 11,
    "refs": [
     "lui@203BC/203C0"
@@ -6559,7 +6559,7 @@
    "id": "ovl033_800A4310",
    "at": "800A4310",
    "jp": "萩原　良輔",
-   "en": "",
+   "en": "Ryosuke Hagiwara",
    "max": 11,
    "refs": [
     "lui@20404/20408"
@@ -6570,7 +6570,7 @@
    "id": "ovl033_800A431C",
    "at": "800A431C",
    "jp": "カスタマー",
-   "en": "",
+   "en": "Customer Service",
    "max": 11,
    "refs": [
     "lui@20410/20414"
@@ -6581,7 +6581,7 @@
    "id": "ovl033_800A4328",
    "at": "800A4328",
    "jp": "清水　重治",
-   "en": "",
+   "en": "Shigeharu Shimizu",
    "max": 11,
    "refs": [
     "lui@2041C/20420"
@@ -6592,7 +6592,7 @@
    "id": "ovl033_800A4334",
    "at": "800A4334",
    "jp": "キャラクターライツ",
-   "en": "",
+   "en": "Character Rights",
    "max": 19,
    "refs": [
     "lui@20428/2042C"
@@ -6603,7 +6603,7 @@
    "id": "ovl033_800A4348",
    "at": "800A4348",
    "jp": "柳口　博昭",
-   "en": "",
+   "en": "Hiroaki Yanagiguchi",
    "max": 11,
    "refs": [
     "lui@20434/20438"
@@ -6614,7 +6614,7 @@
    "id": "ovl033_800A4354",
    "at": "800A4354",
    "jp": "ソフトウェアマニュアル",
-   "en": "",
+   "en": "Software Manual",
    "max": 23,
    "refs": [
     "lui@20440/20444"
@@ -6625,7 +6625,7 @@
    "id": "ovl033_800A436C",
    "at": "800A436C",
    "jp": "本間　雅子",
-   "en": "",
+   "en": "Masako Honma",
    "max": 11,
    "refs": [
     "lui@2044C/20450"
@@ -6636,7 +6636,7 @@
    "id": "ovl033_800A4378",
    "at": "800A4378",
    "jp": "内田　裕美子",
-   "en": "",
+   "en": "Yumiko Uchida",
    "max": 15,
    "refs": [
     "lui@20458/2045C"
@@ -6647,7 +6647,7 @@
    "id": "ovl033_800A4388",
    "at": "800A4388",
    "jp": "ディレクター",
-   "en": "",
+   "en": "Director",
    "max": 15,
    "refs": [
     "lui@20464/20468"
@@ -6658,7 +6658,7 @@
    "id": "ovl033_800A4398",
    "at": "800A4398",
    "jp": "斎藤　友彦",
-   "en": "",
+   "en": "Tomohiko Saito",
    "max": 11,
    "refs": [
     "lui@20470/20474"
@@ -6669,7 +6669,7 @@
    "id": "ovl033_800A43A4",
    "at": "800A43A4",
    "jp": "プロデューサー",
-   "en": "",
+   "en": "Producer",
    "max": 15,
    "refs": [
     "lui@2047C/20480"
@@ -6680,7 +6680,7 @@
    "id": "ovl033_800A43B4",
    "at": "800A43B4",
    "jp": "三並　達也",
-   "en": "",
+   "en": "Tatsuya Minami",
    "max": 11,
    "refs": [
     "lui@20488/2048C"
@@ -6691,7 +6691,7 @@
    "id": "ovl033_800A43C0",
    "at": "800A43C0",
    "jp": "エグゼクティブプロデューサー",
-   "en": "",
+   "en": "Executive Producer",
    "max": 31,
    "refs": [
     "lui@20494/20498"
@@ -6702,7 +6702,7 @@
    "id": "ovl033_800A43E0",
    "at": "800A43E0",
    "jp": "岡本　吉起",
-   "en": "",
+   "en": "Yoshiki Okamoto",
    "max": 11,
    "refs": [
     "lui@204A0/204A4"
@@ -6713,7 +6713,7 @@
    "id": "ovl033_800A43EC",
    "at": "800A43EC",
    "jp": "スペシャルサンクス",
-   "en": "",
+   "en": "Special Thanks",
    "max": 19,
    "refs": [
     "lui@204AC/204B0"
@@ -6724,7 +6724,7 @@
    "id": "ovl033_800A4400",
    "at": "800A4400",
    "jp": "冨田　篤",
-   "en": "",
+   "en": "Atsushi Tomita",
    "max": 11,
    "refs": [
     "lui@20508/2050C"
@@ -6735,7 +6735,7 @@
    "id": "ovl033_800A440C",
    "at": "800A440C",
    "jp": "冨長　直人",
-   "en": "",
+   "en": "Naoto Tominaga",
    "max": 11,
    "refs": [
     "lui@20514/20518"
@@ -6746,7 +6746,7 @@
    "id": "ovl033_800A4418",
    "at": "800A4418",
    "jp": "鈴木　治雄（ネクサスインターラクト）",
-   "en": "",
+   "en": "Haruo Suzuki (Nexus Interact)",
    "max": 39,
    "refs": [
     "lui@20520/20524"
@@ -6757,7 +6757,7 @@
    "id": "ovl033_800A4440",
    "at": "800A4440",
    "jp": "堀口　比呂志（ＴＷＯ－ＦＩＶＥ）",
-   "en": "",
+   "en": "Hiroshi Horiguchi (TWO-FIVE)",
    "max": 35,
    "refs": [
     "lui@2052C/20530"
@@ -6768,7 +6768,7 @@
    "id": "ovl033_800A4464",
    "at": "800A4464",
    "jp": "松本　仁美（ＴＷＯ－ＦＩＶＥ）",
-   "en": "",
+   "en": "Hitomi Matsumoto (TWO-FIVE)",
    "max": 31,
    "refs": [
     "lui@20538/2053C"
@@ -6779,7 +6779,7 @@
    "id": "ovl033_800A4484",
    "at": "800A4484",
    "jp": "＠Ｓａｔｏｍｉ　Ｉｗａｓｅ",
-   "en": "",
+   "en": "@Satomi Iwase",
    "max": 27,
    "refs": [
     "lui@20544/20548"
@@ -6790,7 +6790,7 @@
    "id": "ovl033_800A44A0",
    "at": "800A44A0",
    "jp": "　　　／Ｍｅｄｉａ　Ｗｏｒｋｓ　Ｉｎｃ．",
-   "en": "",
+   "en": "　　　of Media Works Inc.",
    "max": 43,
    "refs": [
     "lui@20550/20554"
@@ -6801,7 +6801,7 @@
    "id": "ovl033_800A44CC",
    "at": "800A44CC",
    "jp": "ＣＡＰＣＯＭ　ＡＬＬ　ＳＴＡＦＦ",
-   "en": "",
+   "en": "CAPCOM ALL STAFF",
    "max": 35,
    "refs": [
     "lui@2055C/20560"
@@ -6812,7 +6812,7 @@
    "id": "ovl033_800A44F0",
    "at": "800A44F0",
    "jp": "ａｎｄ",
-   "en": "",
+   "en": "and",
    "max": 7,
    "refs": [
     "lui@20568/2056C"
@@ -6823,7 +6823,7 @@
    "id": "ovl033_800A44F8",
    "at": "800A44F8",
    "jp": "ＹＯＵ",
-   "en": "",
+   "en": "YOU",
    "max": 7,
    "refs": [
     "lui@20574/20578"
@@ -6834,7 +6834,7 @@
    "id": "ovl033_800A4500",
    "at": "800A4500",
    "jp": "ＳＵＰＰＯＲＴ　ＣＯＭＰＡＮＹ",
-   "en": "",
+   "en": "SUPPORT COMPANY",
    "max": 31,
    "refs": [
     "lui@20580/20584"
@@ -6845,7 +6845,7 @@
    "id": "ovl033_800A4520",
    "at": "800A4520",
    "jp": "ｐｒｅｓｅｎｔｅｄ　ｂｙ",
-   "en": "",
+   "en": "presented by",
    "max": 27,
    "refs": [
     "lui@2058C/20590"
@@ -6856,7 +6856,7 @@
    "id": "ovl033_800C19AC",
    "at": "800C19AC",
    "jp": "俺は",
-   "en": "",
+   "en": "I...",
    "max": 7,
    "refs": [],
    "notes": "no direct ref: in place only"

@@ -9,7 +9,7 @@
    "id": "ovl045_800C8454",
    "at": "800C8454",
    "jp": "ガイアマスターの勝者よ",
-   "en": "",
+   "en": "Victor of GaiaMaster,",
    "max": 23,
    "refs": [
     "lui@2E0/2E4"
@@ -20,7 +20,7 @@
    "id": "ovl045_800C846C",
    "at": "800C846C",
    "jp": "定めどおり、望みをかなえよう",
-   "en": "",
+   "en": "as decreed, I shall grant your wish.",
    "max": 31,
    "refs": [
     "lui@2EC/2F0"
@@ -31,7 +31,7 @@
    "id": "ovl045_800C848C",
    "at": "800C848C",
    "jp": "なにを望む？金か？力か？",
-   "en": "",
+   "en": "What do you desire? Gold? Power?",
    "max": 27,
    "refs": [
     "lui@2F8/2FC"
@@ -42,7 +42,7 @@
    "id": "ovl045_800C84A8",
    "at": "800C84A8",
    "jp": "ただ平和を",
-   "en": "",
+   "en": "Only peace.",
    "max": 11,
    "refs": [
     "lui@330/334"
@@ -53,7 +53,7 @@
    "id": "ovl045_800C84B8",
    "at": "800C84B8",
    "jp": "ええっ！？",
-   "en": "",
+   "en": "Whaaat!?",
    "max": 11,
    "refs": [
     "lui@378/37C"
@@ -64,7 +64,7 @@
    "id": "ovl045_800C84C4",
    "at": "800C84C4",
    "jp": "なにもほしくないの！？",
-   "en": "",
+   "en": "You don't want anything!?",
    "max": 23,
    "refs": [
     "lui@384/388"
@@ -75,7 +75,7 @@
    "id": "ovl045_800C84DC",
    "at": "800C84DC",
    "jp": "せっかく優勝したのに！！",
-   "en": "",
+   "en": "And after all that, you won!!",
    "max": 27,
    "refs": [
     "lui@390/394"
@@ -86,7 +86,7 @@
    "id": "ovl045_800C84F8",
    "at": "800C84F8",
    "jp": "ガイアマスターを終わらせてほしい",
-   "en": "",
+   "en": "Bring GaiaMaster to an end.",
    "max": 35,
    "refs": [
     "lui@3C8/3CC"
@@ -97,7 +97,7 @@
    "id": "ovl045_800C851C",
    "at": "800C851C",
    "jp": "このようなゲームで下界にわざわいを",
-   "en": "",
+   "en": "Let no game like this ever again",
    "max": 35,
    "refs": [
     "lui@3D4/3D8"
@@ -108,7 +108,7 @@
    "id": "ovl045_800C8540",
    "at": "800C8540",
    "jp": "もたらすのは、これでさいごに",
-   "en": "",
+   "en": "bring calamity to the world below.",
    "max": 31,
    "refs": [
     "lui@3E0/3E4"
@@ -119,7 +119,7 @@
    "id": "ovl045_800C8560",
    "at": "800C8560",
    "jp": "なんじの望みをかなえよう",
-   "en": "",
+   "en": "Your wish shall be granted.",
    "max": 27,
    "refs": [
     "lui@418/41C"
@@ -130,7 +130,7 @@
    "id": "ovl045_800C857C",
    "at": "800C857C",
    "jp": "ガイアマスターとは、この空中都市に",
-   "en": "",
+   "en": "GaiaMaster is a game those who lived",
    "max": 35,
    "refs": [
     "lui@458/45C"
@@ -141,7 +141,7 @@
    "id": "ovl045_800C85A0",
    "at": "800C85A0",
    "jp": "すむ者がたわむれにはじめたゲーム",
-   "en": "",
+   "en": "in this sky city began for sport.",
    "max": 35,
    "refs": [
     "lui@464/468"
@@ -152,7 +152,7 @@
    "id": "ovl045_800C85C4",
    "at": "800C85C4",
    "jp": "私はその進行役として作られた",
-   "en": "",
+   "en": "I was built to run it for them.",
    "max": 31,
    "refs": [
     "lui@470/474"
@@ -163,7 +163,7 @@
    "id": "ovl045_800C85E4",
    "at": "800C85E4",
    "jp": "かれらが滅びた後もずっと、",
-   "en": "",
+   "en": "Long after they perished,",
    "max": 27,
    "refs": [
     "lui@4A8/4AC"
@@ -174,7 +174,7 @@
    "id": "ovl045_800C8600",
    "at": "800C8600",
    "jp": "私はその役目をはたしてきた",
-   "en": "",
+   "en": "I have carried out that duty.",
    "max": 27,
    "refs": [
     "lui@4B4/4B8"
@@ -185,7 +185,7 @@
    "id": "ovl045_800C861C",
    "at": "800C861C",
    "jp": "それもついに終わる…",
-   "en": "",
+   "en": "That too ends at last...",
    "max": 23,
    "refs": [
     "lui@4C0/4C4"
@@ -196,7 +196,7 @@
    "id": "ovl045_800C8634",
    "at": "800C8634",
    "jp": "街がくずれるわ！",
-   "en": "",
+   "en": "The city's crumbling!",
    "max": 19,
    "refs": [
     "lui@55C/560"
@@ -207,7 +207,7 @@
    "id": "ovl045_800C8648",
    "at": "800C8648",
    "jp": "さらば、",
-   "en": "",
+   "en": "Farewell,",
    "max": 11,
    "refs": [
     "lui@5A8/5AC"
@@ -218,7 +218,7 @@
    "id": "ovl045_800C8654",
    "at": "800C8654",
    "jp": "ガイアマスターをつかさどる者よ…！",
-   "en": "",
+   "en": "keeper of GaiaMaster...!",
    "max": 34,
    "refs": [
     "lui@5B4/5B8"

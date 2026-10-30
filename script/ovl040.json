@@ -20,7 +20,7 @@
    "id": "ovl040_800C8460",
    "at": "800C8460",
    "jp": "だれもいない…",
-   "en": "",
+   "en": "No one is here...",
    "max": 15,
    "refs": [
     "lui@1DC/1E0"
@@ -31,7 +31,7 @@
    "id": "ovl040_800C8470",
    "at": "800C8470",
    "jp": "この街、もう滅んでたんだ",
-   "en": "",
+   "en": "This city was already dead.",
    "max": 27,
    "refs": [
     "lui@1E8/1EC"
@@ -42,7 +42,7 @@
    "id": "ovl040_800C848C",
    "at": "800C848C",
    "jp": "…そうか、手間をかけたな",
-   "en": "",
+   "en": "...I see. Sorry for the trouble.",
    "max": 27,
    "refs": [
     "lui@224/228"
@@ -53,7 +53,7 @@
    "id": "ovl040_800C84A8",
    "at": "800C84A8",
    "jp": "帰っちゃうの？",
-   "en": "",
+   "en": "You're leaving?",
    "max": 15,
    "refs": [
     "lui@264/268"
@@ -64,7 +64,7 @@
    "id": "ovl040_800C84B8",
    "at": "800C84B8",
    "jp": "つとめは、果たした",
-   "en": "",
+   "en": "My duty is done.",
    "max": 19,
    "refs": [
     "lui@2A4/2A8"
@@ -75,7 +75,7 @@
    "id": "ovl040_800C84CC",
    "at": "800C84CC",
    "jp": "…達者でな",
-   "en": "",
+   "en": "...Take care.",
    "max": 11,
    "refs": [
     "lui@2B0/2B4"
@@ -86,7 +86,7 @@
    "id": "ovl040_800C84D8",
    "at": "800C84D8",
    "jp": "たいへん！！",
-   "en": "",
+   "en": "Oh no!!",
    "max": 15,
    "refs": [
     "lui@350/354"
@@ -97,7 +97,7 @@
    "id": "ovl040_800C84E8",
    "at": "800C84E8",
    "jp": "この街、もうくずれるわ！",
-   "en": "",
+   "en": "The city's about to collapse!",
    "max": 27,
    "refs": [
     "lui@35C/360"
@@ -108,7 +108,7 @@
    "id": "ovl040_800C8504",
    "at": "800C8504",
    "jp": "これしきのこと…！",
-   "en": "",
+   "en": "This is nothing...!",
    "max": 19,
    "refs": [
     "lui@398/39C"

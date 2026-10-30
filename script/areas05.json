@@ -8,7 +8,7 @@
    "id": "areas05_0000",
    "at": "0000",
    "jp": "がいこつ",
-   "en": "",
+   "en": "Skeleton",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "areas05_000E",
    "at": "000E",
    "jp": "使い魔",
-   "en": "",
+   "en": "Imp",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "areas05_001C",
    "at": "001C",
    "jp": "おばけ",
-   "en": "",
+   "en": "Ghost",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "areas05_002A",
    "at": "002A",
    "jp": "夢魔",
-   "en": "",
+   "en": "Dream",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "areas05_0038",
    "at": "0038",
    "jp": "魔女",
-   "en": "",
+   "en": "Witch",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "areas05_0046",
    "at": "0046",
    "jp": "魔王",
-   "en": "",
+   "en": "Demon Lord",
    "max": 13,
    "refs": [],
    "notes": ""

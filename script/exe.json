@@ -9,7 +9,7 @@
    "id": "exe_80010120",
    "at": "80010120",
    "jp": "体力が３０回復したよ！",
-   "en": "",
+   "en": "Recovered 30 HP!",
    "max": 23,
    "refs": [
     "lui@65D0/65D4"
@@ -20,7 +20,7 @@
    "id": "exe_80010138",
    "at": "80010138",
    "jp": "%dゼニーあげるね",
-   "en": "",
+   "en": "%d zenny for you!",
    "max": 19,
    "refs": [
     "lui@69D4/69D8",
@@ -32,7 +32,7 @@
    "id": "exe_8001014C",
    "at": "8001014C",
    "jp": "ＧＯマス",
-   "en": "",
+   "en": "GO square",
    "max": 11,
    "refs": [
     "lui@69EC/69F0",
@@ -44,7 +44,7 @@
    "id": "exe_80010158",
    "at": "80010158",
    "jp": "体力が５０回復したよ！",
-   "en": "",
+   "en": "Recovered 50 HP!",
    "max": 23,
    "refs": [
     "lui@6ADC/6AE0",
@@ -56,7 +56,7 @@
    "id": "exe_80010170",
    "at": "80010170",
    "jp": "%sに止まったよ",
-   "en": "",
+   "en": "Landed on %s!",
    "max": 15,
    "refs": [
     "lui@6D64/6D68"
@@ -67,7 +67,7 @@
    "id": "exe_80010180",
    "at": "80010180",
    "jp": "%sの土地に",
-   "en": "",
+   "en": "%s's land",
    "max": 11,
    "refs": [
     "lui@6ED8/6EDC"
@@ -78,7 +78,7 @@
    "id": "exe_8001018C",
    "at": "8001018C",
    "jp": "止まっちゃったよ",
-   "en": "",
+   "en": "is where you landed!",
    "max": 19,
    "refs": [
     "lui@6EF0/6EF8"
@@ -89,7 +89,7 @@
    "id": "exe_800101A0",
    "at": "800101A0",
    "jp": "戦闘マスね",
-   "en": "",
+   "en": "Battle square",
    "max": 11,
    "refs": [
     "lui@71C0/71C4"
@@ -100,7 +100,7 @@
    "id": "exe_800101AC",
    "at": "800101AC",
    "jp": "土地をかけて戦うことができるよ",
-   "en": "",
+   "en": "You can fight with land at stake!",
    "max": 31,
    "refs": [
     "lui@71CC/71D0"
@@ -111,7 +111,7 @@
    "id": "exe_800101CC",
    "at": "800101CC",
    "jp": "酒場マスだよ",
-   "en": "",
+   "en": "Tavern square!",
    "max": 15,
    "refs": [
     "lui@7238/723C"
@@ -122,7 +122,7 @@
    "id": "exe_800101DC",
    "at": "800101DC",
    "jp": "武器カードが手に入るわ",
-   "en": "",
+   "en": "You get a weapon card!",
    "max": 23,
    "refs": [
     "lui@7244/7248"
@@ -133,7 +133,7 @@
    "id": "exe_800101F4",
    "at": "800101F4",
    "jp": "所得税マスにとまっちゃった！",
-   "en": "",
+   "en": "Oops, an income tax square!",
    "max": 31,
    "refs": [
     "lui@72CC/72D0"
@@ -144,7 +144,7 @@
    "id": "exe_80010214",
    "at": "80010214",
    "jp": "所持金の２０％とられるよ",
-   "en": "",
+   "en": "You pay 20 percent of your cash",
    "max": 27,
    "refs": [
     "lui@72D8/72DC"
@@ -155,7 +155,7 @@
    "id": "exe_80010230",
    "at": "80010230",
    "jp": "土地税マスに止まっちゃった！",
-   "en": "",
+   "en": "Oops, a land tax square!",
    "max": 31,
    "refs": [
     "lui@7358/735C"
@@ -166,7 +166,7 @@
    "id": "exe_80010250",
    "at": "80010250",
    "jp": "土地代の２０％とられるよ",
-   "en": "",
+   "en": "You pay 20 percent of land value",
    "max": 27,
    "refs": [
     "lui@7364/7368"
@@ -177,7 +177,7 @@
    "id": "exe_8001026C",
    "at": "8001026C",
    "jp": "聖地マスに止まったよ！",
-   "en": "",
+   "en": "A Sanctuary square!",
    "max": 23,
    "refs": [
     "lui@73DC/73E0"
@@ -188,7 +188,7 @@
    "id": "exe_80010284",
    "at": "80010284",
    "jp": "たまった税金をあげるね！！",
-   "en": "",
+   "en": "Collected taxes are yours!!",
    "max": 27,
    "refs": [
     "lui@73E8/73EC"
@@ -199,7 +199,7 @@
    "id": "exe_800102A0",
    "at": "800102A0",
    "jp": "どこにいっちゃうのかしら",
-   "en": "",
+   "en": "Where will you end up?",
    "max": 27,
    "refs": [
     "lui@744C/7450"
@@ -210,7 +210,7 @@
    "id": "exe_800102BC",
    "at": "800102BC",
    "jp": "%sは一回休みよ！",
-   "en": "",
+   "en": "%s misses a turn!",
    "max": 19,
    "refs": [
     "lui@7FD4/7FD8"
@@ -221,7 +221,7 @@
    "id": "exe_800102D0",
    "at": "800102D0",
    "jp": "%sの番よ！",
-   "en": "",
+   "en": "%s's turn!",
    "max": 11,
    "refs": [
     "lui@8300/8304"
@@ -232,7 +232,7 @@
    "id": "exe_800102DC",
    "at": "800102DC",
    "jp": "おまたせ！",
-   "en": "",
+   "en": "Thanks for waiting!",
    "max": 11,
    "refs": [
     "lui@8310/8314"
@@ -243,7 +243,7 @@
    "id": "exe_800102E8",
    "at": "800102E8",
    "jp": "ほかの人と同じマスに止まったよ",
-   "en": "",
+   "en": "Someone else is on this square!",
    "max": 31,
    "refs": [
     "lui@86F4/86F8"
@@ -254,7 +254,7 @@
    "id": "exe_80010308",
    "at": "80010308",
    "jp": "戦いをしかけるよね？",
-   "en": "",
+   "en": "Picking a fight, right?",
    "max": 23,
    "refs": [
     "lui@8700/8704"
@@ -265,7 +265,7 @@
    "id": "exe_800105F8",
    "at": "800105F8",
    "jp": "「%s」を捨てて",
-   "en": "",
+   "en": "Throw away \"%s\"",
    "max": 15,
    "refs": [
     "lui@EE00/EE04"
@@ -276,7 +276,7 @@
    "id": "exe_80010608",
    "at": "80010608",
    "jp": "「%s」を手に入れたよ",
-   "en": "",
+   "en": "You got \"%s\"!",
    "max": 23,
    "refs": [
     "lui@EE34/EE38"
@@ -287,7 +287,7 @@
    "id": "exe_80010620",
    "at": "80010620",
    "jp": "「%s」を手に入れたけど",
-   "en": "",
+   "en": "You got \"%s\", but",
    "max": 23,
    "refs": [
     "lui@EE6C/EE70"
@@ -298,7 +298,7 @@
    "id": "exe_80010638",
    "at": "80010638",
    "jp": "捨てたよ",
-   "en": "",
+   "en": "tossed it.",
    "max": 11,
    "refs": [
     "lui@EE9C/EEA8"
@@ -309,7 +309,7 @@
    "id": "exe_80010654",
    "at": "80010654",
    "jp": "これでいい？",
-   "en": "",
+   "en": "Is this OK?",
    "max": 15,
    "refs": [
     "lui@11DB4/11DBC"
@@ -320,7 +320,7 @@
    "id": "exe_80010664",
    "at": "80010664",
    "jp": "はい　　いいえ",
-   "en": "",
+   "en": "Yes　　 No",
    "max": 15,
    "refs": [
     "lui@11DEC/11DF4"
@@ -331,7 +331,7 @@
    "id": "exe_8001069C",
    "at": "8001069C",
    "jp": "使用するカードをえらんでね",
-   "en": "",
+   "en": "Pick a card to use!",
    "max": 27,
    "refs": [
     "lui@13F80/13F8C"
@@ -342,7 +342,7 @@
    "id": "exe_800106B8",
    "at": "800106B8",
    "jp": "「%s」を使うね",
-   "en": "",
+   "en": "Using \"%s\"!",
    "max": 15,
    "refs": [
     "lui@14170/14174",
@@ -354,7 +354,7 @@
    "id": "exe_80010914",
    "at": "80010914",
    "jp": "魔法　攻撃力２４　速度５",
-   "en": "",
+   "en": "Magic, Attack 24, Speed 5",
    "max": 27,
    "refs": [
     "ptr@5A54C"
@@ -365,7 +365,7 @@
    "id": "exe_80010930",
    "at": "80010930",
    "jp": "サンダー",
-   "en": "",
+   "en": "Thunder",
    "max": 11,
    "refs": [
     "ptr@5A548"
@@ -376,7 +376,7 @@
    "id": "exe_8001093C",
    "at": "8001093C",
    "jp": "魔法　攻撃力３２　速度２",
-   "en": "",
+   "en": "Magic, Attack 32, Speed 2",
    "max": 27,
    "refs": [
     "ptr@5A540"
@@ -387,7 +387,7 @@
    "id": "exe_80010958",
    "at": "80010958",
    "jp": "ハリケーン",
-   "en": "",
+   "en": "Hurricane",
    "max": 11,
    "refs": [
     "ptr@5A53C"
@@ -398,7 +398,7 @@
    "id": "exe_80010964",
    "at": "80010964",
    "jp": "飛　攻撃力３０　速度５",
-   "en": "",
+   "en": "Range, Attack 30, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A534"
@@ -409,7 +409,7 @@
    "id": "exe_8001097C",
    "at": "8001097C",
    "jp": "クロスボウ",
-   "en": "",
+   "en": "Crossbow",
    "max": 11,
    "refs": [
     "ptr@5A530"
@@ -420,7 +420,7 @@
    "id": "exe_80010988",
    "at": "80010988",
    "jp": "剣　攻撃力２０　速度４",
-   "en": "",
+   "en": "Sword, Attack 20, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A528"
@@ -431,7 +431,7 @@
    "id": "exe_800109A0",
    "at": "800109A0",
    "jp": "ロングソード",
-   "en": "",
+   "en": "Long Sword",
    "max": 15,
    "refs": [
     "ptr@5A524"
@@ -442,7 +442,7 @@
    "id": "exe_800109B0",
    "at": "800109B0",
    "jp": "飛　攻撃力２４　速度４",
-   "en": "",
+   "en": "Range, Attack 24, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A51C"
@@ -453,7 +453,7 @@
    "id": "exe_800109C8",
    "at": "800109C8",
    "jp": "剣　攻撃力２６　速度１",
-   "en": "",
+   "en": "Sword, Attack 26, Speed 1",
    "max": 23,
    "refs": [
     "ptr@5A510"
@@ -464,7 +464,7 @@
    "id": "exe_800109E0",
    "at": "800109E0",
    "jp": "ハンマー",
-   "en": "",
+   "en": "Hammer",
    "max": 11,
    "refs": [
     "ptr@5A50C"
@@ -475,7 +475,7 @@
    "id": "exe_800109EC",
    "at": "800109EC",
    "jp": "運がよければ敵を倒せるかも",
-   "en": "",
+   "en": "May defeat a foe if lucky",
    "max": 27,
    "refs": [
     "ptr@5A508"
@@ -486,7 +486,7 @@
    "id": "exe_80010A08",
    "at": "80010A08",
    "jp": "特殊　速度６　使い捨て",
-   "en": "",
+   "en": "Special, Speed 6, One Use",
    "max": 23,
    "refs": [
     "ptr@5A504"
@@ -497,7 +497,7 @@
    "id": "exe_80010A20",
    "at": "80010A20",
    "jp": "いちかばちか",
-   "en": "",
+   "en": "All or Nothing",
    "max": 15,
    "refs": [
     "ptr@5A500"
@@ -508,7 +508,7 @@
    "id": "exe_80010A30",
    "at": "80010A30",
    "jp": "あいてのカード一枚を破壊する",
-   "en": "",
+   "en": "Destroys 1 of the foe's cards",
    "max": 31,
    "refs": [
     "ptr@5A4FC"
@@ -519,7 +519,7 @@
    "id": "exe_80010A50",
    "at": "80010A50",
    "jp": "Ｃ．Ｆ．Ｃ．",
-   "en": "",
+   "en": "C.F.C.",
    "max": 15,
    "refs": [
     "ptr@5A4F4"
@@ -530,7 +530,7 @@
    "id": "exe_80010A60",
    "at": "80010A60",
    "jp": "ポリタンがみがわりに！？",
-   "en": "",
+   "en": "A jerry can takes the hit!?",
    "max": 27,
    "refs": [
     "ptr@5A4F0"
@@ -541,7 +541,7 @@
    "id": "exe_80010A7C",
    "at": "80010A7C",
    "jp": "防御　速度７　使い捨て",
-   "en": "",
+   "en": "Defense, Speed 7, One Use",
    "max": 23,
    "refs": [
     "ptr@5A4EC"
@@ -552,7 +552,7 @@
    "id": "exe_80010A94",
    "at": "80010A94",
    "jp": "みがわり",
-   "en": "",
+   "en": "Substitute",
    "max": 11,
    "refs": [
     "ptr@5A4E8"
@@ -563,7 +563,7 @@
    "id": "exe_80010AA0",
    "at": "80010AA0",
    "jp": "魔法　攻撃力２０　速度４",
-   "en": "",
+   "en": "Magic, Attack 20, Speed 4",
    "max": 27,
    "refs": [
     "ptr@5A4E0"
@@ -574,7 +574,7 @@
    "id": "exe_80010ABC",
    "at": "80010ABC",
    "jp": "剣　攻撃力２５　速度４",
-   "en": "",
+   "en": "Sword, Attack 25, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A4D4"
@@ -585,7 +585,7 @@
    "id": "exe_80010AD4",
    "at": "80010AD4",
    "jp": "剣　攻撃力２２　速度５",
-   "en": "",
+   "en": "Sword, Attack 22, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A4BC"
@@ -596,7 +596,7 @@
    "id": "exe_80010AEC",
    "at": "80010AEC",
    "jp": "飛　攻撃力２５　速度３",
-   "en": "",
+   "en": "Range, Attack 25, Speed 3",
    "max": 23,
    "refs": [
     "ptr@5A4B0"
@@ -607,7 +607,7 @@
    "id": "exe_80010B04",
    "at": "80010B04",
    "jp": "飛　攻撃力２５　速度５",
-   "en": "",
+   "en": "Range, Attack 25, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A4A4"
@@ -618,7 +618,7 @@
    "id": "exe_80010B1C",
    "at": "80010B1C",
    "jp": "剣　攻撃力２５　速度３",
-   "en": "",
+   "en": "Sword, Attack 25, Speed 3",
    "max": 23,
    "refs": [
     "ptr@5A48C",
@@ -630,7 +630,7 @@
    "id": "exe_80010B34",
    "at": "80010B34",
    "jp": "剣　攻撃力２８　速度４",
-   "en": "",
+   "en": "Sword, Attack 28, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A474"
@@ -641,7 +641,7 @@
    "id": "exe_80010B4C",
    "at": "80010B4C",
    "jp": "剣　攻撃力２０　速度５",
-   "en": "",
+   "en": "Sword, Attack 20, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A468",
@@ -654,7 +654,7 @@
    "id": "exe_80010B64",
    "at": "80010B64",
    "jp": "魔法　攻撃力３０　速度３",
-   "en": "",
+   "en": "Magic, Attack 30, Speed 3",
    "max": 27,
    "refs": [
     "ptr@5A45C"
@@ -665,7 +665,7 @@
    "id": "exe_80010B80",
    "at": "80010B80",
    "jp": "飛　攻撃力２８　速度２",
-   "en": "",
+   "en": "Range, Attack 28, Speed 2",
    "max": 23,
    "refs": [
     "ptr@5A450"
@@ -676,7 +676,7 @@
    "id": "exe_80010B98",
    "at": "80010B98",
    "jp": "剣　攻撃力３６　速度５",
-   "en": "",
+   "en": "Sword, Attack 36, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A444"
@@ -687,7 +687,7 @@
    "id": "exe_80010BB0",
    "at": "80010BB0",
    "jp": "封いんされた魔法",
-   "en": "",
+   "en": "Sealed magic",
    "max": 19,
    "refs": [
     "ptr@5A43C"
@@ -698,7 +698,7 @@
    "id": "exe_80010BC4",
    "at": "80010BC4",
    "jp": "魔法　攻撃力５３　速度３",
-   "en": "",
+   "en": "Magic, Attack 53, Speed 3",
    "max": 27,
    "refs": [
     "ptr@5A438"
@@ -709,7 +709,7 @@
    "id": "exe_80010BE0",
    "at": "80010BE0",
    "jp": "ダークメテオ",
-   "en": "",
+   "en": "Dark Meteor",
    "max": 15,
    "refs": [
     "ptr@5A434"
@@ -720,7 +720,7 @@
    "id": "exe_80010BF0",
    "at": "80010BF0",
    "jp": "飛　攻撃力５４　速度２",
-   "en": "",
+   "en": "Range, Attack 54, Speed 2",
    "max": 23,
    "refs": [
     "ptr@5A42C"
@@ -731,7 +731,7 @@
    "id": "exe_80010C08",
    "at": "80010C08",
    "jp": "伝説の聖剣",
-   "en": "",
+   "en": "Legendary holy sword",
    "max": 11,
    "refs": [
     "ptr@5A424"
@@ -742,7 +742,7 @@
    "id": "exe_80010C14",
    "at": "80010C14",
    "jp": "剣　攻撃力５２　速度４",
-   "en": "",
+   "en": "Sword, Attack 52, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A420"
@@ -753,7 +753,7 @@
    "id": "exe_80010C2C",
    "at": "80010C2C",
    "jp": "エクスカリバー",
-   "en": "",
+   "en": "Excalibur",
    "max": 15,
    "refs": [
     "ptr@5A41C"
@@ -764,7 +764,7 @@
    "id": "exe_80010C3C",
    "at": "80010C3C",
    "jp": "死亡するとＨＰ１００で復活",
-   "en": "",
+   "en": "Revive with 100 HP on death",
    "max": 27,
    "refs": [
     "ptr@5A418"
@@ -775,7 +775,7 @@
    "id": "exe_80010C58",
    "at": "80010C58",
    "jp": "復活の霊薬",
-   "en": "",
+   "en": "Revival Elixir",
    "max": 11,
    "refs": [
     "ptr@5A410"
@@ -786,7 +786,7 @@
    "id": "exe_80010C64",
    "at": "80010C64",
    "jp": "最強の魔法",
-   "en": "",
+   "en": "Strongest magic",
    "max": 11,
    "refs": [
     "ptr@5A40C"
@@ -797,7 +797,7 @@
    "id": "exe_80010C70",
    "at": "80010C70",
    "jp": "魔法　攻撃力５５　速度１",
-   "en": "",
+   "en": "Magic, Attack 55, Speed 1",
    "max": 27,
    "refs": [
     "ptr@5A408"
@@ -808,7 +808,7 @@
    "id": "exe_80010C8C",
    "at": "80010C8C",
    "jp": "メテオフォール",
-   "en": "",
+   "en": "Meteor Fall",
    "max": 15,
    "refs": [
     "ptr@5A404"
@@ -819,7 +819,7 @@
    "id": "exe_80010C9C",
    "at": "80010C9C",
    "jp": "最強の弓",
-   "en": "",
+   "en": "Strongest bow",
    "max": 11,
    "refs": [
     "ptr@5A400",
@@ -831,7 +831,7 @@
    "id": "exe_80010CA8",
    "at": "80010CA8",
    "jp": "飛　攻撃力５０　速度４",
-   "en": "",
+   "en": "Range, Attack 50, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A3FC"
@@ -842,7 +842,7 @@
    "id": "exe_80010CC0",
    "at": "80010CC0",
    "jp": "ほのおの弓",
-   "en": "",
+   "en": "Flame Bow",
    "max": 11,
    "refs": [
     "ptr@5A3F8"
@@ -853,7 +853,7 @@
    "id": "exe_80010CCC",
    "at": "80010CCC",
    "jp": "最強の魔剣",
-   "en": "",
+   "en": "Strongest demon sword",
    "max": 11,
    "refs": [
     "ptr@5A3F4"
@@ -864,7 +864,7 @@
    "id": "exe_80010CD8",
    "at": "80010CD8",
    "jp": "剣　攻撃力６０　速度２",
-   "en": "",
+   "en": "Sword, Attack 60, Speed 2",
    "max": 23,
    "refs": [
     "ptr@5A3F0"
@@ -875,7 +875,7 @@
    "id": "exe_80010CF0",
    "at": "80010CF0",
    "jp": "魔剣ムラマサ",
-   "en": "",
+   "en": "Demon Muramasa",
    "max": 15,
    "refs": [
     "ptr@5A3EC"
@@ -886,7 +886,7 @@
    "id": "exe_80010D00",
    "at": "80010D00",
    "jp": "あいての命中率を落とす",
-   "en": "",
+   "en": "Lowers foe's accuracy",
    "max": 23,
    "refs": [
     "ptr@5A3E8"
@@ -897,7 +897,7 @@
    "id": "exe_80010D18",
    "at": "80010D18",
    "jp": "まどわしの玉",
-   "en": "",
+   "en": "Bewitching Orb",
    "max": 15,
    "refs": [
     "ptr@5A3E0"
@@ -908,7 +908,7 @@
    "id": "exe_80010D28",
    "at": "80010D28",
    "jp": "指定武器カード１枚を盗む",
-   "en": "",
+   "en": "Steals 1 chosen weapon card",
    "max": 27,
    "refs": [
     "ptr@5A3DC"
@@ -919,7 +919,7 @@
    "id": "exe_80010D44",
    "at": "80010D44",
    "jp": "武器破壊　速度６　使い捨て",
-   "en": "",
+   "en": "Weapon Break, Speed 6, One Use",
    "max": 27,
    "refs": [
     "ptr@5A3D8",
@@ -931,7 +931,7 @@
    "id": "exe_80010D60",
    "at": "80010D60",
    "jp": "盗賊のオーブ",
-   "en": "",
+   "en": "Thief's Orb",
    "max": 15,
    "refs": [
     "ptr@5A3D4"
@@ -942,7 +942,7 @@
    "id": "exe_80010D70",
    "at": "80010D70",
    "jp": "魔法　攻撃力４０　速度２",
-   "en": "",
+   "en": "Magic, Attack 40, Speed 2",
    "max": 27,
    "refs": [
     "ptr@5A3CC"
@@ -953,7 +953,7 @@
    "id": "exe_80010D8C",
    "at": "80010D8C",
    "jp": "アースクエイク",
-   "en": "",
+   "en": "Earthquake",
    "max": 15,
    "refs": [
     "ptr@5A3C8"
@@ -964,7 +964,7 @@
    "id": "exe_80010D9C",
    "at": "80010D9C",
    "jp": "剣　攻撃力４８　速度２",
-   "en": "",
+   "en": "Sword, Attack 48, Speed 2",
    "max": 23,
    "refs": [
     "ptr@5A3C0"
@@ -975,7 +975,7 @@
    "id": "exe_80010DB4",
    "at": "80010DB4",
    "jp": "ストームソード",
-   "en": "",
+   "en": "Storm Sword",
    "max": 15,
    "refs": [
     "ptr@5A3BC"
@@ -986,7 +986,7 @@
    "id": "exe_80010DC4",
    "at": "80010DC4",
    "jp": "攻撃力を２倍にアップさせる",
-   "en": "",
+   "en": "Doubles attack",
    "max": 27,
    "refs": [
     "ptr@5A3B8"
@@ -997,7 +997,7 @@
    "id": "exe_80010DE0",
    "at": "80010DE0",
    "jp": "力の指輪",
-   "en": "",
+   "en": "Ring of Power",
    "max": 11,
    "refs": [
     "ptr@5A3B0"
@@ -1008,7 +1008,7 @@
    "id": "exe_80010DEC",
    "at": "80010DEC",
    "jp": "ＨＰを６０回復する",
-   "en": "",
+   "en": "Restores 60 HP",
    "max": 19,
    "refs": [
     "ptr@5A3AC"
@@ -1019,7 +1019,7 @@
    "id": "exe_80010E00",
    "at": "80010E00",
    "jp": "いやしのうた",
-   "en": "",
+   "en": "Healing Song",
    "max": 15,
    "refs": [
     "ptr@5A3A4"
@@ -1030,7 +1030,7 @@
    "id": "exe_80010E10",
    "at": "80010E10",
    "jp": "飛　攻撃力３６　速度５",
-   "en": "",
+   "en": "Range, Attack 36, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A39C"
@@ -1041,7 +1041,7 @@
    "id": "exe_80010E28",
    "at": "80010E28",
    "jp": "フェザーレイ",
-   "en": "",
+   "en": "Feather Ray",
    "max": 15,
    "refs": [
     "ptr@5A398"
@@ -1052,7 +1052,7 @@
    "id": "exe_80010E38",
    "at": "80010E38",
    "jp": "ダメージの１／２を奪う",
-   "en": "",
+   "en": "Absorbs half the damage dealt",
    "max": 23,
    "refs": [
     "ptr@5A394",
@@ -1064,7 +1064,7 @@
    "id": "exe_80010E50",
    "at": "80010E50",
    "jp": "飛　攻撃力２４　速度１",
-   "en": "",
+   "en": "Range, Attack 24, Speed 1",
    "max": 23,
    "refs": [
     "ptr@5A390"
@@ -1075,7 +1075,7 @@
    "id": "exe_80010E68",
    "at": "80010E68",
    "jp": "ブラッドスピア",
-   "en": "",
+   "en": "Blood Spear",
    "max": 15,
    "refs": [
     "ptr@5A38C",
@@ -1087,7 +1087,7 @@
    "id": "exe_80010E78",
    "at": "80010E78",
    "jp": "アイテムを使えなくする",
-   "en": "",
+   "en": "Foe can't use items",
    "max": 23,
    "refs": [
     "ptr@5A388"
@@ -1098,7 +1098,7 @@
    "id": "exe_80010E90",
    "at": "80010E90",
    "jp": "使い捨てアイテム",
-   "en": "",
+   "en": "Single-use item",
    "max": 19,
    "refs": [
     "ptr@5A384",
@@ -1111,7 +1111,7 @@
    "id": "exe_80010EA4",
    "at": "80010EA4",
    "jp": "アイテム封じ",
-   "en": "",
+   "en": "Item Seal",
    "max": 15,
    "refs": [
     "ptr@5A380"
@@ -1122,7 +1122,7 @@
    "id": "exe_80010EB4",
    "at": "80010EB4",
    "jp": "クリティカルがでやすい",
-   "en": "",
+   "en": "Critical hits land more often",
    "max": 23,
    "refs": [
     "ptr@5A37C",
@@ -1136,7 +1136,7 @@
    "id": "exe_80010ECC",
    "at": "80010ECC",
    "jp": "魔法　攻撃力２６　速度１",
-   "en": "",
+   "en": "Magic, Attack 26, Speed 1",
    "max": 27,
    "refs": [
     "ptr@5A378"
@@ -1147,7 +1147,7 @@
    "id": "exe_80010EE8",
    "at": "80010EE8",
    "jp": "スノーストーム",
-   "en": "",
+   "en": "Snowstorm",
    "max": 15,
    "refs": [
     "ptr@5A374",
@@ -1159,7 +1159,7 @@
    "id": "exe_80010EF8",
    "at": "80010EF8",
    "jp": "速度が速い",
-   "en": "",
+   "en": "High speed",
    "max": 11,
    "refs": [
     "ptr@5A370",
@@ -1172,7 +1172,7 @@
    "id": "exe_80010F04",
    "at": "80010F04",
    "jp": "剣　攻撃力３０　速度５",
-   "en": "",
+   "en": "Sword, Attack 30, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A36C"
@@ -1183,7 +1183,7 @@
    "id": "exe_80010F1C",
    "at": "80010F1C",
    "jp": "せつなの剣",
-   "en": "",
+   "en": "Instant Blade",
    "max": 11,
    "refs": [
     "ptr@5A368",
@@ -1195,7 +1195,7 @@
    "id": "exe_80010F28",
    "at": "80010F28",
    "jp": "ダメージを１／２にへらす",
-   "en": "",
+   "en": "Halves the damage taken",
    "max": 27,
    "refs": [
     "ptr@5A364"
@@ -1206,7 +1206,7 @@
    "id": "exe_80010F44",
    "at": "80010F44",
    "jp": "使い捨て防御アイテム",
-   "en": "",
+   "en": "Single-use defense item",
    "max": 23,
    "refs": [
     "ptr@5A360"
@@ -1217,7 +1217,7 @@
    "id": "exe_80010F5C",
    "at": "80010F5C",
    "jp": "シールド",
-   "en": "",
+   "en": "Shield",
    "max": 11,
    "refs": [
     "ptr@5A35C"
@@ -1228,7 +1228,7 @@
    "id": "exe_80010F68",
    "at": "80010F68",
    "jp": "ＨＰを３０回復する",
-   "en": "",
+   "en": "Restores 30 HP",
    "max": 19,
    "refs": [
     "ptr@5A358"
@@ -1239,7 +1239,7 @@
    "id": "exe_80010F7C",
    "at": "80010F7C",
    "jp": "使い捨て回復アイテム",
-   "en": "",
+   "en": "Single-use healing item",
    "max": 23,
    "refs": [
     "ptr@5A354",
@@ -1252,7 +1252,7 @@
    "id": "exe_80010F94",
    "at": "80010F94",
    "jp": "魔法　攻撃力２０　速度３",
-   "en": "",
+   "en": "Magic, Attack 20, Speed 3",
    "max": 27,
    "refs": [
     "ptr@5A348"
@@ -1263,7 +1263,7 @@
    "id": "exe_80010FB0",
    "at": "80010FB0",
    "jp": "ファイアボール",
-   "en": "",
+   "en": "Fireball",
    "max": 15,
    "refs": [
     "ptr@5A344"
@@ -1274,7 +1274,7 @@
    "id": "exe_80010FC0",
    "at": "80010FC0",
    "jp": "飛　攻撃力１８　速度５",
-   "en": "",
+   "en": "Range, Attack 18, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A33C"
@@ -1285,7 +1285,7 @@
    "id": "exe_80010FD8",
    "at": "80010FD8",
    "jp": "剣　攻撃力２２　速度３",
-   "en": "",
+   "en": "Sword, Attack 22, Speed 3",
    "max": 23,
    "refs": [
     "ptr@5A330"
@@ -1296,7 +1296,7 @@
    "id": "exe_80010FF0",
    "at": "80010FF0",
    "jp": "エストック",
-   "en": "",
+   "en": "Estoc",
    "max": 11,
    "refs": [
     "ptr@5A32C"
@@ -1307,7 +1307,7 @@
    "id": "exe_80010FFC",
    "at": "80010FFC",
    "jp": "魔法　攻撃力１５　速度４",
-   "en": "",
+   "en": "Magic, Attack 15, Speed 4",
    "max": 27,
    "refs": [
     "ptr@5A324"
@@ -1318,7 +1318,7 @@
    "id": "exe_80011018",
    "at": "80011018",
    "jp": "ジプシータロウ",
-   "en": "",
+   "en": "Gypsy Tarot",
    "max": 15,
    "refs": [
     "ptr@5A320",
@@ -1330,7 +1330,7 @@
    "id": "exe_80011028",
    "at": "80011028",
    "jp": "バトルアックス",
-   "en": "",
+   "en": "Battle Axe",
    "max": 15,
    "refs": [
     "ptr@5A314",
@@ -1342,7 +1342,7 @@
    "id": "exe_80011038",
    "at": "80011038",
    "jp": "レイピア",
-   "en": "",
+   "en": "Rapier",
    "max": 11,
    "refs": [
     "ptr@5A308",
@@ -1354,7 +1354,7 @@
    "id": "exe_80011044",
    "at": "80011044",
    "jp": "剣　攻撃力１８　速度５",
-   "en": "",
+   "en": "Sword, Attack 18, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A300"
@@ -1365,7 +1365,7 @@
    "id": "exe_8001105C",
    "at": "8001105C",
    "jp": "飛　攻撃力２０　速度３",
-   "en": "",
+   "en": "Range, Attack 20, Speed 3",
    "max": 23,
    "refs": [
     "ptr@5A2F4"
@@ -1376,7 +1376,7 @@
    "id": "exe_80011074",
    "at": "80011074",
    "jp": "飛　攻撃力１５　速度５",
-   "en": "",
+   "en": "Range, Attack 15, Speed 5",
    "max": 23,
    "refs": [
     "ptr@5A2E8"
@@ -1387,7 +1387,7 @@
    "id": "exe_8001108C",
    "at": "8001108C",
    "jp": "剣　攻撃力１８　速度３",
-   "en": "",
+   "en": "Sword, Attack 18, Speed 3",
    "max": 23,
    "refs": [
     "ptr@5A2D0",
@@ -1399,7 +1399,7 @@
    "id": "exe_800110A4",
    "at": "800110A4",
    "jp": "ジャンビーヤ",
-   "en": "",
+   "en": "Jambiya",
    "max": 15,
    "refs": [
     "ptr@5A2C0",
@@ -1411,7 +1411,7 @@
    "id": "exe_800110B4",
    "at": "800110B4",
    "jp": "剣　攻撃力１８　速度４",
-   "en": "",
+   "en": "Sword, Attack 18, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A2B8",
@@ -1424,7 +1424,7 @@
    "id": "exe_800110CC",
    "at": "800110CC",
    "jp": "クレイモア",
-   "en": "",
+   "en": "Claymore",
    "max": 11,
    "refs": [
     "ptr@5A2B4",
@@ -1436,7 +1436,7 @@
    "id": "exe_800110D8",
    "at": "800110D8",
    "jp": "剣　攻撃力１５　速度４",
-   "en": "",
+   "en": "Sword, Attack 15, Speed 4",
    "max": 23,
    "refs": [
     "ptr@5A2AC",
@@ -1448,7 +1448,7 @@
    "id": "exe_800110F0",
    "at": "800110F0",
    "jp": "ボーイナイフ",
-   "en": "",
+   "en": "Bowie Knife",
    "max": 15,
    "refs": [
     "ptr@5A2A8",
@@ -1460,7 +1460,7 @@
    "id": "exe_80011100",
    "at": "80011100",
    "jp": "基本武器",
-   "en": "",
+   "en": "Basic weapon",
    "max": 11,
    "refs": [
     "ptr@1924"
@@ -1471,7 +1471,7 @@
    "id": "exe_8001110C",
    "at": "8001110C",
    "jp": "ダメージ",
-   "en": "",
+   "en": "Damage",
    "max": 11,
    "refs": [
     "ptr@1928"
@@ -1482,7 +1482,7 @@
    "id": "exe_80011118",
    "at": "80011118",
    "jp": "武器破壊",
-   "en": "",
+   "en": "Weapon Break",
    "max": 11,
    "refs": [
     "ptr@1934"
@@ -1493,7 +1493,7 @@
    "id": "exe_80011148",
    "at": "80011148",
    "jp": "Ｌ/V%d（ＭＡＸ）",
-   "en": "",
+   "en": "Level /V%d (MAX)",
    "max": 19,
    "refs": [
     "lui@16A38/16A3C"
@@ -1504,7 +1504,7 @@
    "id": "exe_8001115C",
    "at": "8001115C",
    "jp": "Ｌ/V%d（あと/V%d）",
-   "en": "",
+   "en": "Level /V%d (/V%d more)",
    "max": 19,
    "refs": [
     "lui@16A68/16A6C"
@@ -1515,7 +1515,7 @@
    "id": "exe_80011170",
    "at": "80011170",
    "jp": "ランダム武器破壊",
-   "en": "",
+   "en": "Break random weapon",
    "max": 19,
    "refs": [
     "lui@16DE0/16DEC"
@@ -1526,7 +1526,7 @@
    "id": "exe_80011184",
    "at": "80011184",
    "jp": "指定武器破壊",
-   "en": "",
+   "en": "Break chosen weapon",
    "max": 15,
    "refs": [
     "lui@16E40/16E44"
@@ -1537,7 +1537,7 @@
    "id": "exe_80011194",
    "at": "80011194",
    "jp": "指定武器取得",
-   "en": "",
+   "en": "Steal chosen weapon",
    "max": 15,
    "refs": [
     "lui@16E40/16E8C"
@@ -1548,7 +1548,7 @@
    "id": "exe_80011248",
    "at": "80011248",
    "jp": "ボーイナイフ",
-   "en": "",
+   "en": "Bowie Knife",
    "max": 15,
    "refs": [
     "lui@ECB8/ECBC",
@@ -1672,7 +1672,7 @@
    "id": "exe_80011262",
    "at": "80011262",
    "jp": "クレイモア",
-   "en": "",
+   "en": "Claymore",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1681,7 +1681,7 @@
    "id": "exe_8001127C",
    "at": "8001127C",
    "jp": "ジャンビーヤ",
-   "en": "",
+   "en": "Jambiya",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1690,7 +1690,7 @@
    "id": "exe_80011296",
    "at": "80011296",
    "jp": "メイス",
-   "en": "",
+   "en": "Mace",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1699,7 +1699,7 @@
    "id": "exe_800112B0",
    "at": "800112B0",
    "jp": "野太刀",
-   "en": "",
+   "en": "Nodachi",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1708,7 +1708,7 @@
    "id": "exe_800112CA",
    "at": "800112CA",
    "jp": "クナイ",
-   "en": "",
+   "en": "Kunai",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1717,7 +1717,7 @@
    "id": "exe_800112E4",
    "at": "800112E4",
    "jp": "∞ガン",
-   "en": "",
+   "en": "∞ Gun",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1726,7 +1726,7 @@
    "id": "exe_800112FE",
    "at": "800112FE",
    "jp": "如意棒",
-   "en": "",
+   "en": "Nyoibo Staff",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1735,7 +1735,7 @@
    "id": "exe_80011318",
    "at": "80011318",
    "jp": "レイピア",
-   "en": "",
+   "en": "Rapier",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1744,7 +1744,7 @@
    "id": "exe_80011332",
    "at": "80011332",
    "jp": "バトルアックス",
-   "en": "",
+   "en": "Battle Axe",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1753,7 +1753,7 @@
    "id": "exe_8001134C",
    "at": "8001134C",
    "jp": "ジプシータロウ",
-   "en": "",
+   "en": "Gypsy Tarot",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1762,7 +1762,7 @@
    "id": "exe_80011366",
    "at": "80011366",
    "jp": "エストック",
-   "en": "",
+   "en": "Estoc",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1771,7 +1771,7 @@
    "id": "exe_80011380",
    "at": "80011380",
    "jp": "ダーツ",
-   "en": "",
+   "en": "Darts",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1780,7 +1780,7 @@
    "id": "exe_8001139A",
    "at": "8001139A",
    "jp": "ファイアボール",
-   "en": "",
+   "en": "Fireball",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1789,7 +1789,7 @@
    "id": "exe_800113B4",
    "at": "800113B4",
    "jp": "丸薬",
-   "en": "",
+   "en": "Pills",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1798,7 +1798,7 @@
    "id": "exe_800113CE",
    "at": "800113CE",
    "jp": "シールド",
-   "en": "",
+   "en": "Shield",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1807,7 +1807,7 @@
    "id": "exe_800113E8",
    "at": "800113E8",
    "jp": "せつなの剣",
-   "en": "",
+   "en": "Instant Blade",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1816,7 +1816,7 @@
    "id": "exe_80011402",
    "at": "80011402",
    "jp": "スノーストーム",
-   "en": "",
+   "en": "Snowstorm",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1825,7 +1825,7 @@
    "id": "exe_8001141C",
    "at": "8001141C",
    "jp": "アイテム封じ",
-   "en": "",
+   "en": "Item Seal",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1834,7 +1834,7 @@
    "id": "exe_80011436",
    "at": "80011436",
    "jp": "ブラッドスピア",
-   "en": "",
+   "en": "Blood Spear",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1843,7 +1843,7 @@
    "id": "exe_80011450",
    "at": "80011450",
    "jp": "フェザーレイ",
-   "en": "",
+   "en": "Feather Ray",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1852,7 +1852,7 @@
    "id": "exe_8001146A",
    "at": "8001146A",
    "jp": "いやしのうた",
-   "en": "",
+   "en": "Healing Song",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1861,7 +1861,7 @@
    "id": "exe_80011484",
    "at": "80011484",
    "jp": "力の指輪",
-   "en": "",
+   "en": "Ring of Power",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1870,7 +1870,7 @@
    "id": "exe_8001149E",
    "at": "8001149E",
    "jp": "ストームソード",
-   "en": "",
+   "en": "Storm Sword",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1879,7 +1879,7 @@
    "id": "exe_800114B8",
    "at": "800114B8",
    "jp": "アースクエイク",
-   "en": "",
+   "en": "Earthquake",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1888,7 +1888,7 @@
    "id": "exe_800114D2",
    "at": "800114D2",
    "jp": "盗賊のオーブ",
-   "en": "",
+   "en": "Thief's Orb",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1897,7 +1897,7 @@
    "id": "exe_800114EC",
    "at": "800114EC",
    "jp": "まどわしの玉",
-   "en": "",
+   "en": "Bewitching Orb",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1906,7 +1906,7 @@
    "id": "exe_80011506",
    "at": "80011506",
    "jp": "魔剣ムラマサ",
-   "en": "",
+   "en": "Demon Muramasa",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1915,7 +1915,7 @@
    "id": "exe_80011520",
    "at": "80011520",
    "jp": "ほのおの弓",
-   "en": "",
+   "en": "Flame Bow",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1924,7 +1924,7 @@
    "id": "exe_8001153A",
    "at": "8001153A",
    "jp": "メテオフォール",
-   "en": "",
+   "en": "Meteor Fall",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1933,7 +1933,7 @@
    "id": "exe_80011554",
    "at": "80011554",
    "jp": "復活の霊薬",
-   "en": "",
+   "en": "Revival Elixir",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1942,7 +1942,7 @@
    "id": "exe_8001156E",
    "at": "8001156E",
    "jp": "エクスカリバー",
-   "en": "",
+   "en": "Excalibur",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1951,7 +1951,7 @@
    "id": "exe_80011588",
    "at": "80011588",
    "jp": "氷の弓",
-   "en": "",
+   "en": "Ice Bow",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1960,7 +1960,7 @@
    "id": "exe_800115A2",
    "at": "800115A2",
    "jp": "ダークメテオ",
-   "en": "",
+   "en": "Dark Meteor",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1969,7 +1969,7 @@
    "id": "exe_800115BC",
    "at": "800115BC",
    "jp": "せつなの剣",
-   "en": "",
+   "en": "Instant Blade",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1978,7 +1978,7 @@
    "id": "exe_800115D6",
    "at": "800115D6",
    "jp": "ブラッドスピア",
-   "en": "",
+   "en": "Blood Spear",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1987,7 +1987,7 @@
    "id": "exe_800115F0",
    "at": "800115F0",
    "jp": "スノーストーム",
-   "en": "",
+   "en": "Snowstorm",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -1996,7 +1996,7 @@
    "id": "exe_8001160A",
    "at": "8001160A",
    "jp": "ボーイナイフ",
-   "en": "",
+   "en": "Bowie Knife",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2005,7 +2005,7 @@
    "id": "exe_80011624",
    "at": "80011624",
    "jp": "クレイモア",
-   "en": "",
+   "en": "Claymore",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2014,7 +2014,7 @@
    "id": "exe_8001163E",
    "at": "8001163E",
    "jp": "ジャンビーヤ",
-   "en": "",
+   "en": "Jambiya",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2023,7 +2023,7 @@
    "id": "exe_80011658",
    "at": "80011658",
    "jp": "メイス",
-   "en": "",
+   "en": "Mace",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2032,7 +2032,7 @@
    "id": "exe_80011672",
    "at": "80011672",
    "jp": "野太刀",
-   "en": "",
+   "en": "Nodachi",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2041,7 +2041,7 @@
    "id": "exe_8001168C",
    "at": "8001168C",
    "jp": "クナイ",
-   "en": "",
+   "en": "Kunai",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2050,7 +2050,7 @@
    "id": "exe_800116A6",
    "at": "800116A6",
    "jp": "∞ガン",
-   "en": "",
+   "en": "∞ Gun",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2059,7 +2059,7 @@
    "id": "exe_800116C0",
    "at": "800116C0",
    "jp": "如意棒",
-   "en": "",
+   "en": "Nyoibo Staff",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2068,7 +2068,7 @@
    "id": "exe_800116DA",
    "at": "800116DA",
    "jp": "レイピア",
-   "en": "",
+   "en": "Rapier",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2077,7 +2077,7 @@
    "id": "exe_800116F4",
    "at": "800116F4",
    "jp": "バトルアックス",
-   "en": "",
+   "en": "Battle Axe",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2086,7 +2086,7 @@
    "id": "exe_8001170E",
    "at": "8001170E",
    "jp": "ジプシータロウ",
-   "en": "",
+   "en": "Gypsy Tarot",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2095,7 +2095,7 @@
    "id": "exe_80011728",
    "at": "80011728",
    "jp": "みがわり",
-   "en": "",
+   "en": "Substitute",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2104,7 +2104,7 @@
    "id": "exe_80011742",
    "at": "80011742",
    "jp": "Ｃ．Ｆ．Ｃ",
-   "en": "",
+   "en": "C.F.C.",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2113,7 +2113,7 @@
    "id": "exe_8001175C",
    "at": "8001175C",
    "jp": "いちかばちか",
-   "en": "",
+   "en": "All or Nothing",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2122,7 +2122,7 @@
    "id": "exe_80011776",
    "at": "80011776",
    "jp": "ハンマー",
-   "en": "",
+   "en": "Hammer",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2131,7 +2131,7 @@
    "id": "exe_80011790",
    "at": "80011790",
    "jp": "弓",
-   "en": "",
+   "en": "Bow",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2140,7 +2140,7 @@
    "id": "exe_800117AA",
    "at": "800117AA",
    "jp": "ロングソード",
-   "en": "",
+   "en": "Long Sword",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2149,7 +2149,7 @@
    "id": "exe_800117C4",
    "at": "800117C4",
    "jp": "クロスボウ",
-   "en": "",
+   "en": "Crossbow",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2158,7 +2158,7 @@
    "id": "exe_800117DE",
    "at": "800117DE",
    "jp": "ハリケーン",
-   "en": "",
+   "en": "Hurricane",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2167,7 +2167,7 @@
    "id": "exe_800117F8",
    "at": "800117F8",
    "jp": "サンダー",
-   "en": "",
+   "en": "Thunder",
    "max": 15,
    "refs": [],
    "notes": ""
@@ -2176,7 +2176,7 @@
    "id": "exe_80011814",
    "at": "80011814",
    "jp": "大不幸",
-   "en": "",
+   "en": "Awful Luck",
    "max": 14,
    "refs": [
     "lui@1419C/141A0",
@@ -2198,7 +2198,7 @@
    "id": "exe_80011828",
    "at": "80011828",
    "jp": "不幸",
-   "en": "",
+   "en": "Bad Luck",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2207,7 +2207,7 @@
    "id": "exe_8001183C",
    "at": "8001183C",
    "jp": "幸運",
-   "en": "",
+   "en": "Good Luck",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2216,7 +2216,7 @@
    "id": "exe_80011850",
    "at": "80011850",
    "jp": "大幸運",
-   "en": "",
+   "en": "Great Luck",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2225,7 +2225,7 @@
    "id": "exe_80011864",
    "at": "80011864",
    "jp": "盗賊の援助",
-   "en": "",
+   "en": "Thief's Aid",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2234,7 +2234,7 @@
    "id": "exe_80011878",
    "at": "80011878",
    "jp": "魔法使いの援助",
-   "en": "",
+   "en": "Wizard's Aid",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2243,7 +2243,7 @@
    "id": "exe_8001188C",
    "at": "8001188C",
    "jp": "ＧＯマスおくり",
-   "en": "",
+   "en": "Send to GO",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2252,7 +2252,7 @@
    "id": "exe_800118A0",
    "at": "800118A0",
    "jp": "ワープ",
-   "en": "",
+   "en": "Warp",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2261,7 +2261,7 @@
    "id": "exe_800118B4",
    "at": "800118B4",
    "jp": "大国の混乱",
-   "en": "",
+   "en": "Kingdom Chaos",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2270,7 +2270,7 @@
    "id": "exe_800118C8",
    "at": "800118C8",
    "jp": "領主からの使者",
-   "en": "",
+   "en": "Lord's Envoy",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2279,7 +2279,7 @@
    "id": "exe_800118DC",
    "at": "800118DC",
    "jp": "小領主の協力",
-   "en": "",
+   "en": "Minor Lord Aid",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2288,7 +2288,7 @@
    "id": "exe_800118F0",
    "at": "800118F0",
    "jp": "大領主の協力",
-   "en": "",
+   "en": "Major Lord Aid",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2297,7 +2297,7 @@
    "id": "exe_80011904",
    "at": "80011904",
    "jp": "じしん",
-   "en": "",
+   "en": "Quake",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2306,7 +2306,7 @@
    "id": "exe_80011918",
    "at": "80011918",
    "jp": "落雷",
-   "en": "",
+   "en": "Lightning",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2315,7 +2315,7 @@
    "id": "exe_8001192C",
    "at": "8001192C",
    "jp": "大国からの使者",
-   "en": "",
+   "en": "Kingdom Envoy",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2324,7 +2324,7 @@
    "id": "exe_80011940",
    "at": "80011940",
    "jp": "大国からの使者",
-   "en": "",
+   "en": "Kingdom Envoy",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2333,7 +2333,7 @@
    "id": "exe_80011954",
    "at": "80011954",
    "jp": "大国の援助",
-   "en": "",
+   "en": "Kingdom's Aid",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2342,7 +2342,7 @@
    "id": "exe_80011968",
    "at": "80011968",
    "jp": "領地購入",
-   "en": "",
+   "en": "Land Purchase",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2351,7 +2351,7 @@
    "id": "exe_8001197C",
    "at": "8001197C",
    "jp": "魔王のこうりん",
-   "en": "",
+   "en": "Demon Descends",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2360,7 +2360,7 @@
    "id": "exe_80011990",
    "at": "80011990",
    "jp": "魔王しょうかん",
-   "en": "",
+   "en": "Summon Demon",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2369,7 +2369,7 @@
    "id": "exe_800119A4",
    "at": "800119A4",
    "jp": "魔王のきょうふ",
-   "en": "",
+   "en": "Demon's Terror",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2378,7 +2378,7 @@
    "id": "exe_800119B8",
    "at": "800119B8",
    "jp": "魔王の気まぐれ",
-   "en": "",
+   "en": "Demon's Whim",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2387,7 +2387,7 @@
    "id": "exe_800119CC",
    "at": "800119CC",
    "jp": "魔王のゆうわく",
-   "en": "",
+   "en": "Demon's Lure",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2396,7 +2396,7 @@
    "id": "exe_800119E0",
    "at": "800119E0",
    "jp": "お店破壊",
-   "en": "",
+   "en": "Wreck a Shop",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2405,7 +2405,7 @@
    "id": "exe_800119F4",
    "at": "800119F4",
    "jp": "ルート変更",
-   "en": "",
+   "en": "Change Route",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2414,7 +2414,7 @@
    "id": "exe_80011A08",
    "at": "80011A08",
    "jp": "時の神のいたず",
-   "en": "",
+   "en": "Time God Prank",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2423,7 +2423,7 @@
    "id": "exe_80011A1C",
    "at": "80011A1C",
    "jp": "運の神の休息",
-   "en": "",
+   "en": "Luck God's Nap",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2432,7 +2432,7 @@
    "id": "exe_80011A30",
    "at": "80011A30",
    "jp": "ふみたおし",
-   "en": "",
+   "en": "Dodge Payment",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2441,7 +2441,7 @@
    "id": "exe_80011A44",
    "at": "80011A44",
    "jp": "バトルカード",
-   "en": "",
+   "en": "Battle Card",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2450,7 +2450,7 @@
    "id": "exe_80011A58",
    "at": "80011A58",
    "jp": "地震",
-   "en": "",
+   "en": "Tremor",
    "max": 14,
    "refs": [
     "o008:lui@A330/A338"
@@ -2461,7 +2461,7 @@
    "id": "exe_80011A6C",
    "at": "80011A6C",
    "jp": "邪神像",
-   "en": "",
+   "en": "Evil Statue",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2470,7 +2470,7 @@
    "id": "exe_80011A80",
    "at": "80011A80",
    "jp": "悪魔の塔",
-   "en": "",
+   "en": "Devil's Tower",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2479,7 +2479,7 @@
    "id": "exe_80011A94",
    "at": "80011A94",
    "jp": "はかば",
-   "en": "",
+   "en": "Graveyard",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2488,7 +2488,7 @@
    "id": "exe_80011AA8",
    "at": "80011AA8",
    "jp": "温泉",
-   "en": "",
+   "en": "Hot Spring",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2497,7 +2497,7 @@
    "id": "exe_80011ABC",
    "at": "80011ABC",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2506,7 +2506,7 @@
    "id": "exe_80011AD0",
    "at": "80011AD0",
    "jp": "庭園",
-   "en": "",
+   "en": "Garden",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2515,7 +2515,7 @@
    "id": "exe_80011AE4",
    "at": "80011AE4",
    "jp": "大聖堂",
-   "en": "",
+   "en": "Cathedral",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2524,7 +2524,7 @@
    "id": "exe_80011AF8",
    "at": "80011AF8",
    "jp": "サーカス",
-   "en": "",
+   "en": "Circus",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2533,7 +2533,7 @@
    "id": "exe_80011B0C",
    "at": "80011B0C",
    "jp": "呪いの沼",
-   "en": "",
+   "en": "Cursed Swamp",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2542,7 +2542,7 @@
    "id": "exe_80011B20",
    "at": "80011B20",
    "jp": "死神像",
-   "en": "",
+   "en": "Reaper Statue",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2551,7 +2551,7 @@
    "id": "exe_80011B34",
    "at": "80011B34",
    "jp": "ダイス３つ",
-   "en": "",
+   "en": "3 Dice",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2560,7 +2560,7 @@
    "id": "exe_80011B48",
    "at": "80011B48",
    "jp": "ダイス４つ",
-   "en": "",
+   "en": "4 Dice",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2569,7 +2569,7 @@
    "id": "exe_80011B5C",
    "at": "80011B5C",
    "jp": "１進む",
-   "en": "",
+   "en": "Advance 1",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2578,7 +2578,7 @@
    "id": "exe_80011B70",
    "at": "80011B70",
    "jp": "２進む",
-   "en": "",
+   "en": "Advance 2",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2587,7 +2587,7 @@
    "id": "exe_80011B84",
    "at": "80011B84",
    "jp": "３進む",
-   "en": "",
+   "en": "Advance 3",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2596,7 +2596,7 @@
    "id": "exe_80011B98",
    "at": "80011B98",
    "jp": "４進む",
-   "en": "",
+   "en": "Advance 4",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2605,7 +2605,7 @@
    "id": "exe_80011BAC",
    "at": "80011BAC",
    "jp": "５進む",
-   "en": "",
+   "en": "Advance 5",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2614,7 +2614,7 @@
    "id": "exe_80011BC0",
    "at": "80011BC0",
    "jp": "６進む",
-   "en": "",
+   "en": "Advance 6",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2623,7 +2623,7 @@
    "id": "exe_80011BD4",
    "at": "80011BD4",
    "jp": "お店破壊",
-   "en": "",
+   "en": "Wreck a Shop",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2632,7 +2632,7 @@
    "id": "exe_80011BE8",
    "at": "80011BE8",
    "jp": "カード交換",
-   "en": "",
+   "en": "Card Swap",
    "max": 14,
    "refs": [],
    "notes": ""
@@ -2641,7 +2641,7 @@
    "id": "exe_80011C40",
    "at": "80011C40",
    "jp": "ベリアル",
-   "en": "",
+   "en": "Belial",
    "max": 11,
    "refs": [
     "ptr@5A598"
@@ -2652,7 +2652,7 @@
    "id": "exe_80011C4C",
    "at": "80011C4C",
    "jp": "ヤスツナ",
-   "en": "",
+   "en": "Yasutsuna",
    "max": 11,
    "refs": [
     "ptr@5A590"
@@ -2663,7 +2663,7 @@
    "id": "exe_80011C58",
    "at": "80011C58",
    "jp": "ガラハッド",
-   "en": "",
+   "en": "Galahad",
    "max": 11,
    "refs": [
     "ptr@5A588"
@@ -2674,7 +2674,7 @@
    "id": "exe_80011C64",
    "at": "80011C64",
    "jp": "ティアラ",
-   "en": "",
+   "en": "Tiara",
    "max": 11,
    "refs": [
     "ptr@5A584"
@@ -2685,7 +2685,7 @@
    "id": "exe_80011C70",
    "at": "80011C70",
    "jp": "ゴライアス",
-   "en": "",
+   "en": "Goliath",
    "max": 11,
    "refs": [
     "ptr@5A580"
@@ -2696,7 +2696,7 @@
    "id": "exe_80011C7C",
    "at": "80011C7C",
    "jp": "メグメグ",
-   "en": "",
+   "en": "Meg-meg",
    "max": 11,
    "refs": [
     "ptr@5A57C"
@@ -2707,7 +2707,7 @@
    "id": "exe_80011C88",
    "at": "80011C88",
    "jp": "アガート",
-   "en": "",
+   "en": "Agathe",
    "max": 11,
    "refs": [
     "ptr@5A578"
@@ -2718,7 +2718,7 @@
    "id": "exe_80011C94",
    "at": "80011C94",
    "jp": "シンバッド",
-   "en": "",
+   "en": "Sinbad",
    "max": 11,
    "refs": [
     "ptr@5A570"
@@ -2729,7 +2729,7 @@
    "id": "exe_80011CA0",
    "at": "80011CA0",
    "jp": "/PF0ベリアル/PF0",
-   "en": "",
+   "en": "/PF0Belial/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5C8"
@@ -2740,7 +2740,7 @@
    "id": "exe_80011CB4",
    "at": "80011CB4",
    "jp": "/P00ダンテ/PF0",
-   "en": "",
+   "en": "/P00Dante/PF0",
    "max": 15,
    "refs": [
     "ptr@5A5C4"
@@ -2751,7 +2751,7 @@
    "id": "exe_80011CC4",
    "at": "80011CC4",
    "jp": "/P00ヤスツナ/PF0",
-   "en": "",
+   "en": "/P00Yasutsuna/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5C0"
@@ -2762,7 +2762,7 @@
    "id": "exe_80011CD8",
    "at": "80011CD8",
    "jp": "/P00孫悟空/PF0",
-   "en": "",
+   "en": "/P00Son Gokuh/PF0",
    "max": 15,
    "refs": [
     "ptr@5A5BC"
@@ -2773,7 +2773,7 @@
    "id": "exe_80011CE8",
    "at": "80011CE8",
    "jp": "/P00ガラハッド/PF0",
-   "en": "",
+   "en": "/P00Galahad/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5B8"
@@ -2784,7 +2784,7 @@
    "id": "exe_80011CFC",
    "at": "80011CFC",
    "jp": "/P00ティアラ/PF0",
-   "en": "",
+   "en": "/P00Tiara/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5B4"
@@ -2795,7 +2795,7 @@
    "id": "exe_80011D10",
    "at": "80011D10",
    "jp": "/P00ゴライアス/PF0",
-   "en": "",
+   "en": "/P00Goliath/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5B0"
@@ -2806,7 +2806,7 @@
    "id": "exe_80011D24",
    "at": "80011D24",
    "jp": "/P00メグメグ/PF0",
-   "en": "",
+   "en": "/P00Meg-meg/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5AC"
@@ -2817,7 +2817,7 @@
    "id": "exe_80011D38",
    "at": "80011D38",
    "jp": "/P00アガート/PF0",
-   "en": "",
+   "en": "/P00Agathe/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5A8"
@@ -2828,7 +2828,7 @@
    "id": "exe_80011D4C",
    "at": "80011D4C",
    "jp": "/P00ハヤテ/PF0",
-   "en": "",
+   "en": "/P00Hayate/PF0",
    "max": 15,
    "refs": [
     "ptr@5A5A4"
@@ -2839,7 +2839,7 @@
    "id": "exe_80011D5C",
    "at": "80011D5C",
    "jp": "/P00シンバッド/PF0",
-   "en": "",
+   "en": "/P00Sinbad/PF0",
    "max": 19,
    "refs": [
     "ptr@5A5A0"
@@ -2850,7 +2850,7 @@
    "id": "exe_80011D70",
    "at": "80011D70",
    "jp": "/P00ジガー/PF0",
-   "en": "",
+   "en": "/P00Jiggar/PF0",
    "max": 15,
    "refs": [
     "ptr@5A59C"
@@ -2861,7 +2861,7 @@
    "id": "exe_80011D80",
    "at": "80011D80",
    "jp": "れん金術",
-   "en": "",
+   "en": "Alchemy",
    "max": 11,
    "refs": [
     "ptr@5A5D4"
@@ -2872,7 +2872,7 @@
    "id": "exe_80011E3C",
    "at": "80011E3C",
    "jp": "病院",
-   "en": "",
+   "en": "Hospital",
    "max": 10,
    "refs": [
     "lui@1ED70/1ED74",
@@ -2890,7 +2890,7 @@
    "id": "exe_80011E4A",
    "at": "80011E4A",
    "jp": "騎士団",
-   "en": "",
+   "en": "Knights",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -2899,7 +2899,7 @@
    "id": "exe_80011E58",
    "at": "80011E58",
    "jp": "修道会",
-   "en": "",
+   "en": "Monastery",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -2908,7 +2908,7 @@
    "id": "exe_80011E66",
    "at": "80011E66",
    "jp": "れん金術",
-   "en": "",
+   "en": "Alchemy",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -2917,7 +2917,7 @@
    "id": "exe_80011E74",
    "at": "80011E74",
    "jp": "武器屋",
-   "en": "",
+   "en": "Armory",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -2926,7 +2926,7 @@
    "id": "exe_80011E82",
    "at": "80011E82",
    "jp": "バンク",
-   "en": "",
+   "en": "Bank",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -2935,7 +2935,7 @@
    "id": "exe_80012048",
    "at": "80012048",
    "jp": "%sの勝ち！！",
-   "en": "",
+   "en": "%s wins!!",
    "max": 15,
    "refs": [
     "lui@19EFC/19F00"
@@ -2946,7 +2946,7 @@
    "id": "exe_80012058",
    "at": "80012058",
    "jp": "やったー！！",
-   "en": "",
+   "en": "Hooray!!",
    "max": 15,
    "refs": [
     "lui@1A0C0/1A0C8"
@@ -2957,7 +2957,7 @@
    "id": "exe_80012068",
    "at": "80012068",
    "jp": "このエリアはあなたのものよ！！",
-   "en": "",
+   "en": "This area is all yours!!",
    "max": 31,
    "refs": [
     "lui@1A0D8/1A0E0"
@@ -2968,7 +2968,7 @@
    "id": "exe_80012088",
    "at": "80012088",
    "jp": "このエリアはあなたたちのものよ！！",
-   "en": "",
+   "en": "This area belongs to you all!!",
    "max": 35,
    "refs": [
     "lui@1A0E4/1A0E8"
@@ -2979,7 +2979,7 @@
    "id": "exe_800120AC",
    "at": "800120AC",
    "jp": "土地の資産価値もどーんとアップ！",
-   "en": "",
+   "en": "Land asset value shoots way up!",
    "max": 35,
    "refs": [
     "lui@1A0FC/1A104"
@@ -2990,7 +2990,7 @@
    "id": "exe_800120D0",
    "at": "800120D0",
    "jp": "土地の持ち主が変わったよ",
-   "en": "",
+   "en": "The land has a new owner!",
    "max": 27,
    "refs": [
     "lui@1A148/1A150"
@@ -3001,7 +3001,7 @@
    "id": "exe_800120EC",
    "at": "800120EC",
    "jp": "体力が０になったから、ちりょうひ",
-   "en": "",
+   "en": "Your HP hit 0, so I'll take",
    "max": 35,
    "refs": [
     "lui@1A270/1A278"
@@ -3012,7 +3012,7 @@
    "id": "exe_80012110",
    "at": "80012110",
    "jp": "２００ゼニーをもらうわよ！",
-   "en": "",
+   "en": "200 zenny for treatment!",
    "max": 27,
    "refs": [
     "lui@1A280/1A288"
@@ -3023,7 +3023,7 @@
    "id": "exe_80012434",
    "at": "80012434",
    "jp": "%sに止まったよ",
-   "en": "",
+   "en": "Landed on %s!",
    "max": 15,
    "refs": [
     "lui@1D71C/1D720"
@@ -3034,7 +3034,7 @@
    "id": "exe_80012444",
    "at": "80012444",
    "jp": "何がおこるのかな",
-   "en": "",
+   "en": "What will happen?",
    "max": 19,
    "refs": [
     "lui@1D758/1D75C"
@@ -3045,7 +3045,7 @@
    "id": "exe_80012458",
    "at": "80012458",
    "jp": "２枚まで交換できるよ！",
-   "en": "",
+   "en": "swap up to 2 weapon cards!",
    "max": 23,
    "refs": [
     "ptr@5A96C"
@@ -3056,7 +3056,7 @@
    "id": "exe_80012470",
    "at": "80012470",
    "jp": "大チャンス！ライバルと武器カードを",
-   "en": "",
+   "en": "Big chance! With a rival you can",
    "max": 35,
    "refs": [
     "ptr@5A968"
@@ -3067,7 +3067,7 @@
    "id": "exe_80012494",
    "at": "80012494",
    "jp": "「カード交換」",
-   "en": "",
+   "en": "\"Card Swap\"",
    "max": 15,
    "refs": [
     "ptr@5A964"
@@ -3078,7 +3078,7 @@
    "id": "exe_800124A4",
    "at": "800124A4",
    "jp": "壊してくれるわよ",
-   "en": "",
+   "en": "in the area you pick!",
    "max": 19,
    "refs": [
     "ptr@5A960"
@@ -3089,7 +3089,7 @@
    "id": "exe_800124B8",
    "at": "800124B8",
    "jp": "えらんだエリアのお店を魔王が全部",
-   "en": "",
+   "en": "The Demon Lord wrecks every shop",
    "max": 35,
    "refs": [
     "ptr@5A95C"
@@ -3100,7 +3100,7 @@
    "id": "exe_800124DC",
    "at": "800124DC",
    "jp": "「お店破壊」",
-   "en": "",
+   "en": "\"Wreck a Shop\"",
    "max": 15,
    "refs": [
     "ptr@5A958"
@@ -3111,7 +3111,7 @@
    "id": "exe_800124EC",
    "at": "800124EC",
    "jp": "６マス進めるよ",
-   "en": "",
+   "en": "move 6 squares!",
    "max": 15,
    "refs": [
     "ptr@5A954"
@@ -3122,7 +3122,7 @@
    "id": "exe_800124FC",
    "at": "800124FC",
    "jp": "「６進む」",
-   "en": "",
+   "en": "\"Advance 6\"",
    "max": 11,
    "refs": [
     "ptr@5A94C"
@@ -3133,7 +3133,7 @@
    "id": "exe_80012508",
    "at": "80012508",
    "jp": "５マス進めるよ",
-   "en": "",
+   "en": "move 5 squares!",
    "max": 15,
    "refs": [
     "ptr@5A948"
@@ -3144,7 +3144,7 @@
    "id": "exe_80012518",
    "at": "80012518",
    "jp": "「５進む」",
-   "en": "",
+   "en": "\"Advance 5\"",
    "max": 11,
    "refs": [
     "ptr@5A940"
@@ -3155,7 +3155,7 @@
    "id": "exe_80012524",
    "at": "80012524",
    "jp": "４マス進めるよ",
-   "en": "",
+   "en": "move 4 squares!",
    "max": 15,
    "refs": [
     "ptr@5A93C"
@@ -3166,7 +3166,7 @@
    "id": "exe_80012534",
    "at": "80012534",
    "jp": "「４進む」",
-   "en": "",
+   "en": "\"Advance 4\"",
    "max": 11,
    "refs": [
     "ptr@5A934"
@@ -3177,7 +3177,7 @@
    "id": "exe_80012540",
    "at": "80012540",
    "jp": "３マス進めるよ",
-   "en": "",
+   "en": "move 3 squares!",
    "max": 15,
    "refs": [
     "ptr@5A930"
@@ -3188,7 +3188,7 @@
    "id": "exe_80012550",
    "at": "80012550",
    "jp": "「３進む」",
-   "en": "",
+   "en": "\"Advance 3\"",
    "max": 11,
    "refs": [
     "ptr@5A928"
@@ -3199,7 +3199,7 @@
    "id": "exe_8001255C",
    "at": "8001255C",
    "jp": "２マス進めるよ",
-   "en": "",
+   "en": "move 2 squares!",
    "max": 15,
    "refs": [
     "ptr@5A924"
@@ -3210,7 +3210,7 @@
    "id": "exe_8001256C",
    "at": "8001256C",
    "jp": "「２進む」",
-   "en": "",
+   "en": "\"Advance 2\"",
    "max": 11,
    "refs": [
     "ptr@5A91C"
@@ -3221,7 +3221,7 @@
    "id": "exe_80012578",
    "at": "80012578",
    "jp": "１マス進めるよ",
-   "en": "",
+   "en": "move 1 square!",
    "max": 15,
    "refs": [
     "ptr@5A918"
@@ -3232,7 +3232,7 @@
    "id": "exe_80012588",
    "at": "80012588",
    "jp": "使うとダイスをふるかわりに",
-   "en": "",
+   "en": "Use it to skip the dice and",
    "max": 27,
    "refs": [
     "ptr@5A914",
@@ -3248,7 +3248,7 @@
    "id": "exe_800125A4",
    "at": "800125A4",
    "jp": "「１進む」",
-   "en": "",
+   "en": "\"Advance 1\"",
    "max": 11,
    "refs": [
     "ptr@5A910"
@@ -3259,7 +3259,7 @@
    "id": "exe_800125B0",
    "at": "800125B0",
    "jp": "ダイスの数が４つになるよ",
-   "en": "",
+   "en": "You get to roll 4 dice!",
    "max": 27,
    "refs": [
     "ptr@5A90C"
@@ -3270,7 +3270,7 @@
    "id": "exe_800125CC",
    "at": "800125CC",
    "jp": "超特急ーーー！",
-   "en": "",
+   "en": "Super express!",
    "max": 15,
    "refs": [
     "ptr@5A908"
@@ -3281,7 +3281,7 @@
    "id": "exe_800125DC",
    "at": "800125DC",
    "jp": "「ダイス４つ」",
-   "en": "",
+   "en": "\"4 Dice\"",
    "max": 15,
    "refs": [
     "ptr@5A904"
@@ -3292,7 +3292,7 @@
    "id": "exe_800125EC",
    "at": "800125EC",
    "jp": "ダイスの数が３つになるよ",
-   "en": "",
+   "en": "You get to roll 3 dice!",
    "max": 27,
    "refs": [
     "ptr@5A900"
@@ -3303,7 +3303,7 @@
    "id": "exe_80012608",
    "at": "80012608",
    "jp": "スピードアップ！",
-   "en": "",
+   "en": "Speed up!",
    "max": 19,
    "refs": [
     "ptr@5A8FC"
@@ -3314,7 +3314,7 @@
    "id": "exe_8001261C",
    "at": "8001261C",
    "jp": "「ダイス３つ」",
-   "en": "",
+   "en": "\"3 Dice\"",
    "max": 15,
    "refs": [
     "ptr@5A8F8"
@@ -3325,7 +3325,7 @@
    "id": "exe_8001262C",
    "at": "8001262C",
    "jp": "まわりの通行税が３０％下がるよ！",
-   "en": "",
+   "en": "nearby tolls drop 30 percent!",
    "max": 35,
    "refs": [
     "ptr@5A8F4"
@@ -3336,7 +3336,7 @@
    "id": "exe_80012650",
    "at": "80012650",
    "jp": "死神のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Reaper symbol and",
    "max": 27,
    "refs": [
     "ptr@5A8F0"
@@ -3347,7 +3347,7 @@
    "id": "exe_8001266C",
    "at": "8001266C",
    "jp": "「死神像」/PA0├┤/P00",
-   "en": "",
+   "en": "\"Reaper Statue\"/PA0├┤/P00",
    "max": 23,
    "refs": [
     "ptr@5A8EC"
@@ -3358,7 +3358,7 @@
    "id": "exe_80012684",
    "at": "80012684",
    "jp": "１０％、まわりの通行税ダウン！",
-   "en": "",
+   "en": "nearby tolls drop 10 percent!",
    "max": 31,
    "refs": [
     "ptr@5A8E8"
@@ -3369,7 +3369,7 @@
    "id": "exe_800126A4",
    "at": "800126A4",
    "jp": "沼のシンボルを建てれば、",
-   "en": "",
+   "en": "Build a Swamp symbol and",
    "max": 27,
    "refs": [
     "ptr@5A8E4"
@@ -3380,7 +3380,7 @@
    "id": "exe_800126C0",
    "at": "800126C0",
    "jp": "「呪いの沼」/PA0├┤/P00",
-   "en": "",
+   "en": "\"Cursed Swamp\"/PA0├┤/P00",
    "max": 27,
    "refs": [
     "ptr@5A8E0"
@@ -3391,7 +3391,7 @@
    "id": "exe_800126DC",
    "at": "800126DC",
    "jp": "まわりの通行税が２倍になるよ！",
-   "en": "",
+   "en": "nearby tolls double!",
    "max": 31,
    "refs": [
     "ptr@5A8DC"
@@ -3402,7 +3402,7 @@
    "id": "exe_800126FC",
    "at": "800126FC",
    "jp": "サーカスのシンボルを建てると、",
-   "en": "",
+   "en": "Build a Circus symbol and",
    "max": 31,
    "refs": [
     "ptr@5A8D8"
@@ -3413,7 +3413,7 @@
    "id": "exe_8001271C",
    "at": "8001271C",
    "jp": "「サーカス」/PA0┌┐/P00",
-   "en": "",
+   "en": "\"Circus\"/PA0┌┐/P00",
    "max": 27,
    "refs": [
     "ptr@5A8D4"
@@ -3424,7 +3424,7 @@
    "id": "exe_80012738",
    "at": "80012738",
    "jp": "まわりの通行税が３倍になるよ！",
-   "en": "",
+   "en": "nearby tolls triple!",
    "max": 31,
    "refs": [
     "ptr@5A8D0"
@@ -3435,7 +3435,7 @@
    "id": "exe_80012758",
    "at": "80012758",
    "jp": "大聖堂のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Cathedral symbol and",
    "max": 31,
    "refs": [
     "ptr@5A8CC"
@@ -3446,7 +3446,7 @@
    "id": "exe_80012778",
    "at": "80012778",
    "jp": "「大聖堂」/PA0└┘/P00",
-   "en": "",
+   "en": "\"Cathedral\"/PA0└┘/P00",
    "max": 23,
    "refs": [
     "ptr@5A8C8"
@@ -3457,7 +3457,7 @@
    "id": "exe_80012790",
    "at": "80012790",
    "jp": "まわりの通行税が７０％上がるよ！",
-   "en": "",
+   "en": "nearby tolls rise 70 percent!",
    "max": 35,
    "refs": [
     "ptr@5A8C4"
@@ -3468,7 +3468,7 @@
    "id": "exe_800127B4",
    "at": "800127B4",
    "jp": "庭園のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Garden symbol and",
    "max": 27,
    "refs": [
     "ptr@5A8C0"
@@ -3479,7 +3479,7 @@
    "id": "exe_800127D0",
    "at": "800127D0",
    "jp": "「庭園」/PA0└┘/P00",
-   "en": "",
+   "en": "\"Garden\"/PA0└┘/P00",
    "max": 23,
    "refs": [
     "ptr@5A8BC"
@@ -3490,7 +3490,7 @@
    "id": "exe_800127E8",
    "at": "800127E8",
    "jp": "まわりの通行税が５０％上がるよ！",
-   "en": "",
+   "en": "nearby tolls rise 50 percent!",
    "max": 35,
    "refs": [
     "ptr@5A8B8"
@@ -3501,7 +3501,7 @@
    "id": "exe_8001280C",
    "at": "8001280C",
    "jp": "女神のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Goddess symbol and",
    "max": 27,
    "refs": [
     "ptr@5A8B4"
@@ -3512,7 +3512,7 @@
    "id": "exe_80012828",
    "at": "80012828",
    "jp": "「女神像」/PA0├┤/P00",
-   "en": "",
+   "en": "\"Goddess Statue\"/PA0├┤/P00",
    "max": 23,
    "refs": [
     "ptr@5A8B0"
@@ -3523,7 +3523,7 @@
    "id": "exe_80012840",
    "at": "80012840",
    "jp": "まわりの通行税が３０％上がるよ！",
-   "en": "",
+   "en": "nearby tolls rise 30 percent!",
    "max": 35,
    "refs": [
     "ptr@5A8AC"
@@ -3534,7 +3534,7 @@
    "id": "exe_80012864",
    "at": "80012864",
    "jp": "温泉のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Hot Spring symbol and",
    "max": 27,
    "refs": [
     "ptr@5A8A8"
@@ -3545,7 +3545,7 @@
    "id": "exe_80012880",
    "at": "80012880",
    "jp": "「温泉」/PA0├┤/P00",
-   "en": "",
+   "en": "\"Hot Spring\"/PA0├┤/P00",
    "max": 23,
    "refs": [
     "ptr@5A8A4"
@@ -3556,7 +3556,7 @@
    "id": "exe_80012898",
    "at": "80012898",
    "jp": "まわりの通行税が５０％下がるよ！",
-   "en": "",
+   "en": "nearby tolls drop 50 percent!",
    "max": 35,
    "refs": [
     "ptr@5A8A0"
@@ -3567,7 +3567,7 @@
    "id": "exe_800128BC",
    "at": "800128BC",
    "jp": "はかばのシンボルを建てると、",
-   "en": "",
+   "en": "Build a Graveyard symbol and",
    "max": 31,
    "refs": [
     "ptr@5A89C"
@@ -3578,7 +3578,7 @@
    "id": "exe_800128DC",
    "at": "800128DC",
    "jp": "「はかば」/PA0┌┐/P00",
-   "en": "",
+   "en": "\"Graveyard\"/PA0┌┐/P00",
    "max": 23,
    "refs": [
     "ptr@5A898"
@@ -3589,7 +3589,7 @@
    "id": "exe_800128F4",
    "at": "800128F4",
    "jp": "まわりの通行税が７０％下がるよ！",
-   "en": "",
+   "en": "nearby tolls drop 70 percent!",
    "max": 35,
    "refs": [
     "ptr@5A894"
@@ -3600,7 +3600,7 @@
    "id": "exe_80012918",
    "at": "80012918",
    "jp": "塔のシンボルを建てると、",
-   "en": "",
+   "en": "Build a Tower symbol and",
    "max": 27,
    "refs": [
     "ptr@5A890"
@@ -3611,7 +3611,7 @@
    "id": "exe_80012934",
    "at": "80012934",
    "jp": "「悪魔の塔」/PA0┌┐/P00",
-   "en": "",
+   "en": "\"Devil's Tower\"/PA0┌┐/P00",
    "max": 27,
    "refs": [
     "ptr@5A88C"
@@ -3622,7 +3622,7 @@
    "id": "exe_80012950",
    "at": "80012950",
    "jp": "まわりの通行税が９０％下がるよ！",
-   "en": "",
+   "en": "nearby tolls drop 90 percent!",
    "max": 35,
    "refs": [
     "ptr@5A888"
@@ -3633,7 +3633,7 @@
    "id": "exe_80012974",
    "at": "80012974",
    "jp": "邪神のシンボルを建てると、",
-   "en": "",
+   "en": "Build an Evil God symbol and",
    "max": 27,
    "refs": [
     "ptr@5A884"
@@ -3644,7 +3644,7 @@
    "id": "exe_80012990",
    "at": "80012990",
    "jp": "「邪神像」/PA0└┘/P00",
-   "en": "",
+   "en": "\"Evil Statue\"/PA0└┘/P00",
    "max": 23,
    "refs": [
     "ptr@5A880"
@@ -3655,7 +3655,7 @@
    "id": "exe_800129A8",
    "at": "800129A8",
    "jp": "邪魔なシンボルを壊せるよ！",
-   "en": "",
+   "en": "you can wreck a pesky symbol!",
    "max": 27,
    "refs": [
     "ptr@5A87C"
@@ -3666,7 +3666,7 @@
    "id": "exe_800129C4",
    "at": "800129C4",
    "jp": "このカードを使うと、",
-   "en": "",
+   "en": "If you use this card,",
    "max": 23,
    "refs": [
     "ptr@5A878"
@@ -3677,7 +3677,7 @@
    "id": "exe_800129DC",
    "at": "800129DC",
    "jp": "「地震」",
-   "en": "",
+   "en": "\"Tremor\"",
    "max": 11,
    "refs": [
     "ptr@5A874"
@@ -3688,7 +3688,7 @@
    "id": "exe_800129E8",
    "at": "800129E8",
    "jp": "戦闘をしかけることができるよ！",
-   "en": "",
+   "en": "a battle with a rival!",
    "max": 31,
    "refs": [
     "ptr@5A870"
@@ -3699,7 +3699,7 @@
    "id": "exe_80012A08",
    "at": "80012A08",
    "jp": "このカードを使えば、ライバルに",
-   "en": "",
+   "en": "With this card, you can start",
    "max": 31,
    "refs": [
     "ptr@5A86C"
@@ -3710,7 +3710,7 @@
    "id": "exe_80012A28",
    "at": "80012A28",
    "jp": "「バトルカード」",
-   "en": "",
+   "en": "\"Battle Card\"",
    "max": 19,
    "refs": [
     "ptr@5A868"
@@ -3721,7 +3721,7 @@
    "id": "exe_80012A3C",
    "at": "80012A3C",
    "jp": "土地マスを無効にできるよ",
-   "en": "",
+   "en": "you can ignore land squares!",
    "max": 27,
    "refs": [
     "ptr@5A864"
@@ -3732,7 +3732,7 @@
    "id": "exe_80012A58",
    "at": "80012A58",
    "jp": "１ターンのあいだ自分の番だけ、",
-   "en": "",
+   "en": "For 1 turn, on your turn only,",
    "max": 31,
    "refs": [
     "ptr@5A860"
@@ -3743,7 +3743,7 @@
    "id": "exe_80012A78",
    "at": "80012A78",
    "jp": "「ふみたおし」",
-   "en": "",
+   "en": "\"Dodge Payment\"",
    "max": 15,
    "refs": [
     "ptr@5A85C"
@@ -3754,7 +3754,7 @@
    "id": "exe_80012A88",
    "at": "80012A88",
    "jp": "特殊マスが効かなくなっちゃう",
-   "en": "",
+   "en": "special squares stop working a while!",
    "max": 31,
    "refs": [
     "ptr@5A858"
@@ -3765,7 +3765,7 @@
    "id": "exe_80012AA8",
    "at": "80012AA8",
    "jp": "氷の女神のくちづけでしばらく",
-   "en": "",
+   "en": "With the Ice Goddess's kiss,",
    "max": 31,
    "refs": [
     "ptr@5A854"
@@ -3776,7 +3776,7 @@
    "id": "exe_80012AC8",
    "at": "80012AC8",
    "jp": "「氷の女神のくちづけ」",
-   "en": "",
+   "en": "\"Ice Goddess's Kiss\"",
    "max": 23,
    "refs": [
     "ptr@5A850"
@@ -3787,7 +3787,7 @@
    "id": "exe_80012AE0",
    "at": "80012AE0",
    "jp": "を入れかえちゃう",
-   "en": "",
+   "en": "swap everyone's places!",
    "max": 19,
    "refs": [
     "ptr@5A84C"
@@ -3798,7 +3798,7 @@
    "id": "exe_80012AF4",
    "at": "80012AF4",
    "jp": "いたずら好きの時の神がみんなの場所",
-   "en": "",
+   "en": "The prankster Time God will",
    "max": 35,
    "refs": [
     "ptr@5A848"
@@ -3809,7 +3809,7 @@
    "id": "exe_80012B18",
    "at": "80012B18",
    "jp": "「時の神のいたずら」",
-   "en": "",
+   "en": "\"Time God Prank\"",
    "max": 23,
    "refs": [
     "ptr@5A844"
@@ -3820,7 +3820,7 @@
    "id": "exe_80012B30",
    "at": "80012B30",
    "jp": "ルートを変えてあげる",
-   "en": "",
+   "en": "I'll change your route!",
    "max": 23,
    "refs": [
     "ptr@5A840"
@@ -3831,7 +3831,7 @@
    "id": "exe_80012B48",
    "at": "80012B48",
    "jp": "全ての分岐マスを切りかえて、",
-   "en": "",
+   "en": "Flipping every fork square,",
    "max": 31,
    "refs": [
     "ptr@5A83C"
@@ -3842,7 +3842,7 @@
    "id": "exe_80012B68",
    "at": "80012B68",
    "jp": "「ルート変更」",
-   "en": "",
+   "en": "\"Change Route\"",
    "max": 15,
    "refs": [
     "ptr@5A838"
@@ -3853,7 +3853,7 @@
    "id": "exe_80012B94",
    "at": "80012B94",
    "jp": "「%s」を手に入れたよ",
-   "en": "",
+   "en": "You got \"%s\"!",
    "max": 23,
    "refs": [
     "lui@1DCB8/1DCBC",
@@ -3865,7 +3865,7 @@
    "id": "exe_80012BAC",
    "at": "80012BAC",
    "jp": "手持ちのイベントカードがいっぱいで",
-   "en": "",
+   "en": "Your event card hand is full,",
    "max": 35,
    "refs": [
     "lui@1DE24/1DE30"
@@ -3876,7 +3876,7 @@
    "id": "exe_80012BD0",
    "at": "80012BD0",
    "jp": "もう持ち切れないよ",
-   "en": "",
+   "en": "no room for more!",
    "max": 19,
    "refs": [
     "lui@1DE34/1DE40"
@@ -3887,7 +3887,7 @@
    "id": "exe_80012BE4",
    "at": "80012BE4",
    "jp": "どれを捨てる？",
-   "en": "",
+   "en": "Discard which?",
    "max": 15,
    "refs": [
     "lui@1DE44/1DE50"
@@ -3898,7 +3898,7 @@
    "id": "exe_80012BF4",
    "at": "80012BF4",
    "jp": "「%s」を捨てて",
-   "en": "",
+   "en": "Throw away \"%s\"",
    "max": 15,
    "refs": [
     "lui@1DED0/1DED4"
@@ -3909,7 +3909,7 @@
    "id": "exe_80012C04",
    "at": "80012C04",
    "jp": "「%s」をあきらめたよ",
-   "en": "",
+   "en": "You gave up \"%s\".",
    "max": 23,
    "refs": [
     "lui@1DF58/1DF5C"
@@ -3920,7 +3920,7 @@
    "id": "exe_80012F58",
    "at": "80012F58",
    "jp": "あいての体力",
-   "en": "",
+   "en": "Foe's HP",
    "max": 15,
    "refs": [
     "lui@24970/2497C"
@@ -3931,7 +3931,7 @@
    "id": "exe_80012F78",
    "at": "80012F78",
    "jp": "%4dゼニー      %3d",
-   "en": "",
+   "en": "%4d zenny       %3d",
    "max": 19,
    "refs": [
     "lui@24AD0/24AD4",
@@ -3943,7 +3943,7 @@
    "id": "exe_80012F8C",
    "at": "80012F8C",
    "jp": "キャンセル",
-   "en": "",
+   "en": "Cancel",
    "max": 11,
    "refs": [
     "lui@24B84/24B90"
@@ -3954,7 +3954,7 @@
    "id": "exe_80012F98",
    "at": "80012F98",
    "jp": "○ボタン：はい　×ボタン：いいえ",
-   "en": "",
+   "en": "○ Button: Yes　× Button: No",
    "max": 35,
    "refs": [
     "lui@25230/25238"
@@ -3965,7 +3965,7 @@
    "id": "exe_80012FBC",
    "at": "80012FBC",
    "jp": "本当にやめるの？",
-   "en": "",
+   "en": "Really quit?",
    "max": 19,
    "refs": [
     "lui@25300/25304"
@@ -3976,7 +3976,7 @@
    "id": "exe_80012FD0",
    "at": "80012FD0",
    "jp": "お金が足りないけど",
-   "en": "",
+   "en": "You're short on money,",
    "max": 19,
    "refs": [
     "lui@25320/25324"
@@ -3987,7 +3987,7 @@
    "id": "exe_80012FE4",
    "at": "80012FE4",
    "jp": "何か売っちゃう ？",
-   "en": "",
+   "en": "sell something?",
    "max": 19,
    "refs": [
     "lui@25328/2532C"
@@ -3998,7 +3998,7 @@
    "id": "exe_80012FF8",
    "at": "80012FF8",
    "jp": "お金が足りないわよ｡",
-   "en": "",
+   "en": "Not enough money!",
    "max": 19,
    "refs": [
     "lui@2533C/25340"
@@ -4009,7 +4009,7 @@
    "id": "exe_8001300C",
    "at": "8001300C",
    "jp": "総資産を見たけど ",
-   "en": "",
+   "en": "I checked your total assets, ",
    "max": 19,
    "refs": [
     "lui@25348/2534C"
@@ -4020,7 +4020,7 @@
    "id": "exe_80013020",
    "at": "80013020",
    "jp": "これじゃたりないわよ",
-   "en": "",
+   "en": "and it's not enough!",
    "max": 23,
    "refs": [
     "lui@25350/25354"
@@ -4031,7 +4031,7 @@
    "id": "exe_80013038",
    "at": "80013038",
    "jp": "まだお金が足りないけど",
-   "en": "",
+   "en": "You're still short on money,",
    "max": 23,
    "refs": [
     "lui@25360/25364"
@@ -4042,7 +4042,7 @@
    "id": "exe_80013050",
    "at": "80013050",
    "jp": "総資産を見たけど",
-   "en": "",
+   "en": "I checked your total assets,",
    "max": 19,
    "refs": [
     "lui@25390/25394"
@@ -4053,7 +4053,7 @@
    "id": "exe_80013064",
    "at": "80013064",
    "jp": "も～何やってるの？",
-   "en": "",
+   "en": "Ugh, what are you doing?",
    "max": 19,
    "refs": [
     "lui@253A4/253A8"
@@ -4064,7 +4064,7 @@
    "id": "exe_80013078",
    "at": "80013078",
    "jp": "早く決めてよね！！",
-   "en": "",
+   "en": "Hurry up and decide!!",
    "max": 19,
    "refs": [
     "lui@253B0/253B4"
@@ -4075,7 +4075,7 @@
    "id": "exe_8001308C",
    "at": "8001308C",
    "jp": "もうっ！",
-   "en": "",
+   "en": "Geez!",
    "max": 11,
    "refs": [
     "lui@253D8/253DC"
@@ -4086,7 +4086,7 @@
    "id": "exe_80013098",
    "at": "80013098",
    "jp": "早く決めてってばぁ～",
-   "en": "",
+   "en": "Just decide already~!",
    "max": 23,
    "refs": [
     "lui@253E4/253E8"
@@ -4097,7 +4097,7 @@
    "id": "exe_800130B0",
    "at": "800130B0",
    "jp": "０１２３４",
-   "en": "",
+   "en": "01234",
    "max": 11,
    "refs": [
     "lui@25458/2545C"
@@ -4108,7 +4108,7 @@
    "id": "exe_800131D0",
    "at": "800131D0",
    "jp": "強制終了しました。\n本体が改造されている\nおそれがあります。",
-   "en": "",
+   "en": "Forced shutdown.\nThis console may\nhave been modified.",
    "max": 59,
    "refs": [
     "ptr@5BF68"
@@ -4119,7 +4119,7 @@
    "id": "exe_80085F98",
    "at": "80085F98",
    "jp": "弓",
-   "en": "",
+   "en": "Bow",
    "max": 3,
    "refs": [
     "ptr@5A518"
@@ -4130,7 +4130,7 @@
    "id": "exe_80085F9C",
    "at": "80085F9C",
    "jp": "氷の弓",
-   "en": "",
+   "en": "Ice Bow",
    "max": 7,
    "refs": [
     "ptr@5A428"
@@ -4141,7 +4141,7 @@
    "id": "exe_80085FA4",
    "at": "80085FA4",
    "jp": "丸薬",
-   "en": "",
+   "en": "Pills",
    "max": 7,
    "refs": [
     "ptr@5A350"
@@ -4152,7 +4152,7 @@
    "id": "exe_80085FAC",
    "at": "80085FAC",
    "jp": "ダーツ",
-   "en": "",
+   "en": "Darts",
    "max": 7,
    "refs": [
     "ptr@5A338"
@@ -4163,7 +4163,7 @@
    "id": "exe_80085FB4",
    "at": "80085FB4",
    "jp": "如意棒",
-   "en": "",
+   "en": "Nyoibo Staff",
    "max": 7,
    "refs": [
     "ptr@5A2FC",
@@ -4175,7 +4175,7 @@
    "id": "exe_80085FBC",
    "at": "80085FBC",
    "jp": "∞ガン",
-   "en": "",
+   "en": "∞ Gun",
    "max": 7,
    "refs": [
     "ptr@5A2F0",
@@ -4187,7 +4187,7 @@
    "id": "exe_80085FC4",
    "at": "80085FC4",
    "jp": "クナイ",
-   "en": "",
+   "en": "Kunai",
    "max": 7,
    "refs": [
     "ptr@5A2E4",
@@ -4199,7 +4199,7 @@
    "id": "exe_80085FCC",
    "at": "80085FCC",
    "jp": "野太刀",
-   "en": "",
+   "en": "Nodachi",
    "max": 7,
    "refs": [
     "ptr@5A2D8",
@@ -4211,7 +4211,7 @@
    "id": "exe_80085FD4",
    "at": "80085FD4",
    "jp": "メイス",
-   "en": "",
+   "en": "Mace",
    "max": 7,
    "refs": [
     "ptr@5A2CC",
@@ -4223,7 +4223,7 @@
    "id": "exe_80085FE0",
    "at": "80085FE0",
    "jp": "支援系",
-   "en": "",
+   "en": "Support",
    "max": 7,
    "refs": [
     "ptr@192C"
@@ -4234,7 +4234,7 @@
    "id": "exe_80085FE8",
    "at": "80085FE8",
    "jp": "回復系",
-   "en": "",
+   "en": "Healing",
    "max": 7,
    "refs": [
     "ptr@1930"
@@ -4245,7 +4245,7 @@
    "id": "exe_80085FF0",
    "at": "80085FF0",
    "jp": "無属性",
-   "en": "",
+   "en": "Neutral",
    "max": 7,
    "refs": [
     "ptr@1938"
@@ -4256,7 +4256,7 @@
    "id": "exe_80085FF8",
    "at": "80085FF8",
    "jp": "剣",
-   "en": "",
+   "en": "Sword",
    "max": 3,
    "refs": [
     "ptr@193C"
@@ -4267,7 +4267,7 @@
    "id": "exe_80085FFC",
    "at": "80085FFC",
    "jp": "投射",
-   "en": "",
+   "en": "Range",
    "max": 7,
    "refs": [
     "ptr@1940"
@@ -4278,7 +4278,7 @@
    "id": "exe_80086004",
    "at": "80086004",
    "jp": "魔法",
-   "en": "",
+   "en": "Magic",
    "max": 7,
    "refs": [
     "ptr@1944"
@@ -4300,7 +4300,7 @@
    "id": "exe_80086014",
    "at": "80086014",
    "jp": "%dＤ%d",
-   "en": "",
+   "en": "%dD%d",
    "max": 7,
    "refs": [
     "lui@16EF4/16EF8"
@@ -4311,7 +4311,7 @@
    "id": "exe_8008601C",
    "at": "8008601C",
    "jp": "ダンテ",
-   "en": "",
+   "en": "Dante",
    "max": 7,
    "refs": [
     "ptr@5A594"
@@ -4322,7 +4322,7 @@
    "id": "exe_80086024",
    "at": "80086024",
    "jp": "孫悟空",
-   "en": "",
+   "en": "Son Gokuh",
    "max": 7,
    "refs": [
     "ptr@5A58C"
@@ -4333,7 +4333,7 @@
    "id": "exe_8008602C",
    "at": "8008602C",
    "jp": "ハヤテ",
-   "en": "",
+   "en": "Hayate",
    "max": 7,
    "refs": [
     "ptr@5A574"
@@ -4344,7 +4344,7 @@
    "id": "exe_80086034",
    "at": "80086034",
    "jp": "ジガー",
-   "en": "",
+   "en": "Jiggar",
    "max": 7,
    "refs": [
     "ptr@5A56C"
@@ -4355,7 +4355,7 @@
    "id": "exe_8008603C",
    "at": "8008603C",
    "jp": "騎士団",
-   "en": "",
+   "en": "Knights",
    "max": 7,
    "refs": [
     "ptr@5A5E0"
@@ -4366,7 +4366,7 @@
    "id": "exe_80086044",
    "at": "80086044",
    "jp": "修道会",
-   "en": "",
+   "en": "Monastery",
    "max": 7,
    "refs": [
     "ptr@5A5DC"
@@ -4377,7 +4377,7 @@
    "id": "exe_8008604C",
    "at": "8008604C",
    "jp": "病院",
-   "en": "",
+   "en": "Hospital",
    "max": 7,
    "refs": [
     "ptr@5A5D8"
@@ -4388,7 +4388,7 @@
    "id": "exe_80086054",
    "at": "80086054",
    "jp": "武器屋",
-   "en": "",
+   "en": "Armory",
    "max": 7,
    "refs": [
     "ptr@5A5D0"
@@ -4399,7 +4399,7 @@
    "id": "exe_8008605C",
    "at": "8008605C",
    "jp": "バンク",
-   "en": "",
+   "en": "Bank",
    "max": 6,
    "refs": [
     "ptr@5A5CC"
@@ -4410,7 +4410,7 @@
    "id": "exe_80086068",
    "at": "80086068",
    "jp": "%sの",
-   "en": "",
+   "en": "%s's",
    "max": 7,
    "refs": [
     "lui@19488/1948C"
@@ -4421,7 +4421,7 @@
    "id": "exe_80086070",
    "at": "80086070",
    "jp": "%sね",
-   "en": "",
+   "en": "%s, then!",
    "max": 7,
    "refs": [
     "lui@1949C/194A0"
@@ -4432,7 +4432,7 @@
    "id": "exe_80086098",
    "at": "80086098",
    "jp": "２",
-   "en": "",
+   "en": "2",
    "max": 3,
    "refs": [
     "ptr@5A994"
@@ -4443,7 +4443,7 @@
    "id": "exe_8008609C",
    "at": "8008609C",
    "jp": "１",
-   "en": "",
+   "en": "1",
    "max": 3,
    "refs": [
     "ptr@5A990"
@@ -4454,7 +4454,7 @@
    "id": "exe_800860A0",
    "at": "800860A0",
    "jp": "Ｄ",
-   "en": "",
+   "en": "D",
    "max": 3,
    "refs": [
     "ptr@5A9A4"
@@ -4465,7 +4465,7 @@
    "id": "exe_800860A4",
    "at": "800860A4",
    "jp": "Ｃ",
-   "en": "",
+   "en": "C",
    "max": 3,
    "refs": [
     "ptr@5A9A0"
@@ -4476,7 +4476,7 @@
    "id": "exe_800860A8",
    "at": "800860A8",
    "jp": "Ｂ",
-   "en": "",
+   "en": "B",
    "max": 3,
    "refs": [
     "ptr@5A99C"
@@ -4487,7 +4487,7 @@
    "id": "exe_800860AC",
    "at": "800860AC",
    "jp": "Ａ",
-   "en": "",
+   "en": "A",
    "max": 3,
    "refs": [
     "ptr@5A998"
@@ -4498,7 +4498,7 @@
    "id": "exe_800860B0",
    "at": "800860B0",
    "jp": "%s－%s",
-   "en": "",
+   "en": "%s-%s",
    "max": 7,
    "refs": [
     "lui@208D8/208F8"
@@ -4509,7 +4509,7 @@
    "id": "exe_800860D0",
    "at": "800860D0",
    "jp": "軍資金",
-   "en": "",
+   "en": "War Funds",
    "max": 7,
    "refs": [
     "lui@24948/24954"
@@ -4520,7 +4520,7 @@
    "id": "exe_800860D8",
    "at": "800860D8",
    "jp": "資金額",
-   "en": "",
+   "en": "Funds",
    "max": 7,
    "refs": [
     "lui@2495C/24968"
@@ -4542,7 +4542,7 @@
    "id": "exe_8008610C",
    "at": "8008610C",
    "jp": "%sは",
-   "en": "",
+   "en": "%s",
    "max": 7,
    "refs": [
     "lui@25488/2548C"

@@ -16,7 +16,7 @@
    "id": "facilities02_0000",
    "at": "0000",
    "jp": "病院",
-   "en": "",
+   "en": "Hospital",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -25,7 +25,7 @@
    "id": "facilities02_000E",
    "at": "000E",
    "jp": "騎士団",
-   "en": "",
+   "en": "Knights",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -34,7 +34,7 @@
    "id": "facilities02_001C",
    "at": "001C",
    "jp": "修道会",
-   "en": "",
+   "en": "Monastery",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -43,7 +43,7 @@
    "id": "facilities02_002A",
    "at": "002A",
    "jp": "れん金術",
-   "en": "",
+   "en": "Alchemy",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -52,7 +52,7 @@
    "id": "facilities02_0038",
    "at": "0038",
    "jp": "かじ屋",
-   "en": "",
+   "en": "Smithy",
    "max": 10,
    "refs": [],
    "notes": ""
@@ -61,7 +61,7 @@
    "id": "facilities02_0046",
    "at": "0046",
    "jp": "バンク",
-   "en": "",
+   "en": "Bank",
    "max": 10,
    "refs": [],
    "notes": ""

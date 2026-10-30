@@ -8,7 +8,7 @@
    "id": "pc032_0470",
    "at": "0470",
    "jp": "無念",
-   "en": "",
+   "en": "Such regret...",
    "max": null,
    "refs": [
     "off@454"
@@ -19,7 +19,7 @@
    "id": "pc032_0478",
    "at": "0478",
    "jp": "不覚！",
-   "en": "",
+   "en": "Careless of me!",
    "max": null,
    "refs": [
     "off@244"
@@ -30,7 +30,7 @@
    "id": "pc032_0480",
    "at": "0480",
    "jp": "ぬうん",
-   "en": "",
+   "en": "Hnnn.",
    "max": null,
    "refs": [
     "off@1F4"
@@ -41,7 +41,7 @@
    "id": "pc032_0488",
    "at": "0488",
    "jp": "ごっ！",
-   "en": "",
+   "en": "Gohh!",
    "max": null,
    "refs": [
     "off@1D4"
@@ -52,7 +52,7 @@
    "id": "pc032_0490",
    "at": "0490",
    "jp": "げっ！",
-   "en": "",
+   "en": "Geh!",
    "max": null,
    "refs": [
     "off@124"
@@ -63,7 +63,7 @@
    "id": "pc032_0498",
    "at": "0498",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "max": null,
    "refs": [
     "off@84"
@@ -220,7 +220,7 @@
    "id": "pc032_04A4",
    "at": "04A4",
    "jp": "火もまたすずし…",
-   "en": "",
+   "en": "and even fire is cool...",
    "max": null,
    "refs": [
     "off@448"
@@ -231,7 +231,7 @@
    "id": "pc032_04B8",
    "at": "04B8",
    "jp": "心頭滅却すれば、",
-   "en": "",
+   "en": "Clear the mind of all thought,",
    "max": null,
    "refs": [
     "off@444"
@@ -242,7 +242,7 @@
    "id": "pc032_04CC",
    "at": "04CC",
    "jp": "やんぬるかな…",
-   "en": "",
+   "en": "Alas, it is over...",
    "max": null,
    "refs": [
     "off@434"
@@ -253,7 +253,7 @@
    "id": "pc032_04DC",
    "at": "04DC",
    "jp": "面目ない",
-   "en": "",
+   "en": "I am ashamed.",
    "max": null,
    "refs": [
     "off@424"
@@ -264,7 +264,7 @@
    "id": "pc032_04E8",
    "at": "04E8",
    "jp": "くちおしや",
-   "en": "",
+   "en": "How vexing.",
    "max": null,
    "refs": [
     "off@414"
@@ -275,7 +275,7 @@
    "id": "pc032_04F4",
    "at": "04F4",
    "jp": "情けなや",
-   "en": "",
+   "en": "How shameful.",
    "max": null,
    "refs": [
     "off@404"
@@ -286,7 +286,7 @@
    "id": "pc032_0500",
    "at": "0500",
    "jp": "味なマネを…",
-   "en": "",
+   "en": "A clever trick...",
    "max": null,
    "refs": [
     "off@3F4"
@@ -297,7 +297,7 @@
    "id": "pc032_0510",
    "at": "0510",
    "jp": "かくなる上は…！",
-   "en": "",
+   "en": "If it has come to this...!",
    "max": null,
    "refs": [
     "off@3E4"
@@ -308,7 +308,7 @@
    "id": "pc032_0524",
    "at": "0524",
    "jp": "武士の情けじゃ",
-   "en": "",
+   "en": "A samurai's mercy.",
    "max": null,
    "refs": [
     "off@3D4"
@@ -319,7 +319,7 @@
    "id": "pc032_0534",
    "at": "0534",
    "jp": "やれめでたや",
-   "en": "",
+   "en": "Ah, how auspicious.",
    "max": null,
    "refs": [
     "off@3C4"
@@ -330,7 +330,7 @@
    "id": "pc032_0544",
    "at": "0544",
    "jp": "それは重畳（ちょうじょう）",
-   "en": "",
+   "en": "That is most excellent.",
    "max": null,
    "refs": [
     "off@3B4"
@@ -341,7 +341,7 @@
    "id": "pc032_0560",
    "at": "0560",
    "jp": "ありがたい",
-   "en": "",
+   "en": "Most kind.",
    "max": null,
    "refs": [
     "off@3A4"
@@ -352,7 +352,7 @@
    "id": "pc032_056C",
    "at": "056C",
    "jp": "かたじけない",
-   "en": "",
+   "en": "I am obliged.",
    "max": null,
    "refs": [
     "off@394"
@@ -363,7 +363,7 @@
    "id": "pc032_057C",
    "at": "057C",
    "jp": "つかまつる！",
-   "en": "",
+   "en": "It shall be done!",
    "max": null,
    "refs": [
     "off@384"
@@ -374,7 +374,7 @@
    "id": "pc032_058C",
    "at": "058C",
    "jp": "いざジンジョウに！",
-   "en": "",
+   "en": "Now, fair and square!",
    "max": null,
    "refs": [
     "off@374"
@@ -385,7 +385,7 @@
    "id": "pc032_05A0",
    "at": "05A0",
    "jp": "みじゅくなり！",
-   "en": "",
+   "en": "Too green!",
    "max": null,
    "refs": [
     "off@364"
@@ -396,7 +396,7 @@
    "id": "pc032_05B0",
    "at": "05B0",
    "jp": "キジもなかずば撃たれまいに",
-   "en": "",
+   "en": "The silent pheasant is never shot.",
    "max": null,
    "refs": [
     "off@354"
@@ -407,7 +407,7 @@
    "id": "pc032_05CC",
    "at": "05CC",
    "jp": "成敗してくれる！",
-   "en": "",
+   "en": "I shall cut you down!",
    "max": null,
    "refs": [
     "off@344"
@@ -418,7 +418,7 @@
    "id": "pc032_05E0",
    "at": "05E0",
    "jp": "ゆかせん！！",
-   "en": "",
+   "en": "None shall pass!!",
    "max": null,
    "refs": [
     "off@334"
@@ -429,7 +429,7 @@
    "id": "pc032_05F0",
    "at": "05F0",
    "jp": "しれ者が！！",
-   "en": "",
+   "en": "Fool!!",
    "max": null,
    "refs": [
     "off@324"
@@ -440,7 +440,7 @@
    "id": "pc032_0600",
    "at": "0600",
    "jp": "ぶれいもの、そこへ直れい！",
-   "en": "",
+   "en": "Insolent wretch, kneel there!",
    "max": null,
    "refs": [
     "off@314"
@@ -451,7 +451,7 @@
    "id": "pc032_061C",
    "at": "061C",
    "jp": "あいや待たれい！",
-   "en": "",
+   "en": "Hold! Wait a moment!",
    "max": null,
    "refs": [
     "off@304"
@@ -462,7 +462,7 @@
    "id": "pc032_0630",
    "at": "0630",
    "jp": "恩にきるぞ！",
-   "en": "",
+   "en": "I am in your debt!",
    "max": null,
    "refs": [
     "off@2F4"
@@ -473,7 +473,7 @@
    "id": "pc032_0640",
    "at": "0640",
    "jp": "かたじけのうござる",
-   "en": "",
+   "en": "I am most grateful.",
    "max": null,
    "refs": [
     "off@2E4"
@@ -484,7 +484,7 @@
    "id": "pc032_0654",
    "at": "0654",
    "jp": "いかがしたものか…",
-   "en": "",
+   "en": "What ought I to do...",
    "max": null,
    "refs": [
     "off@2D4"
@@ -495,7 +495,7 @@
    "id": "pc032_0668",
    "at": "0668",
    "jp": "はてさて…",
-   "en": "",
+   "en": "Well, well...",
    "max": null,
    "refs": [
     "off@2C4"
@@ -506,7 +506,7 @@
    "id": "pc032_0674",
    "at": "0674",
    "jp": "生きハジをさらせというか！",
-   "en": "",
+   "en": "You would have me live in shame!?",
    "max": null,
    "refs": [
     "off@2B4"
@@ -517,7 +517,7 @@
    "id": "pc032_0690",
    "at": "0690",
    "jp": "そこへなおれい！",
-   "en": "",
+   "en": "Kneel there!",
    "max": null,
    "refs": [
     "off@2A4"
@@ -528,7 +528,7 @@
    "id": "pc032_06A4",
    "at": "06A4",
    "jp": "下郎がっ！",
-   "en": "",
+   "en": "You knave!",
    "max": null,
    "refs": [
     "off@294"
@@ -539,7 +539,7 @@
    "id": "pc032_06B0",
    "at": "06B0",
    "jp": "許さん！",
-   "en": "",
+   "en": "Unforgivable!",
    "max": null,
    "refs": [
     "off@284"
@@ -550,7 +550,7 @@
    "id": "pc032_06BC",
    "at": "06BC",
    "jp": "命運つきたか…！",
-   "en": "",
+   "en": "Has my fate run out...!",
    "max": null,
    "refs": [
     "off@274"
@@ -561,7 +561,7 @@
    "id": "pc032_06D0",
    "at": "06D0",
    "jp": "ぬかったー！！",
-   "en": "",
+   "en": "I slipped up!!",
    "max": null,
    "refs": [
     "off@264"
@@ -572,7 +572,7 @@
    "id": "pc032_06E0",
    "at": "06E0",
    "jp": "カイシャクお願いいたす",
-   "en": "",
+   "en": "I ask you to act as my second.",
    "max": null,
    "refs": [
     "off@254"
@@ -583,7 +583,7 @@
    "id": "pc032_06F8",
    "at": "06F8",
    "jp": "それもまた一興",
-   "en": "",
+   "en": "That, too, is amusing.",
    "max": null,
    "refs": [
     "off@234"
@@ -594,7 +594,7 @@
    "id": "pc032_0708",
    "at": "0708",
    "jp": "無天剣・月の輪！",
-   "en": "",
+   "en": "Muten Sword: Moon Ring!",
    "max": null,
    "refs": [
     "off@214"
@@ -605,7 +605,7 @@
    "id": "pc032_071C",
    "at": "071C",
    "jp": "刀のサビにしてくれる！",
-   "en": "",
+   "en": "You shall be rust on my blade!",
    "max": null,
    "refs": [
     "off@204"
@@ -616,7 +616,7 @@
    "id": "pc032_0734",
    "at": "0734",
    "jp": "ひきぎわがカンジン",
-   "en": "",
+   "en": "Knowing when to withdraw is key.",
    "max": null,
    "refs": [
     "off@1E4"
@@ -627,7 +627,7 @@
    "id": "pc032_0748",
    "at": "0748",
    "jp": "やくたいもない…",
-   "en": "",
+   "en": "How pointless...",
    "max": null,
    "refs": [
     "off@1C4"
@@ -638,7 +638,7 @@
    "id": "pc032_075C",
    "at": "075C",
    "jp": "かくなる上は腹かっさばいて",
-   "en": "",
+   "en": "Then I shall cut open my belly and...",
    "max": null,
    "refs": [
     "off@1B4"
@@ -649,7 +649,7 @@
    "id": "pc032_0778",
    "at": "0778",
    "jp": "おのれぇ…！",
-   "en": "",
+   "en": "Curse you...!",
    "max": null,
    "refs": [
     "off@1A4"
@@ -660,7 +660,7 @@
    "id": "pc032_0788",
    "at": "0788",
    "jp": "下郎め！",
-   "en": "",
+   "en": "Lowly cur!",
    "max": null,
    "refs": [
     "off@194"
@@ -671,7 +671,7 @@
    "id": "pc032_0794",
    "at": "0794",
    "jp": "ぬううっ…！",
-   "en": "",
+   "en": "Nnngh...!",
    "max": null,
    "refs": [
     "off@184"
@@ -682,7 +682,7 @@
    "id": "pc032_07A4",
    "at": "07A4",
    "jp": "不覚！！",
-   "en": "",
+   "en": "Careless of me!!",
    "max": null,
    "refs": [
     "off@174"
@@ -693,7 +693,7 @@
    "id": "pc032_07B0",
    "at": "07B0",
    "jp": "あっぱれ！",
-   "en": "",
+   "en": "Splendid!",
    "max": null,
    "refs": [
     "off@164",
@@ -705,7 +705,7 @@
    "id": "pc032_07BC",
    "at": "07BC",
    "jp": "さても面妖な…",
-   "en": "",
+   "en": "How very strange...",
    "max": null,
    "refs": [
     "off@154"
@@ -716,7 +716,7 @@
    "id": "pc032_07CC",
    "at": "07CC",
    "jp": "それもまた一興！",
-   "en": "",
+   "en": "That, too, is amusing!",
    "max": null,
    "refs": [
     "off@144"
@@ -727,7 +727,7 @@
    "id": "pc032_07E0",
    "at": "07E0",
    "jp": "笑止千万！",
-   "en": "",
+   "en": "Utterly laughable!",
    "max": null,
    "refs": [
     "off@134"
@@ -738,7 +738,7 @@
    "id": "pc032_07EC",
    "at": "07EC",
    "jp": "かはっ！！",
-   "en": "",
+   "en": "Khah!!",
    "max": null,
    "refs": [
     "off@114"
@@ -749,7 +749,7 @@
    "id": "pc032_07F8",
    "at": "07F8",
    "jp": "ぬっ！！",
-   "en": "",
+   "en": "Ngh!!",
    "max": null,
    "refs": [
     "off@104"
@@ -760,7 +760,7 @@
    "id": "pc032_0804",
    "at": "0804",
    "jp": "しごく当然でござる",
-   "en": "",
+   "en": "It is only natural.",
    "max": null,
    "refs": [
     "off@F4"
@@ -771,7 +771,7 @@
    "id": "pc032_0818",
    "at": "0818",
    "jp": "風流なものよ",
-   "en": "",
+   "en": "How refined.",
    "max": null,
    "refs": [
     "off@E4"
@@ -782,7 +782,7 @@
    "id": "pc032_0828",
    "at": "0828",
    "jp": "お命ちょうだいいたす！",
-   "en": "",
+   "en": "Your life is mine!",
    "max": null,
    "refs": [
     "off@D4"
@@ -793,7 +793,7 @@
    "id": "pc032_0840",
    "at": "0840",
    "jp": "参るっ！",
-   "en": "",
+   "en": "Here I come!",
    "max": null,
    "refs": [
     "off@C4"
@@ -804,7 +804,7 @@
    "id": "pc032_084C",
    "at": "084C",
    "jp": "お主のダイスには心がない！",
-   "en": "",
+   "en": "Your dice have no heart!",
    "max": null,
    "refs": [
     "off@B4"
@@ -815,7 +815,7 @@
    "id": "pc032_0868",
    "at": "0868",
    "jp": "ヤアッ！",
-   "en": "",
+   "en": "Yaah!",
    "max": null,
    "refs": [
     "off@A4"
@@ -826,7 +826,7 @@
    "id": "pc032_0874",
    "at": "0874",
    "jp": "ナムハチマンダイボサツ！",
-   "en": "",
+   "en": "Namu Hachiman Daibosatsu!",
    "max": null,
    "refs": [
     "off@94"
@@ -837,7 +837,7 @@
    "id": "pc032_0890",
    "at": "0890",
    "jp": "チェストぉ！",
-   "en": "",
+   "en": "Chestooo!",
    "max": null,
    "refs": [
     "off@74"
@@ -848,7 +848,7 @@
    "id": "pc032_08A0",
    "at": "08A0",
    "jp": "下天のうちにくらぶれば…",
-   "en": "",
+   "en": "set against the realm of heaven...",
    "max": null,
    "refs": [
     "off@68"
@@ -859,7 +859,7 @@
    "id": "pc032_08BC",
    "at": "08BC",
    "jp": "人生わずか五十年、",
-   "en": "",
+   "en": "A man's life is but fifty years,",
    "max": null,
    "refs": [
     "off@64"
@@ -870,7 +870,7 @@
    "id": "pc032_08D0",
    "at": "08D0",
    "jp": "明鏡止水！",
-   "en": "",
+   "en": "A mind like still water!",
    "max": null,
    "refs": [
     "off@54"
@@ -881,7 +881,7 @@
    "id": "pc032_08DC",
    "at": "08DC",
    "jp": "見切った！",
-   "en": "",
+   "en": "I see through it!",
    "max": null,
    "refs": [
     "off@44"
@@ -892,7 +892,7 @@
    "id": "pc032_08E8",
    "at": "08E8",
    "jp": "近くはよって目にも見よ！！",
-   "en": "",
+   "en": "let the near come and see!!",
    "max": null,
    "refs": [
     "off@38"
@@ -903,7 +903,7 @@
    "id": "pc032_0904",
    "at": "0904",
    "jp": "遠からん者は音にも聞け、",
-   "en": "",
+   "en": "Let the far hear my name;",
    "max": null,
    "refs": [
     "off@34"
@@ -914,7 +914,7 @@
    "id": "pc032_0920",
    "at": "0920",
    "jp": "伊勢守黒沢三十郎ヤスツナなり！！",
-   "en": "",
+   "en": "Sanjuro Yasutsuna Kurosawa!!",
    "max": null,
    "refs": [
     "off@28"
@@ -925,7 +925,7 @@
    "id": "pc032_0944",
    "at": "0944",
    "jp": "やあやあ我こそは、",
-   "en": "",
+   "en": "Hark! I am the Lord of Ise,",
    "max": null,
    "refs": [
     "off@24"
@@ -936,7 +936,7 @@
    "id": "pc032_0958",
    "at": "0958",
    "jp": "いざ参らん！",
-   "en": "",
+   "en": "Now, I go forth!",
    "max": null,
    "refs": [
     "off@4",

@@ -9,7 +9,7 @@
    "id": "ovl028_800C8454",
    "at": "800C8454",
    "jp": "バトルカード",
-   "en": "",
+   "en": "Battle Card",
    "max": 15,
    "refs": [
     "lui@90/9C"
@@ -20,7 +20,7 @@
    "id": "ovl028_800C8464",
    "at": "800C8464",
    "jp": "奪いにいく土地を決めて！",
-   "en": "",
+   "en": "Choose the land to seize!",
    "max": 27,
    "refs": [
     "lui@148/14C",
@@ -32,7 +32,7 @@
    "id": "ovl028_800C8480",
    "at": "800C8480",
    "jp": "でも、そんな土地ないみたい",
-   "en": "",
+   "en": "But there's no such land.",
    "max": 27,
    "refs": [
     "lui@154/15C"
@@ -43,7 +43,7 @@
    "id": "ovl028_800C849C",
    "at": "800C849C",
    "jp": "さあ、決断の時よ！！",
-   "en": "",
+   "en": "Now, time to decide!!",
    "max": 23,
    "refs": [
     "lui@160/164"

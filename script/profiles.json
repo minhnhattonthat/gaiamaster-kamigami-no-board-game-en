@@ -8,7 +8,7 @@
    "id": "profiles_0004",
    "at": "0004",
    "jp": "/P90ジガー（初心者向け）/PF0",
-   "en": "",
+   "en": "/P90Jiggar (For Beginners)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "profiles_0036",
    "at": "0036",
    "jp": "ラッキーが出れば２回行動できる！！",
-   "en": "",
+   "en": "Roll a Lucky and he acts twice!!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "profiles_0068",
    "at": "0068",
    "jp": "得意武器は/P60≠/P80≦/PF0",
-   "en": "",
+   "en": "Best weapons: /P60≠/P80≦/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "profiles_009C",
    "at": "009C",
    "jp": "身分ちがいの恋を追うガキよ",
-   "en": "",
+   "en": "A brat chasing a love above his station",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "profiles_00CE",
    "at": "00CE",
    "jp": "まったく、見てらんないわね",
-   "en": "",
+   "en": "Honestly, I can't bear to watch.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "profiles_0134",
    "at": "0134",
    "jp": "おれたちの街に",
-   "en": "",
+   "en": "Our town doesn't",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "profiles_0166",
    "at": "0166",
    "jp": "王さまなんていらないぜ！",
-   "en": "",
+   "en": "need some king!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "profiles_01CC",
    "at": "01CC",
    "jp": "ようし、行くぜ！",
-   "en": "",
+   "en": "Alright, let's go!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -80,7 +80,7 @@
    "id": "profiles_042E",
    "at": "042E",
    "jp": "/P90シンバッド（テクニカルタイプ）/PF0",
-   "en": "",
+   "en": "/P90Sinbad (Technical Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -89,7 +89,7 @@
    "id": "profiles_0460",
    "at": "0460",
    "jp": "同じマスに止まった人からお金を盗む",
-   "en": "",
+   "en": "He robs anyone who lands on the",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -98,7 +98,7 @@
    "id": "profiles_0492",
    "at": "0492",
    "jp": "ぞ！！得意武器は/P60≠/P80≦/PF0",
-   "en": "",
+   "en": "same square!! Best weapons: /P60≠/P80≦/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -107,7 +107,7 @@
    "id": "profiles_04C6",
    "at": "04C6",
    "jp": "女にだらしのない社会不適応者よ",
-   "en": "",
+   "en": "A womanizing social misfit.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -116,7 +116,7 @@
    "id": "profiles_04F8",
    "at": "04F8",
    "jp": "イッカク千金のあまい夢を見てるわ",
-   "en": "",
+   "en": "He dreams sweet dreams of a big score.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -125,7 +125,7 @@
    "id": "profiles_055E",
    "at": "055E",
    "jp": "フッ…！",
-   "en": "",
+   "en": "Heh...!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -134,7 +134,7 @@
    "id": "profiles_05F6",
    "at": "05F6",
    "jp": "オレしかいないだろ！",
-   "en": "",
+   "en": "Who else but me!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -143,7 +143,7 @@
    "id": "profiles_068E",
    "at": "068E",
    "jp": "まかせときな！",
-   "en": "",
+   "en": "Leave it to me!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -152,7 +152,7 @@
    "id": "profiles_0726",
    "at": "0726",
    "jp": "勝つのは俺さ…！",
-   "en": "",
+   "en": "I'm the one who wins...!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -161,7 +161,7 @@
    "id": "profiles_07BE",
    "at": "07BE",
    "jp": "いいセンスしてるぜ、あんた！",
-   "en": "",
+   "en": "You've got good taste, pal!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -170,7 +170,7 @@
    "id": "profiles_0858",
    "at": "0858",
    "jp": "/P90ハヤテ（戦闘タイプ）/PF0",
-   "en": "",
+   "en": "/P90Hayate (Combat Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -179,7 +179,7 @@
    "id": "profiles_088A",
    "at": "088A",
    "jp": "ラッキーであいての攻撃を無効化でき",
-   "en": "",
+   "en": "A Lucky lets him cancel attacks with",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -188,7 +188,7 @@
    "id": "profiles_08BC",
    "at": "08BC",
    "jp": "るウツセミの術！！得意武器は/P60≠/P80≦/PF0",
-   "en": "",
+   "en": "Cicada Shell Art!! Best weapons: /P60≠/P80≦/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -197,7 +197,7 @@
    "id": "profiles_08F0",
    "at": "08F0",
    "jp": "血も涙もない殺人マシーンよ",
-   "en": "",
+   "en": "A heartless, ruthless killing machine.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -206,7 +206,7 @@
    "id": "profiles_0922",
    "at": "0922",
    "jp": "人間というよりべつの生きものね",
-   "en": "",
+   "en": "Less human than some other creature.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -215,7 +215,7 @@
    "id": "profiles_0988",
    "at": "0988",
    "jp": "ム…合図ののろしが…",
-   "en": "",
+   "en": "Hm... the signal smoke...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -224,7 +224,7 @@
    "id": "profiles_0A20",
    "at": "0A20",
    "jp": "ン…",
-   "en": "",
+   "en": "Hn...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -233,7 +233,7 @@
    "id": "profiles_0AB8",
    "at": "0AB8",
    "jp": "忍…",
-   "en": "",
+   "en": "Shinobi...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -242,7 +242,7 @@
    "id": "profiles_0C82",
    "at": "0C82",
    "jp": "/P90アガート（戦闘タイプ）/PF0",
-   "en": "",
+   "en": "/P90Agathe (Combat Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -251,7 +251,7 @@
    "id": "profiles_0CB4",
    "at": "0CB4",
    "jp": "魔法攻撃ならラッキーで攻撃力が２倍",
-   "en": "",
+   "en": "A Lucky doubles the attack of her",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -260,7 +260,7 @@
    "id": "profiles_0CE6",
    "at": "0CE6",
    "jp": "になるぞ！！得意武器は/P30≧/PF0",
-   "en": "",
+   "en": "magic!! Best weapon: /P30≧/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -269,7 +269,7 @@
    "id": "profiles_0D1A",
    "at": "0D1A",
    "jp": "自堕落でさびしがりやの",
-   "en": "",
+   "en": "A slovenly, lonely,",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -278,7 +278,7 @@
    "id": "profiles_0D4C",
    "at": "0D4C",
    "jp": "しょうがない女よ",
-   "en": "",
+   "en": "hopeless woman.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -287,7 +287,7 @@
    "id": "profiles_0DB2",
    "at": "0DB2",
    "jp": "わたしのこと、好き？",
-   "en": "",
+   "en": "Do you love me?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -296,7 +296,7 @@
    "id": "profiles_0E4A",
    "at": "0E4A",
    "jp": "お母さんが死んでから",
-   "en": "",
+   "en": "Since Mother died,",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -305,7 +305,7 @@
    "id": "profiles_0E7C",
    "at": "0E7C",
    "jp": "私はずっとひとり…",
-   "en": "",
+   "en": "I've been all alone...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -314,7 +314,7 @@
    "id": "profiles_0EE2",
    "at": "0EE2",
    "jp": "ほかの女としあわせになるなんて",
-   "en": "",
+   "en": "You, happy with another woman...?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -323,7 +323,7 @@
    "id": "profiles_0F14",
    "at": "0F14",
    "jp": "許さない…！！",
-   "en": "",
+   "en": "I won't allow it...!!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -332,7 +332,7 @@
    "id": "profiles_0F7A",
    "at": "0F7A",
    "jp": "そう…",
-   "en": "",
+   "en": "I see...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -341,7 +341,7 @@
    "id": "profiles_10AC",
    "at": "10AC",
    "jp": "/P90メグメグ（テクニカルタイプ）/PF0",
-   "en": "",
+   "en": "/P90Meg-meg (Technical Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -350,7 +350,7 @@
    "id": "profiles_10DE",
    "at": "10DE",
    "jp": "ラッキーが出れば、もらえる金額が",
-   "en": "",
+   "en": "With a Lucky, the money she gets",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -359,7 +359,7 @@
    "id": "profiles_1110",
    "at": "1110",
    "jp": "２倍になるぞ！！得意武器は/P60≠/P80≦/PF0",
-   "en": "",
+   "en": "is doubled!! Best weapons: /P60≠/P80≦/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -368,7 +368,7 @@
    "id": "profiles_1144",
    "at": "1144",
    "jp": "ほれっぽいけど捨てられやすい",
-   "en": "",
+   "en": "A muscle girl who falls in love fast",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -377,7 +377,7 @@
    "id": "profiles_1176",
    "at": "1176",
    "jp": "筋肉女よ。しあわせな家庭を持ちたい",
-   "en": "",
+   "en": "and gets dumped fast. She dreams of a",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -386,7 +386,7 @@
    "id": "profiles_11A8",
    "at": "11A8",
    "jp": "なんて大それたことを考えてるわ",
-   "en": "",
+   "en": "happy family. The nerve of her!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -395,7 +395,7 @@
    "id": "profiles_11DC",
    "at": "11DC",
    "jp": "好きっ＠",
-   "en": "",
+   "en": "Love ya@",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -404,7 +404,7 @@
    "id": "profiles_1274",
    "at": "1274",
    "jp": "やっほー＠",
-   "en": "",
+   "en": "Yoo-hoo@",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -413,7 +413,7 @@
    "id": "profiles_130C",
    "at": "130C",
    "jp": "まかせな！",
-   "en": "",
+   "en": "Count on me!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -422,7 +422,7 @@
    "id": "profiles_14D6",
    "at": "14D6",
    "jp": "/P90ゴライアス（テクニカルタイプ）/PF0",
-   "en": "",
+   "en": "/P90Goliath (Technical Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -431,7 +431,7 @@
    "id": "profiles_1508",
    "at": "1508",
    "jp": "ラッキーでお金をふみたおせ！！",
-   "en": "",
+   "en": "Roll a Lucky to dodge your payments!!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -440,7 +440,7 @@
    "id": "profiles_153A",
    "at": "153A",
    "jp": "得意武器は/P60≠/P30≧/PF0",
-   "en": "",
+   "en": "Best weapons: /P60≠/P30≧/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -449,7 +449,7 @@
    "id": "profiles_156E",
    "at": "156E",
    "jp": "強欲で暴力的、大酒飲みで女が",
-   "en": "",
+   "en": "Greedy, violent, a heavy drinker",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -458,7 +458,7 @@
    "id": "profiles_15A0",
    "at": "15A0",
    "jp": "好きな、あるイミではとっても",
-   "en": "",
+   "en": "and a skirt-chaser. In a way, he's",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -467,7 +467,7 @@
    "id": "profiles_15D2",
    "at": "15D2",
    "jp": "男らしい人物ね",
-   "en": "",
+   "en": "a real man's man.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -476,7 +476,7 @@
    "id": "profiles_1606",
    "at": "1606",
    "jp": "じつにインタラクティブ！",
-   "en": "",
+   "en": "Truly interactive!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -485,7 +485,7 @@
    "id": "profiles_169E",
    "at": "169E",
    "jp": "友よ！",
-   "en": "",
+   "en": "My friend!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -494,7 +494,7 @@
    "id": "profiles_1736",
    "at": "1736",
    "jp": "見所のあるやつよ！",
-   "en": "",
+   "en": "Now there's a promising one!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -503,7 +503,7 @@
    "id": "profiles_1900",
    "at": "1900",
    "jp": "/P90ティアラ（初心者向け）/PF0",
-   "en": "",
+   "en": "/P90Tiara (For Beginners)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -512,7 +512,7 @@
    "id": "profiles_1932",
    "at": "1932",
    "jp": "ラッキーで神さまからタダで土地をも",
-   "en": "",
+   "en": "With a Lucky, the gods may give her",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -521,7 +521,7 @@
    "id": "profiles_1964",
    "at": "1964",
    "jp": "らえることがある！！得意武器は/P60≠/P30≧/PF0",
-   "en": "",
+   "en": "free land!! Best weapons: /P60≠/P30≧/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -530,7 +530,7 @@
    "id": "profiles_1998",
    "at": "1998",
    "jp": "ムシも殺さぬ顔して実はサディスト",
-   "en": "",
+   "en": "Wouldn't hurt a fly? She's a sadist!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -539,7 +539,7 @@
    "id": "profiles_19CA",
    "at": "19CA",
    "jp": "二重人格の王女さまよ",
-   "en": "",
+   "en": "A princess with a split personality.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -548,7 +548,7 @@
    "id": "profiles_1A30",
    "at": "1A30",
    "jp": "よろしくって？",
-   "en": "",
+   "en": "Is that quite clear?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -557,7 +557,7 @@
    "id": "profiles_1AC8",
    "at": "1AC8",
    "jp": "さっ、おどりましょう",
-   "en": "",
+   "en": "Now, shall we dance?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -566,7 +566,7 @@
    "id": "profiles_1B60",
    "at": "1B60",
    "jp": "よろしくお願いいたしますわ",
-   "en": "",
+   "en": "I look forward to our game.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -575,7 +575,7 @@
    "id": "profiles_1BF8",
    "at": "1BF8",
    "jp": "好きよ！",
-   "en": "",
+   "en": "I adore you!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -584,7 +584,7 @@
    "id": "profiles_1D2A",
    "at": "1D2A",
    "jp": "/P90ガラハッド（戦闘タイプ）/PF0",
-   "en": "",
+   "en": "/P90Galahad (Combat Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -593,7 +593,7 @@
    "id": "profiles_1D5C",
    "at": "1D5C",
    "jp": "飛びどうぐ攻撃ならラッキーで攻撃力",
-   "en": "",
+   "en": "A Lucky doubles the attack of his",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -602,7 +602,7 @@
    "id": "profiles_1D8E",
    "at": "1D8E",
    "jp": "が２倍になる！得意武器は/P80≦/PF0",
-   "en": "",
+   "en": "ranged weapons! Best weapon: /P80≦/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -611,7 +611,7 @@
    "id": "profiles_1DC2",
    "at": "1DC2",
    "jp": "バカ正直な苦労人よ",
-   "en": "",
+   "en": "A long-suffering fool for honesty.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -620,7 +620,7 @@
    "id": "profiles_1DF4",
    "at": "1DF4",
    "jp": "出世できないタイプね",
-   "en": "",
+   "en": "The type who never gets promoted.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -629,7 +629,7 @@
    "id": "profiles_1E5A",
    "at": "1E5A",
    "jp": "剣にかけて！",
-   "en": "",
+   "en": "By my sword!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -638,7 +638,7 @@
    "id": "profiles_1EF2",
    "at": "1EF2",
    "jp": "民のためにも…",
-   "en": "",
+   "en": "For the sake of my people...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -647,7 +647,7 @@
    "id": "profiles_1F8A",
    "at": "1F8A",
    "jp": "騎士としてちかおう！",
-   "en": "",
+   "en": "I swear it as a knight!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -656,7 +656,7 @@
    "id": "profiles_2022",
    "at": "2022",
    "jp": "共にゆこう！",
-   "en": "",
+   "en": "Let us go together!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -665,7 +665,7 @@
    "id": "profiles_2154",
    "at": "2154",
    "jp": "/P90孫悟空（スーパータイプ）/PF0",
-   "en": "",
+   "en": "/P90Son Gokuh (Super Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -674,7 +674,7 @@
    "id": "profiles_2186",
    "at": "2186",
    "jp": "ダイス４個の神速と攻撃力２倍のラッ",
-   "en": "",
+   "en": "Fight with 4 godspeed dice and a Lucky",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -683,7 +683,7 @@
    "id": "profiles_21B8",
    "at": "21B8",
    "jp": "キーで戦え！！得意武器は無し",
-   "en": "",
+   "en": "that doubles attack!! Best weapon: none",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -692,7 +692,7 @@
    "id": "profiles_21EC",
    "at": "21EC",
    "jp": "サルってラッキョウをぜんぶ",
-   "en": "",
+   "en": "They say a monkey will peel a shallot",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -701,7 +701,7 @@
    "id": "profiles_221E",
    "at": "221E",
    "jp": "むいちゃうっていうけど本当かしら？",
-   "en": "",
+   "en": "till nothing's left. Is that true?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -710,7 +710,7 @@
    "id": "profiles_2284",
    "at": "2284",
    "jp": "斉天大聖孫悟空とは",
-   "en": "",
+   "en": "The Great Sage Son Gokuh,",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -719,7 +719,7 @@
    "id": "profiles_22B6",
    "at": "22B6",
    "jp": "この俺さまのことよ！！",
-   "en": "",
+   "en": "that's me, the great one!!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -728,7 +728,7 @@
    "id": "profiles_231C",
    "at": "231C",
    "jp": "孫さまの火眼金晴（かがんきんせい）",
-   "en": "",
+   "en": "The great Son's fiery golden eyes",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -737,7 +737,7 @@
    "id": "profiles_234E",
    "at": "234E",
    "jp": "はお見通しだぜ",
-   "en": "",
+   "en": "see right through you!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -746,7 +746,7 @@
    "id": "profiles_23B4",
    "at": "23B4",
    "jp": "大極、両儀を生じ、",
-   "en": "",
+   "en": "The Great Ultimate births Two Poles,",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -755,7 +755,7 @@
    "id": "profiles_23E6",
    "at": "23E6",
    "jp": "両儀、四象を生じ、",
-   "en": "",
+   "en": "Two Poles birth Four Images,",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -764,7 +764,7 @@
    "id": "profiles_2418",
    "at": "2418",
    "jp": "四象、八卦を生ず…",
-   "en": "",
+   "en": "Four Images birth Eight Trigrams...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -773,7 +773,7 @@
    "id": "profiles_244C",
    "at": "244C",
    "jp": "いっちょうもんでやっか！",
-   "en": "",
+   "en": "Guess I'll give you a workout!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -782,7 +782,7 @@
    "id": "profiles_257E",
    "at": "257E",
    "jp": "/P90ヤスツナ（戦闘タイプ）/PF0",
-   "en": "",
+   "en": "/P90Yasutsuna (Combat Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -791,7 +791,7 @@
    "id": "profiles_25B0",
    "at": "25B0",
    "jp": "剣で攻撃するとラッキーで攻撃力が２",
-   "en": "",
+   "en": "With a sword, a Lucky doubles his",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -800,7 +800,7 @@
    "id": "profiles_25E2",
    "at": "25E2",
    "jp": "倍になるぞ！！得意武器は/P60≠/PF0",
-   "en": "",
+   "en": "attack!! Best weapon: /P60≠/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -809,7 +809,7 @@
    "id": "profiles_2616",
    "at": "2616",
    "jp": "ちょっとハジをかかせるとすぐ",
-   "en": "",
+   "en": "Shame him even a little and he'll",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -818,7 +818,7 @@
    "id": "profiles_2648",
    "at": "2648",
    "jp": "腹を切るめんどうな人よ",
-   "en": "",
+   "en": "cut his belly open. What a pain.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -827,7 +827,7 @@
    "id": "profiles_26AE",
    "at": "26AE",
    "jp": "明鏡止水！",
-   "en": "",
+   "en": "A mind like still water!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -836,7 +836,7 @@
    "id": "profiles_2746",
    "at": "2746",
    "jp": "ナムハチマンダイボサツ！",
-   "en": "",
+   "en": "Namu Hachiman Daibosatsu!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -845,7 +845,7 @@
    "id": "profiles_27DE",
    "at": "27DE",
    "jp": "いざ参らん！",
-   "en": "",
+   "en": "Now, I go forth!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -854,7 +854,7 @@
    "id": "profiles_29A8",
    "at": "29A8",
    "jp": "/P90ダンテ（スーパータイプ）/PF0",
-   "en": "",
+   "en": "/P90Dante (Super Type)/PF0",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -863,7 +863,7 @@
    "id": "profiles_29DA",
    "at": "29DA",
    "jp": "ラッキーでシンボル破壊と攻撃力２倍",
-   "en": "",
+   "en": "A Lucky destroys symbols and doubles",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -872,7 +872,7 @@
    "id": "profiles_2A0C",
    "at": "2A0C",
    "jp": "が出るぞ！！得意武器は無し",
-   "en": "",
+   "en": "his attack!! Best weapon: none",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -881,7 +881,7 @@
    "id": "profiles_2A40",
    "at": "2A40",
    "jp": "魔王のくせにヨユウぶっこいて",
-   "en": "",
+   "en": "He's the Demon Lord, yet so laid-back",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -890,7 +890,7 @@
    "id": "profiles_2A72",
    "at": "2A72",
    "jp": "ヒマつぶしだってさ",
-   "en": "",
+   "en": "he says he's just killing time.",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -899,7 +899,7 @@
    "id": "profiles_2AA4",
    "at": "2AA4",
    "jp": "友だちいないのかしら",
-   "en": "",
+   "en": "Doesn't he have any friends?",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -908,7 +908,7 @@
    "id": "profiles_2AD8",
    "at": "2AD8",
    "jp": "いざ…！",
-   "en": "",
+   "en": "Now...!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -917,7 +917,7 @@
    "id": "profiles_2B70",
    "at": "2B70",
    "jp": "滅びを…！",
-   "en": "",
+   "en": "Ruin...!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -926,7 +926,7 @@
    "id": "profiles_2C08",
    "at": "2C08",
    "jp": "そなたは美しい…！",
-   "en": "",
+   "en": "You are beautiful...!",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -935,7 +935,7 @@
    "id": "profiles_2CA0",
    "at": "2CA0",
    "jp": "おろか者めが…",
-   "en": "",
+   "en": "Fool...",
    "max": 49,
    "refs": [],
    "notes": ""
@@ -944,7 +944,7 @@
    "id": "profiles_2D38",
    "at": "2D38",
    "jp": "それもよかろう",
-   "en": "",
+   "en": "That is fine as well.",
    "max": 49,
    "refs": [],
    "notes": ""

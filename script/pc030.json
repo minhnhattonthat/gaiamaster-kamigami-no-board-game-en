@@ -8,7 +8,7 @@
    "id": "pc030_0500",
    "at": "0500",
    "jp": "頼むよ",
-   "en": "",
+   "en": "Give me a break.",
    "max": null,
    "refs": [
     "off@478"
@@ -19,7 +19,7 @@
    "id": "pc030_0508",
    "at": "0508",
    "jp": "できる",
-   "en": "",
+   "en": "things can be changed.",
    "max": null,
    "refs": [
     "off@468"
@@ -30,7 +30,7 @@
    "id": "pc030_0510",
    "at": "0510",
    "jp": "がっ！",
-   "en": "",
+   "en": "Gah!",
    "max": null,
    "refs": [
     "off@364"
@@ -41,7 +41,7 @@
    "id": "pc030_0518",
    "at": "0518",
    "jp": "オー！",
-   "en": "",
+   "en": "Ohh!",
    "max": null,
    "refs": [
     "off@344"
@@ -52,7 +52,7 @@
    "id": "pc030_0520",
    "at": "0520",
    "jp": "ヤッ！",
-   "en": "",
+   "en": "Yah!",
    "max": null,
    "refs": [
     "off@314"
@@ -63,7 +63,7 @@
    "id": "pc030_0528",
    "at": "0528",
    "jp": "タッ！",
-   "en": "",
+   "en": "Hah!",
    "max": null,
    "refs": [
     "off@304"
@@ -86,7 +86,7 @@
    "id": "pc030_0538",
    "at": "0538",
    "jp": "…うむ",
-   "en": "",
+   "en": "...Mm.",
    "max": null,
    "refs": [
     "off@1A4"
@@ -97,7 +97,7 @@
    "id": "pc030_0540",
    "at": "0540",
    "jp": "うっ！",
-   "en": "",
+   "en": "Ugh!",
    "max": null,
    "refs": [
     "off@134"
@@ -108,7 +108,7 @@
    "id": "pc030_0548",
    "at": "0548",
    "jp": "くっ！",
-   "en": "",
+   "en": "Ngh!",
    "max": null,
    "refs": [
     "off@104"
@@ -119,7 +119,7 @@
    "id": "pc030_0550",
    "at": "0550",
    "jp": "うむ…",
-   "en": "",
+   "en": "Mm...",
    "max": null,
    "refs": [
     "off@C4"
@@ -130,7 +130,7 @@
    "id": "pc030_0558",
    "at": "0558",
    "jp": "ぬん！",
-   "en": "",
+   "en": "Hngh!",
    "max": null,
    "refs": [
     "off@54"
@@ -141,7 +141,7 @@
    "id": "pc030_0560",
    "at": "0560",
    "jp": "フッ！",
-   "en": "",
+   "en": "Hah!",
    "max": null,
    "refs": [
     "off@44"
@@ -312,7 +312,7 @@
    "id": "pc030_056C",
    "at": "056C",
    "jp": "ムダではないと信じよう",
-   "en": "",
+   "en": "I will believe it was not in vain.",
    "max": null,
    "refs": [
     "off@4E4"
@@ -323,7 +323,7 @@
    "id": "pc030_0584",
    "at": "0584",
    "jp": "与えられた状況で最善をつくすだけだ",
-   "en": "",
+   "en": "I just do my best with what I'm given.",
    "max": null,
    "refs": [
     "off@4D4"
@@ -334,7 +334,7 @@
    "id": "pc030_05A8",
    "at": "05A8",
    "jp": "あきらめはしない！",
-   "en": "",
+   "en": "but I will not give up!",
    "max": null,
    "refs": [
     "off@4C8"
@@ -345,7 +345,7 @@
    "id": "pc030_05BC",
    "at": "05BC",
    "jp": "人には限界はあるが、",
-   "en": "",
+   "en": "Man has his limits,",
    "max": null,
    "refs": [
     "off@4C4"
@@ -356,7 +356,7 @@
    "id": "pc030_05D4",
    "at": "05D4",
    "jp": "つらいことだが、やむをえん",
-   "en": "",
+   "en": "It pains me, but it can't be helped.",
    "max": null,
    "refs": [
     "off@4B4"
@@ -367,7 +367,7 @@
    "id": "pc030_05F0",
    "at": "05F0",
    "jp": "貴公にも理由があるのだろうが…",
-   "en": "",
+   "en": "You must have your reasons, but...",
    "max": null,
    "refs": [
     "off@4A4"
@@ -378,7 +378,7 @@
    "id": "pc030_0610",
    "at": "0610",
    "jp": "あまえるな！！",
-   "en": "",
+   "en": "Don't be so soft!!",
    "max": null,
    "refs": [
     "off@494"
@@ -389,7 +389,7 @@
    "id": "pc030_0620",
    "at": "0620",
    "jp": "どいつもこいつもアホばっかだもの",
-   "en": "",
+   "en": "Every last one of them is an idiot.",
    "max": null,
    "refs": [
     "off@484"
@@ -400,7 +400,7 @@
    "id": "pc030_0644",
    "at": "0644",
    "jp": "俺はこんなに苦労しているのに…",
-   "en": "",
+   "en": "I work this hard, and yet...",
    "max": null,
    "refs": [
     "off@474"
@@ -411,7 +411,7 @@
    "id": "pc030_0664",
    "at": "0664",
    "jp": "体制の内からでもかえていくことは",
-   "en": "",
+   "en": "Even from within the system,",
    "max": null,
    "refs": [
     "off@464"
@@ -422,7 +422,7 @@
    "id": "pc030_0688",
    "at": "0688",
    "jp": "私のつとめは領地と人々を守ること！",
-   "en": "",
+   "en": "My duty: protect my land and people!",
    "max": null,
    "refs": [
     "off@454"
@@ -433,7 +433,7 @@
    "id": "pc030_06AC",
    "at": "06AC",
    "jp": "許されない！",
-   "en": "",
+   "en": "cannot be allowed to slack!",
    "max": null,
    "refs": [
     "off@448"
@@ -444,7 +444,7 @@
    "id": "pc030_06BC",
    "at": "06BC",
    "jp": "セキニンある者にあまえは",
-   "en": "",
+   "en": "Those who bear responsibility",
    "max": null,
    "refs": [
     "off@444"
@@ -455,7 +455,7 @@
    "id": "pc030_06D8",
    "at": "06D8",
    "jp": "騎士としてちかおう！",
-   "en": "",
+   "en": "I swear it as a knight!",
    "max": null,
    "refs": [
     "off@434"
@@ -466,7 +466,7 @@
    "id": "pc030_06F0",
    "at": "06F0",
    "jp": "生きてこそ…！",
-   "en": "",
+   "en": "One must live...!",
    "max": null,
    "refs": [
     "off@424"
@@ -477,7 +477,7 @@
    "id": "pc030_0700",
    "at": "0700",
    "jp": "この身は滅ぶとも…！",
-   "en": "",
+   "en": "Though this body may perish...!",
    "max": null,
    "refs": [
     "off@414"
@@ -488,7 +488,7 @@
    "id": "pc030_0718",
    "at": "0718",
    "jp": "よろこんでいしずえとなろう！",
-   "en": "",
+   "en": "I will gladly be the foundation!",
    "max": null,
    "refs": [
     "off@408"
@@ -499,7 +499,7 @@
    "id": "pc030_0738",
    "at": "0738",
    "jp": "民のため、",
-   "en": "",
+   "en": "For my people,",
    "max": null,
    "refs": [
     "off@404"
@@ -510,7 +510,7 @@
    "id": "pc030_0744",
    "at": "0744",
    "jp": "一歩もひきはしない！",
-   "en": "",
+   "en": "I will not yield a single step!",
    "max": null,
    "refs": [
     "off@3F4"
@@ -521,7 +521,7 @@
    "id": "pc030_075C",
    "at": "075C",
    "jp": "お前は私が倒す！",
-   "en": "",
+   "en": "I will be the one to defeat you!",
    "max": null,
    "refs": [
     "off@3E4"
@@ -532,7 +532,7 @@
    "id": "pc030_0770",
    "at": "0770",
    "jp": "ここで倒れるわけにはいかない！",
-   "en": "",
+   "en": "I cannot fall here!",
    "max": null,
    "refs": [
     "off@3D4"
@@ -543,7 +543,7 @@
    "id": "pc030_0790",
    "at": "0790",
    "jp": "あきらめるな！",
-   "en": "",
+   "en": "Don't give up!",
    "max": null,
    "refs": [
     "off@3C4"
@@ -554,7 +554,7 @@
    "id": "pc030_07A0",
    "at": "07A0",
    "jp": "このままでは終らん！",
-   "en": "",
+   "en": "It will not end like this!",
    "max": null,
    "refs": [
     "off@3B4"
@@ -565,7 +565,7 @@
    "id": "pc030_07B8",
    "at": "07B8",
    "jp": "私は運がない…",
-   "en": "",
+   "en": "I have no luck...",
    "max": null,
    "refs": [
     "off@3A4"
@@ -576,7 +576,7 @@
    "id": "pc030_07C8",
    "at": "07C8",
    "jp": "ぐばあっ！",
-   "en": "",
+   "en": "Gwaahh!",
    "max": null,
    "refs": [
     "off@394"
@@ -587,7 +587,7 @@
    "id": "pc030_07D4",
    "at": "07D4",
    "jp": "がはっ！",
-   "en": "",
+   "en": "Gahh!",
    "max": null,
    "refs": [
     "off@384"
@@ -598,7 +598,7 @@
    "id": "pc030_07E0",
    "at": "07E0",
    "jp": "ぐふっ！",
-   "en": "",
+   "en": "Guhh!",
    "max": null,
    "refs": [
     "off@374"
@@ -609,7 +609,7 @@
    "id": "pc030_07EC",
    "at": "07EC",
    "jp": "命をそまつにするな！",
-   "en": "",
+   "en": "Do not throw your life away!",
    "max": null,
    "refs": [
     "off@354"
@@ -620,7 +620,7 @@
    "id": "pc030_0804",
    "at": "0804",
    "jp": "お前にもわかっているはずだ！",
-   "en": "",
+   "en": "Surely you understand that too!",
    "max": null,
    "refs": [
     "off@334"
@@ -631,7 +631,7 @@
    "id": "pc030_0824",
    "at": "0824",
    "jp": "さがれっ！",
-   "en": "",
+   "en": "Stand back!",
    "max": null,
    "refs": [
     "off@324"
@@ -642,7 +642,7 @@
    "id": "pc030_0830",
    "at": "0830",
    "jp": "ヤアッ！",
-   "en": "",
+   "en": "Yaah!",
    "max": null,
    "refs": [
     "off@2F4"
@@ -653,7 +653,7 @@
    "id": "pc030_083C",
    "at": "083C",
    "jp": "理想の旗のもとに…！",
-   "en": "",
+   "en": "Under the banner of our ideals...!",
    "max": null,
    "refs": [
     "off@2D4"
@@ -664,7 +664,7 @@
    "id": "pc030_0854",
    "at": "0854",
    "jp": "守ってみせる！",
-   "en": "",
+   "en": "I will protect them!",
    "max": null,
    "refs": [
     "off@2C4"
@@ -675,7 +675,7 @@
    "id": "pc030_0864",
    "at": "0864",
    "jp": "夢は決して死なない！",
-   "en": "",
+   "en": "Dreams never die!",
    "max": null,
    "refs": [
     "off@2B4"
@@ -686,7 +686,7 @@
    "id": "pc030_087C",
    "at": "087C",
    "jp": "心正しく生きよ！",
-   "en": "",
+   "en": "Live with a righteous heart!",
    "max": null,
    "refs": [
     "off@2A4"
@@ -697,7 +697,7 @@
    "id": "pc030_0890",
    "at": "0890",
    "jp": "わが剣カラドボルグを受けてみろ！",
-   "en": "",
+   "en": "Face my sword, Caladbolg!",
    "max": null,
    "refs": [
     "off@284"
@@ -708,7 +708,7 @@
    "id": "pc030_08B4",
    "at": "08B4",
    "jp": "すまない",
-   "en": "",
+   "en": "Much obliged.",
    "max": null,
    "refs": [
     "off@274"
@@ -719,7 +719,7 @@
    "id": "pc030_08C0",
    "at": "08C0",
    "jp": "かんしゃする",
-   "en": "",
+   "en": "I thank you.",
    "max": null,
    "refs": [
     "off@264"
@@ -730,7 +730,7 @@
    "id": "pc030_08D0",
    "at": "08D0",
    "jp": "ありがたい",
-   "en": "",
+   "en": "I am grateful.",
    "max": null,
    "refs": [
     "off@254"
@@ -741,7 +741,7 @@
    "id": "pc030_08DC",
    "at": "08DC",
    "jp": "これはどうも",
-   "en": "",
+   "en": "Why, thank you.",
    "max": null,
    "refs": [
     "off@244"
@@ -752,7 +752,7 @@
    "id": "pc030_08EC",
    "at": "08EC",
    "jp": "なんたることだ！",
-   "en": "",
+   "en": "How can this be!",
    "max": null,
    "refs": [
     "off@234"
@@ -763,7 +763,7 @@
    "id": "pc030_0900",
    "at": "0900",
    "jp": "きびしいな…",
-   "en": "",
+   "en": "This is tough...",
    "max": null,
    "refs": [
     "off@224"
@@ -774,7 +774,7 @@
    "id": "pc030_0910",
    "at": "0910",
    "jp": "まずいな…",
-   "en": "",
+   "en": "This is bad...",
    "max": null,
    "refs": [
     "off@214"
@@ -785,7 +785,7 @@
    "id": "pc030_091C",
    "at": "091C",
    "jp": "まいったな…",
-   "en": "",
+   "en": "What a predicament...",
    "max": null,
    "refs": [
     "off@204"
@@ -796,7 +796,7 @@
    "id": "pc030_092C",
    "at": "092C",
    "jp": "はかったな！",
-   "en": "",
+   "en": "You tricked me!",
    "max": null,
    "refs": [
     "off@1F4"
@@ -807,7 +807,7 @@
    "id": "pc030_093C",
    "at": "093C",
    "jp": "あきらめはしない…！",
-   "en": "",
+   "en": "I will not give up...!",
    "max": null,
    "refs": [
     "off@1E8"
@@ -818,7 +818,7 @@
    "id": "pc030_0954",
    "at": "0954",
    "jp": "…だが、",
-   "en": "",
+   "en": "...But",
    "max": null,
    "refs": [
     "off@1E4"
@@ -829,7 +829,7 @@
    "id": "pc030_0960",
    "at": "0960",
    "jp": "わが君…！",
-   "en": "",
+   "en": "My liege...!",
    "max": null,
    "refs": [
     "off@1D4"
@@ -840,7 +840,7 @@
    "id": "pc030_096C",
    "at": "096C",
    "jp": "理想は生きつづける…",
-   "en": "",
+   "en": "but ideals live on...",
    "max": null,
    "refs": [
     "off@1C8"
@@ -851,7 +851,7 @@
    "id": "pc030_0984",
    "at": "0984",
    "jp": "人は死すとも、",
-   "en": "",
+   "en": "Men may die,",
    "max": null,
    "refs": [
     "off@1C4"
@@ -862,7 +862,7 @@
    "id": "pc030_0994",
    "at": "0994",
    "jp": "決して無意味ではない",
-   "en": "",
+   "en": "It is never meaningless.",
    "max": null,
    "refs": [
     "off@1B4"
@@ -873,7 +873,7 @@
    "id": "pc030_09AC",
    "at": "09AC",
    "jp": "勝ったか…！",
-   "en": "",
+   "en": "So I have won...!",
    "max": null,
    "refs": [
     "off@194"
@@ -884,7 +884,7 @@
    "id": "pc030_09BC",
    "at": "09BC",
    "jp": "オーロラブレード！！",
-   "en": "",
+   "en": "Aurora Blade!!",
    "max": null,
    "refs": [
     "off@184"
@@ -895,7 +895,7 @@
    "id": "pc030_09D4",
    "at": "09D4",
    "jp": "剣の名において！",
-   "en": "",
+   "en": "In the name of the sword!",
    "max": null,
    "refs": [
     "off@174"
@@ -906,7 +906,7 @@
    "id": "pc030_09E8",
    "at": "09E8",
    "jp": "こんなところか",
-   "en": "",
+   "en": "That will do.",
    "max": null,
    "refs": [
     "off@164"
@@ -917,7 +917,7 @@
    "id": "pc030_09F8",
    "at": "09F8",
    "jp": "いかん！！",
-   "en": "",
+   "en": "This is bad!!",
    "max": null,
    "refs": [
     "off@154"
@@ -928,7 +928,7 @@
    "id": "pc030_0A04",
    "at": "0A04",
    "jp": "うおっ！",
-   "en": "",
+   "en": "Whoa!",
    "max": null,
    "refs": [
     "off@144"
@@ -939,7 +939,7 @@
    "id": "pc030_0A10",
    "at": "0A10",
    "jp": "なぜ！？",
-   "en": "",
+   "en": "Why!?",
    "max": null,
    "refs": [
     "off@124"
@@ -950,7 +950,7 @@
    "id": "pc030_0A1C",
    "at": "0A1C",
    "jp": "むっ…！",
-   "en": "",
+   "en": "Hm...!",
    "max": null,
    "refs": [
     "off@114"
@@ -961,7 +961,7 @@
    "id": "pc030_0A28",
    "at": "0A28",
    "jp": "わたしにはつまと子が…",
-   "en": "",
+   "en": "I have a wife and child...",
    "max": null,
    "refs": [
     "off@F8"
@@ -972,7 +972,7 @@
    "id": "pc030_0A40",
    "at": "0A40",
    "jp": "いや、それはいけない",
-   "en": "",
+   "en": "No, that won't do.",
    "max": null,
    "refs": [
     "off@F4"
@@ -983,7 +983,7 @@
    "id": "pc030_0A58",
    "at": "0A58",
    "jp": "本物の騎士と戦うのは初めてか？",
-   "en": "",
+   "en": "First time fighting a real knight?",
    "max": null,
    "refs": [
     "off@E4"
@@ -994,7 +994,7 @@
    "id": "pc030_0A78",
    "at": "0A78",
    "jp": "勝ったか…",
-   "en": "",
+   "en": "So I have won...",
    "max": null,
    "refs": [
     "off@D4"
@@ -1005,7 +1005,7 @@
    "id": "pc030_0A84",
    "at": "0A84",
    "jp": "そうとも",
-   "en": "",
+   "en": "Indeed.",
    "max": null,
    "refs": [
     "off@B4"
@@ -1016,7 +1016,7 @@
    "id": "pc030_0A90",
    "at": "0A90",
    "jp": "民のためにも…",
-   "en": "",
+   "en": "For the sake of my people...",
    "max": null,
    "refs": [
     "off@A4"
@@ -1027,7 +1027,7 @@
    "id": "pc030_0AA0",
    "at": "0AA0",
    "jp": "わたしは騎士だ",
-   "en": "",
+   "en": "I am a knight.",
    "max": null,
    "refs": [
     "off@94"
@@ -1038,7 +1038,7 @@
    "id": "pc030_0AB0",
    "at": "0AB0",
    "jp": "剣にかけて！",
-   "en": "",
+   "en": "By my sword!",
    "max": null,
    "refs": [
     "off@84"
@@ -1049,7 +1049,7 @@
    "id": "pc030_0AC0",
    "at": "0AC0",
    "jp": "どうだ！",
-   "en": "",
+   "en": "How's that!",
    "max": null,
    "refs": [
     "off@74"
@@ -1060,7 +1060,7 @@
    "id": "pc030_0ACC",
    "at": "0ACC",
    "jp": "まだまだ！",
-   "en": "",
+   "en": "Not yet!",
    "max": null,
    "refs": [
     "off@64"
@@ -1071,7 +1071,7 @@
    "id": "pc030_0AD8",
    "at": "0AD8",
    "jp": "トウッ！",
-   "en": "",
+   "en": "Toh!",
    "max": null,
    "refs": [
     "off@34"
@@ -1082,7 +1082,7 @@
    "id": "pc030_0AE4",
    "at": "0AE4",
    "jp": "聖騎士ガラハッド、参上",
-   "en": "",
+   "en": "Paladin Galahad, at your service",
    "max": null,
    "refs": [
     "off@24"
@@ -1093,7 +1093,7 @@
    "id": "pc030_0AFC",
    "at": "0AFC",
    "jp": "いざ、信じるもののために！",
-   "en": "",
+   "en": "Onward, for what we believe in!",
    "max": null,
    "refs": [
     "off@14"
@@ -1104,7 +1104,7 @@
    "id": "pc030_0B18",
    "at": "0B18",
    "jp": "共にゆこう！",
-   "en": "",
+   "en": "Let us go together!",
    "max": null,
    "refs": [
     "off@4"

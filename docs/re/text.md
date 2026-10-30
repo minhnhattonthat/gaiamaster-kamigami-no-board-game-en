@@ -84,6 +84,8 @@ The EXE file offset = address - 0x8000F800. `gp` = 0x80085F28.
   0x8003C37C), so each code draws a 12px glyph cell; those cells (full-width Ａ-ｚ ０-９ ！？ etc.) now hold the
   English glyphs, left-aligned. 15 ASCII codes without a full-width glyph (`# * ; < = > [ \ ] _ ` { | } ~`) get
   the cells of 15 kanji the script never uses (`engine.SPARE`, test_engine checks they stay unused).
+- `@` is drawn as a heart in `fonts/en12.txt`: the original ＠ cell was a heart (Meg-meg's `好きっ＠`, the credits'
+  `＠Ｓａｔｏｍｉ`), and English needs no at-sign.
 - VWF: the drawer's new-glyph width (0x8003CCAC) calls `vwf_adv`: width table entry for ASCII with a 12px font,
   else size + 1. The sprite is clipped to that width, so the glyph's right part never shows. Advance = ink + 2.
   Space = `font_en.SPACE_W` px (0x8003CA88). Digits share one width (6) for number columns.

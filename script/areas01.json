@@ -11,7 +11,7 @@
    "id": "areas01_0000",
    "at": "0000",
    "jp": "ホタル",
-   "en": "",
+   "en": "Firefly",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -20,7 +20,7 @@
    "id": "areas01_000E",
    "at": "000E",
    "jp": "チョウ",
-   "en": "",
+   "en": "Monarch",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -29,7 +29,7 @@
    "id": "areas01_001C",
    "at": "001C",
    "jp": "カエル",
-   "en": "",
+   "en": "Frog",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -38,7 +38,7 @@
    "id": "areas01_002A",
    "at": "002A",
    "jp": "ラン",
-   "en": "",
+   "en": "Orchid",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -47,7 +47,7 @@
    "id": "areas01_0038",
    "at": "0038",
    "jp": "妖精",
-   "en": "",
+   "en": "Pixie",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -56,7 +56,7 @@
    "id": "areas01_0046",
    "at": "0046",
    "jp": "狩人",
-   "en": "",
+   "en": "Hunter",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -65,7 +65,7 @@
    "id": "areas01_0054",
    "at": "0054",
    "jp": "パン神",
-   "en": "",
+   "en": "Pan's",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -74,7 +74,7 @@
    "id": "areas01_0062",
    "at": "0062",
    "jp": "キノコ",
-   "en": "",
+   "en": "Fungus",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -83,7 +83,7 @@
    "id": "areas01_0070",
    "at": "0070",
    "jp": "ツグミ",
-   "en": "",
+   "en": "Thrush",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -92,7 +92,7 @@
    "id": "areas01_007E",
    "at": "007E",
    "jp": "ウサギ",
-   "en": "",
+   "en": "Rabbit",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -101,7 +101,7 @@
    "id": "areas01_008C",
    "at": "008C",
    "jp": "おおかみ",
-   "en": "",
+   "en": "Wolf",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -110,7 +110,7 @@
    "id": "areas01_009A",
    "at": "009A",
    "jp": "エルフ",
-   "en": "",
+   "en": "Elf",
    "max": 13,
    "refs": [],
    "notes": ""

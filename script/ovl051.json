@@ -9,7 +9,7 @@
    "id": "ovl051_800C8458",
    "at": "800C8458",
    "jp": "%sにとばされちゃう！",
-   "en": "",
+   "en": "You get sent flying to %s!",
    "max": 23,
    "refs": [
     "lui@A0/A4"
@@ -20,7 +20,7 @@
    "id": "ovl051_800C8470",
    "at": "800C8470",
    "jp": "「ワープ」",
-   "en": "",
+   "en": "\"Warp\"",
    "max": 11,
    "refs": [
     "lui@D0/D4"
@@ -31,7 +31,7 @@
    "id": "ovl051_800C847C",
    "at": "800C847C",
    "jp": "持ち主がいなかったら購入できるよ",
-   "en": "",
+   "en": "If no one owns it, you can buy it!",
    "max": 32,
    "refs": [
     "lui@DC/E0"

@@ -9,7 +9,7 @@
    "id": "ovl029_8009FBC0",
    "at": "8009FBC0",
    "jp": "何人で遊ぶの？",
-   "en": "",
+   "en": "How many players?",
    "max": 15,
    "refs": [
     "lui@1B78/1B80",
@@ -21,7 +21,7 @@
    "id": "ovl029_8009FBD0",
    "at": "8009FBD0",
    "jp": "　　　２人　　　  　　　３人　　　",
-   "en": "",
+   "en": "　　　2 Players　　  　　3 Players　　　",
    "max": 35,
    "refs": [
     "lui@1B8C/1B94"
@@ -32,7 +32,7 @@
    "id": "ovl029_8009FBF4",
    "at": "8009FBF4",
    "jp": "　　　４人　　　",
-   "en": "",
+   "en": "　　　4 Players　　　",
    "max": 19,
    "refs": [
     "lui@1BA0/1BA8"
@@ -43,7 +43,7 @@
    "id": "ovl029_8009FC08",
    "at": "8009FC08",
    "jp": "　　　３人　　　  　　　４人　　　",
-   "en": "",
+   "en": "　　　3 Players　　  　　4 Players　　　",
    "max": 35,
    "refs": [
     "lui@1C00/1C08"
@@ -54,7 +54,7 @@
    "id": "ovl029_8009FC30",
    "at": "8009FC30",
    "jp": "ＣＯＭは何人入れる？",
-   "en": "",
+   "en": "How many COMs to add?",
    "max": 23,
    "refs": [
     "lui@1D40/1D48",
@@ -70,7 +70,7 @@
    "id": "ovl029_8009FC48",
    "at": "8009FC48",
    "jp": "１人とＣＯＭ１人  　　　２人　　　",
-   "en": "",
+   "en": "1 Player, 1 COM  　　　　2 Players　　　",
    "max": 35,
    "refs": [
     "lui@1D54/1D5C",
@@ -82,7 +82,7 @@
    "id": "ovl029_8009FC6C",
    "at": "8009FC6C",
    "jp": "１人とＣＯＭ２人  ２人とＣＯＭ１人",
-   "en": "",
+   "en": "1 Player, 2 COM  　2 Players, 1 COM",
    "max": 35,
    "refs": [
     "lui@1DC8/1DD0",
@@ -94,7 +94,7 @@
    "id": "ovl029_8009FC90",
    "at": "8009FC90",
    "jp": "　　　３人",
-   "en": "",
+   "en": "　　　3 Players",
    "max": 11,
    "refs": [
     "lui@1DDC/1DE4",
@@ -106,7 +106,7 @@
    "id": "ovl029_8009FC9C",
    "at": "8009FC9C",
    "jp": "１人とＣＯＭ３人  ２人とＣＯＭ２人",
-   "en": "",
+   "en": "1 Player, 3 COM  　2 Players, 2 COM",
    "max": 35,
    "refs": [
     "lui@1E24/1E2C",
@@ -118,7 +118,7 @@
    "id": "ovl029_8009FCC0",
    "at": "8009FCC0",
    "jp": "３人とＣＯＭ１人  　　　４人　　　",
-   "en": "",
+   "en": "3 Players, 1 COM  　　　  4 Players　　　",
    "max": 35,
    "refs": [
     "lui@1E38/1E40",
@@ -130,7 +130,7 @@
    "id": "ovl029_8009FCE4",
    "at": "8009FCE4",
    "jp": "チームは",
-   "en": "",
+   "en": "Teams split into",
    "max": 11,
    "refs": [
     "lui@20BC/20C4",
@@ -142,7 +142,7 @@
    "id": "ovl029_8009FCF0",
    "at": "8009FCF0",
    "jp": "　　　　２人と２人",
-   "en": "",
+   "en": "　　　　2 vs. 2",
    "max": 19,
    "refs": [
     "lui@20D0/20D8"
@@ -153,7 +153,7 @@
    "id": "ovl029_8009FD04",
    "at": "8009FD04",
    "jp": "にわかれるね",
-   "en": "",
+   "en": "like so!",
    "max": 15,
    "refs": [
     "lui@20E4/20EC",
@@ -165,7 +165,7 @@
    "id": "ovl029_8009FD14",
    "at": "8009FD14",
    "jp": "　　　　１人と２人",
-   "en": "",
+   "en": "　　　　1 vs. 2",
    "max": 19,
    "refs": [
     "lui@2180/2188"
@@ -176,7 +176,7 @@
    "id": "ovl029_8009FD28",
    "at": "8009FD28",
    "jp": "/V%dPの人はどのチームにする？",
-   "en": "",
+   "en": "/VPlayer %d, pick your team!",
    "max": 31,
    "refs": [
     "lui@22D8/22DC"
@@ -187,7 +187,7 @@
    "id": "ovl029_8009FD48",
    "at": "8009FD48",
    "jp": "  Ａチーム",
-   "en": "",
+   "en": "  Team A",
    "max": 11,
    "refs": [
     "lui@22F0/22F8"
@@ -198,7 +198,7 @@
    "id": "ovl029_8009FD54",
    "at": "8009FD54",
    "jp": "  Ｂチーム",
-   "en": "",
+   "en": "  Team B",
    "max": 11,
    "refs": [
     "lui@2304/230C"
@@ -209,7 +209,7 @@
    "id": "ovl029_8009FD60",
    "at": "8009FD60",
    "jp": "この設定でいいかしら？",
-   "en": "",
+   "en": "Happy with this setup?",
    "max": 23,
    "refs": [
     "lui@24AC/24B4",
@@ -221,7 +221,7 @@
    "id": "ovl029_8009FD78",
    "at": "8009FD78",
    "jp": "    はい     　　　　いいえ",
-   "en": "",
+   "en": "    Yes      　　　　No",
    "max": 27,
    "refs": [
     "lui@24C0/24C8",
@@ -235,7 +235,7 @@
    "id": "ovl029_8009FD94",
    "at": "8009FD94",
    "jp": "武器スキルのデータをロードする？",
-   "en": "",
+   "en": "Load weapon skill data?",
    "max": 35,
    "refs": [
     "lui@2550/2558"
@@ -246,7 +246,7 @@
    "id": "ovl029_8009FDB8",
    "at": "8009FDB8",
    "jp": "あたらしく武器スキルのデータを",
-   "en": "",
+   "en": "If you don't load new weapon",
    "max": 31,
    "refs": [
     "lui@2614/261C"
@@ -257,7 +257,7 @@
    "id": "ovl029_8009FDD8",
    "at": "8009FDD8",
    "jp": "ロードしなかったら、ロードされ",
-   "en": "",
+   "en": "skill data, the data already loaded",
    "max": 31,
    "refs": [
     "lui@2628/2630"
@@ -268,7 +268,7 @@
    "id": "ovl029_8009FDF8",
    "at": "8009FDF8",
    "jp": "ているデータをそのまま使うよ　　↓",
-   "en": "",
+   "en": "will be used as is.　　　　　　　↓",
    "max": 35,
    "refs": [
     "lui@263C/2644"
@@ -279,7 +279,7 @@
    "id": "ovl029_8009FE1C",
    "at": "8009FE1C",
    "jp": "武器スキルは１レベルではじまるよ",
-   "en": "",
+   "en": "Weapon skills start at level 1.",
    "max": 35,
    "refs": [
     "lui@27D8/27E0"
@@ -290,7 +290,7 @@
    "id": "ovl029_8009FE40",
    "at": "8009FE40",
    "jp": "セーブの時は上書きに気をつけてね",
-   "en": "",
+   "en": "Careful not to overwrite when saving!",
    "max": 35,
    "refs": [
     "lui@27EC/27F4"
@@ -312,7 +312,7 @@
    "id": "ovl029_8009FE88",
    "at": "8009FE88",
    "jp": "/Vプレイヤー%dが使う",
-   "en": "",
+   "en": "/VPlayer %d, choose the",
    "max": 23,
    "refs": [
     "lui@2990/2998"
@@ -323,7 +323,7 @@
    "id": "ovl029_8009FEA0",
    "at": "8009FEA0",
    "jp": "キャラクターをえらんでね",
-   "en": "",
+   "en": "character you'll play!",
    "max": 27,
    "refs": [
     "lui@29A8/29B0"
@@ -334,7 +334,7 @@
    "id": "ovl029_8009FEBC",
    "at": "8009FEBC",
    "jp": "/VＣＯＭ%dのキャラをえらんでね",
-   "en": "",
+   "en": "/VPick a character for COM %d!",
    "max": 31,
    "refs": [
     "lui@29FC/2A04"
@@ -345,7 +345,7 @@
    "id": "ovl029_8009FEF4",
    "at": "8009FEF4",
    "jp": "ほんとにこのキャラでいいの？",
-   "en": "",
+   "en": "Really go with this character?",
    "max": 31,
    "refs": [
     "lui@39FC/3A04",
@@ -357,7 +357,7 @@
    "id": "ovl029_8009FF14",
    "at": "8009FF14",
    "jp": "ほんとにこの設定でいいのね？",
-   "en": "",
+   "en": "Are you sure about these settings?",
    "max": 31,
    "refs": [
     "lui@403C/4044"
@@ -368,7 +368,7 @@
    "id": "ovl029_8009FF34",
    "at": "8009FF34",
    "jp": "ミッション%d",
-   "en": "",
+   "en": "Mission %d",
    "max": 15,
    "refs": [
     "lui@437C/4380"
@@ -379,7 +379,7 @@
    "id": "ovl029_8009FF74",
    "at": "8009FF74",
    "jp": "  はい   いいえ",
-   "en": "",
+   "en": "  Yes    No",
    "max": 15,
    "refs": [
     "ptr@F334"
@@ -390,7 +390,7 @@
    "id": "ovl029_8009FF88",
    "at": "8009FF88",
    "jp": "４Ｐ",
-   "en": "",
+   "en": "4P",
    "max": 7,
    "refs": [
     "ptr@F328"
@@ -401,7 +401,7 @@
    "id": "ovl029_8009FF90",
    "at": "8009FF90",
    "jp": "３Ｐ",
-   "en": "",
+   "en": "3P",
    "max": 7,
    "refs": [
     "ptr@F324"
@@ -412,7 +412,7 @@
    "id": "ovl029_8009FF98",
    "at": "8009FF98",
    "jp": "２Ｐ",
-   "en": "",
+   "en": "2P",
    "max": 7,
    "refs": [
     "ptr@F320"
@@ -423,7 +423,7 @@
    "id": "ovl029_8009FFA0",
    "at": "8009FFA0",
    "jp": "１Ｐ",
-   "en": "",
+   "en": "1P",
    "max": 7,
    "refs": [
     "ptr@F31C"
@@ -434,7 +434,7 @@
    "id": "ovl029_8009FFA8",
    "at": "8009FFA8",
    "jp": "Ｐの人はどれを使う？",
-   "en": "",
+   "en": "P: which one is yours?",
    "max": 23,
    "refs": [
     "ptr@F318"
@@ -445,7 +445,7 @@
    "id": "ovl029_8009FFC0",
    "at": "8009FFC0",
    "jp": "○ボタンをおしてね！",
-   "en": "",
+   "en": "press the ○ button!",
    "max": 23,
    "refs": [
     "ptr@F314"
@@ -456,7 +456,7 @@
    "id": "ovl029_8009FFD8",
    "at": "8009FFD8",
    "jp": "使うコントローラの",
-   "en": "",
+   "en": "On the controller you'll use,",
    "max": 19,
    "refs": [
     "ptr@F310"
@@ -467,7 +467,7 @@
    "id": "ovl029_800A0000",
    "at": "800A0000",
    "jp": "/V%s コントローラ%s",
-   "en": "",
+   "en": "/V%s Controller %s",
    "max": 19,
    "refs": [
     "lui@53B8/53BC"
@@ -478,7 +478,7 @@
    "id": "ovl029_800A009C",
    "at": "800A009C",
    "jp": "  深海の領地",
-   "en": "",
+   "en": "  Deep Sea Domain",
    "max": 15,
    "refs": [
     "ptr@F358"
@@ -489,7 +489,7 @@
    "id": "ovl029_800A00AC",
    "at": "800A00AC",
    "jp": "時空を超えた町",
-   "en": "",
+   "en": "Town Beyond Time",
    "max": 15,
    "refs": [
     "ptr@F354"
@@ -500,7 +500,7 @@
    "id": "ovl029_800A00BC",
    "at": "800A00BC",
    "jp": " 魔王城の領地",
-   "en": "",
+   "en": " Demon Lord's Domain",
    "max": 15,
    "refs": [
     "ptr@F350"
@@ -511,7 +511,7 @@
    "id": "ovl029_800A00CC",
    "at": "800A00CC",
    "jp": "  東洋の平原",
-   "en": "",
+   "en": "  Eastern Plains",
    "max": 15,
    "refs": [
     "ptr@F34C"
@@ -522,7 +522,7 @@
    "id": "ovl029_800A00DC",
    "at": "800A00DC",
    "jp": " 浮遊古代遺跡",
-   "en": "",
+   "en": " Floating Ancient Ruins",
    "max": 15,
    "refs": [
     "ptr@F348"
@@ -533,7 +533,7 @@
    "id": "ovl029_800A00EC",
    "at": "800A00EC",
    "jp": "   西の荒野",
-   "en": "",
+   "en": "   Western Wilds",
    "max": 11,
    "refs": [
     "ptr@F344"
@@ -544,7 +544,7 @@
    "id": "ovl029_800A00F8",
    "at": "800A00F8",
    "jp": "   魔法の森",
-   "en": "",
+   "en": "   Magic Forest",
    "max": 11,
    "refs": [
     "ptr@F340"
@@ -555,7 +555,7 @@
    "id": "ovl029_800A0104",
    "at": "800A0104",
    "jp": "   中世の街",
-   "en": "",
+   "en": "   Medieval Town",
    "max": 11,
    "refs": [
     "ptr@F33C"
@@ -566,7 +566,7 @@
    "id": "ovl029_800A019C",
    "at": "800A019C",
    "jp": "　　　　　/P30勝利条件/PF0",
-   "en": "",
+   "en": "　　　　　/P30Victory Conditions/PF0",
    "max": 27,
    "refs": [
     "lui@79D8/79DC"
@@ -577,7 +577,7 @@
    "id": "ovl029_800A01B8",
    "at": "800A01B8",
    "jp": "　　　　　/P30敗北条件/PF0",
-   "en": "",
+   "en": "　　　　　/P30Defeat Conditions/PF0",
    "max": 27,
    "refs": [
     "lui@7A34/7A38"
@@ -588,7 +588,7 @@
    "id": "ovl029_800A0228",
    "at": "800A0228",
    "jp": "神々の戦いがはじまるのだ",
-   "en": "",
+   "en": "the battle of the gods begins.",
    "max": 27,
    "refs": [
     "ptr@F430"
@@ -599,7 +599,7 @@
    "id": "ovl029_800A0244",
    "at": "800A0244",
    "jp": "人々をコマとして、",
-   "en": "",
+   "en": "with people as the pieces,",
    "max": 19,
    "refs": [
     "ptr@F42C"
@@ -610,7 +610,7 @@
    "id": "ovl029_800A0258",
    "at": "800A0258",
    "jp": "世界というゲームボードに、",
-   "en": "",
+   "en": "On the game board called the world,",
    "max": 27,
    "refs": [
     "ptr@F428"
@@ -621,7 +621,7 @@
    "id": "ovl029_800A0274",
    "at": "800A0274",
    "jp": "あらがうことはできない",
-   "en": "",
+   "en": "upon the phantom land.",
    "max": 23,
    "refs": [
     "ptr@F41C"
@@ -632,7 +632,7 @@
    "id": "ovl029_800A028C",
    "at": "800A028C",
    "jp": "座すという神々の力に",
-   "en": "",
+   "en": "who are said to dwell",
    "max": 23,
    "refs": [
     "ptr@F418"
@@ -643,7 +643,7 @@
    "id": "ovl029_800A02A4",
    "at": "800A02A4",
    "jp": "まぼろしの大地に",
-   "en": "",
+   "en": "can defy the power of the gods",
    "max": 19,
    "refs": [
     "ptr@F414"
@@ -654,7 +654,7 @@
    "id": "ovl029_800A02B8",
    "at": "800A02B8",
    "jp": "どんな王も司教も、",
-   "en": "",
+   "en": "No king and no bishop",
    "max": 19,
    "refs": [
     "ptr@F40C"
@@ -665,7 +665,7 @@
    "id": "ovl029_800A02CC",
    "at": "800A02CC",
    "jp": "「ガイアマスター」のルールのみ",
-   "en": "",
+   "en": "by the rules of \"GaiaMaster\".",
    "max": 31,
    "refs": [
     "ptr@F404"
@@ -676,7 +676,7 @@
    "id": "ovl029_800A02EC",
    "at": "800A02EC",
    "jp": "いまや世界をつかさどるのは",
-   "en": "",
+   "en": "Now the world is ruled only",
    "max": 27,
    "refs": [
     "ptr@F400"
@@ -687,7 +687,7 @@
    "id": "ovl029_800A0308",
    "at": "800A0308",
    "jp": "あとかたもなくくずれさる",
-   "en": "",
+   "en": "crumbles away without a trace.",
    "max": 27,
    "refs": [
     "ptr@F3F8"
@@ -698,7 +698,7 @@
    "id": "ovl029_800A0324",
    "at": "800A0324",
    "jp": "今日をかぎりに",
-   "en": "",
+   "en": "as of this day,",
    "max": 15,
    "refs": [
     "ptr@F3F4"
@@ -709,7 +709,7 @@
    "id": "ovl029_800A0334",
    "at": "800A0334",
    "jp": "人のきずいたあらゆる法は",
-   "en": "",
+   "en": "Every law that humans have built,",
    "max": 27,
    "refs": [
     "ptr@F3F0"
@@ -720,7 +720,7 @@
    "id": "ovl029_800A0350",
    "at": "800A0350",
    "jp": "おとずれたのだ！",
-   "en": "",
+   "en": "its hour has come!",
    "max": 19,
    "refs": [
     "ptr@F3E0"
@@ -731,7 +731,7 @@
    "id": "ovl029_800A0364",
    "at": "800A0364",
    "jp": "神々のゲーム「ガイアマスター」の時が",
-   "en": "",
+   "en": "\"GaiaMaster\", game of the gods...",
    "max": 39,
    "refs": [
     "ptr@F3DC"
@@ -742,7 +742,7 @@
    "id": "ovl029_800A038C",
    "at": "800A038C",
    "jp": "大陸をこんとんにたたきこむ",
-   "en": "",
+   "en": "to plunge the continent into chaos...",
    "max": 27,
    "refs": [
     "ptr@F3D8"
@@ -753,7 +753,7 @@
    "id": "ovl029_800A03A8",
    "at": "800A03A8",
    "jp": "１００年に一度めぐりくる宿命の時",
-   "en": "",
+   "en": "The fated time, once in 100 years,",
    "max": 35,
    "refs": [
     "ptr@F3D0"
@@ -764,7 +764,7 @@
    "id": "ovl029_800A03CC",
    "at": "800A03CC",
    "jp": "空にうかぶまぼろしの大地",
-   "en": "",
+   "en": "a phantom land floats in the sky.",
    "max": 27,
    "refs": [
     "ptr@F3C8"
@@ -775,7 +775,7 @@
    "id": "ovl029_800A03E8",
    "at": "800A03E8",
    "jp": "月も太陽もおおいかくす",
-   "en": "",
+   "en": "Hiding both the moon and the sun,",
    "max": 23,
    "refs": [
     "ptr@F3C4"
@@ -786,7 +786,7 @@
    "id": "ovl029_800A0400",
    "at": "800A0400",
    "jp": "世界はもはや人のものではなくなった",
-   "en": "",
+   "en": "The world is no longer humanity's.",
    "max": 35,
    "refs": [
     "ptr@F3B4"
@@ -797,7 +797,7 @@
    "id": "ovl029_800A08F8",
    "at": "800A08F8",
    "jp": "サラリーの設定画面へ進むわ",
-   "en": "",
+   "en": "On to the salary settings!",
    "max": 27,
    "refs": [
     "lui@BAAC/BAB4"
@@ -808,7 +808,7 @@
    "id": "ovl029_800A0914",
    "at": "800A0914",
    "jp": "ゲームのターン数を決めるの",
-   "en": "",
+   "en": "Set the number of turns.",
    "max": 27,
    "refs": [
     "lui@BAB8/BABC"
@@ -819,7 +819,7 @@
    "id": "ovl029_800A0930",
    "at": "800A0930",
    "jp": "方向キーの左でへって、",
-   "en": "",
+   "en": "Press left to lower it,",
    "max": 23,
    "refs": [
     "lui@BAC4/BAC8",
@@ -831,7 +831,7 @@
    "id": "ovl029_800A0948",
    "at": "800A0948",
    "jp": "右でふえるよ",
-   "en": "",
+   "en": "right to raise it.",
    "max": 15,
    "refs": [
     "lui@BAD0/BAD8",
@@ -843,7 +843,7 @@
    "id": "ovl029_800A0958",
    "at": "800A0958",
    "jp": "ゲームスタート時の所持金を決めるの",
-   "en": "",
+   "en": "Set the money everyone starts with.",
    "max": 35,
    "refs": [
     "lui@BADC/BAE0"
@@ -854,7 +854,7 @@
    "id": "ovl029_800A097C",
    "at": "800A097C",
    "jp": "ゲームスタート時に",
-   "en": "",
+   "en": "Set how much land",
    "max": 19,
    "refs": [
     "lui@BB00/BB04"
@@ -865,7 +865,7 @@
    "id": "ovl029_800A0990",
    "at": "800A0990",
    "jp": "いくつ土地を所持しているか",
-   "en": "",
+   "en": "everyone owns when",
    "max": 27,
    "refs": [
     "lui@BB0C/BB10"
@@ -876,7 +876,7 @@
    "id": "ovl029_800A09AC",
    "at": "800A09AC",
    "jp": "決めるの",
-   "en": "",
+   "en": "the game starts.",
    "max": 11,
    "refs": [
     "lui@BB18/BB20"
@@ -887,7 +887,7 @@
    "id": "ovl029_800A09B8",
    "at": "800A09B8",
    "jp": "キャラクターのラッキーを",
-   "en": "",
+   "en": "Choose whether characters'",
    "max": 27,
    "refs": [
     "lui@BB24/BB28"
@@ -898,7 +898,7 @@
    "id": "ovl029_800A09D4",
    "at": "800A09D4",
    "jp": "発生させるかどうか決めるの",
-   "en": "",
+   "en": "Lucky can trigger or not.",
    "max": 27,
    "refs": [
     "lui@BB30/BB34"
@@ -909,7 +909,7 @@
    "id": "ovl029_800A09F0",
    "at": "800A09F0",
    "jp": "設定を元に戻すわ",
-   "en": "",
+   "en": "I'll reset the settings!",
    "max": 19,
    "refs": [
     "lui@BC00/BC04"
@@ -920,7 +920,7 @@
    "id": "ovl029_800A0A04",
    "at": "800A0A04",
    "jp": "サラリーの初期金額を決めるの",
-   "en": "",
+   "en": "Set the starting salary.",
    "max": 31,
    "refs": [
     "lui@BB70/BB74"
@@ -931,7 +931,7 @@
    "id": "ovl029_800A0A24",
    "at": "800A0A24",
    "jp": "方向キーの左でへって、右でふえるよ",
-   "en": "",
+   "en": "Left lowers it, right raises it.",
    "max": 35,
    "refs": [
     "lui@BB7C/BB80",
@@ -945,7 +945,7 @@
    "id": "ovl029_800A0A48",
    "at": "800A0A48",
    "jp": "何ターンごとに金額がふえるか決める",
-   "en": "",
+   "en": "Set how many turns pass between",
    "max": 35,
    "refs": [
     "lui@BB94/BB98"
@@ -956,7 +956,7 @@
    "id": "ovl029_800A0A6C",
    "at": "800A0A6C",
    "jp": "の",
-   "en": "",
+   "en": "salary raises.",
    "max": 3,
    "refs": [
     "lui@BBA0/BBA4"
@@ -967,7 +967,7 @@
    "id": "ovl029_800A0A70",
    "at": "800A0A70",
    "jp": "何ターンまで金額がふえるか決めるの",
-   "en": "",
+   "en": "Set the last turn the salary rises.",
    "max": 35,
    "refs": [
     "lui@BBB8/BBBC"
@@ -978,7 +978,7 @@
    "id": "ovl029_800A0A94",
    "at": "800A0A94",
    "jp": "この後は金額が一定になるよ",
-   "en": "",
+   "en": "After that, it stays the same.",
    "max": 27,
    "refs": [
     "lui@BBC4/BBC8"
@@ -989,7 +989,7 @@
    "id": "ovl029_800A0AB0",
    "at": "800A0AB0",
    "jp": "ターンごとにふえる金額を決めるの",
-   "en": "",
+   "en": "Set how much the salary rises.",
    "max": 35,
    "refs": [
     "lui@BBDC/BBE0"

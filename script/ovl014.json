@@ -9,7 +9,7 @@
    "id": "ovl014_800C84B0",
    "at": "800C84B0",
    "jp": "ステキ！！なんてついてるの！",
-   "en": "",
+   "en": "Fabulous!! How lucky can you get!",
    "max": 31,
    "refs": [
     "lui@1C80/1C88"
@@ -20,7 +20,7 @@
    "id": "ovl014_800C84D0",
    "at": "800C84D0",
    "jp": "/V%dゼニーも手に入ったよ！！/v",
-   "en": "",
+   "en": "/VYou got %d zenny!!/v",
    "max": 31,
    "refs": [
     "lui@1C74/1C78"
@@ -31,7 +31,7 @@
    "id": "ovl014_800C84F0",
    "at": "800C84F0",
    "jp": "この幸せ者ー！",
-   "en": "",
+   "en": "You lucky thing!",
    "max": 15,
    "refs": [
     "lui@1CC0/1CC4"

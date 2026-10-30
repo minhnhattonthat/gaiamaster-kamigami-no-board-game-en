@@ -9,7 +9,7 @@
    "id": "ovl026_800C8454",
    "at": "800C8454",
    "jp": "ルート変更",
-   "en": "",
+   "en": "Change Route",
    "max": 11,
    "refs": [
     "lui@1060/1064"
@@ -20,7 +20,7 @@
    "id": "ovl026_800C8460",
    "at": "800C8460",
    "jp": "すべての分岐マスを切りかえたよ",
-   "en": "",
+   "en": "All fork squares switched!",
    "max": 31,
    "refs": [
     "lui@106C/1070"

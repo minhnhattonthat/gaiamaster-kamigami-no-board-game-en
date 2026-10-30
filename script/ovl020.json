@@ -9,7 +9,7 @@
    "id": "ovl020_800C8454",
    "at": "800C8454",
    "jp": "お店破壊",
-   "en": "",
+   "en": "Wreck a Shop",
    "max": 11,
    "refs": [
     "lui@4E0/4E4"
@@ -20,7 +20,7 @@
    "id": "ovl020_800C8460",
    "at": "800C8460",
    "jp": "お店をひとつも持ってなかったから",
-   "en": "",
+   "en": "You didn't own a single shop,",
    "max": 35,
    "refs": [
     "lui@4F8/4FC"
@@ -31,7 +31,7 @@
    "id": "ovl020_800C8484",
    "at": "800C8484",
    "jp": "助かったみたい。",
-   "en": "",
+   "en": "so you got off easy.",
    "max": 19,
    "refs": [
     "lui@504/50C"
@@ -42,7 +42,7 @@
    "id": "ovl020_800C8498",
    "at": "800C8498",
    "jp": "%sには",
-   "en": "",
+   "en": "Looks like %s",
    "max": 7,
    "refs": [
     "lui@52C/530"
@@ -53,7 +53,7 @@
    "id": "ovl020_800C84A0",
    "at": "800C84A0",
    "jp": "効かなかったみたい",
-   "en": "",
+   "en": "wasn't affected.",
    "max": 19,
    "refs": [
     "lui@540/548"
@@ -64,7 +64,7 @@
    "id": "ovl020_800C84B4",
    "at": "800C84B4",
    "jp": "%sはお店を１つ壊さ",
-   "en": "",
+   "en": "Looks like %s had",
    "max": 19,
    "refs": [
     "lui@554/558"
@@ -75,7 +75,7 @@
    "id": "ovl020_800C84C8",
    "at": "800C84C8",
    "jp": "れちゃったみたい",
-   "en": "",
+   "en": "a shop wrecked.",
    "max": 19,
    "refs": [
     "lui@568/56C"

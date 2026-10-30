@@ -34,10 +34,12 @@ FORM = {"dialog": "dlg", "story": "dlg", "char_desc": "narration", "ending": "na
 PC = {22: "Belial", 23: "Jiggar", 24: "Sinbad", 25: "Hayate", 26: "Agathe", 27: "Meg-meg", 28: "Goliath",
       29: "Tiara", 30: "Galahad", 31: "Son Gokuh", 32: "Yasutsuna", 33: "Dante"}
 ICONS = "≠≦≧├┤┌┐└┘★○×←→↓∞"          # JP font cells that still draw (icons, buttons, arrows)
-OK_CHARS = set(chr(c) for c in range(0x20, 0x7F)) | set(ICONS) | {"　"}
-TOKEN = insert.TOKEN
+OK_CHARS = set(chr(c) for c in range(0x20, 0x7F)) | set(ICONS) | {"　", "\n"}   # \n only where the JP has it (codes check)
+# insert.TOKEN with /V on its own: /V ... /v wraps a span ("/V%dゼニーひろったよ！/v", "/Vみんなから%dゼニー/v"),
+# so English may put words between /V and the number ("/VIn place %d")
+TOKEN = re.compile(r"/P[0-9A-F]{2}|/V|/v|%[-+ 0-9]*[sd]|\n|\[[0-9A-F]{2}\]")
 BLANK = insert.BLANK
-TOKEN_PX = {"%s": 48, "/V%s": 48, "/V%d": 6, "/V": 6, "/v": 6, "%d": 18}   # guessed widths of what a code prints
+TOKEN_PX = {"%s": 48, "%d": 18}   # guessed widths of what a code prints
 ROWS_SOFT, ROWS_HARD, CHARS_SOFT = 120, 160, 3000
 SPLIT = re.compile(r"[。！？」…」）～＠!?.]$")
 
@@ -107,6 +109,8 @@ def hard_bytes(b, e):
 
 
 def px(en):
+    if "\n" in en:
+        return max(px(ln) for ln in en.split("\n"))
     w = 0
     for t in TOKEN.findall(en):
         m = re.fullmatch(r"%[-+ 0]*(\d+)d", t)
@@ -172,8 +176,9 @@ def check_line(r, en, gl):
     if re.search(r"(%[-+ 0-9]*[sd]|/V%[sd])(st|nd|rd|th)\b", en):
         err.append("ordinal suffix glued to a code")
     w = px(en)
-    if w > r["px"]:
-        (warn if r["state"] == "guess" else err).append("%dpx > %dpx (%s box)" % (w, r["px"], r["box"]))
+    if w > r["px"]:   # %s counted as 48 px; only the text itself (%s = 24 px) over the box is an error
+        hard = r["state"] != "guess" and w - 24 * en.count("%s") > r["px"]
+        (err if hard else warn).append("%dpx > %dpx (%s box%s)" % (w, r["px"], r["box"], "" if hard else ", estimate"))
     if r["nbytes"] is not None:
         n = len(sjis.encode(en))
         if n > r["nbytes"]:
@@ -185,9 +190,9 @@ def check_line(r, en, gl):
             if (enf == "always" or enf == "quoted" and (r["jp"] == jp or "「%s」" % jp in r["jp"])) and ten.lower() not in low:
                 err.append("glossary: %s -> %s missing" % (jp, ten))
         for a in avoid:
-            if re.search(r"\b%s\b" % re.escape(a.lower()), low):
+            if re.search(r"\b%s\b" % re.escape(a), en):   # case-sensitive: avoid "Meg-Meg" must pass "Meg-meg"
                 err.append("glossary: avoid %r (%s -> %s)" % (a, jp, ten))
-    if re.search(r"[ァ-ヺ一-龥%]さん", r["jp"]) and "-san" not in en:
+    if re.search(r"(?<![母父許])(?<=[ァ-ヺ一-龥s])さん", r["jp"]) and "-san" not in en:   # not お母さん / 許さん
         warn.append("JP has -san, EN doesn't")
     return err, warn
 
@@ -197,7 +202,7 @@ def read_tsv(p):
     for ln in p.read_text(encoding="utf-8").splitlines():
         if ln.strip():
             k, _, v = ln.partition("\t")
-            out.setdefault(k.strip(), []).append(v)
+            out.setdefault(k.strip(), []).append(v.replace("\\n", "\n"))   # \n = a real line break (debug renderer)
     return out
 
 
@@ -255,7 +260,8 @@ def split():
     batches.append(cur)
     for n, bt in enumerate(batches, 1):
         name = "b%03d" % n
-        lines = ["%s\t%s\t%s\t%s\t%s" % (r["id"], r["speaker"], r["form"], r["limit"], r["jp"]) for r in bt]
+        lines = ["%s\t%s\t%s\t%s\t%s" % (r["id"], r["speaker"], r["form"], r["limit"], r["jp"].replace("\n", "\\n"))
+                 for r in bt]
         (TL / (name + ".tsv")).write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
         t = terms_for([r["jp"] for r in bt], gl)
         (BUILD / ("terms_%s.txt" % name)).write_text(
@@ -272,8 +278,8 @@ def merge(names):
         got = read_tsv(TL / (name + ".out.tsv"))
         for r in batch_rows(name):
             en = got[r["id"]][0]
-            for i in r["group"]:
-                by_block.setdefault(r["block"]["block"], {})[i] = en
+            for i in r["group"]:   # deduped ids can live in other blocks: id = <block>_<address>
+                by_block.setdefault(i.rsplit("_", 1)[0], {})[i] = en
     n = 0
     for p in sorted(insert.SCRIPT.glob("*.json")):
         b = json.loads(p.read_text(encoding="utf-8"))
@@ -295,18 +301,21 @@ def pairs(name, path):
     out = []
     for r in batch_rows(name):
         out.append(">> %s [%s %s%s] | %s" % (r["id"], r["box"], r["limit"], (" " + r["speaker"]) if r["speaker"] else "", r["jp"]))
-        out.append("   %s" % (got.get(r["id"], ["(missing)"])[0]))
+        out.append("   %s" % (got.get(r["id"], ["(missing)"])[0].replace("\n", "\\n")))
     Path(path).write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(path, len(out) // 2, "pairs")
 
 
 def lint():
     """Every translated string in script/ against the row rules; exit 1 on errors."""
-    gl, errs, warns = glossary(), 0, 0
+    gl, errs, warns, todo = glossary(), 0, 0, 0
     keep = insert.keep_jp()
     for b in insert.blocks():
         for e in b["strings"]:
-            if not e["en"] or not needs_tl(e, keep):
+            if not needs_tl(e, keep):
+                continue
+            if not e["en"]:
+                todo += 1
                 continue
             bx = windows.box(b, e)
             lead, c, trail = core(e["jp"])
@@ -321,7 +330,7 @@ def lint():
                 print("ERROR %s: %s" % (e["id"], x))
             errs += len(er)
             warns += len(w)
-    print("lint: %d errors, %d warnings" % (errs, warns))
+    print("lint: %d errors, %d warnings, %d strings untranslated" % (errs, warns, todo))
     return errs == 0
 
 
@@ -337,10 +346,11 @@ def selftest():
     assert has_term("ミンが", "ミン") and not has_term("タイミング", "ミン")
     gl = [("ジガー", "Jiggar", ["Jigger"], "always"), ("幸運", "Good Luck", [], "quoted")]
     assert check_line(dict(r, jp="ジガー%s"), "Jigger %s", gl)[0]
+    assert check_line(dict(r, jp="メグメグ%s"), "Meg-meg %s", [("メグメグ", "Meg-meg", ["Meg-Meg"], "always")])[0] == []
     assert check_line(dict(r, jp="幸運を%s"), "Luck to %s", gl)[0] == []
     assert check_line(dict(r, jp="「幸運」%s"), "Luck %s", gl)[0]
     assert ("ジガー", "Jiggar", ["Jigger", "Jigga"], "always") in glossary()
-    assert px("%4d") == 24 and px("ab") == font_en.width("ab")
+    assert px("%4d") == 24 and px("ab") == font_en.width("ab") and px("ab\nabc") == font_en.width("abc")
 
 
 if __name__ == "__main__":

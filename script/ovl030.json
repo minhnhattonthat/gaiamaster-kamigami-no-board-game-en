@@ -209,7 +209,7 @@
    "id": "ovl030_8009FAEC",
    "at": "8009FAEC",
    "jp": "マルチタップがささったよ",
-   "en": "",
+   "en": "A Multi Tap was plugged in!",
    "max": 27,
    "refs": [
     "ptr@DA84"
@@ -220,7 +220,7 @@
    "id": "ovl030_8009FB08",
    "at": "8009FB08",
    "jp": "マルチタップがぬかれたよ",
-   "en": "",
+   "en": "The Multi Tap was pulled out!",
    "max": 27,
    "refs": [
     "ptr@DA78"
@@ -231,7 +231,7 @@
    "id": "ovl030_8009FB24",
    "at": "8009FB24",
    "jp": "できないから気をつけてね！",
-   "en": "",
+   "en": "same data, so be careful!",
    "max": 27,
    "refs": [
     "ptr@DA70"
@@ -242,7 +242,7 @@
    "id": "ovl030_8009FB40",
    "at": "8009FB40",
    "jp": "同じデータを使っての対戦は",
-   "en": "",
+   "en": "You can't battle using the",
    "max": 27,
    "refs": [
     "ptr@DA6C"
@@ -253,7 +253,7 @@
    "id": "ovl030_8009FB5C",
    "at": "8009FB5C",
    "jp": "がんばって強くなってね！！",
-   "en": "",
+   "en": "Train hard and get strong!!",
    "max": 27,
    "refs": [
     "ptr@DA68"
@@ -264,7 +264,7 @@
    "id": "ovl030_8009FB78",
    "at": "8009FB78",
    "jp": "つくるよ",
-   "en": "",
+   "en": "all your own!",
    "max": 11,
    "refs": [
     "ptr@DA64"
@@ -275,7 +275,7 @@
    "id": "ovl030_8009FB84",
    "at": "8009FB84",
    "jp": "あなただけの武器スキルデータを",
-   "en": "",
+   "en": "Let's create weapon skill data",
    "max": 31,
    "refs": [
     "ptr@DA60"
@@ -286,7 +286,7 @@
    "id": "ovl030_8009FBA4",
    "at": "8009FBA4",
    "jp": "使えないよ",
-   "en": "",
+   "en": "for a match.",
    "max": 11,
    "refs": [
     "ptr@DA5C",
@@ -298,7 +298,7 @@
    "id": "ovl030_8009FBB0",
    "at": "8009FBB0",
    "jp": "同じデータだから、対戦には",
-   "en": "",
+   "en": "loaded, so you can't use it",
    "max": 27,
    "refs": [
     "ptr@DA58",
@@ -310,7 +310,7 @@
    "id": "ovl030_8009FBCC",
    "at": "8009FBCC",
    "jp": "このデータはさっきロードしたのと",
-   "en": "",
+   "en": "This is the same data you just",
    "max": 35,
    "refs": [
     "ptr@DA54",
@@ -323,7 +323,7 @@
    "id": "ovl030_8009FBF0",
    "at": "8009FBF0",
    "jp": "ゲームをはじめるよ",
-   "en": "",
+   "en": "Let's start the game!",
    "max": 19,
    "refs": [
     "ptr@DA48"
@@ -334,7 +334,7 @@
    "id": "ovl030_8009FC04",
    "at": "8009FC04",
    "jp": "データがないわよ",
-   "en": "",
+   "en": "data!",
    "max": 19,
    "refs": [
     "ptr@DA44"
@@ -345,7 +345,7 @@
    "id": "ovl030_8009FC18",
    "at": "8009FC18",
    "jp": "データを正しくロードできたよ",
-   "en": "",
+   "en": "Data loaded successfully!",
    "max": 31,
    "refs": [
     "ptr@DA24"
@@ -356,7 +356,7 @@
    "id": "ovl030_8009FC38",
    "at": "8009FC38",
    "jp": "正しく初期化できなかったわ",
-   "en": "",
+   "en": "Couldn't format it properly.",
    "max": 27,
    "refs": [
     "ptr@DA18"
@@ -367,7 +367,7 @@
    "id": "ovl030_8009FC54",
    "at": "8009FC54",
    "jp": "に設定するわよ",
-   "en": "",
+   "en": "for you!",
    "max": 15,
    "refs": [
     "ptr@DA14"
@@ -378,7 +378,7 @@
    "id": "ovl030_8009FC64",
    "at": "8009FC64",
    "jp": "コントローラ１（１－Ａ）",
-   "en": "",
+   "en": "to Controller 1 (1-A)",
    "max": 27,
    "refs": [
     "ptr@DA10"
@@ -389,7 +389,7 @@
    "id": "ovl030_8009FC80",
    "at": "8009FC80",
    "jp": "すべてのコントローラを",
-   "en": "",
+   "en": "I'll set all the controllers",
    "max": 23,
    "refs": [
     "ptr@DA0C"
@@ -400,7 +400,7 @@
    "id": "ovl030_8009FC98",
    "at": "8009FC98",
    "jp": "ないよ！",
-   "en": "",
+   "en": "formatted!",
    "max": 11,
    "refs": [
     "ptr@DA04"
@@ -411,7 +411,7 @@
    "id": "ovl030_8009FCA4",
    "at": "8009FCA4",
    "jp": "データをロードするわね",
-   "en": "",
+   "en": "I'll load the data, okay?",
    "max": 23,
    "refs": [
     "ptr@D9F4"
@@ -422,7 +422,7 @@
    "id": "ovl030_8009FCBC",
    "at": "8009FCBC",
    "jp": "データをセーブするね",
-   "en": "",
+   "en": "I'll save your data, okay?",
    "max": 23,
    "refs": [
     "ptr@D9E8"
@@ -433,7 +433,7 @@
    "id": "ovl030_8009FCD4",
    "at": "8009FCD4",
    "jp": "どのデータをロードするの？",
-   "en": "",
+   "en": "Which data do you want to load?",
    "max": 27,
    "refs": [
     "ptr@D9D0"
@@ -444,7 +444,7 @@
    "id": "ovl030_8009FCF0",
    "at": "8009FCF0",
    "jp": "初期化中はメモリーカードを",
-   "en": "",
+   "en": "While formatting, never pull out",
    "max": 27,
    "refs": [
     "ptr@D9C8"
@@ -455,7 +455,7 @@
    "id": "ovl030_8009FD0C",
    "at": "8009FD0C",
    "jp": "初期化中よ",
-   "en": "",
+   "en": "Formatting...",
    "max": 11,
    "refs": [
     "ptr@D9C4"
@@ -466,7 +466,7 @@
    "id": "ovl030_8009FD18",
    "at": "8009FD18",
    "jp": "このままゲームをつづける？",
-   "en": "",
+   "en": "Keep playing?",
    "max": 27,
    "refs": [
     "ptr@D9BC"
@@ -477,7 +477,7 @@
    "id": "ovl030_8009FD34",
    "at": "8009FD34",
    "jp": "データのセーブが終わったよ",
-   "en": "",
+   "en": "Save complete!",
    "max": 27,
    "refs": [
     "ptr@D9B8",
@@ -490,7 +490,7 @@
    "id": "ovl030_8009FD50",
    "at": "8009FD50",
    "jp": "かまわないの？",
-   "en": "",
+   "en": "Is that okay?",
    "max": 15,
    "refs": [
     "ptr@D9B0"
@@ -501,7 +501,7 @@
    "id": "ovl030_8009FD60",
    "at": "8009FD60",
    "jp": "まえのデータは消えちゃうけど",
-   "en": "",
+   "en": "The old data will be erased.",
    "max": 31,
    "refs": [
     "ptr@D9AC"
@@ -512,7 +512,7 @@
    "id": "ovl030_8009FD80",
    "at": "8009FD80",
    "jp": "空き容量が必要なの",
-   "en": "",
+   "en": "free on the card.",
    "max": 19,
    "refs": [
     "ptr@D9A8"
@@ -523,7 +523,7 @@
    "id": "ovl030_8009FD94",
    "at": "8009FD94",
    "jp": "セーブには　２　ブロックの",
-   "en": "",
+   "en": "To save, you need 2 blocks",
    "max": 27,
    "refs": [
     "ptr@D9A4"
@@ -534,7 +534,7 @@
    "id": "ovl030_8009FDB0",
    "at": "8009FDB0",
    "jp": "空き容量が足りないよ",
-   "en": "",
+   "en": "Not enough free blocks!",
    "max": 23,
    "refs": [
     "ptr@D9A0"
@@ -545,7 +545,7 @@
    "id": "ovl030_8009FDC8",
    "at": "8009FDC8",
    "jp": "コンティニューデータがないわよ",
-   "en": "",
+   "en": "continue data!",
    "max": 31,
    "refs": [
     "ptr@D99C"
@@ -556,7 +556,7 @@
    "id": "ovl030_8009FDE8",
    "at": "8009FDE8",
    "jp": "ガイアマスターの",
-   "en": "",
+   "en": "no GaiaMaster",
    "max": 19,
    "refs": [
     "ptr@D998",
@@ -568,7 +568,7 @@
    "id": "ovl030_8009FDFC",
    "at": "8009FDFC",
    "jp": "このメモリーカードには",
-   "en": "",
+   "en": "This memory card has",
    "max": 23,
    "refs": [
     "ptr@D994",
@@ -580,7 +580,7 @@
    "id": "ovl030_8009FE14",
    "at": "8009FE14",
    "jp": "メモリーカードを",
-   "en": "",
+   "en": "Never pull out",
    "max": 19,
    "refs": [
     "ptr@D98C"
@@ -591,7 +591,7 @@
    "id": "ovl030_8009FE28",
    "at": "8009FE28",
    "jp": "メモリーカードのチェック中よ",
-   "en": "",
+   "en": "Checking the memory card...",
    "max": 31,
    "refs": [
     "ptr@D988"
@@ -602,7 +602,7 @@
    "id": "ovl030_8009FE48",
    "at": "8009FE48",
    "jp": "セーブ中はメモリーカードを",
-   "en": "",
+   "en": "While saving, never pull out",
    "max": 27,
    "refs": [
     "ptr@D980"
@@ -613,7 +613,7 @@
    "id": "ovl030_8009FE64",
    "at": "8009FE64",
    "jp": "データのセーブ中よ",
-   "en": "",
+   "en": "Saving data...",
    "max": 19,
    "refs": [
     "ptr@D97C"
@@ -624,7 +624,7 @@
    "id": "ovl030_8009FE78",
    "at": "8009FE78",
    "jp": "ぜったいにぬかないでね",
-   "en": "",
+   "en": "the memory card!",
    "max": 23,
    "refs": [
     "ptr@D978",
@@ -638,7 +638,7 @@
    "id": "ovl030_8009FE90",
    "at": "8009FE90",
    "jp": "ロード中はメモリーカードを",
-   "en": "",
+   "en": "While loading, never pull out",
    "max": 27,
    "refs": [
     "ptr@D974"
@@ -649,7 +649,7 @@
    "id": "ovl030_8009FEAC",
    "at": "8009FEAC",
    "jp": "データのロード中よ",
-   "en": "",
+   "en": "Loading data...",
    "max": 19,
    "refs": [
     "ptr@D970"
@@ -660,7 +660,7 @@
    "id": "ovl030_8009FEC0",
    "at": "8009FEC0",
    "jp": "データを正しくセーブできなかったわ",
-   "en": "",
+   "en": "Couldn't save the data properly.",
    "max": 35,
    "refs": [
     "ptr@D964"
@@ -671,7 +671,7 @@
    "id": "ovl030_8009FEE4",
    "at": "8009FEE4",
    "jp": "データを正しくロードできなかったわ",
-   "en": "",
+   "en": "Couldn't load the data properly.",
    "max": 35,
    "refs": [
     "ptr@D958"
@@ -682,7 +682,7 @@
    "id": "ovl030_8009FF08",
    "at": "8009FF08",
    "jp": "メモリーカードがささってないよ",
-   "en": "",
+   "en": "No memory card inserted!",
    "max": 31,
    "refs": [
     "ptr@D94C"
@@ -693,7 +693,7 @@
    "id": "ovl030_8009FF28",
    "at": "8009FF28",
    "jp": "　　　はい　　　いいえ",
-   "en": "",
+   "en": "　　　Yes　　　 No",
    "max": 23,
    "refs": [
     "lui@5CA8/5CAC",
@@ -712,7 +712,7 @@
    "id": "ovl030_8009FF40",
    "at": "8009FF40",
    "jp": "ないよ！初期化する？",
-   "en": "",
+   "en": "formatted! Format it?",
    "max": 23,
    "refs": [
     "ptr@D944"
@@ -723,7 +723,7 @@
    "id": "ovl030_8009FF58",
    "at": "8009FF58",
    "jp": "このメモリーカードは初期化されて",
-   "en": "",
+   "en": "This memory card isn't",
    "max": 35,
    "refs": [
     "ptr@D940",
@@ -735,7 +735,7 @@
    "id": "ovl030_8009FF80",
    "at": "8009FF80",
    "jp": "どこにセーブするの？",
-   "en": "",
+   "en": "Where do you want to save?",
    "max": 23,
    "refs": [
     "ptr@D934"
@@ -746,7 +746,7 @@
    "id": "ovl030_8009FF98",
    "at": "8009FF98",
    "jp": "ＳＬＯＴをえらんでね",
-   "en": "",
+   "en": "Choose a SLOT!",
    "max": 23,
    "refs": [
     "lui@61BC/61C4",
@@ -762,7 +762,7 @@
    "id": "ovl030_800A00B8",
    "at": "800A00B8",
    "jp": "ガイアマスター　セーブデータ",
-   "en": "",
+   "en": "GaiaMaster Save Data",
    "max": 31,
    "refs": [
     "lui@412C/4130",
@@ -774,7 +774,7 @@
    "id": "ovl030_800A0100",
    "at": "800A0100",
    "jp": "いちかばちか",
-   "en": "",
+   "en": "All or Nothing",
    "max": 15,
    "refs": [
     "ptr@DB24"
@@ -785,7 +785,7 @@
    "id": "ovl030_800A0110",
    "at": "800A0110",
    "jp": "Ｃ．Ｆ．Ｃ",
-   "en": "",
+   "en": "C.F.C.",
    "max": 11,
    "refs": [
     "ptr@DB20"
@@ -796,7 +796,7 @@
    "id": "ovl030_800A011C",
    "at": "800A011C",
    "jp": "みがわり",
-   "en": "",
+   "en": "Substitute",
    "max": 11,
    "refs": [
     "ptr@DB1C"
@@ -807,7 +807,7 @@
    "id": "ovl030_800A0128",
    "at": "800A0128",
    "jp": "アガート新武器",
-   "en": "",
+   "en": "Agathe's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB18"
@@ -818,7 +818,7 @@
    "id": "ovl030_800A0138",
    "at": "800A0138",
    "jp": "メグメグ新武器",
-   "en": "",
+   "en": "Meg-meg's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB14"
@@ -829,7 +829,7 @@
    "id": "ovl030_800A0148",
    "at": "800A0148",
    "jp": "ティアラ新武器",
-   "en": "",
+   "en": "Tiara's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB10"
@@ -840,7 +840,7 @@
    "id": "ovl030_800A0158",
    "at": "800A0158",
    "jp": "ゴクウ新武器",
-   "en": "",
+   "en": "Gokuh's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB0C"
@@ -851,7 +851,7 @@
    "id": "ovl030_800A0168",
    "at": "800A0168",
    "jp": "ダンテ新武器",
-   "en": "",
+   "en": "Dante's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB08"
@@ -862,7 +862,7 @@
    "id": "ovl030_800A0178",
    "at": "800A0178",
    "jp": "ハヤテ新武器",
-   "en": "",
+   "en": "Hayate's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB04"
@@ -873,7 +873,7 @@
    "id": "ovl030_800A0188",
    "at": "800A0188",
    "jp": "ヤスツナ新武器",
-   "en": "",
+   "en": "Yasutsuna's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DB00"
@@ -884,7 +884,7 @@
    "id": "ovl030_800A0198",
    "at": "800A0198",
    "jp": "ゴライアス新武器",
-   "en": "",
+   "en": "Goliath's New Weapon",
    "max": 19,
    "refs": [
     "ptr@DAFC"
@@ -895,7 +895,7 @@
    "id": "ovl030_800A01AC",
    "at": "800A01AC",
    "jp": "シンバッド新武器",
-   "en": "",
+   "en": "Sinbad's New Weapon",
    "max": 19,
    "refs": [
     "ptr@DAF8"
@@ -906,7 +906,7 @@
    "id": "ovl030_800A01C0",
    "at": "800A01C0",
    "jp": "ガラハッド新武器",
-   "en": "",
+   "en": "Galahad's New Weapon",
    "max": 19,
    "refs": [
     "ptr@DAF4"
@@ -917,7 +917,7 @@
    "id": "ovl030_800A01D4",
    "at": "800A01D4",
    "jp": "ジガー新武器",
-   "en": "",
+   "en": "Jiggar's New Weapon",
    "max": 15,
    "refs": [
     "ptr@DAF0"
@@ -928,7 +928,7 @@
    "id": "ovl030_800A01E4",
    "at": "800A01E4",
    "jp": "新ブラッドスピア",
-   "en": "",
+   "en": "New Blood Spear",
    "max": 19,
    "refs": [
     "ptr@DAEC"
@@ -939,7 +939,7 @@
    "id": "ovl030_800A01F8",
    "at": "800A01F8",
    "jp": "新スノーストーム",
-   "en": "",
+   "en": "New Snowstorm",
    "max": 19,
    "refs": [
     "ptr@DAE8"
@@ -950,7 +950,7 @@
    "id": "ovl030_800A020C",
    "at": "800A020C",
    "jp": "新せつなの剣",
-   "en": "",
+   "en": "New Instant Blade",
    "max": 15,
    "refs": [
     "ptr@DAE4"
@@ -961,7 +961,7 @@
    "id": "ovl030_800A028C",
    "at": "800A028C",
    "jp": "　メモリーカードのチェック中です。",
-   "en": "",
+   "en": "　Checking the memory card.",
    "max": 35,
    "refs": [
     "lui@5374/5378"
@@ -972,7 +972,7 @@
    "id": "ovl030_800A02B0",
    "at": "800A02B0",
    "jp": "　メモリーカードをぬかないで下さい。",
-   "en": "",
+   "en": "　Do not remove the memory card.",
    "max": 39,
    "refs": [
     "lui@5388/5390",
@@ -984,7 +984,7 @@
    "id": "ovl030_800A02D8",
    "at": "800A02D8",
    "jp": "　メモリーカードがさされていません。",
-   "en": "",
+   "en": "　No memory card is inserted.",
    "max": 39,
    "refs": [
     "lui@53EC/53F4"
@@ -995,7 +995,7 @@
    "id": "ovl030_800A0300",
    "at": "800A0300",
    "jp": "　データのロードを行いません。",
-   "en": "",
+   "en": "　Data will not be loaded.",
    "max": 31,
    "refs": [
     "lui@53FC/5404"
@@ -1006,7 +1006,7 @@
    "id": "ovl030_800A0334",
    "at": "800A0334",
    "jp": "　　　このメモリーカードは",
-   "en": "",
+   "en": "　　　This memory card is",
    "max": 27,
    "refs": [
     "lui@5454/545C"
@@ -1017,7 +1017,7 @@
    "id": "ovl030_800A0350",
    "at": "800A0350",
    "jp": "　　　初期化されていません。",
-   "en": "",
+   "en": "　　　not formatted.",
    "max": 31,
    "refs": [
     "lui@5464/546C"
@@ -1028,7 +1028,7 @@
    "id": "ovl030_800A0370",
    "at": "800A0370",
    "jp": "ガイアマスターのデータがありません。",
-   "en": "",
+   "en": "There is no GaiaMaster data.",
    "max": 39,
    "refs": [
     "lui@5494/549C"
@@ -1039,7 +1039,7 @@
    "id": "ovl030_800A0398",
    "at": "800A0398",
    "jp": "データのロードを行いませんでした。",
-   "en": "",
+   "en": "Data was not loaded.",
    "max": 35,
    "refs": [
     "lui@54A4/54AC"
@@ -1050,7 +1050,7 @@
    "id": "ovl030_800A03BC",
    "at": "800A03BC",
    "jp": "　オートロード中です。",
-   "en": "",
+   "en": "　Auto-loading...",
    "max": 23,
    "refs": [
     "lui@54D0/54D8"
@@ -1061,7 +1061,7 @@
    "id": "ovl030_800A03DC",
    "at": "800A03DC",
    "jp": "　データのロードにしっぱいしました。",
-   "en": "",
+   "en": "　Failed to load the data.",
    "max": 39,
    "refs": [
     "lui@5760/5768"
@@ -1072,7 +1072,7 @@
    "id": "ovl030_800A0404",
    "at": "800A0404",
    "jp": "　　　　データをロードしました。",
-   "en": "",
+   "en": "　　　　Data loaded.",
    "max": 35,
    "refs": [
     "lui@57C8/57D0"
@@ -1083,7 +1083,7 @@
    "id": "ovl030_800A0434",
    "at": "800A0434",
    "jp": "どのプレイヤーのデータを",
-   "en": "",
+   "en": "Which player's data",
    "max": 27,
    "refs": [
     "lui@5AA4/5AAC"
@@ -1094,7 +1094,7 @@
    "id": "ovl030_800A0450",
    "at": "800A0450",
    "jp": "ロードする？",
-   "en": "",
+   "en": "do you want to load?",
    "max": 15,
    "refs": [
     "lui@5AB4/5ABC",
@@ -1107,7 +1107,7 @@
    "id": "ovl030_800A0460",
    "at": "800A0460",
    "jp": "　１Ｐ　　２Ｐ　　３Ｐ　　４Ｐ",
-   "en": "",
+   "en": "　1P　　　2P　　　3P　　　4P",
    "max": 31,
    "refs": [
     "lui@5AC4/5ACC"
@@ -1118,7 +1118,7 @@
    "id": "ovl030_800A0480",
    "at": "800A0480",
    "jp": "ロード方法をえらんでね",
-   "en": "",
+   "en": "Choose how to load!",
    "max": 23,
    "refs": [
     "lui@5B30/5B38"
@@ -1129,7 +1129,7 @@
    "id": "ovl030_800A0498",
    "at": "800A0498",
    "jp": "　セーブデータをロードする",
-   "en": "",
+   "en": "　Load save data",
    "max": 27,
    "refs": [
     "lui@5B40/5B48"
@@ -1140,7 +1140,7 @@
    "id": "ovl030_800A04B4",
    "at": "800A04B4",
    "jp": "　パスワードを使う",
-   "en": "",
+   "en": "　Use a password",
    "max": 19,
    "refs": [
     "lui@5B50/5B58"
@@ -1151,7 +1151,7 @@
    "id": "ovl030_800A04C8",
    "at": "800A04C8",
    "jp": "パスワードをみる？",
-   "en": "",
+   "en": "See the password?",
    "max": 19,
    "refs": [
     "lui@5C80/5C88"
@@ -1162,7 +1162,7 @@
    "id": "ovl030_800A04DC",
    "at": "800A04DC",
    "jp": "武器スキルデータのロードを",
-   "en": "",
+   "en": "Keep loading weapon",
    "max": 27,
    "refs": [
     "lui@5D20/5D28"
@@ -1173,7 +1173,7 @@
    "id": "ovl030_800A04F8",
    "at": "800A04F8",
    "jp": "つづける？",
-   "en": "",
+   "en": "skill data?",
    "max": 11,
    "refs": [
     "lui@5D30/5D38"
@@ -1184,7 +1184,7 @@
    "id": "ovl030_800A0504",
    "at": "800A0504",
    "jp": "セーブする？",
-   "en": "",
+   "en": "do you want to save?",
    "max": 15,
    "refs": [
     "lui@608C/6094",
@@ -1197,7 +1197,7 @@
    "id": "ovl030_800A0514",
    "at": "800A0514",
    "jp": "プレイヤー　は武器スキルデータを",
-   "en": "",
+   "en": "For Player 　, weapon skill data:",
    "max": 35,
    "refs": [
     "ptr@DBB4",
@@ -1209,7 +1209,7 @@
    "id": "ovl030_800A0538",
    "at": "800A0538",
    "jp": "したのは次の武器だよ。",
-   "en": "",
+   "en": "leveled up this game.",
    "max": 23,
    "refs": [
     "ptr@DBAC"
@@ -1220,7 +1220,7 @@
    "id": "ovl030_800A0550",
    "at": "800A0550",
    "jp": "今回のゲームでレベルアップ",
-   "en": "",
+   "en": "These are the weapons that",
    "max": 27,
    "refs": [
     "ptr@DBA8"
@@ -1231,7 +1231,7 @@
    "id": "ovl030_800A056C",
    "at": "800A056C",
    "jp": "４",
-   "en": "",
+   "en": "4",
    "max": 3,
    "refs": [
     "ptr@DBD8"
@@ -1242,7 +1242,7 @@
    "id": "ovl030_800A0570",
    "at": "800A0570",
    "jp": "３",
-   "en": "",
+   "en": "3",
    "max": 3,
    "refs": [
     "ptr@DBD4"
@@ -1253,7 +1253,7 @@
    "id": "ovl030_800A0574",
    "at": "800A0574",
    "jp": "２",
-   "en": "",
+   "en": "2",
    "max": 3,
    "refs": [
     "ptr@DBD0"
@@ -1264,7 +1264,7 @@
    "id": "ovl030_800A0578",
    "at": "800A0578",
    "jp": "１",
-   "en": "",
+   "en": "1",
    "max": 3,
    "refs": [
     "ptr@DBCC"
@@ -1275,7 +1275,7 @@
    "id": "ovl030_800A057C",
    "at": "800A057C",
    "jp": "プレイヤー%sは武器スキルデータを",
-   "en": "",
+   "en": "Player %s, weapon skill data:",
    "max": 35,
    "refs": [
     "lui@6074/607C",
@@ -1287,7 +1287,7 @@
    "id": "ovl030_800A05A0",
    "at": "800A05A0",
    "jp": "この武器スキルデータを",
-   "en": "",
+   "en": "Regarding this weapon skill data,",
    "max": 23,
    "refs": [
     "lui@614C/6154"
@@ -1298,7 +1298,7 @@
    "id": "ovl030_800A05B8",
    "at": "800A05B8",
    "jp": "ＳＬＯＴセレクト",
-   "en": "",
+   "en": "SLOT Select",
    "max": 19,
    "refs": [
     "lui@72E4/72EC"
@@ -1309,7 +1309,7 @@
    "id": "ovl030_800A05CC",
    "at": "800A05CC",
    "jp": "ガイアマスター",
-   "en": "",
+   "en": "GaiaMaster",
    "max": 15,
    "refs": [
     "lui@77A8/77AC"
@@ -1320,7 +1320,7 @@
    "id": "ovl030_800A05DC",
    "at": "800A05DC",
    "jp": "データ",
-   "en": "",
+   "en": "Data",
    "max": 7,
    "refs": [
     "lui@7868/7870"
@@ -1331,7 +1331,7 @@
    "id": "ovl030_800A0624",
    "at": "800A0624",
    "jp": "セーブできないよ",
-   "en": "",
+   "en": "you can't save it.",
    "max": 19,
    "refs": [
     "ptr@DCC8"
@@ -1342,7 +1342,7 @@
    "id": "ovl030_800A0638",
    "at": "800A0638",
    "jp": "同じデータだから、プレイしても",
-   "en": "",
+   "en": "loaded, so even if you play,",
    "max": 31,
    "refs": [
     "ptr@DCC4"
@@ -1353,7 +1353,7 @@
    "id": "ovl030_800A0658",
    "at": "800A0658",
    "jp": "ＯＫ",
-   "en": "",
+   "en": "OK",
    "max": 7,
    "refs": [
     "ptr@DCAC"
@@ -1364,7 +1364,7 @@
    "id": "ovl030_800A0660",
    "at": "800A0660",
    "jp": "パスワード",
-   "en": "",
+   "en": "Password",
    "max": 11,
    "refs": [
     "ptr@DCA8"
@@ -1375,7 +1375,7 @@
    "id": "ovl030_800A066C",
    "at": "800A066C",
    "jp": "書き間違えのないようにね",
-   "en": "",
+   "en": "Copy it down without mistakes!",
    "max": 27,
    "refs": [
     "ptr@DCA0"
@@ -1386,7 +1386,7 @@
    "id": "ovl030_800A0688",
    "at": "800A0688",
    "jp": "武器スキルリストのパスワードだよ",
-   "en": "",
+   "en": "Your weapon skill list password:",
    "max": 35,
    "refs": [
     "ptr@DC9C"
@@ -1397,7 +1397,7 @@
    "id": "ovl030_800A06AC",
    "at": "800A06AC",
    "jp": "もう一度入力しなおしてね！",
-   "en": "",
+   "en": "Please enter it again!",
    "max": 27,
    "refs": [
     "ptr@DC94"
@@ -1408,7 +1408,7 @@
    "id": "ovl030_800A06C8",
    "at": "800A06C8",
    "jp": "パスワードがまちがっているよ！",
-   "en": "",
+   "en": "The password is wrong!",
    "max": 31,
    "refs": [
     "ptr@DC90"
@@ -1419,7 +1419,7 @@
    "id": "ovl030_800A06E8",
    "at": "800A06E8",
    "jp": "えらんで！",
-   "en": "",
+   "en": "the END mark!",
    "max": 11,
    "refs": [
     "ptr@DC8C"
@@ -1430,7 +1430,7 @@
    "id": "ovl030_800A06F4",
    "at": "800A06F4",
    "jp": "入力し終わったら、ＥＮＤマークを",
-   "en": "",
+   "en": "When you're done, choose",
    "max": 35,
    "refs": [
     "ptr@DC88"
@@ -1441,7 +1441,7 @@
    "id": "ovl030_800A0718",
    "at": "800A0718",
    "jp": "パスワードを入力してね！",
-   "en": "",
+   "en": "Enter your password!",
    "max": 27,
    "refs": [
     "ptr@DC84"
@@ -1463,7 +1463,7 @@
    "id": "ovl030_800A07B8",
    "at": "800A07B8",
    "jp": "セーブをするよ",
-   "en": "",
+   "en": "I'll save now.",
    "max": 15,
    "refs": [
     "lui@9EC4/9ECC"
@@ -1474,7 +1474,7 @@
    "id": "ovl030_800A07C8",
    "at": "800A07C8",
    "jp": "（キャンセルするならＸボタン）",
-   "en": "",
+   "en": "(To cancel, press the X button)",
    "max": 31,
    "refs": [
     "lui@9EE4/9EEC"
@@ -1672,7 +1672,7 @@
    "id": "ovl030_800A082C",
    "at": "800A082C",
    "jp": "データロード",
-   "en": "",
+   "en": "Load Data",
    "max": 15,
    "refs": [
     "lui@BE5C/BE64"
@@ -1683,7 +1683,7 @@
    "id": "ovl030_800A083C",
    "at": "800A083C",
    "jp": "データセーブ",
-   "en": "",
+   "en": "Save Data",
    "max": 15,
    "refs": [
     "lui@BE6C/BE70"
@@ -1694,7 +1694,7 @@
    "id": "ovl030_800A084C",
    "at": "800A084C",
    "jp": "スロットチェック中",
-   "en": "",
+   "en": "Checking slot...",
    "max": 19,
    "refs": [
     "lui@BEA4/BEAC"
@@ -1705,7 +1705,7 @@
    "id": "ovl030_800A0860",
    "at": "800A0860",
    "jp": "ファイル%2d",
-   "en": "",
+   "en": "File %2d",
    "max": 11,
    "refs": [
     "lui@C160/C168"
@@ -1716,7 +1716,7 @@
    "id": "ovl030_800A086C",
    "at": "800A086C",
    "jp": "ファイル%2d （未使用）",
-   "en": "",
+   "en": "File %2d (Unused)",
    "max": 23,
    "refs": [
     "lui@C17C/C180"
@@ -1727,7 +1727,7 @@
    "id": "ovl030_800A0884",
    "at": "800A0884",
    "jp": "ファ：",
-   "en": "",
+   "en": "File:",
    "max": 7,
    "refs": [
     "lui@C2E8/C2F0"
@@ -1738,7 +1738,7 @@
    "id": "ovl030_800A088C",
    "at": "800A088C",
    "jp": "ロム：",
-   "en": "",
+   "en": "ROM:",
    "max": 7,
    "refs": [
     "lui@C38C/C394"

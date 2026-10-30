@@ -8,7 +8,7 @@
    "id": "squares03_0028",
    "at": "0028",
    "jp": "ＧＯマス",
-   "en": "",
+   "en": "GO Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "squares03_0050",
    "at": "0050",
    "jp": "がれきの広場",
-   "en": "",
+   "en": "Rubble Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "squares03_0078",
    "at": "0078",
    "jp": "がれきの庭園",
-   "en": "",
+   "en": "Rubble Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "squares03_00A0",
    "at": "00A0",
    "jp": "がれきの遺跡",
-   "en": "",
+   "en": "Rubble Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "squares03_00C8",
    "at": "00C8",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "squares03_00F0",
    "at": "00F0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "squares03_0118",
    "at": "0118",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "squares03_0140",
    "at": "0140",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -80,7 +80,7 @@
    "id": "squares03_0168",
    "at": "0168",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -89,7 +89,7 @@
    "id": "squares03_0190",
    "at": "0190",
    "jp": "忘却の広場",
-   "en": "",
+   "en": "Lost Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -98,7 +98,7 @@
    "id": "squares03_01B8",
    "at": "01B8",
    "jp": "忘却の庭園",
-   "en": "",
+   "en": "Lost Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -107,7 +107,7 @@
    "id": "squares03_01E0",
    "at": "01E0",
    "jp": "忘却の遺跡",
-   "en": "",
+   "en": "Lost Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -116,7 +116,7 @@
    "id": "squares03_0208",
    "at": "0208",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -125,7 +125,7 @@
    "id": "squares03_0230",
    "at": "0230",
    "jp": "大理石の広場",
-   "en": "",
+   "en": "Marble Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -134,7 +134,7 @@
    "id": "squares03_0258",
    "at": "0258",
    "jp": "大理石の庭園",
-   "en": "",
+   "en": "Marble Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -143,7 +143,7 @@
    "id": "squares03_0280",
    "at": "0280",
    "jp": "大理石の遺跡",
-   "en": "",
+   "en": "Marble Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -152,7 +152,7 @@
    "id": "squares03_02A8",
    "at": "02A8",
    "jp": "分岐マス",
-   "en": "",
+   "en": "Fork Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -161,7 +161,7 @@
    "id": "squares03_02D0",
    "at": "02D0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -170,7 +170,7 @@
    "id": "squares03_02F8",
    "at": "02F8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -179,7 +179,7 @@
    "id": "squares03_0320",
    "at": "0320",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -188,7 +188,7 @@
    "id": "squares03_0348",
    "at": "0348",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -197,7 +197,7 @@
    "id": "squares03_0370",
    "at": "0370",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -206,7 +206,7 @@
    "id": "squares03_0398",
    "at": "0398",
    "jp": "所得税マス",
-   "en": "",
+   "en": "Income Tax",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -215,7 +215,7 @@
    "id": "squares03_03C0",
    "at": "03C0",
    "jp": "鏡の広場",
-   "en": "",
+   "en": "Mirror Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -224,7 +224,7 @@
    "id": "squares03_03E8",
    "at": "03E8",
    "jp": "鏡の庭園",
-   "en": "",
+   "en": "Mirror Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -233,7 +233,7 @@
    "id": "squares03_0410",
    "at": "0410",
    "jp": "鏡の遺跡",
-   "en": "",
+   "en": "Mirror Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -242,7 +242,7 @@
    "id": "squares03_0438",
    "at": "0438",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -251,7 +251,7 @@
    "id": "squares03_0460",
    "at": "0460",
    "jp": "風の広場",
-   "en": "",
+   "en": "Wind Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -260,7 +260,7 @@
    "id": "squares03_0488",
    "at": "0488",
    "jp": "風の庭園",
-   "en": "",
+   "en": "Wind Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -269,7 +269,7 @@
    "id": "squares03_04B0",
    "at": "04B0",
    "jp": "風の遺跡",
-   "en": "",
+   "en": "Wind Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -278,7 +278,7 @@
    "id": "squares03_04D8",
    "at": "04D8",
    "jp": "土地税マス",
-   "en": "",
+   "en": "Land Tax",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -287,7 +287,7 @@
    "id": "squares03_0500",
    "at": "0500",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -296,7 +296,7 @@
    "id": "squares03_0528",
    "at": "0528",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -305,7 +305,7 @@
    "id": "squares03_0550",
    "at": "0550",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -314,7 +314,7 @@
    "id": "squares03_0578",
    "at": "0578",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -323,7 +323,7 @@
    "id": "squares03_05A0",
    "at": "05A0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -332,7 +332,7 @@
    "id": "squares03_05C8",
    "at": "05C8",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -341,7 +341,7 @@
    "id": "squares03_05F0",
    "at": "05F0",
    "jp": "雷の広場",
-   "en": "",
+   "en": "Storm Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -350,7 +350,7 @@
    "id": "squares03_0618",
    "at": "0618",
    "jp": "雷の庭園",
-   "en": "",
+   "en": "Storm Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -359,7 +359,7 @@
    "id": "squares03_0640",
    "at": "0640",
    "jp": "雷の遺跡",
-   "en": "",
+   "en": "Storm Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -368,7 +368,7 @@
    "id": "squares03_0668",
    "at": "0668",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -377,7 +377,7 @@
    "id": "squares03_0690",
    "at": "0690",
    "jp": "シリウス広場",
-   "en": "",
+   "en": "Sirius Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -386,7 +386,7 @@
    "id": "squares03_06B8",
    "at": "06B8",
    "jp": "シリウス庭園",
-   "en": "",
+   "en": "Sirius Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -395,7 +395,7 @@
    "id": "squares03_06E0",
    "at": "06E0",
    "jp": "シリウス遺跡",
-   "en": "",
+   "en": "Sirius Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -404,7 +404,7 @@
    "id": "squares03_0708",
    "at": "0708",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -413,7 +413,7 @@
    "id": "squares03_0730",
    "at": "0730",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -422,7 +422,7 @@
    "id": "squares03_0758",
    "at": "0758",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -431,7 +431,7 @@
    "id": "squares03_0780",
    "at": "0780",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -440,7 +440,7 @@
    "id": "squares03_07A8",
    "at": "07A8",
    "jp": "聖地マス",
-   "en": "",
+   "en": "Sanctuary",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -449,7 +449,7 @@
    "id": "squares03_07D0",
    "at": "07D0",
    "jp": "星の広場",
-   "en": "",
+   "en": "Star Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -458,7 +458,7 @@
    "id": "squares03_07F8",
    "at": "07F8",
    "jp": "星の庭園",
-   "en": "",
+   "en": "Star Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -467,7 +467,7 @@
    "id": "squares03_0820",
    "at": "0820",
    "jp": "星の遺跡",
-   "en": "",
+   "en": "Star Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -476,7 +476,7 @@
    "id": "squares03_0848",
    "at": "0848",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -485,7 +485,7 @@
    "id": "squares03_0870",
    "at": "0870",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -494,7 +494,7 @@
    "id": "squares03_0898",
    "at": "0898",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -503,7 +503,7 @@
    "id": "squares03_08C0",
    "at": "08C0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -512,7 +512,7 @@
    "id": "squares03_08E8",
    "at": "08E8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -521,7 +521,7 @@
    "id": "squares03_0910",
    "at": "0910",
    "jp": "分岐マス",
-   "en": "",
+   "en": "Fork Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -530,7 +530,7 @@
    "id": "squares03_0938",
    "at": "0938",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -539,7 +539,7 @@
    "id": "squares03_0960",
    "at": "0960",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -548,7 +548,7 @@
    "id": "squares03_0988",
    "at": "0988",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -557,7 +557,7 @@
    "id": "squares03_09B0",
    "at": "09B0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -566,7 +566,7 @@
    "id": "squares03_09D8",
    "at": "09D8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -575,7 +575,7 @@
    "id": "squares03_0A00",
    "at": "0A00",
    "jp": "月の広場",
-   "en": "",
+   "en": "Moon Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -584,7 +584,7 @@
    "id": "squares03_0A28",
    "at": "0A28",
    "jp": "月の庭園",
-   "en": "",
+   "en": "Moon Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -593,7 +593,7 @@
    "id": "squares03_0A50",
    "at": "0A50",
    "jp": "月の遺跡",
-   "en": "",
+   "en": "Moon Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -602,7 +602,7 @@
    "id": "squares03_0A78",
    "at": "0A78",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -611,7 +611,7 @@
    "id": "squares03_0AA0",
    "at": "0AA0",
    "jp": "太陽の広場",
-   "en": "",
+   "en": "Sun Plaza",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -620,7 +620,7 @@
    "id": "squares03_0AC8",
    "at": "0AC8",
    "jp": "太陽の庭園",
-   "en": "",
+   "en": "Sun Garden",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -629,7 +629,7 @@
    "id": "squares03_0AF0",
    "at": "0AF0",
    "jp": "太陽の遺跡",
-   "en": "",
+   "en": "Sun Ruins",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -638,7 +638,7 @@
    "id": "squares03_0B18",
    "at": "0B18",
    "jp": "分岐マス",
-   "en": "",
+   "en": "Fork Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -647,7 +647,7 @@
    "id": "squares03_0B40",
    "at": "0B40",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -656,7 +656,7 @@
    "id": "squares03_0B68",
    "at": "0B68",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -665,7 +665,7 @@
    "id": "squares03_0B90",
    "at": "0B90",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -674,7 +674,7 @@
    "id": "squares03_0BB8",
    "at": "0BB8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -683,7 +683,7 @@
    "id": "squares03_0BE0",
    "at": "0BE0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -692,7 +692,7 @@
    "id": "squares03_0C08",
    "at": "0C08",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""

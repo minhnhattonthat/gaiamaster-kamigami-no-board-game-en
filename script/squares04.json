@@ -8,7 +8,7 @@
    "id": "squares04_0028",
    "at": "0028",
    "jp": "ＧＯマス",
-   "en": "",
+   "en": "GO Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -17,7 +17,7 @@
    "id": "squares04_0050",
    "at": "0050",
    "jp": "ススキが原",
-   "en": "",
+   "en": "Pampas Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -26,7 +26,7 @@
    "id": "squares04_0078",
    "at": "0078",
    "jp": "ススキ山",
-   "en": "",
+   "en": "Mount Pampas",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -35,7 +35,7 @@
    "id": "squares04_00A0",
    "at": "00A0",
    "jp": "ススキ温泉",
-   "en": "",
+   "en": "Pampas Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -44,7 +44,7 @@
    "id": "squares04_00C8",
    "at": "00C8",
    "jp": "時限分岐マス",
-   "en": "",
+   "en": "Timed Fork",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -53,7 +53,7 @@
    "id": "squares04_00F0",
    "at": "00F0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -62,7 +62,7 @@
    "id": "squares04_0118",
    "at": "0118",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -71,7 +71,7 @@
    "id": "squares04_0140",
    "at": "0140",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -80,7 +80,7 @@
    "id": "squares04_0168",
    "at": "0168",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -89,7 +89,7 @@
    "id": "squares04_0190",
    "at": "0190",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -98,7 +98,7 @@
    "id": "squares04_01B8",
    "at": "01B8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -107,7 +107,7 @@
    "id": "squares04_01E0",
    "at": "01E0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -116,7 +116,7 @@
    "id": "squares04_0208",
    "at": "0208",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -125,7 +125,7 @@
    "id": "squares04_0230",
    "at": "0230",
    "jp": "アシの原",
-   "en": "",
+   "en": "Reed Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -134,7 +134,7 @@
    "id": "squares04_0258",
    "at": "0258",
    "jp": "アシ山",
-   "en": "",
+   "en": "Mount Reed",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -143,7 +143,7 @@
    "id": "squares04_0280",
    "at": "0280",
    "jp": "アシの温泉",
-   "en": "",
+   "en": "Reed Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -152,7 +152,7 @@
    "id": "squares04_02A8",
    "at": "02A8",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -161,7 +161,7 @@
    "id": "squares04_02D0",
    "at": "02D0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -170,7 +170,7 @@
    "id": "squares04_02F8",
    "at": "02F8",
    "jp": "所得税マス",
-   "en": "",
+   "en": "Income Tax",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -179,7 +179,7 @@
    "id": "squares04_0320",
    "at": "0320",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -188,7 +188,7 @@
    "id": "squares04_0348",
    "at": "0348",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -197,7 +197,7 @@
    "id": "squares04_0370",
    "at": "0370",
    "jp": "むじな原",
-   "en": "",
+   "en": "Badger Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -206,7 +206,7 @@
    "id": "squares04_0398",
    "at": "0398",
    "jp": "むじな山",
-   "en": "",
+   "en": "Mount Badger",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -215,7 +215,7 @@
    "id": "squares04_03C0",
    "at": "03C0",
    "jp": "むじな温泉",
-   "en": "",
+   "en": "Badger Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -224,7 +224,7 @@
    "id": "squares04_03E8",
    "at": "03E8",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -233,7 +233,7 @@
    "id": "squares04_0410",
    "at": "0410",
    "jp": "カッパ原",
-   "en": "",
+   "en": "Kappa Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -242,7 +242,7 @@
    "id": "squares04_0438",
    "at": "0438",
    "jp": "カッパ山",
-   "en": "",
+   "en": "Mount Kappa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -251,7 +251,7 @@
    "id": "squares04_0460",
    "at": "0460",
    "jp": "カッパ温泉",
-   "en": "",
+   "en": "Kappa Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -260,7 +260,7 @@
    "id": "squares04_0488",
    "at": "0488",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -269,7 +269,7 @@
    "id": "squares04_04B0",
    "at": "04B0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -278,7 +278,7 @@
    "id": "squares04_04D8",
    "at": "04D8",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -287,7 +287,7 @@
    "id": "squares04_0500",
    "at": "0500",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -296,7 +296,7 @@
    "id": "squares04_0528",
    "at": "0528",
    "jp": "戦闘マス",
-   "en": "",
+   "en": "Battle Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -305,7 +305,7 @@
    "id": "squares04_0550",
    "at": "0550",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -314,7 +314,7 @@
    "id": "squares04_0578",
    "at": "0578",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -323,7 +323,7 @@
    "id": "squares04_05A0",
    "at": "05A0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -332,7 +332,7 @@
    "id": "squares04_05C8",
    "at": "05C8",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -341,7 +341,7 @@
    "id": "squares04_05F0",
    "at": "05F0",
    "jp": "忍が原",
-   "en": "",
+   "en": "Ninja Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -350,7 +350,7 @@
    "id": "squares04_0618",
    "at": "0618",
    "jp": "忍び山",
-   "en": "",
+   "en": "Mount Ninja",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -359,7 +359,7 @@
    "id": "squares04_0640",
    "at": "0640",
    "jp": "忍々温泉",
-   "en": "",
+   "en": "Nin-Nin Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -368,7 +368,7 @@
    "id": "squares04_0668",
    "at": "0668",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -377,7 +377,7 @@
    "id": "squares04_0690",
    "at": "0690",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -386,7 +386,7 @@
    "id": "squares04_06B8",
    "at": "06B8",
    "jp": "土地税マス",
-   "en": "",
+   "en": "Land Tax",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -395,7 +395,7 @@
    "id": "squares04_06E0",
    "at": "06E0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -404,7 +404,7 @@
    "id": "squares04_0708",
    "at": "0708",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -413,7 +413,7 @@
    "id": "squares04_0730",
    "at": "0730",
    "jp": "オニが原",
-   "en": "",
+   "en": "Oni Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -422,7 +422,7 @@
    "id": "squares04_0758",
    "at": "0758",
    "jp": "オニの山",
-   "en": "",
+   "en": "Mount Oni",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -431,7 +431,7 @@
    "id": "squares04_0780",
    "at": "0780",
    "jp": "オニの温泉",
-   "en": "",
+   "en": "Oni Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -440,7 +440,7 @@
    "id": "squares04_07A8",
    "at": "07A8",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -449,7 +449,7 @@
    "id": "squares04_07D0",
    "at": "07D0",
    "jp": "テング原",
-   "en": "",
+   "en": "Tengu Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -458,7 +458,7 @@
    "id": "squares04_07F8",
    "at": "07F8",
    "jp": "テング山",
-   "en": "",
+   "en": "Mount Tengu",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -467,7 +467,7 @@
    "id": "squares04_0820",
    "at": "0820",
    "jp": "テング温泉",
-   "en": "",
+   "en": "Tengu Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -476,7 +476,7 @@
    "id": "squares04_0848",
    "at": "0848",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -485,7 +485,7 @@
    "id": "squares04_0870",
    "at": "0870",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -494,7 +494,7 @@
    "id": "squares04_0898",
    "at": "0898",
    "jp": "酒場マス",
-   "en": "",
+   "en": "Tavern Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -503,7 +503,7 @@
    "id": "squares04_08C0",
    "at": "08C0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -512,7 +512,7 @@
    "id": "squares04_08E8",
    "at": "08E8",
    "jp": "聖地マス",
-   "en": "",
+   "en": "Sanctuary",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -521,7 +521,7 @@
    "id": "squares04_0910",
    "at": "0910",
    "jp": "天女原",
-   "en": "",
+   "en": "Nymph Meadow",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -530,7 +530,7 @@
    "id": "squares04_0938",
    "at": "0938",
    "jp": "天女山",
-   "en": "",
+   "en": "Mount Nymph",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -539,7 +539,7 @@
    "id": "squares04_0960",
    "at": "0960",
    "jp": "天女温泉",
-   "en": "",
+   "en": "Nymph Spa",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -548,7 +548,7 @@
    "id": "squares04_0988",
    "at": "0988",
    "jp": "イベントマス",
-   "en": "",
+   "en": "Event Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -557,7 +557,7 @@
    "id": "squares04_09B0",
    "at": "09B0",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -566,7 +566,7 @@
    "id": "squares04_09D8",
    "at": "09D8",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -575,7 +575,7 @@
    "id": "squares04_0A00",
    "at": "0A00",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -584,7 +584,7 @@
    "id": "squares04_0A28",
    "at": "0A28",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -593,7 +593,7 @@
    "id": "squares04_0A50",
    "at": "0A50",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""
@@ -602,7 +602,7 @@
    "id": "squares04_0A78",
    "at": "0A78",
    "jp": "ＯＢＪマス",
-   "en": "",
+   "en": "OBJ Square",
    "max": 13,
    "refs": [],
    "notes": ""

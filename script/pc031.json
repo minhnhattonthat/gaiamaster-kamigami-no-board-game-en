@@ -8,7 +8,7 @@
    "id": "pc031_0520",
    "at": "0520",
    "jp": "よっ！",
-   "en": "",
+   "en": "Hup!",
    "max": null,
    "refs": [
     "off@104"
@@ -19,7 +19,7 @@
    "id": "pc031_0528",
    "at": "0528",
    "jp": "ってな",
-   "en": "",
+   "en": "nothing slips through,\" they say.",
    "max": null,
    "refs": [
     "off@98"
@@ -189,7 +189,7 @@
    "id": "pc031_0534",
    "at": "0534",
    "jp": "当たるも八卦、当たらぬも八卦",
-   "en": "",
+   "en": "Some fortunes hit, some miss.",
    "max": null,
    "refs": [
     "off@504"
@@ -200,7 +200,7 @@
    "id": "pc031_0554",
    "at": "0554",
    "jp": "キント雲の術！！",
-   "en": "",
+   "en": "Kinto Cloud Art!!",
    "max": null,
    "refs": [
     "off@4F4"
@@ -211,7 +211,7 @@
    "id": "pc031_0568",
    "at": "0568",
    "jp": "やりやがったな！",
-   "en": "",
+   "en": "You've done it now!",
    "max": null,
    "refs": [
     "off@4E4"
@@ -222,7 +222,7 @@
    "id": "pc031_057C",
    "at": "057C",
    "jp": "俺さまはうらみも恩も忘れないぜ！",
-   "en": "",
+   "en": "I never forget a grudge or a favor!",
    "max": null,
    "refs": [
     "off@4D4"
@@ -233,7 +233,7 @@
    "id": "pc031_05A0",
    "at": "05A0",
    "jp": "多謝！（ドゥオシェイ）",
-   "en": "",
+   "en": "Duo xie! Many thanks!",
    "max": null,
    "refs": [
     "off@4C4"
@@ -244,7 +244,7 @@
    "id": "pc031_05B8",
    "at": "05B8",
    "jp": "はぁ～っ！",
-   "en": "",
+   "en": "Haaah~!",
    "max": null,
    "refs": [
     "off@4B4"
@@ -255,7 +255,7 @@
    "id": "pc031_05C4",
    "at": "05C4",
    "jp": "いよっ！",
-   "en": "",
+   "en": "Hup!",
    "max": null,
    "refs": [
     "off@4A4"
@@ -266,7 +266,7 @@
    "id": "pc031_05D0",
    "at": "05D0",
    "jp": "まあ当然かな",
-   "en": "",
+   "en": "Well, naturally.",
    "max": null,
    "refs": [
     "off@494"
@@ -277,7 +277,7 @@
    "id": "pc031_05E0",
    "at": "05E0",
    "jp": "へへへ…",
-   "en": "",
+   "en": "Heh heh heh...",
    "max": null,
    "refs": [
     "off@484"
@@ -288,7 +288,7 @@
    "id": "pc031_05EC",
    "at": "05EC",
    "jp": "くっちまうぞ！！",
-   "en": "",
+   "en": "I'll eat you up!!",
    "max": null,
    "refs": [
     "off@474"
@@ -299,7 +299,7 @@
    "id": "pc031_0600",
    "at": "0600",
    "jp": "くらえッ！",
-   "en": "",
+   "en": "Take this!",
    "max": null,
    "refs": [
     "off@464"
@@ -310,7 +310,7 @@
    "id": "pc031_060C",
    "at": "060C",
    "jp": "はあああっ！",
-   "en": "",
+   "en": "Haaaah!",
    "max": null,
    "refs": [
     "off@454"
@@ -321,7 +321,7 @@
    "id": "pc031_061C",
    "at": "061C",
    "jp": "俺さまが遊んでやるぜ！",
-   "en": "",
+   "en": "This great one'll play with you!",
    "max": null,
    "refs": [
     "off@444"
@@ -332,7 +332,7 @@
    "id": "pc031_0634",
    "at": "0634",
    "jp": "手ぇかしてやるよ！",
-   "en": "",
+   "en": "I'll lend you a hand!",
    "max": null,
    "refs": [
     "off@438"
@@ -343,7 +343,7 @@
    "id": "pc031_0648",
    "at": "0648",
    "jp": "しょうがねぇなあ、",
-   "en": "",
+   "en": "Oh, all right,",
    "max": null,
    "refs": [
     "off@434"
@@ -354,7 +354,7 @@
    "id": "pc031_065C",
    "at": "065C",
    "jp": "あじわいやがれ！",
-   "en": "",
+   "en": "have a taste!",
    "max": null,
    "refs": [
     "off@428"
@@ -365,7 +365,7 @@
    "id": "pc031_0670",
    "at": "0670",
    "jp": "ウオウの神鉄（しんてつ）、",
-   "en": "",
+   "en": "Here's King Yu's divine iron,",
    "max": null,
    "refs": [
     "off@424"
@@ -376,7 +376,7 @@
    "id": "pc031_068C",
    "at": "068C",
    "jp": "ひと飛び十万八千里！",
-   "en": "",
+   "en": "108,000 leagues in one leap!",
    "max": null,
    "refs": [
     "off@414"
@@ -387,7 +387,7 @@
    "id": "pc031_06A4",
    "at": "06A4",
    "jp": "よしよし、いい子だね！",
-   "en": "",
+   "en": "There, there, good kid!",
    "max": null,
    "refs": [
     "off@404"
@@ -398,7 +398,7 @@
    "id": "pc031_06BC",
    "at": "06BC",
    "jp": "やったー！",
-   "en": "",
+   "en": "All right!",
    "max": null,
    "refs": [
     "off@3F4"
@@ -409,7 +409,7 @@
    "id": "pc031_06C8",
    "at": "06C8",
    "jp": "ありがとよ！",
-   "en": "",
+   "en": "Thanks!",
    "max": null,
    "refs": [
     "off@3E4"
@@ -420,7 +420,7 @@
    "id": "pc031_06D8",
    "at": "06D8",
    "jp": "あ～、やべぇ～",
-   "en": "",
+   "en": "Ahh, I'm in trouble~",
    "max": null,
    "refs": [
     "off@3D4"
@@ -431,7 +431,7 @@
    "id": "pc031_06E8",
    "at": "06E8",
    "jp": "まずいよなぁ…",
-   "en": "",
+   "en": "This is bad...",
    "max": null,
    "refs": [
     "off@3C4"
@@ -442,7 +442,7 @@
    "id": "pc031_06F8",
    "at": "06F8",
    "jp": "あ～あ、どうするよ～",
-   "en": "",
+   "en": "Aww, now what~",
    "max": null,
    "refs": [
     "off@3B4"
@@ -453,7 +453,7 @@
    "id": "pc031_0710",
    "at": "0710",
    "jp": "ひでぇな～",
-   "en": "",
+   "en": "That's harsh~",
    "max": null,
    "refs": [
     "off@3A4"
@@ -464,7 +464,7 @@
    "id": "pc031_071C",
    "at": "071C",
    "jp": "けえれけえれ！",
-   "en": "",
+   "en": "Get lost, get lost!",
    "max": null,
    "refs": [
     "off@394"
@@ -475,7 +475,7 @@
    "id": "pc031_072C",
    "at": "072C",
    "jp": "え～っ！",
-   "en": "",
+   "en": "Whaaat!",
    "max": null,
    "refs": [
     "off@384"
@@ -486,7 +486,7 @@
    "id": "pc031_0738",
    "at": "0738",
    "jp": "いつかなかしちゃる！",
-   "en": "",
+   "en": "Someday I'll make you cry!",
    "max": null,
    "refs": [
     "off@374"
@@ -497,7 +497,7 @@
    "id": "pc031_0750",
    "at": "0750",
    "jp": "こうかいするぜ！！",
-   "en": "",
+   "en": "You'll regret this!!",
    "max": null,
    "refs": [
     "off@364"
@@ -508,7 +508,7 @@
    "id": "pc031_0764",
    "at": "0764",
    "jp": "アッタマきた！",
-   "en": "",
+   "en": "That ticks me off!",
    "max": null,
    "refs": [
     "off@354"
@@ -519,7 +519,7 @@
    "id": "pc031_0774",
    "at": "0774",
    "jp": "ちっくしょう！",
-   "en": "",
+   "en": "Damn it!",
    "max": null,
    "refs": [
     "off@344"
@@ -530,7 +530,7 @@
    "id": "pc031_0784",
    "at": "0784",
    "jp": "おぼえてろ！！",
-   "en": "",
+   "en": "You'll pay for this!!",
    "max": null,
    "refs": [
     "off@334"
@@ -541,7 +541,7 @@
    "id": "pc031_0794",
    "at": "0794",
    "jp": "てんめぇ～！！",
-   "en": "",
+   "en": "Why, you~!!",
    "max": null,
    "refs": [
     "off@324"
@@ -552,7 +552,7 @@
    "id": "pc031_07A4",
    "at": "07A4",
    "jp": "やだやだ！なっとくいかねーっ！！",
-   "en": "",
+   "en": "No, no! I don't accept this!!",
    "max": null,
    "refs": [
     "off@314"
@@ -563,7 +563,7 @@
    "id": "pc031_07C8",
    "at": "07C8",
    "jp": "やらねえとな",
-   "en": "",
+   "en": "shine a little, right?",
    "max": null,
    "refs": [
     "off@308"
@@ -574,7 +574,7 @@
    "id": "pc031_07D8",
    "at": "07D8",
    "jp": "ちょっとはワキ役に花を持たせて",
-   "en": "",
+   "en": "Gotta let the supporting cast",
    "max": null,
    "refs": [
     "off@304"
@@ -585,7 +585,7 @@
    "id": "pc031_07F8",
    "at": "07F8",
    "jp": "まあ俺さまも神さまだし？",
-   "en": "",
+   "en": "Well, this great one IS a god, y'know?",
    "max": null,
    "refs": [
     "off@2F4"
@@ -596,7 +596,7 @@
    "id": "pc031_0814",
    "at": "0814",
    "jp": "へん！ざっとこんなもんさ",
-   "en": "",
+   "en": "Heh! That's how it's done.",
    "max": null,
    "refs": [
     "off@2E4"
@@ -607,7 +607,7 @@
    "id": "pc031_0830",
    "at": "0830",
    "jp": "このへんにしとけ！",
-   "en": "",
+   "en": "Let's leave it at that!",
    "max": null,
    "refs": [
     "off@2D4"
@@ -618,7 +618,7 @@
    "id": "pc031_0844",
    "at": "0844",
    "jp": "エモノなんざどうだっていいぜ",
-   "en": "",
+   "en": "Weapons? Who cares!",
    "max": null,
    "refs": [
     "off@2C4"
@@ -629,7 +629,7 @@
    "id": "pc031_0864",
    "at": "0864",
    "jp": "ごめすっ！！",
-   "en": "",
+   "en": "Gomesu!!",
    "max": null,
    "refs": [
     "off@2B4"
@@ -640,7 +640,7 @@
    "id": "pc031_0874",
    "at": "0874",
    "jp": "ほんこんっ！！",
-   "en": "",
+   "en": "Hong Kong!!",
    "max": null,
    "refs": [
     "off@2A4"
@@ -651,7 +651,7 @@
    "id": "pc031_0884",
    "at": "0884",
    "jp": "ちゅんりー！",
-   "en": "",
+   "en": "Chun-Li!",
    "max": null,
    "refs": [
     "off@294"
@@ -662,7 +662,7 @@
    "id": "pc031_0894",
    "at": "0894",
    "jp": "うわっ！",
-   "en": "",
+   "en": "Whoa!",
    "max": null,
    "refs": [
     "off@284"
@@ -673,7 +673,7 @@
    "id": "pc031_08A0",
    "at": "08A0",
    "jp": "がっ！！",
-   "en": "",
+   "en": "Gah!!",
    "max": null,
    "refs": [
     "off@274"
@@ -684,7 +684,7 @@
    "id": "pc031_08AC",
    "at": "08AC",
    "jp": "ぐばぁ！",
-   "en": "",
+   "en": "Gwaah!",
    "max": null,
    "refs": [
     "off@264"
@@ -695,7 +695,7 @@
    "id": "pc031_08B8",
    "at": "08B8",
    "jp": "ほげっ！",
-   "en": "",
+   "en": "Bwagh!",
    "max": null,
    "refs": [
     "off@254"
@@ -706,7 +706,7 @@
    "id": "pc031_08C4",
    "at": "08C4",
    "jp": "俺さまの神通力を見な！",
-   "en": "",
+   "en": "Behold this great one's divine power!",
    "max": null,
    "refs": [
     "off@244"
@@ -717,7 +717,7 @@
    "id": "pc031_08DC",
    "at": "08DC",
    "jp": "変われっ！！",
-   "en": "",
+   "en": "Transform!!",
    "max": null,
    "refs": [
     "off@234"
@@ -728,7 +728,7 @@
    "id": "pc031_08EC",
    "at": "08EC",
    "jp": "バカなー！！",
-   "en": "",
+   "en": "No wayyy!!",
    "max": null,
    "refs": [
     "off@224"
@@ -739,7 +739,7 @@
    "id": "pc031_08FC",
    "at": "08FC",
    "jp": "どーなってんだよお！？",
-   "en": "",
+   "en": "What the heck is going on!?",
    "max": null,
    "refs": [
     "off@214"
@@ -750,7 +750,7 @@
    "id": "pc031_0914",
    "at": "0914",
    "jp": "おおっ！？すっげー！",
-   "en": "",
+   "en": "Whoa!? Awesome!",
    "max": null,
    "refs": [
     "off@204"
@@ -761,7 +761,7 @@
    "id": "pc031_092C",
    "at": "092C",
    "jp": "言うな！",
-   "en": "",
+   "en": "\"Keeper of Horses\"!",
    "max": null,
    "refs": [
     "off@1F8"
@@ -772,7 +772,7 @@
    "id": "pc031_0938",
    "at": "0938",
    "jp": "「弼馬温（ひつばおん）」って",
-   "en": "",
+   "en": "Don't you call me",
    "max": null,
    "refs": [
     "off@1F4"
@@ -783,7 +783,7 @@
    "id": "pc031_0958",
    "at": "0958",
    "jp": "やるかァ！？",
-   "en": "",
+   "en": "Wanna go!?",
    "max": null,
    "refs": [
     "off@1E4"
@@ -794,7 +794,7 @@
    "id": "pc031_0968",
    "at": "0968",
    "jp": "俺さまの神通力を見な！！",
-   "en": "",
+   "en": "Behold this great one's divine power!!",
    "max": null,
    "refs": [
     "off@1D8"
@@ -805,7 +805,7 @@
    "id": "pc031_0984",
    "at": "0984",
    "jp": "本気出すぜ！",
-   "en": "",
+   "en": "Time to get serious!",
    "max": null,
    "refs": [
     "off@1D4"
@@ -816,7 +816,7 @@
    "id": "pc031_0994",
    "at": "0994",
    "jp": "この孫さまを怒らせるとこわいぜ！",
-   "en": "",
+   "en": "Anger the great Son and you'll pay!",
    "max": null,
    "refs": [
     "off@1C4"
@@ -827,7 +827,7 @@
    "id": "pc031_09B8",
    "at": "09B8",
    "jp": "肉モチにするぞコラァ",
-   "en": "",
+   "en": "I'll pound you into mincemeat, punk!",
    "max": null,
    "refs": [
     "off@1B4"
@@ -838,7 +838,7 @@
    "id": "pc031_09D0",
    "at": "09D0",
    "jp": "むえきな殺生はよくねえぜ",
-   "en": "",
+   "en": "Needless killing ain't good.",
    "max": null,
    "refs": [
     "off@1A4"
@@ -849,7 +849,7 @@
    "id": "pc031_09EC",
    "at": "09EC",
    "jp": "あっ！てめーズルすんなよ！",
-   "en": "",
+   "en": "Hey! No cheating, you!",
    "max": null,
    "refs": [
     "off@194"
@@ -860,7 +860,7 @@
    "id": "pc031_0A08",
    "at": "0A08",
    "jp": "「君子は旧悪をおもわず」って言うぜ",
-   "en": "",
+   "en": "\"Gentlemen let old wrongs lie,\" y'know.",
    "max": null,
    "refs": [
     "off@184"
@@ -871,7 +871,7 @@
    "id": "pc031_0A2C",
    "at": "0A2C",
    "jp": "来やがらねえ",
-   "en": "",
+   "en": "even come to say hello.",
    "max": null,
    "refs": [
     "off@178"
@@ -882,7 +882,7 @@
    "id": "pc031_0A3C",
    "at": "0A3C",
    "jp": "土地神のヤロー、あいさつにも",
-   "en": "",
+   "en": "That jerk of a land god didn't",
    "max": null,
    "refs": [
     "off@174"
@@ -893,7 +893,7 @@
    "id": "pc031_0A5C",
    "at": "0A5C",
    "jp": "四象、八卦を生ず…",
-   "en": "",
+   "en": "Four Images birth Eight Trigrams...",
    "max": null,
    "refs": [
     "off@16C"
@@ -904,7 +904,7 @@
    "id": "pc031_0A70",
    "at": "0A70",
    "jp": "両儀、四象を生じ、",
-   "en": "",
+   "en": "Two Poles birth Four Images,",
    "max": null,
    "refs": [
     "off@168"
@@ -915,7 +915,7 @@
    "id": "pc031_0A84",
    "at": "0A84",
    "jp": "大極、両儀を生じ、",
-   "en": "",
+   "en": "The Great Ultimate births Two Poles,",
    "max": null,
    "refs": [
     "off@164"
@@ -926,7 +926,7 @@
    "id": "pc031_0A98",
    "at": "0A98",
    "jp": "また仙丹でももらってくるか",
-   "en": "",
+   "en": "Maybe I'll go get more elixir pills.",
    "max": null,
    "refs": [
     "off@154"
@@ -937,7 +937,7 @@
    "id": "pc031_0AB4",
    "at": "0AB4",
    "jp": "西王母（せいおうぼ）んとこの",
-   "en": "",
+   "en": "from Seiobo's place.",
    "max": null,
    "refs": [
     "off@148"
@@ -948,7 +948,7 @@
    "id": "pc031_0AD4",
    "at": "0AD4",
    "jp": "あ～、桃くいてえな",
-   "en": "",
+   "en": "Ahh, I'm craving some peaches",
    "max": null,
    "refs": [
     "off@144"
@@ -959,7 +959,7 @@
    "id": "pc031_0AE8",
    "at": "0AE8",
    "jp": "ハックショイ！！",
-   "en": "",
+   "en": "Ah-CHOO!!",
    "max": null,
    "refs": [
     "off@134"
@@ -970,7 +970,7 @@
    "id": "pc031_0AFC",
    "at": "0AFC",
    "jp": "ふわ～あ",
-   "en": "",
+   "en": "Hwaaah~",
    "max": null,
    "refs": [
     "off@124"
@@ -981,7 +981,7 @@
    "id": "pc031_0B08",
    "at": "0B08",
    "jp": "腹へったなァ",
-   "en": "",
+   "en": "Man, I'm hungry...",
    "max": null,
    "refs": [
     "off@114"
@@ -992,7 +992,7 @@
    "id": "pc031_0B18",
    "at": "0B18",
    "jp": "重さ一万三千五百斤だぜ！",
-   "en": "",
+   "en": "It weighs 13,500 catties!",
    "max": null,
    "refs": [
     "off@F4"
@@ -1003,7 +1003,7 @@
    "id": "pc031_0B34",
    "at": "0B34",
    "jp": "俺の金こ棒は痛いぜ！！",
-   "en": "",
+   "en": "My Golden Hoop Rod really hurts!!",
    "max": null,
    "refs": [
     "off@E4"
@@ -1014,7 +1014,7 @@
    "id": "pc031_0B4C",
    "at": "0B4C",
    "jp": "この俺さまのことよ！",
-   "en": "",
+   "en": "that's me, the great one!",
    "max": null,
    "refs": [
     "off@D8"
@@ -1025,7 +1025,7 @@
    "id": "pc031_0B64",
    "at": "0B64",
    "jp": "あ～あ、たいくつ！",
-   "en": "",
+   "en": "Ahh, I'm so bored!",
    "max": null,
    "refs": [
     "off@C4"
@@ -1036,7 +1036,7 @@
    "id": "pc031_0B78",
    "at": "0B78",
    "jp": "ハイッ！",
-   "en": "",
+   "en": "Hyah!",
    "max": null,
    "refs": [
     "off@B4"
@@ -1047,7 +1047,7 @@
    "id": "pc031_0B84",
    "at": "0B84",
    "jp": "この孫さまは無敵だぜ！",
-   "en": "",
+   "en": "The great Son is invincible!",
    "max": null,
    "refs": [
     "off@A4"
@@ -1058,7 +1058,7 @@
    "id": "pc031_0B9C",
    "at": "0B9C",
    "jp": "「天綱恢々、疎にしてもらさず」",
-   "en": "",
+   "en": "\"Heaven's net is vast, yet",
    "max": null,
    "refs": [
     "off@94"
@@ -1069,7 +1069,7 @@
    "id": "pc031_0BBC",
    "at": "0BBC",
    "jp": "（かがんきんせい）はお見通しだぜ",
-   "en": "",
+   "en": "see right through you!",
    "max": null,
    "refs": [
     "off@88"
@@ -1080,7 +1080,7 @@
    "id": "pc031_0BE0",
    "at": "0BE0",
    "jp": "孫さまの火眼金晴",
-   "en": "",
+   "en": "The great Son's fiery golden eyes",
    "max": null,
    "refs": [
     "off@84"
@@ -1091,7 +1091,7 @@
    "id": "pc031_0BF4",
    "at": "0BF4",
    "jp": "この孫さまがあいてしてやるぜ！",
-   "en": "",
+   "en": "The great Son'll take you on!",
    "max": null,
    "refs": [
     "off@74"
@@ -1102,7 +1102,7 @@
    "id": "pc031_0C14",
    "at": "0C14",
    "jp": "ガンダーラ…",
-   "en": "",
+   "en": "Gandhara...",
    "max": null,
    "refs": [
     "off@64"
@@ -1113,7 +1113,7 @@
    "id": "pc031_0C24",
    "at": "0C24",
    "jp": "おう、かかってきやがれ！！",
-   "en": "",
+   "en": "Yeah, bring it on!!",
    "max": null,
    "refs": [
     "off@54"
@@ -1124,7 +1124,7 @@
    "id": "pc031_0C40",
    "at": "0C40",
    "jp": "まあ、俺さまもやっぱり神だし？",
-   "en": "",
+   "en": "Well, this great one IS a god, y'know?",
    "max": null,
    "refs": [
     "off@44"
@@ -1135,7 +1135,7 @@
    "id": "pc031_0C60",
    "at": "0C60",
    "jp": "あらよっと！",
-   "en": "",
+   "en": "Alley-oop!",
    "max": null,
    "refs": [
     "off@34"
@@ -1146,7 +1146,7 @@
    "id": "pc031_0C70",
    "at": "0C70",
    "jp": "みょうな所に来ちまったな",
-   "en": "",
+   "en": "Ended up someplace weird, huh.",
    "max": null,
    "refs": [
     "off@24"
@@ -1157,7 +1157,7 @@
    "id": "pc031_0C8C",
    "at": "0C8C",
    "jp": "この俺さまのことよ！！",
-   "en": "",
+   "en": "that's me, the great one!!",
    "max": null,
    "refs": [
     "off@18"
@@ -1168,7 +1168,7 @@
    "id": "pc031_0CA4",
    "at": "0CA4",
    "jp": "斉天大聖孫悟空とは",
-   "en": "",
+   "en": "The Great Sage Son Gokuh,",
    "max": null,
    "refs": [
     "off@14",
@@ -1180,7 +1180,7 @@
    "id": "pc031_0CB8",
    "at": "0CB8",
    "jp": "いっちょうもんでやっか！",
-   "en": "",
+   "en": "Guess I'll give you a workout!",
    "max": null,
    "refs": [
     "off@4"
