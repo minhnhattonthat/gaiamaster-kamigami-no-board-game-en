@@ -54,6 +54,9 @@ PADDING_EXCEPTIONS = {
     "ovl010_800A0EB4": ("を使った！", " used!"),
     "ovl057_8009F9E0": (" 資産", "Assets"),
 }
+# Shared continuation at ovl033 call sites 136C0 then 136C8. Storage
+# adjacency is wrong here: the Palace line is also used in Gokuh's opening.
+CONTINUATIONS = {"ovl033_800A2364": "ovl033_800A20E4"}
 ROWS_SOFT, ROWS_HARD, CHARS_SOFT = 120, 160, 3000
 SPLIT = re.compile(r"[。！？」…」）～＠!?.]$")
 
@@ -363,6 +366,7 @@ def lint():
     keep = insert.keep_jp()
     for b in insert.blocks():
         ss = b["strings"]
+        by_id = {e["id"]: e for e in ss}
         for i, e in enumerate(ss):
             if not needs_tl(e, keep):
                 continue
@@ -372,6 +376,8 @@ def lint():
                 print("ERROR %s: required English translation is empty" % e["id"])
                 continue
             near = tuple(ss[j]["en"].strip(BLANK) if 0 <= j < len(ss) else "" for j in (i - 1, i + 1))
+            if e["id"] in CONTINUATIONS:
+                near = near[0], by_id[CONTINUATIONS[e["id"]]]["en"].strip(BLANK)
             bx = windows.box(b, e)
             lead, c, trail = core(e["jp"])
             m = insert.budget(b, e)

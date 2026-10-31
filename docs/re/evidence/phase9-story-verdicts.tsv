@@ -1,0 +1,45 @@
+chapter01	ok	Independent complete text review: first rival established without premature reveals.
+chapter02	ok	Impostor setup retained for chapter 17 callback.
+chapter03	ok	Witch entrapment and Belial's teasing menace retained.
+chapter03_female	ok	Pageant alternative retains Miss GaiaMaster tone; not a post-finale chapter.
+chapter04	ok	Cooperation premise matches team objectives.
+chapter05	ok	Swordfight spectacle and survival challenge retain tone.
+chapter06	ok	Bandit confrontation follows exploration naturally.
+chapter07	ok	Forced proposal and defeating Tiara to refuse preserve the joke.
+chapter07_female	ok	Traveling warrior alternative and training premise coherent.
+chapter08	ok	Debt plot matches Goliath's established greed.
+chapter09	ok	Qualifiers establish chapter 10 payoff.
+chapter10	ok	Tournament follows qualifiers; Belial's voice remains consistent.
+chapter11	ok	Ninja shadow/daylight contrast retained.
+chapter12	ok	Succession crisis does not invent political details.
+chapter13	ok	Great Sage title parody carries Gokuh's rampage joke.
+chapter14	ok	East/West rivalry and team premise are coherent.
+chapter15	ok	Gods and mortals oppose Dante; objective identifies him correctly.
+chapter16	ok	Prices and livelihood retain economic comedy.
+chapter17	ok	Impostor revenge explicitly pays off chapter 2.
+chapter18	ok	Fame leads into suspicious underground invitation.
+chapter19	ok	Demon Lord return pays off chapter 15 and raises stakes.
+chapter20	ok	Sky-city introduction preserves final reveal; all final overlays reviewed separately.
+cinematics	fixed	Independent full review and full 638-pair recheck: Palace callback and GaiaMaster name fixed; no Critical/Important left. Static callsite order is not a runtime route.
+epilogue_00	ok	Four distinct Jiggar rank outcomes; not continuations of Erina's story.
+epilogue_01	ok	Four Sinbad fortune/banditry/exploitation/imprisonment alternatives coherent.
+epilogue_02	ok	Four Hayate hierarchy/survival outcomes retain contrasts.
+epilogue_03	ok	Four Agathe outcomes distinguish material comfort from emotional fulfillment.
+epilogue_04	ok	Four Meg-meg marriage outcomes retain differing happiness and exploitation.
+epilogue_05	ok	Four Goliath wealth/advancement/debt/ruin outcomes clear.
+epilogue_06	ok	Four Tiara royal outcomes retain their separate consequences.
+epilogue_07	fixed	Independent full recheck: life of luxury replaces calque; four rank alternatives remain distinct.
+epilogue_08	ok	Four Gokuh divine-freedom/imprisonment/power outcomes preserve comic extremes.
+epilogue_09	ok	Four Yasutsuna fame/fief/exile/denied-seppuku outcomes preserve honor progression.
+epilogue_10	ok	Four Dante dominion/power/defeat/abandonment alternatives clear.
+final_038	ok	Jiggar's Elixir motivation and determination consistent.
+final_039	ok	Sinbad's wealth/adventure arc and rogue voice retained.
+final_040	ok	Hayate's restrained departure fits survival theme.
+final_041	ok	Agathe's loneliness remains unresolved rather than falsely cured.
+final_042	ok	Meg-meg's romantic expectations and renewed crush retain the joke.
+final_043	ok	Goliath's demands and corrupt ambition retain escalating comedy.
+final_044	ok	Tiara's theatrical Justice Saber confrontation preserves alter ego.
+final_045	ok	Galahad's wish to end the contest follows his duty to ordinary people.
+final_046	ok	Gokuh's machine confrontation and ancestor boast retain swagger.
+final_047	ok	Yasutsuna's duty over reward retains formal register.
+final_048	ok	Dante treats the keeper as diversion before escalating destruction.

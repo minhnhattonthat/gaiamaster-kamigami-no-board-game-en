@@ -13,3 +13,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D5 | 2026-10-30 | Graphics text left in Japanese | none (default), list | Translate all (titles, menus, banners, cards); keep the Japanese logo only if no official English version exists. |
 | D6 | 2026-10-30 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end. |
 | D7 | 2026-10-30 | Existing saves / memory cards | user supplies, none | None provided; build the debug tool as usual. |
+| D8 | 2026-11-01 | Automated phase completion and release boundary | continue checkpoints; publish release | Owner explicitly pre-approved phase checks, commits and pushes to main; stop at a built, re-applied and verified local release zip. Never publish a release or change repository visibility. Read-only self-review or codex exec may replace unavailable nested reviewers. |

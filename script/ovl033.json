@@ -131,7 +131,7 @@
    "id": "ovl033_8009FB3C",
    "at": "8009FB3C",
    "jp": "　　　　「がいあますたあ」に",
-   "en": "　　　　Will you enter \"Gaiamasutaa\"",
+   "en": "　　　　Will you enter \"GaiaMaster\"",
    "max": 31,
    "refs": [
     "lui@5E8C/5E90"
@@ -3530,7 +3530,7 @@
    "id": "ovl033_800A2364",
    "at": "800A2364",
    "jp": "　　　　早くそいつを天宮から",
-   "en": "　　　　Get him out of the Heavenly Palace...",
+   "en": "　　　　Quick! Throw him out of",
    "max": 31,
    "refs": [
     "lui@136C0/136C4"
@@ -3981,7 +3981,7 @@
    "id": "ovl033_800A2954",
    "at": "800A2954",
    "jp": "　　　　キャッ＠",
-   "en": "　　　　Kyaa@",
+   "en": "　　　　Eee!@",
    "max": 19,
    "refs": [
     "lui@1630C/16310"

@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "original": {
+    "md5": "fdfbb7075b191f2ba0c56673dbb036f2",
+    "sha1": "f4d5298583c90d89c4b7e51d2dde160ee07f2aec",
+    "sha256": "b45efe90380710eb7afc39f9915154762bd68c36b4bd133175bad3e4023a433a",
+    "crc32": "9487A253",
+    "size": 387456720
+  },
+  "patched": {
+    "md5": "eeb5a79c7f129961cda7f03295f17336",
+    "sha1": "50ad3eaa86366e7d45a3c9c54c1808cf8956b537",
+    "sha256": "9861348c892354108f0dcb686fa7c865e82a9bcef437c95fb26d884942e6d09e",
+    "crc32": "40FCB2BD",
+    "size": 387381456
+  },
+  "patch_sha256": "0a80498befa9715a1a6d5450cfeebb858ac8140e27e72b6ecd55aac6aa6dd1bb",
+  "zip_sha256": "e3541096f1195fd50b8c152bc85bc416704d298fe65fee0d8162cc0eb53cba64",
+  "text_targets": 8316,
+  "reapplied": true,
+  "debug_off": true,
+  "tour_reused": true,
+  "manifests": {
+    "work/qa/manifest.tsv": "d36d69b86678fe7711357c98507eb72fe5316a20c513d8d09fea7d542bc36e11",
+    "work/qa/story/manifest.tsv": "7a79a2d9a085d1c0927fadf85250e3042ca6ab779ab3872c38fa6b1700211e31"
+  }
+}

@@ -82,7 +82,12 @@ local function pick_char()
   local r, c = math.floor(cell / 3), cell % 3
   for _ = 1, math.abs(r - 1) do s[#s + 1] = press(r < 1 and "up" or "down", 20) end
   for _ = 1, math.abs(c - 1) do s[#s + 1] = press(c < 1 and "left" or "right", 20) end
-  return append(s, { press("circle", 60), press("circle", 30) })   -- choose, "really?" -> yes
+  return append(s, { press("circle", 60), fn(function()
+    if CHARACTER_ID ~= nil then
+      assert(CHARACTER_ID >= 0 and CHARACTER_ID <= 10, "invalid character id")
+      wr8(P0_CHAR, CHARACTER_ID)
+    end
+  end), press("circle", 30) })   -- choose, "really?" -> yes
 end
 -- after choosing: set the chapter, then the game plays the prologue (overlay 33), world map and board (8).
 -- CH > 1 enters the way the game does: chapter CH-1 is won (WIN cheat), results, save screen (cancel with
@@ -227,8 +232,8 @@ local SCENES = {
       wait(300) })
   end,
   ending = SCENES_ending,
-  -- on past the final scene: epilogue, ending text (SCR_DATA 122), staff credits (all overlay 33), then the
-  -- clear-data save screen; shoot the run (--shot-every) to cover the ending text and credits
+  -- On past the final scene: character cinematic and staff credits (overlay 33),
+  -- then clear-data save. SCR_DATA 122 belongs to the separate rank-result path.
   ending_save = function()
     return append(SCENES_ending(), { mash("circle", function() return ovl() == OVL.save end, "post-credits save", 60),
       wait(300) })

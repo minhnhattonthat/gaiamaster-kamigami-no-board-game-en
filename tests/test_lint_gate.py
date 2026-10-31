@@ -14,6 +14,7 @@ import insert
 @pytest.mark.parametrize("entry, replacement, error", [
     ("profiles_0004", "", "required English translation is empty"),
     ("ovl033_8009F9C0", "Remove the indent", "leading/trailing blanks"),
+    ("ovl033_800A20E4", "　　　　the palace!", "Heavenly Palace missing"),
 ])
 def test_lint_cli_rejects_missing_content(monkeypatch, capsys, entry, replacement, error):
     blocks = copy.deepcopy(insert.blocks())

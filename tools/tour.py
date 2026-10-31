@@ -35,6 +35,19 @@ def cases():
     for char in range(9):
         yield dict(name=f'prologue_c{char}', variables=["SCENE='story'", 'CH=1', f'CHAR={char}'])
         yield dict(name=f'credits_c{char}', variables=["SCENE='ending_save'", f'CHAR={char}'])
+    for char in (8, 10):
+        yield dict(name=f'prologue_hidden{char}', variables=["SCENE='story'", 'CH=1', f'CHARACTER_ID={char}'])
+        yield dict(name=f'credits_hidden{char}', variables=["SCENE='ending_save'", f'CHARACTER_ID={char}'])
+    yield dict(name='rank_outcomes_galahad', variables=["SCENE='story'", 'CH=2', 'CHAR=0'],
+               extra_script='tools/debug/rankqa.lua')
+    yield dict(name='rank_prose_galahad', variables=["SCENE='story'", 'CH=2', 'CHAR=0', 'RANK_PROSE=true'],
+               extra_script='tools/debug/rankqa.lua', debugger=True, final_only=True)
+    for name, cell, first, voice in [
+            ('hayate', 3, 0x140, 0x182), ('goliath', 7, 0x210, 0x23F),
+            ('goliath_bobble', 7, 0x210, 0x216), ('tiara', 8, 0x190, 0x1A4)]:
+        yield dict(name=f'voice_{name}', variables=["SCENE='board_play'", 'BOARD_STORY=true',
+                   f'CHAR={cell}', 'PLAY=12000', f'VOICE_FIRST={first}', f'VOICE_ID={voice}'],
+                   extra_script='tools/debug/voiceqa.lua', debugger=True, final_only=True)
     # Chapters 3 and 7 select alternate banners/scenarios for female characters.
     for chapter in (3, 7):
         yield dict(name=f'story_ch{chapter:02}_tiara', variables=["SCENE='story'", f'CH={chapter}', 'CHAR=1'])

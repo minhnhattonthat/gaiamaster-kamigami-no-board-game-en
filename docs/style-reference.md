@@ -1,6 +1,6 @@
 # Style reference - GaiaMaster: Kamigami no Board Game
 
-Tone: a Capcom party board game (1998) in a light comic fantasy world. Heroes of legend and myth are summoned to
+Tone: a Capcom party board game (2000) in a light comic fantasy world. Heroes of legend and myth are summoned to
 "GaiaMaster", a board game the gods run, and fight over land and money. Belial the pixie hosts and teases everyone.
 The English should be snappy, funny and in character; menus and rules text plain and clear.
 

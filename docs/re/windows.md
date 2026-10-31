@@ -62,5 +62,10 @@ Notes:
   escape. A literal `[` in en text must be written `[5B]` (insert.marker does this for its tags; the marker
   build before 2026-10-30 showed `^abc...` for `[5E]`).
 - `/` cannot be printed (control escape); `%` only as printf codes. Digits are 6 px each (number columns).
+- Phase 9 story review found a shared continuation: ovl033 call sites 0x136C0
+  and 0x136C8 compose `Quick! Throw him out of / the Heavenly Palace!`.
+  `batches.CONTINUATIONS` gives the first row this actual following row for
+  glossary checks instead of its unrelated storage neighbor. Removing the
+  required Palace name from the shared continuation still fails the lint test.
 - Glyph torture line (all printable ASCII but `/ %`, double spaces): `build.py --qa` on profiles_0004/0036/0068,
   shot in `work/qa/torture/` (see status).

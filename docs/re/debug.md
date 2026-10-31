@@ -14,8 +14,10 @@ the EXE and every overlay).
 - Story mode (mode 0): char select `0x800A0BE4` (overlay 29) -> prologue `0x800B4C74` (overlay 33, per char id) ->
   world map / scenario card `0x800A581C` (overlay 29; returns the board id into G+0x18) -> round `0x80016E0C`.
   After a round: results (overlay 57, `0x800A43F4`), save prompt `0x8001BF5C` (overlay 30), then G+0x19++.
-  Chapter index 19 won -> overlay 9 `0x800A07C4` + overlay 33 `0x800B4D44` (final scene, per char), epilogue,
-  ending text (SCR_DATA 122), staff credits, clear-data save.
+  Chapter index 19 won -> overlay 9 `0x800A07C4` + overlay 33 `0x800B4D44` (final scene, per char),
+  character cinematic, staff credits, clear-data save. SCR_DATA 122 instead holds
+  four alternative rank outcomes per character, consumed by results overlay 057;
+  the earlier attribution to the staff-credit path was incorrect.
 - Overlay loader `0x800302F4(n)`: PRGPACK entry n -> main slot 0x8009F938 (memcpy to `*(0x80012D10)`). The first
   word of each overlay is a tag (029 = 0x51, 030 = 0x4F, 033 = 0x52, 008 = 0x04, 010 = 0x4D, 057 = 0x53,
   009 = 0x4C, 037 = 0x54; full table: first u32 of `work/unpacked/PRGPACK.BDP/NNN/000.bin`), so
@@ -47,6 +49,10 @@ the EXE and every overlay).
 
 Char-select grid cell -> char id: 0->7 1->3 2->9 3->2 4->0 (Jiga) 5->1 (Sinbad) 6->4 (Megmeg) 7->5 8->6; ids 8
 and 10 are not on the grid (hidden; the "?" cell picks at random).
+`CHARACTER_ID=8|10` overrides the selected character between the two confirmation
+presses; it reaches the hidden character's native story dispatch without changing
+the release disc. Son Gokuh (8) has been cold-boot checked through opening, final
+confrontation, cinematic, credits and save in `work/qa/phase9-tour/`.
 
 ## Cheats (RAM code patches, applied by warp.lua and undone once the board is left)
 
@@ -60,6 +66,33 @@ and 10 are not on the grid (hidden; the "?" cell picks at random).
   empty card forever).
 
 ## Gotchas
+
+- Phase 9 voice diagnostics (`voiceqa.lua`, `tour.py --only 'voice_*'`)
+  hook EXE `0x8001AA3C`, just after `0x8001A954` loads a character PC_DATA
+  pool and converts its record offsets to pointers. The base is GPR `a2`;
+  PCSX exposes it as `PCSX.getRegisters().GPR.n.a2`. Scanning once per frame
+  misses these short-lived pools. The fixture guards board tag 4 and the
+  pool's first record ID, then redirects the three pointers of each native
+  record to one existing record. A read breakpoint at its first string
+  proves the native reader (`0x8003C90C`) consumed the selected text, and
+  input is held for 240 frames before capture. This verifies native line
+  order, portrait/window rendering and fit, not the original event trigger.
+  No strings or renderer code are inserted. Records: Hayate 0x182, Goliath
+  0x23F (beauty joke) / 0x216 (bobble), Tiara 0x1A4 (question).
+- SCR_DATA 122 rank outcomes are loaded at ovl057 `0x800A4A78` and indexed
+  by character at `0x800A7338`; rank stride is 0x69 and the three rows are
+  at offsets 0, 0x23 and 0x46. Results function `0x800A4D30` shows them only
+  when its first argument is 1 (`0x800A6A38..40`); ordinary story results
+  skip them. `rankqa.lua RANK_PROSE=true` sets that argument in RAM and
+  pauses before the native dialogue call at `0x800A7394`. The cold-boot
+  `rank_prose_galahad` capture shows "Hailed as a hero by the people, /
+  he led a life of luxury." in the real results window. The separate
+  `rank_outcomes_galahad` story tour proves results/rankings/graph/save but
+  is not evidence of those prose rows.
+- Contact-sheet `--changed 0.02` can select a partially typed line and skip
+  its completed near-identical frame. For a changed line, inspect an
+  unfiltered frame range before diagnosing truncation; phase 9 preserves
+  such a Yasutsuna detail sheet separately.
 
 - `board_owned` now grants land directly at the command menu; no mashed play is
   needed. `board_area` redirects the game's selector call to mode 9 (or 10 with

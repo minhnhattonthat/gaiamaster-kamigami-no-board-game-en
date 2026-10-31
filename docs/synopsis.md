@@ -1,4 +1,4 @@
-# Synopsis - GaiaMaster: Kamigami no Board Game (Capcom, PS1, 1998)
+# Synopsis - GaiaMaster: Kamigami no Board Game (Capcom, PS1, 2000)
 
 A Monopoly-style board game. The gods hold "GaiaMaster", a contest that pulls heroes from legends and other worlds
 onto living game boards; players buy land, build facilities (hospital, knights, monastery, alchemy, smithy, bank),
@@ -29,5 +29,7 @@ the Bandits - The Princess's Proposal - Collect the Debt - Tournament Qualifiers
 Ninja Code - Princess Crisis - 聖天体聖 (pun on 斉天大聖, Gokuh's title) - East vs. West - Battle of the Gods -
 Economic Animal - The Impostor's Revenge - The Underground Tournament - The Demon Lord Returns - Showdown in the
 Sky City - A Battle of Women (Miss GaiaMaster) - The Foreign Warrior.
-Each character has opening and ending scenes (ovl033); endings00-10 are each character's fates by final rank.
+Each character has opening and ending scenes (ovl033); endings00-10 each contain four alternative fates by final rank,
+not four successive scenes. The 20 campaign chapters are followed in the scenario table by two alternatives:
+record 21 replaces female Chapter 3, and record 22 replaces female Chapter 7.
 Translate titles in the scenario batch; these English names are only a guide.

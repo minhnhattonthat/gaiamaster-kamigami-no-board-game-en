@@ -1,0 +1,2 @@
+8316 actual text targets verified; 41 intentional password entries excluded.
+0 Japanese runs, 0 bytes
