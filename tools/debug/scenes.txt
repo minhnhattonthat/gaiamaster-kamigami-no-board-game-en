@@ -42,7 +42,7 @@ story_ch17       | SCENE='story' CH=17        | chapter 17 board
 story_ch18       | SCENE='story' CH=18        | chapter 18 board
 story_ch19       | SCENE='story' CH=19        | chapter 19 board
 story_ch20       | SCENE='story' CH=20        | chapter 20 (final) board
-results          | SCENE='results'            | chapter results (rankings), overlay 57
+results          | SCENE='results'            | chapter result sequence opening, overlay 57; rankings_* tours continue through the table
 save_screen      | SCENE='save_screen'        | post-chapter save screen
 gameover         | SCENE='gameover'           | chapter lost -> CONTINUE (continue / quit)
 

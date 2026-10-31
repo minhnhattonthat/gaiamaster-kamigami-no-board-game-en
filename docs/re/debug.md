@@ -118,3 +118,42 @@ and 10 are not on the grid (hidden; the "?" cell picks at random).
   These diagnostic changes are RAM-only; the release keeps retail item logic.
 - Story saves with chapter graphics need a formatted memory card (`--sav`).
   Character IDs 8 and 10 are hidden, outside the nine-cell selection grid.
+
+## Final phase-8 regression routes
+
+`python -X utf8 tools/tour.py --only NAME` accepts repeated `--only` globs.
+Each selected case starts cold; cursor follow-ups reload only that case's newly
+captured arrival state. `--sheets-only` rebuilds sheets from completed captures.
+
+- `duel_return` plays to the first versus duel, waits for board reload, then
+  checks instruction 0x800C1628 is still 0x24100001 after 240 frames. The final
+  build returns at frame 47643 and finishes at 47977. This exercises the native
+  LZ decoder and compressed PRGPACK 058/000 copy that caused the crash in files.md.
+- `rankings_s0` through `rankings_s6` use cold chapter losses (chapters 4, 12, 6,
+  20, 5, 15, 16), covering all seven board names in SCR_DATA 012/004. Their sheets
+  retain the result table, graph, save prompt and Continue screen. `results`
+  alone asserts the results overlay and shows its opening announcement; it does
+  not claim to reach the later Rankings table.
+- `board_commands` and `board_graph` cycle command tooltips and graph variants
+  using normal controller input after the cold warp. These exposed the shared
+  Menu/Graph source rectangles documented in graphics.md.
+- `bonus_message` runs `bonusqa.lua` with the debugger. At native board formatter
+  0x800B9144 it selects message 7 and amount 27, preserving player/portrait.
+  Overlay/prologue guards restrict the hook to the loaded board code. Input is
+  held, then a capture proves the release strings compose as `Whoa, I got / 27
+  zenny / as a bonus!`. It changes diagnostic arguments in RAM only, never ROM.
+- `board_story_commands` uses `BOARD_STORY=true` to repeat the command cursor
+  route after a cold story opening, covering the story copy of the tooltip
+  layout alongside `board_commands` in versus mode.
+- `menuprobe.lua` dumps `menu.ram` at `DUMP_AT` (default 560). With `--debugger`
+  it logs original Assets-word sprite sources at the native drawer; run
+  `python tools/debug/menu_prims.py PATH/menu.ram` to inspect GPU packets.
+  Their XY is relative to GPU draw offset (160,120), not absolute screen XY.
+- `board_redeem` cold-boots and reuses its fresh arrival state. The read-only
+  visual pass checks native tooltip frame 7 (Redeem Mortgage); `menuframeqa.lua`
+  changes only the hover animation index from 6 to 7, guarded by the original
+  layout header. Fresh unencumbered games cannot select Redeem normally. This
+  proves the actual disc's sprite/text rendering, not mortgage mechanics.
+- `mortgageqa.lua` seeds level-1 shops and the current player's cached land
+  count for native property-list exploration. Setting square owners alone is
+  insufficient: ovl008 0x800AF31C checks player +0x17/+0x18 before listing land.

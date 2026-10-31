@@ -46,10 +46,13 @@ GRAPHICS = {
     "SCR_DATA.BDP/000/004.dec": [(0, 0, 72, 16), (80, 0, 48, 16), (160, 0, 64, 16),
         (0, 16, 72, 16), (80, 16, 60, 16), (144, 16, 84, 16), (0, 32, 72, 16),
         (80, 32, 60, 16), (152, 32, 24, 16), (184, 32, 24, 16), (0, 48, 24, 16),
-        (30, 48, 36, 16), (80, 48, 24, 16), (104, 48, 48, 16)],
+        (30, 48, 36, 16), (80, 48, 24, 16), (104, 48, 48, 16),
+        (208, 32, 48, 16), (192, 48, 48, 16)],
     "SCR_DATA.BDP/007/001.dec": [(0, 0, 80, 16), (80, 0, 80, 16), (0, 16, 88, 16), (88, 16, 128, 16),
                                 (0, 32, 112, 16), (112, 32, 128, 16), (0, 48, 88, 16)],
     "SCR_DATA.BDP/061/000.dec": [(0, 0, 80, 16), (80, 0, 80, 16), (0, 16, 88, 16), (88, 16, 128, 16),
+                                (0, 32, 112, 16), (112, 32, 128, 16), (0, 48, 88, 16)],
+    "SCR_DATA.BDP/012/004.dec": [(0, 0, 80, 16), (80, 0, 80, 16), (0, 16, 88, 16), (88, 16, 128, 16),
                                 (0, 32, 112, 16), (112, 32, 128, 16), (0, 48, 88, 16)],
     "SCR_DATA.BDP/007/000.dec": [(0, 0, 64, 16), (64, 0, 64, 16), (128, 0, 64, 16),
         (0, 16, 128, 16), (136, 16, 56, 16), (216, 32, 40, 16), (216, 48, 24, 8), (176, 80, 64, 16)]
@@ -148,6 +151,10 @@ def policies():
     for offset in (0x1330C, 0x13354, 0x13390, 0x1340C, 0x13428):
         entry("PRGPACK.BDP/010/000.bin").update(range(offset, offset + 4))
     result["DUELDATA.BDP/001/014.bin"] = (set(range(20, 372)), 372)
+    # Eight UV pairs in native board-menu frames 6, 7, 9 and 10; no geometry.
+    for offset in (0x128, 0x13C, 0x154, 0x168, 0x198, 0x1AC, 0x1C4, 0x1D8):
+        entry("SCR_DATA.BDP/002/246.bin").update(range(offset, offset + 2))
+        entry("SCR_DATA.BDP/001/184.bin").update(range(offset, offset + 2))
     # The biography sprites keep their headers and record count, but expand the
     # three packed squares to explicit rectangles. Semantic fields are also
     # checked by test_biography_layout; the largest file is 30*20+20+4 bytes.

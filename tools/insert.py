@@ -236,6 +236,10 @@ def edits(mode="en", qa=None):
     out.update(geometry)
     log += geometry_log
     if mode == "en":
+        import board_layout
+        geometry, geometry_log = board_layout.edits()
+        out.update(geometry)
+        log += geometry_log
         import gfx   # graphics text (docs/re/graphics.md): needs Pillow and the OFL fonts in fonts/
         g, glog = gfx.edits()
         out.update(g)

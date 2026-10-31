@@ -37,6 +37,12 @@ The remaining permissions are explicit, separately maintained constants:
   copies from the committed graphics survey. TIM headers and palettes are
   excluded. At 4 bpp a boundary byte contains two pixels; the graphics writer's
   independent pixel-level check additionally protects the adjacent nibble.
+- Eight two-byte UV pairs in SCR_DATA 002/246 and identical 001/184, at offsets
+  0x128, 0x13C, 0x154, 0x168, 0x198, 0x1AC, 0x1C4 and 0x1D8. These map complete
+  English tooltip labels through the existing adjacent 24x16 sprites; all
+  geometry, palette, counts, frame tables and transforms remain unchanged.
+  New text uses previously empty G8 rectangles (208,32,48,16) and
+  (192,48,48,16), independently bounded in the graphics policy.
 - Voice-pool records before the 0xFFFF terminator, original string/zero-padding
   slots, and append space with a fixed **0x2000-byte total file ceiling**.
   This is a conservative project growth budget, not a claim that 0x2000 is the

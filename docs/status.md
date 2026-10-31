@@ -2,65 +2,50 @@
 
 Updated at the end of every session. History is in git.
 
-- **Phase:** 8, emulator QA, in progress. Do not advance to release yet.
-- **Latest build:** SHA-1 `36c40602e239fabe8f612b82ea4d3c006e4d9b81`.
-  Check: 119 tests passed, zero lint errors, four existing honorific warnings.
-  A final smoke run is still required after the remaining fixes.
-- **Phase 7 review:** all four Important findings fixed and pushed in dccfe09.
-  Independent byte/write policy, pool-growth ceiling, empty-English CLI error,
-  exact padding with narrow exceptions, and cold measurements of both area
-  selector modes. See `docs/re/phase7-review-verdict.md` and `windows.md`.
-- **Graphics:** G1-G17 redraw implementations are complete; emulator coverage
-  remains the gate. `docs/re/graphics.md` records each row. All 32 event-card
-  labels and all 16 biography sheets have independent OK verdicts. Purge's five
-  frames and the trial disclaimer are visible in their diagnostic tours.
-  The actual weapon list uses a game-written save; category cycling is pending.
-- **Biography fix:** cold title-attract QA exposed clipped English. The widened
-  panel and shifted text now pass all eight groups (descriptions and traits).
-  Evidence: `docs/re/evidence/biography-panel.png`; semantic sprite regression
-  protects texture coordinates, palettes, Y, source sizes and record count.
-- **Story typewriter fix:** independent review found settled Chapter 1 lines
-  ending mid-word. Ten ovl033 loops retained an 18-glyph limit despite expanded
-  allocation. Their limits now use the 120-glyph allocation; NUL exits remain.
-  Cold recheck of all reported lines: 2 fixed sheets, 2 OK, zero new issues,
-  `work/qa/verdicts/storyfix.tsv`. The broad story/prologue/credits tour is running
-  again on this build. Original-disc story comparisons are also running.
-- **Duel-help fix:** widened the native panel to 137.5%, moved the right panel,
-  inset the text and brought it above card-button icons. A dedicated 116 px
-  budget covers its 57-by-7 string table. Cold Excalibur cases on both sides
-  pass independent review: full first/last letters, no clipping or overlap.
-  Evidence: `docs/re/evidence/duel-help-left.png` and `duel-help-right.png`.
-- **Post-duel crash fixed:** the compressor allowed distances through 0x10100,
-  but EXE 0x8003E248 masks them to 16 bits. Fifteen oversized references in
-  PRGPACK 058/000 corrupted board code on reload after a duel. The raw 008
-  overlay was correct, hiding the bug during cold entry. Encoder limit is now
-  0xFFFF; the local decoder follows the native mask. Five boundary regression
-  cases pass. The exact failing cold `results` route now reaches frame 15469
-  successfully; `credits_c1` has passed its old stall and reached its ending.
-  Trace: `work/qa/results_decode_board/log.txt`; explanation in `files.md`.
-- **Current QA tooling:** `tools/tour.py` builds cold captures, state-based cursor
-  routes, full-resolution sheets and frame maps. `--only`, repeatable `--exclude`
-  and `--sheets-only` support targeted reruns. Hard links avoid Windows command
-  length limits. `tools/save_fixture.py` creates `work/saves/story-ch02.mcd` via
-  the game's save UI; it starts with a fresh formatted card. Lua QA fixtures
-  never change the release disc. `sealqa.lua` now loads the native unique
-  Item Seal effect, which the normal item path bypasses; all seven sheets
-  independently pass, including the full zoom/fade animation. See debug.md.
-- **Remaining phase 8:** finish all chapter/board/prologue/credits and cursor
-  tours, inspect every changed graphic on screen, finish post-fix ending checks,
-  review the remaining sheets, and get `qa_gate.py check` to zero.
-  The manifest/verdicts are under `work/qa/`; 220 sheets currently pass,
-  including the 20 main chapter banners, all nine openings, both duel-help positions,
-  and the first full ending/credits group. Further ending/board tours continue.
-  `docs/visual-qa-brief.md` defines standing non-bugs. Use fresh read-only passes
-  or `codex exec` visual-qa reviewers (Orca nested workers are unavailable).
-- **Later polish:** three contextual Minors in `docs/polish.md`; verify in play.
+- **Phase:** 8 complete; next is phase 9, release preparation. No release has
+  been published. Never run `gh release create` or change repository visibility.
+- **Latest build:** `build/gaiamaster_en.bin`, SHA-1
+  `d1e9e7cee777471fdf7001be240ca24cbe1af67d`, built 2026-11-01 07:27:54 AEDT.
+  `tools/check.py`: 120 tests passed, zero lint errors, zero untranslated
+  strings, four existing honorific warnings. Cold smoke passed in
+  `work/qa/smoke-phase8-final/`.
+- **Visual gate:** 672 sheets, zero missing/stale verdicts, zero issues,
+  zero changed sheets. Live gate: `work/qa/manifest.tsv` and
+  `work/qa/verdicts/`; durable report and archival manifest/verdict export:
+  `docs/re/phase8-review-verdict.md`, `docs/re/evidence/phase8-*.tsv`.
+  Final rechecks used a fresh read-only pass in this worker, as authorized
+  because nested Orca reviewers are unavailable.
+- **Coverage:** all 20 chapter transitions plus female Chapter 3/7 variants;
+  all nine selectable openings and full ending/credits paths; seven board
+  names in Rankings; menus, cursor states, saved weapon-list categories;
+  32 event-card labels; eight biography groups; five Purge frames; native Seal
+  animation; trial disclaimer; game over/Continue; post-duel board reload.
+  G1-G17 evidence is recorded in `docs/re/graphics.md`.
+- **Final fixes:** translated the separate Rankings board-name atlas, split
+  shared Trade/Info Menu and Graph tiles, and corrected the bonus-message
+  composition to `Whoa, I got / 27 zenny / as a bonus!`. Final review then found
+  five sheets with fragmented Personal/Assets/Sell words. `board_layout.py`
+  fixes eight UV pairs in both native tooltip-layout copies; two-line full
+  English labels pass cold versus/story routes. Redeem Mortgage passes a
+  guarded native-frame diagnostic. Use Card also fits its shorter empty-hand
+  slice. The regression reconstructs actual native sprite pairs and protects
+  all non-UV bytes. See graphics.md and write-policy.md.
+- **Earlier fixes retained:** complete story typewriter lines; widened
+  biography and duel-help panels; native LZ distance limit 0xFFFF preventing
+  post-duel board corruption. Detailed findings remain in files.md, windows.md
+  and the earlier review notes.
+- **Next phase 9:** read the release/story-review sections of the skill;
+  produce a story-pass verdict for every chapter under `work/qa/story/`;
+  reconcile the three open contextual Minors in `docs/polish.md`; implement
+  `tools/release.py` (currently absent despite the instructions-file command),
+  including all QA manifest gates, unintended-Japanese scan, debug-off check,
+  patch re-apply verification, base hashes in README, and patch+README-only zip.
+  End at a built and verified release zip; do not publish it.
 - **Waiting on the user:** no blocking decisions. Defaults remain: functional
-  password kana stays Japanese; English GaiaMaster logo replaces unused early
-  LANDMASTER art only where a translated logo is needed. PCSX GUI keyboard input
-  has not been hand-tested; Redump hash has not been cross-checked online.
-- **Operational:** never build while this project's emulator holds the English
-  BIN open. Original-disc runs are safe during rebuilds. Do not stop another
-  project's emulators. States carry build-specific code/text; regenerate after
-  rebuilds. Background jobs can be reaped under pressure; monitor and resume
-  missing cases. Never publish a release or change visibility in this run.
+  password kana stays Japanese; original English LANDMASTER intro art remains.
+  PCSX GUI keyboard input has not been hand-tested; Redump hash has not been
+  cross-checked online. These are non-blocking observations.
+- **Operational:** never rebuild while this project's emulator holds the
+  English BIN open. Use only this project's emulator PIDs. States contain
+  build-specific code/text; regenerate after changes. Tours and fixture scripts
+  live under tools/; Lua QA changes are RAM-only and never enter the release disc.

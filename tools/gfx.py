@@ -299,15 +299,26 @@ LABELS = {
     ]),
     "G8": dict(key="SCR_DATA.BDP/000/004.dec", clut=0, labels=compact_labels([
         ((0, 0, 72, 16), "Roll Dice"), ((80, 0, 48, 16), "Buy Shop"),
-        ((160, 0, 64, 16), "Map Info"), ((0, 16, 72, 16), "Use Card"),
-        ((80, 16, 60, 16), "Mortgage Sell"), ((144, 16, 84, 16), "None Owned!"),
-        ((0, 32, 72, 16), "Trade Menu"), ((80, 32, 60, 16), "Graph"),
+        ((160, 0, 64, 16), "Map Info"), ((0, 16, 48, 16), "Use Card"),
+        ((80, 16, 48, 16), "Sell Assets"), ((144, 16, 84, 16), "None Owned!"),
+        ((24, 32, 48, 16), "Menu"), ((104, 32, 36, 16), "Graph"),
         ((152, 32, 24, 16), "Shop"), ((184, 32, 24, 16), "Save"),
         ((0, 48, 24, 16), "Info"), ((30, 48, 36, 16), "Save"),
-        ((80, 48, 24, 16), "Add"), ((104, 48, 48, 16), "Personal Assets"),
-    ], outlined(0, [4]))),
+        ((80, 48, 24, 16), "Add"), ((104, 48, 48, 16), "Assets Info"),
+        ((208, 32, 48, 16), "Personal Info"), ((192, 48, 48, 16), "Redeem Mortgage"),
+    ], outlined(0, [4])) + [
+        # Info Menu replaces only the first 24 px of Trade Menu; personal
+        # graphs likewise reuse the last 36 px of the original graph label.
+        L((0, 32, 24, 16), "Trade", outlined(0, [4]), 5, bg=0,
+          shear=0, font=SILK, track=-1, pad=1),
+        L((80, 32, 24, 16), "", outlined(0, [4]), 1, bg=0),
+        L((128, 16, 12, 16), "", outlined(0, [4]), 1, bg=0),
+        # The empty-hand tooltip reads only the first 48 px of Use Card.
+        L((48, 16, 24, 16), "", outlined(0, [4]), 1, bg=0),
+    ]),
     "G4-save": dict(key="SCR_DATA.BDP/007/001.dec", clut=0, labels=compact_labels(BOARD_LABELS)),
     "G4-world": dict(key="SCR_DATA.BDP/061/000.dec", clut=0, labels=compact_labels(BOARD_LABELS)),
+    "G4-rankings": dict(key="SCR_DATA.BDP/012/004.dec", clut=0, labels=compact_labels(BOARD_LABELS)),
     "G3": dict(key="SCR_DATA.BDP/007/000.dec", clut=0, labels=[
         L(rect, text, outlined(8, [1, 2, 3, 4]), 11, bg=0, pad=1)
         for rect, text in [((0, 0, 64, 16), "Save"), ((64, 0, 64, 16), "Load"),

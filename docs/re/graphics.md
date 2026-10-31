@@ -26,7 +26,7 @@ Japanese that did not change, and add every new screen here.
 | G1 | Title logo | ガイアマスター / 神々のボードゲーム | SCR_DATA 127/032 (LZ TIM 256x160); dim copy 213/000 | 021/06, 027/18 |
 | G2 | Main menu | 対戦モード, ストーリーモード, 武器スキルリスト, オプション, ノーマルモード, クイックモード, シングル, タッグ, はじめから, つづきから (+ 体験版 stamp) | SCR_DATA 127/033 | 021/07 |
 | G3 | Story/save menu, chapters | セーブ, ロード, ストーリー, ノーデータ, 対戦, ターン, ノーマル, 第1話-第20話 | SCR_DATA 007/000 | 008/18 |
-| G4 | Map/world names | 西風の都, 緑の聖域, 陽炎の遺跡, 円環の廃墟の国, ブシドーキャッスル, 魔都パンデモニアム, 東京199X | SCR_DATA 007/001; also 061/000 (with NOW LOADING) | 008/19, 012/01 |
+| G4 | Map/world/Rankings names | 西風の都, 緑の聖域, 陽炎の遺跡, 円環の廃墟の国, ブシドーキャッスル, 魔都パンデモニアム, 東京199X | SCR_DATA 007/001; 061/000 (with NOW LOADING); separate Rankings atlas 012/004 | 008/19, 012/01 |
 | G5 | Character name plates (11) | ジガー, ブライアス, ティアラ, ガラハッド, ヤスツナ, アガート, メグメグ, ハヤテ, 孫悟空, シンバッド, ダンテ (readings from tiny pixels; EXE strings give ヤスツナ, メグメグ) | SCR_DATA 000/001 (LZ), 059/008, 117/000, 214/000 (+ palette copies) | 008/11, 011/18, 020/13, 028/00 |
 | G6 | Character select title | キャラクターセレクト | SCR_DATA 117/000 | 020/13 |
 | G7 | Weapon skill list headers | 武器スキルレベル 魔/飛/剣/其 | SCR_DATA 214/000 | 028/00 |
@@ -60,15 +60,15 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 |---|---|---|
 | G2 main menu (127/033) | done: Versus Mode, Story Mode, Weapon Skill List, Options, Normal Mode, Quick Mode, Single, Tag, New Game, Continue. 体験版 stamp left (trial only, never seen) | `work/qa/gfx/menus.png` (main, story, versus menus) |
 | G6 char select title (117/000) | done: Character Select | `work/qa/gfx/cs.png` |
-| G5 name plates | All four atlases redrawn; char-select and board HUD checked in game. Save/weapon copies need coverage. | `work/qa/gfx/cs.png`, `work/qa/gfx/g5_board_v2/final.png` |
-| G1 | New English wordmark and subtitle, including 176x50 dim copy; cold title check pending final review. | `work/qa/gfx/title_v3/` |
-| G3, G4, G13 | Save labels, 20 chapter tiles, seven board names, 22 banners redrawn. Save header and one chapter transition checked; all chapters still need the final tour. | `work/qa/gfx/save_v2/`, `work/qa/gfx/chapter02/` |
-| G7 | Actual list reached using a game-written story save; Sword heading fits. Category cycling remains in the final tour. | `work/qa/gfx/weapon_saved3/final.png` |
-| G8 | All command word tiles redrawn; Roll Dice checked. Remaining command selections need the final tour. | `work/qa/gfx/g8_board/final.png` |
-| G9 | Assets, Cash, Land, Rankings, both Turn sizes redrawn. Ranking heading/columns checked during chapter transition; Turn changes need final tour. | `work/qa/gfx/chapter02/` |
-| G10 | Options/rules/salary word tiles redrawn using sprite records below; screens checked. Rumble Settings needs slightly more inter-word space. | `work/qa/gfx/options_v2/`, `rules_v2/`, `salary_v2/` |
+| G5 name plates | Done: all four atlases; character select, board HUD, save/results and actual weapon-list views checked. | `work/qa/tour/char_select/`, `versus_s*/`, `weapon_display/`, `credits_c*/` |
+| G1 | Done: English wordmark and subtitle, including 176x50 dim copy; cold title and unskipped intro reviewed. Original English LANDMASTER remains in the intro. | `work/qa/tour/title/`, `intro/` |
+| G3, G4, G13 | Done: save labels, all 20 chapter tiles, seven board names in world/save/Rankings views, all 22 banners including female Chapter 3/7 variants. | `work/qa/tour/story_ch*/`, `rankings_s*/`, `credits_c*/` |
+| G7 | Done: all four categories cycled in the actual list using a game-written story save. | `work/qa/tour/weapon_display/` |
+| G8 | Done: command selections, Trade/Info Menu and shared Graph suffix checked. Native composition required separate word rectangles (below). | `work/qa/tour/board_commands/`, `board_info/`, `board_graph/` |
+| G9 | Done: Assets, Cash, Land, Rankings and Turn labels checked in board/result routes. | `work/qa/tour/rankings_s*/`, `duel_return/` |
+| G10 | Done: options/rules/salary words and spaced Rumble Settings checked, including cursor variants. | `work/qa/tour/options_pages/`, `options/`, `rules/`, `salary/` |
 | G11 | Continue/Quit checked from cold chapter loss; original Continue uses 72 pixels, not 64. | `work/qa/gfx/g11_v2/final.png` |
-| G12 | Continue/Quit seen in the actual double-up minigame; reproducible `double_up` tour added. | `work/qa/gfx/event_probe/sheet_5.png` |
+| G12 | Done: Continue/Quit in the actual double-up minigame; all seven sheets independently reviewed. | `work/qa/tour/double_up/` |
 | G14 | All **32** named card banners redrawn (original survey count 33 was wrong). All 32 cold image-loader cases independently reviewed OK. | `work/qa/tour/card_*/sheet.png`, verdicts `cards_first.tsv` and `cards_last.tsv` |
 | G15 | All **five** Purge frames pass cold QA in the genuine Awful Luck event (EVENT_ID=0). | `work/qa/tour/purge/sheet_7.png` |
 | G16 | Seal redrawn; red ink removed only inside its bounded text area, retaining surrounding paper/ornaments. Cold diagnostic loads the native unique effect and shows the English label throughout its zoom/fade animation; retail item logic is unchanged. | `work/qa/tour/duel_seal/sheet_2.png`; route proof in `debug.md` |
@@ -77,6 +77,40 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 Board names are now drawn and recorded in the glossary. Long names use two native pixel-font lines inside
 the original atlas rectangle; chapter banners retain their original frame. Event banners retain their
 illustration and frame; the most frequent original label background index supplies the new paper colour.
+
+### Native shared word tiles (verified in phase 8)
+
+The Info Menu sprite replaces only the first 24 pixels of the Trade Menu label;
+centering a complete Trade Menu phrase across 72 pixels left an unwanted `DE`
+in the reused suffix. Draw Trade in (0,32,24,16) and Menu in (24,32,48,16).
+Personal graphs similarly reuse the final 36 pixels of the Graph label: draw
+Graph in (104,32,36,16) and clear (80,32,24,16). Cold command/graph routes use
+the original sprite composition, not a reconstructed preview.
+
+Final review found another shared-word boundary: the engine composes Assets +
+Sell, Mortgage + Redeem, Personal + Info and Assets + Info from 24x16 slices.
+Whole phrases drawn over the old atlas boundaries produced `ONALSAGE` and
+`PERS / ASS / INFO`. GPU tracing identifies SCR_DATA 002/246 and its identical
+001/184 copy (a complete unpacked-file duplicate sweep found both). Their
+14-frame layout starts at offset 0x80, after the frame-index table. Frames 6,
+7, 9 and 10 each contain two adjacent 24x16 records.
+
+`board_layout.py` changes only those eight UV pairs, keeping native geometry,
+palettes and transforms. Each pair now assembles one complete 48x16 English
+label: Sell Assets, Redeem Mortgage, Personal Info, Assets Info. The latter
+two new atlas allocations at (208,32) and (192,48) were entirely blank in the
+original. `test_board_labels.py` reconstructs all four pairs from the actual
+rendered atlas and failed before the correction; it also protects all non-UV
+bytes and verifies both copies. Cold versus and story command tours cover the
+two native menu contexts.
+The unavailable Redeem Mortgage command is checked with the guarded native
+frame selector in `board_redeem` (diagnostic only; see debug.md). Use Card is
+also kept entirely within its first 48 pixels: the empty-hand composite reads
+that slice before appending None Owned, whereas the main menu reads 72 pixels.
+
+Rankings uses SCR_DATA 012/004, a third board-name atlas that the initial sweep
+missed. It shares the seven label rectangles with 007/001 and 061/000 but is a
+distinct payload. Seven cold loss/result routes verify its English names.
 
 ### Options sprite records
 

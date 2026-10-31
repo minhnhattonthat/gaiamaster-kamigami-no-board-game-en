@@ -122,7 +122,8 @@ local function versus()
 end
 local function menu_up() return ovl() == OVL.board and rd8(0x80086354) == 1 end
 local function board_cmd(item)
-  local s = append(versus(), { mash("circle", menu_up, "command menu", 60), wait(30) })
+  local s = append(BOARD_STORY and story(ch) or versus(),
+    { mash("circle", menu_up, "command menu", 60), wait(30) })
   if item then
     for _ = 1, item do s[#s + 1] = press("right", 20) end
     s[#s + 1] = press("circle", 120)
@@ -212,7 +213,8 @@ local SCENES = {
   results = function()
     local s = to_board(false)
     return append(s, { fn(function() patch("WIN") end),
-      mash("circle", function() return rd8(G_RESULT) ~= 0 or ovl() == 0x53 end, "results", 60), wait(200) })
+      mash("circle", function() return ovl() == OVL.results end, "results", 60), wait(900),
+      fn(function() assert(ovl() == OVL.results, "results overlay did not remain loaded") end) })
   end,
   save_screen = function()
     local s = to_board(false)
@@ -275,6 +277,15 @@ local SCENES = {
     return append(board_cmd(nil), { mash("circle", function() return ovl() == OVL.battle end, "duel", 40),
       fn(function() started = L.frame end),
       mash("circle", function() return L.frame - started >= 3300 end, "duel effect", 40) })
+  end,
+  duel_return = function()
+    return append(board_cmd(nil), {
+      mash("circle", function() return ovl() == OVL.battle end, "duel", 40),
+      mash("circle", function() return ovl() == OVL.board end, "duel return", 40),
+      wait(240), fn(function()
+        assert(rd32(0x800C1628) == 0x24100001, "compressed board reload corrupted code")
+        L.log("native compressed board reload preserved instruction 800C1628")
+      end) })
   end,
   -- weapon skill list: "how to load? save data / password"
   weapon_list = function() return append(menu_item(2), { wait(200) }) end,
