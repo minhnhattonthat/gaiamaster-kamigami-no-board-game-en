@@ -12,6 +12,7 @@ import insert  # noqa: E402
 import reloc  # noqa: E402
 import romdiff  # noqa: E402
 import sjis  # noqa: E402
+import write_policy  # noqa: E402
 
 needs_disc = pytest.mark.skipif(not (ROOT / "work/unpacked/PRGPACK.BDP").exists() or
                                 not (ROOT / "work/disc/tree/SLPS_020.75").exists(), reason="work/ trees missing")
@@ -35,19 +36,40 @@ def target(data, ref):
 @needs_disc
 def test_every_write_logged(en):
     out, log, _ = en
+    policy = write_policy.policies()
     main = {c: b["file"] for b in insert.blocks() for c in b["copies"]}   # copies get their block's writes
     for key, new in out.items():
-        writes, allowed = [], []
+        writes, spans, allowed = [], [], []
         for ln in log:
             k, o, old, b, by = ln.split(" ", 4)
             if k != main.get(key, key):
                 continue
             if old == "-":                    # pool string appended past the old end (after alignment zeros)
+                assert int(o, 16) + len(b) // 2 + 1 <= policy[key][1], key
+                spans.append((int(o, 16), b"\xff" * (len(b) // 2), bytes.fromhex(b), by))
                 allowed += range(len(insert.read(key)), int(o, 16) + len(b) // 2 + 4)
             else:
                 writes.append((int(o, 16), bytes.fromhex(old), bytes.fromhex(b), by))
         errs, _ = romdiff.check(insert.read(key), new, allowed, writes)
         assert not errs, (key, errs[:5])
+        assert not write_policy.check(key, insert.read(key), new, writes + spans, policy)
+
+
+@needs_disc
+def test_correctly_logged_header_corruption_rejected(en):
+    original = insert.read(insert.EXE)
+    new = bytearray(en[0][insert.EXE])
+    new[0] = ord("X")
+    writes = [(0, original[:1], b"X", "accurately logged corruption")]
+    errors = write_policy.check(insert.EXE, original, new, writes, write_policy.policies())
+    assert any("logged span outside policy" in e for e in errors)
+    assert any("changed bytes outside policy" in e for e in errors)
+
+
+def test_pool_capacity_is_independent_of_log():
+    policy = {"pool": (set(range(8)), 8)}
+    errors = write_policy.check("pool", b"abcd", b"abcd12345", [(4, b"\xff" * 5, b"12345", "grow")], policy)
+    assert any("outside 4..8" in e for e in errors)
 
 
 @needs_disc

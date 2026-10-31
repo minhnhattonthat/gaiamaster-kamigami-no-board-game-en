@@ -46,6 +46,14 @@ NAME_IDS = {"ovl008_800A13D4", "exe_800102BC", "exe_800102D0", "exe_80012048", "
             "ovl008_800A1220", "ovl010_800A1018"}
 # rows left empty on purpose: the box's last line, and the JP row has no codes (the English ends a line early)
 BLANK_OK = {"ovl008_800A14D4": "'ます' ending a 3-line square description; the English fits in 2"}
+# Exact layout exceptions, reviewed in docs/re/windows.md. Changes require a new review.
+PADDING_EXCEPTIONS = {
+    "ovl010_800A0DE4": ("カードを", " chooses a card..."),
+    "ovl010_800A0E60": ("回復した！！", " HP!!"),
+    "ovl010_800A0E7C": ("のダメージを受けた！", " damage taken!"),
+    "ovl010_800A0EB4": ("を使った！", " used!"),
+    "ovl057_8009F9E0": (" 資産", "Assets"),
+}
 ROWS_SOFT, ROWS_HARD, CHARS_SOFT = 120, 160, 3000
 SPLIT = re.compile(r"[。！？」…」）～＠!?.]$")
 
@@ -118,6 +126,8 @@ def domain_px():
         _DOM["name"] = max(px(n) for n in PC.values())
         _DOM["card"] = max(px(e["en"].strip(BLANK)) for b in insert.blocks() for e in b["strings"]
                            if e["en"].strip(BLANK) and windows.box(b, e) == "list_name")
+        _DOM["area"] = max(px(e["en"].strip(BLANK)) for b in insert.blocks() for e in b["strings"]
+                           if e["en"].strip(BLANK) and windows.box(b, e) == "area")
     return _DOM
 
 
@@ -204,6 +214,12 @@ def check_line(r, en, gl, near=("", "")):
     cards = en.count('"%s"')
     unknown = en.count("%s") - names - cards
     w = px(en) + (d["name"] - TOKEN_PX["%s"]) * names + (d["card"] - TOKEN_PX["%s"]) * cards
+    if rid in {"ovl008_800A0330", "ovl008_800A033C"}:
+        # These selectors format an area name, then (mode 10) a literal A-G.
+        w = px(en) - en.count("%s") * TOKEN_PX["%s"] + d["area"]
+        if rid == "ovl008_800A033C":
+            w += max(px(letter) for letter in "ABCDEFG")
+        unknown = 0
     if w > r["px"]:   # known %s at their widest, unknown at 48 px; error when over with unknown %s at 24 px
         hard = r["state"] != "guess" and w - 24 * unknown > r["px"]
         (err if hard else warn).append("%dpx > %dpx (%s box, %d names at %d px, %d cards at %d px%s)" % (
@@ -352,6 +368,8 @@ def lint():
                 continue
             if not e["en"]:
                 todo += 1
+                errs += 1
+                print("ERROR %s: required English translation is empty" % e["id"])
                 continue
             near = tuple(ss[j]["en"].strip(BLANK) if 0 <= j < len(ss) else "" for j in (i - 1, i + 1))
             bx = windows.box(b, e)
@@ -361,6 +379,10 @@ def lint():
             r = dict(id=e["id"], jp=c, box=bx, px=px_, state=state, hard=hard_bytes(b, e),
                      nbytes=None if m is None else m - len(sjis.encode(lead + trail)))
             en = e["en"]
+            if (en != " " and core(en)[::2] != (lead, trail)
+                    and PADDING_EXCEPTIONS.get(e["id"]) != (e["jp"], en)):
+                errs += 1
+                print("ERROR %s: leading/trailing blanks differ from Japanese" % e["id"])
             en = "<blank>" if en == " " else en[len(lead):len(en) - len(trail)] if en.startswith(lead) and en.endswith(trail) else en
             er, w = check_line(r, en, gl, near)
             for x in er:
@@ -368,7 +390,7 @@ def lint():
             errs += len(er)
             warns += len(w)
     print("lint: %d errors, %d warnings, %d strings untranslated" % (errs, warns, todo))
-    return errs == 0
+    return errs == 0 and todo == 0
 
 
 def selftest():

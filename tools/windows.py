@@ -24,7 +24,8 @@ BOXES = {
     "scenario_title": (9999, 1, "measured"),  # never printed: no drawer reads it (tools/debug/scenread.lua); banner = G13
     "ending": (203, 3, "measured"),      # SCR_DATA 122 per-rank fates: the dialog box, 3 lines (ovl057, game end)
     "facility": (87, 1, "measured"),     # via %s in the map_info line "施設    %s": label + name share 87 px
-    "area": (87, 1, "guess"),            # via %s ("%sエリア" in dialog) and trade lists (エリア名), not reached
+    "area": (80, 1, "measured"),         # area selector: 120 minus "Area " (29), space (4), letter A-G (7)
+    "area_row": (120, 1, "measured"),   # x24..143 incl., before the right frame; mode 10 has an A-G suffix
     "results_col": (36, 1, "measured"),  # ovl057 row labels (お店 土地数 資産...) of the board status table, x 141
     "unreachable": (9999, 1, "measured"),  # no code path prints it (UNREACHABLE): no width budget
 }
@@ -40,6 +41,8 @@ CREDITS = (0x800A3D00, 0x800A4540)     # ovl033 staff roll
 
 def box(block, e):
     name = block["block"]
+    if e["id"] in {"ovl008_800A0330", "ovl008_800A033C"}:
+        return "area_row"
     if e["id"] in UNREACHABLE:
         return "unreachable"
     if name.startswith("pc"):

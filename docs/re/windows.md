@@ -21,11 +21,24 @@ relocation exists (phase 7). `tools/windows.py` maps every id to its box; the li
 | credits | ovl033 0x800A3D00-0x800A4540 staff roll | centred on x=157 | screen | 296 | 1 | measured (`ending_save` cold warp, frame 26880: 224 px line spans 43-264) |
 | scenario_title | scenarios +0x00 | - | - | none | 1 | never printed: `tools/debug/scenread.lua` on the story ch1 entry (world map, card, board load) logs every read of the loaded record and its copies: the title is read only by memcpy, the CD buffer copy (0x80047458) and the LZ loader reusing the buffer (0x80038C5C, 0x8003E0xx); the intro (+0x1E), the control, is read by the glyph drawer 0x8003C90C at f8274. The chapter banner is the graphic G13 |
 | ending | SCR_DATA 122 per-character fates (4 outcomes x 3 lines) | 94 | 300 | 203 | 3 | measured: the portrait dialog box (`work/qa/gate/fates/f000010`: "He became filthy rich," ... 3 lines from x 94). Reached by ending a versus game with a winner: `versus_s7` state, poke turn limit G+0x1A = 1 and player 0 money +4 (0x800866CE = 1), mash circle: Dante's turn-limit scene, then ovl057 "Now, the winner, %s-san... / Afterward..." and each rank's fate (state `versus_fates`) |
-| area | area names (areas*, scenarios +0x194) | via `%sエリア` (dialog) and the trade lists (エリア名 column) | | 87 | 1 | guess: lists need owned land; trade from `board_owned` says the player has none |
+| area | area names (areas*, scenarios +0x194) | 53 after `Area ` | 143 minus suffix | 80 | 1 | measured 2026-11-01: cold-boot `board_area`, modes 9 and 10; mode 10 reserves 29 px for `Area `, 4 for the joining space and 7 for A-G within the 120 px row. `work/qa/review7/area10_cold/final.png` shows longest `Pampas Meadow` plus A/B, fully visible |
+| area_row | ovl008_800A0330 / 800A033C | 24 | 143 (right inner frame at 146) | 120 | 1 | measured: mode 9 `work/qa/review7/area_cold3/f007100.png` and mode 10 above. No next numeric column: the final A-G letter is formatted in the same string. Mode 10 is the tighter variant |
 | results_col | ovl057 row labels お店 土地数 資産 不動産 資金 ＨＰ (drawn bottom-up, 18 px apart, by 0x800A0348) | 141 (leading blank: 145) | grey panel to ~180, next column 182 | 36 | 1 | measured: the board status table, info menu icon 3 (`board_info` state, right x2 + circle; `work/qa/gate/info2/f000690`). The ranking table at the game end is graphic (G9) |
 | unreachable | ovl052 2/3/4-leader tip lines (800C8768 / 8780 / 8790 / 87A8) | - | - | none | 1 | dead code: the tie count s5 of the tip function is only ever set to 0 (0x800C9038, 0x800C9044), so the 1-leader line 800C874C always shows (seen: "By the way, Jiggar-san leads!", `work/qa/leaders/t1/f000360`, turn limit poked to turn + 4) |
 
 Notes:
+- Padding exceptions (phase 7 review I3, 2026-11-01): `batches.PADDING_EXCEPTIONS`
+  matches exact JP/EN pairs, not just IDs. `ovl057_8009F9E0` intentionally drops
+  the original ASCII indent: `Assets` is 36 px, while ` Assets` would be 40 px.
+  Fresh read-only inspection of `work/qa/gate/info2/f000690.png` confirms Assets
+  aligns with Estate/Land and fits before the divider; adding the space would
+  break the measured 36 px field. Four ovl010 English fragments add one joining
+  space (` chooses a card...`, ` HP!!`, ` damage taken!`, ` used!`) after the
+  separately drawn subject/number, where Japanese needs none. Their prefix is
+  exactly one 4 px ASCII space; the complete fragment still passes the 203 px
+  dialog limit. These are language-joining exceptions, not removal of a cursor
+  indent. All other leading/trailing blanks, especially ovl033's four U+3000
+  spaces that encode as `/I`, must match exactly.
 - The page-wait arrow of the dialog box sits below line 3 (y 206-209), so line 3 has the full width.
 - Text is never clipped: an over-long line draws across the frame (password grid shot), so a guessed budget can
   hide an overflow until the screen is toured.

@@ -39,6 +39,11 @@ the EXE and every overlay).
 | 0x80086354 | 1 while the board command menu waits for input (**guess**: RAM diff, holds in every warp) |
 | 0x800803E0 | 25 on the title screen only (0 loading/intro, 1/26 menu) (**guess**: an object count) |
 | 0x8000EB08 | main menu cursor (stack local of the title function) |
+| 0x80087018 | square records, stride 0x28; +0x0E kind (0 land), +0x0F area index times 10, +0x14 owner (4 unowned), +0x24 shop level |
+| 0x80087F6A | loaded board's square count (EXE 0x8002788C) |
+| 0x80088362 | loaded area-name fields, 14 bytes each |
+| 0x800C7DB0 | ovl008 list-selector mode: 9 area, 10 build location with area + A-G suffix |
+| 0x800C7ABC | ovl008 pointer to active list; first word is entry count |
 
 Char-select grid cell -> char id: 0->7 1->3 2->9 3->2 4->0 (Jiga) 5->1 (Sinbad) 6->4 (Megmeg) 7->5 8->6; ids 8
 and 10 are not on the grid (hidden; the "?" cell picks at random).
@@ -55,6 +60,15 @@ and 10 are not on the grid (hidden; the "?" cell picks at random).
   empty card forever).
 
 ## Gotchas
+
+- `board_owned` now grants land directly at the command menu; no mashed play is
+  needed. `board_area` redirects the game's selector call to mode 9 (or 10 with
+  `AREA_MODE=10`), retaining its original list builder and renderer. Mode 9 needs
+  a shop level above zero in an area (EXE 0x80027940), so square 2 gets level 1.
+  `AREA_STRESS='Pampas Meadow'` replaces only the loaded 14-byte area-name fields
+  for width QA. The route asserts the selector mode and a nonempty list.
+  Run cold with `--frames 12000`; reached at about frame 7240. These are opt-in
+  Lua RAM patches, never changes to the disc or release build.
 
 - `--state-in` loads the state after frame 1: pokes on frame 1 are lost (poke.lua defaults to frame 5).
 - The board overlay is reloaded briefly after the save screen: "overlay 8 loaded" alone is not "board running";

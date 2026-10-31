@@ -4,6 +4,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8 (QA in the emulator) in progress since 2026-11-01. Order chosen: **graphics text first, then
   tours + visual-QA verdicts** (every redraw changes the sheets and voids their verdicts, so tour once at the end).
+- **Phase 7 review corrections (2026-11-01):** I1 independent decoded-file address policy
+  (`tools/write_policy.py`, `docs/re/write-policy.md`) checks actual diffs and logged spans, with fixed
+  pool-growth ceilings and a correctly logged EXE-header corruption regression. I2 required empty English
+  fails lint/CLI. I3 exact padding enforced, five narrow exact-text exceptions documented in windows.md;
+  missing story indentation fails the CLI regression. I4 deterministic owned-land and area-selector warps
+  now reach both area variants from cold boot; longest name fits the tighter 80 px name budget (120 px whole
+  row including `Area ` and A-G). Committed screenshots: `docs/re/evidence/area-mode{9,10}.png`.
+  Check: 113 passed, 0 lint errors, 4 pre-existing honorific warnings. Build + smoke pass, SHA-1
+  `7c1784bcc3caf44d579553b2e17b6cea2e967cbe`; no content change in this correction build.
 - **Phase 8 session 1 (2026-11-01):** `tools/gfx.py` (graphics-text relabeller, wired into `insert.edits`, writes
   logged and pixel-bounded) + `tools/timview.py` (TIM zoom with grid / index dump); OFL fonts in `fonts/`
   (docs/fonts.md). Done in game: G2 main/story/versus menus, G6 char-select title, G5 plates on char select only.
@@ -54,15 +63,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (functional input); default = keep the grid, translate the surrounding prompts. (non-blocking) PCSX-Redux GUI
   keyboard input not hand-tested; Redump hash not cross-checked online. (non-blocking) English "LANDMASTER" logo
   in the data (unused): default = draw a new English "GaiaMaster" logo.
-- **Box budget still guessed (last open item of review I2):** `area` (87 px guess): the
-  trade lists' エリア名 column needs owned land. `board_owned` with PLAY=9000 timed out at 1500 s (machine slow,
-  reached only f6500); retried 2026-11-01 on an idle-enough machine: still stuck in the play step after f6482 for
-  20 min (killed), so the mashed play itself hangs (likely a duel or a yes/no that circle never leaves); mashing
-  circle from `versus_s7` sticks in card duels. Next try: find the square-owner
-  field (ovl008 map-info panel code reading the owner for "%s's lot") and poke ownership on `versus_s7`, then
-  trade (board_cmd 2). Widest EN area name 80 px ("Pampas Meadow") vs widest JP 72 px, so the JP fit proves
-  nothing. The `Area %s` dialog use is fine (dialog box). Lint warns, not fails, on `area`.
-  Ending, results_col, scenario_title: done (docs/re/windows.md).
+- **Width gate:** all listed variants measured or proven unprinted; the last `area` guess is resolved
+  by the review corrections above. `board_owned` now grants ownership without playing turns. Area mode 9
+  also needs a shop level above zero; mode 10 adds the A-G suffix and has the tightest budget.
 - **Gaps to cover later:** image types 0x12 / 0x0321 / 0x0360 and STR movies not swept for Japanese; many menus
   are graphics (title menu, options, "ダイスをふる" bubble, player name plates, chapter banners G13, ranking
   panel G9, scenario-select buttons: 聖天体聖's button reads 斉天大聖) -> phase 8 graphics. Card list numbers sit at

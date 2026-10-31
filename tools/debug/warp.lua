@@ -144,6 +144,49 @@ local function SCENES_board_play()
     mash("circle", function() return L.frame - t >= (PLAY or 3000) end, "play", 40) })
 end
 
+-- Owned-land list without playing turns. Square records are 40 bytes at 0x80087018:
+-- +0x0E kind (0 = land), +0x14 owner (4 = unowned); verified at ovl008 0x800BAFD0.
+local function owned_land()
+  local count = 0
+  for i = 1, rd8(0x80087F6A) - 1 do
+    local a = 0x80087018 + i * 40
+    if rd8(a) ~= 0 and rd8(a + 0xE) == 0 and rd8(a + 0x14) == 4 then
+      wr8(a + 0x14, rd8(G + 0x15))
+      count = count + 1
+    end
+  end
+  assert(count > 0, "no unowned land found")
+  L.log("owned " .. count .. " land squares")
+end
+
+local function area_list()
+  assert(AREA_MODE == nil or AREA_MODE == 9 or AREA_MODE == 10, "AREA_MODE must be 9 or 10")
+  return append(board_cmd(nil), { fn(function()
+      owned_land()
+      -- Area selector mode 9 includes a group only when at least one square's
+      -- shop level (+0x24) is nonzero (EXE 0x80027940).
+      wr8(0x80087018 + 2 * 40 + 0x24, 1)
+      -- Redirect the existing selector call to its area-list mode (9). Only RAM
+      -- is patched; its normal list builder, layout and text renderer still run.
+      for _, a in ipairs({0x800ACF14, 0x800AD05C, 0x800AF548, 0x800B5364}) do
+        saved[a] = {rd32(a), rd32(a + 4)}
+        wr32(a, 0x24070000 + (AREA_MODE or 9))  -- li a3, selector mode
+      end
+      if AREA_STRESS then
+        local text = AREA_STRESS
+        assert(#text <= 13, "area name is a 14-byte field")
+        for i = 0, 9 do
+          for j = 0, 13 do wr8(0x80088362 + i * 14 + j, text:byte(j + 1) or 0) end
+        end
+      end
+    end), press("right", 20), press("right", 20), press("circle", 300), press("circle", 300),
+    fn(function()
+      local list = rd32(0x800C7ABC)
+      assert(list >= 0x80000000 and list < 0x80200000 and rd32(list) > 0, "area list is empty")
+      assert(rd32(0x800C7DB0) == (AREA_MODE or 9), "wrong selector mode")
+    end) })
+end
+
 local SCENES = {
   title = to_title,
   main_menu = to_menu,
@@ -193,12 +236,12 @@ local SCENES = {
   -- board_play, then the next command menu with land bought on the way (mashing circle buys): trade / map info
   -- lists with land names; TRADE=n opens command n (2 trade, 3 info) like board_cmd
   board_owned = function()
-    local s = SCENES_board_play()
-    s = append(s, { mash("circle", menu_up, "command menu", 60), wait(30) })
+    local s = append(board_cmd(nil), { fn(owned_land), wait(30) })
     for _ = 1, TRADE or 0 do s[#s + 1] = press("right", 20) end
     if TRADE then s[#s + 1] = press("circle", 120) end
     return s
   end,
+  board_area = area_list,
   -- first duel the mashed play brings (overlay 0x4D), stopped at its opening; deterministic per build
   duel = function()
     return append(board_cmd(nil), { mash("circle", function() return ovl() == OVL.battle end, "duel", 40),
