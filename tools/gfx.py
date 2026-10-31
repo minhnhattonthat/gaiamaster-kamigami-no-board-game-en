@@ -21,6 +21,9 @@ ROOT = Path(__file__).resolve().parents[1]
 UNPACKED = ROOT / "work/unpacked"
 FONTS = ROOT / "fonts"
 LILITA = FONTS / "lilitaone/LilitaOne-Regular.ttf"
+SILK = FONTS / "silkscreen/Silkscreen-Regular.ttf"
+SILKB = FONTS / "silkscreen/Silkscreen-Bold.ttf"
+PIXEL = {SILK: 8, SILKB: 8}   # pixel fonts: native size (cap height 5 px), drawn without scaling
 
 
 # ---------------------------------------------------------------- pixels
@@ -43,9 +46,28 @@ def encode(data, t, a):
     return data[:start] + pix + data[start + len(pix):]
 
 
+def pixel_mask(text, size, w, font, track=1):
+    """(bool mask, cap-top row) for a pixel font at its native size, no antialiasing; fails if wider than w."""
+    f = ImageFont.truetype(str(font), size)
+    hb = f.getbbox("H")
+    img = Image.new("1", (w * 3, size * 3), 0)
+    d = ImageDraw.Draw(img)
+    d.fontmode = "1"
+    x = size
+    for c in text:
+        d.text((x, size), c, fill=1, font=f)
+        x += f.getlength(c) + track
+    box = img.getbbox()
+    m = np.array(img.crop(box), bool)
+    assert m.shape[1] <= w, f"{text!r}: {m.shape[1]} px > {w}"
+    return m, size + hb[1] - box[1]
+
+
 def text_mask(text, h, w, font=LILITA, shear=0.0, track=0):
     """(bool mask, cap-top row): text with cap height h px, sheared right by `shear` (italic), squeezed to fit w.
     Rendered 8x and scaled down: small thresholded renders lose stems."""
+    if font in PIXEL:
+        return pixel_mask(text, PIXEL[font], w, font, track)
     f = ImageFont.truetype(str(font), 160)
     hb = f.getbbox("H")
     cap = hb[3] - hb[1]
@@ -113,6 +135,7 @@ def L(rect, text, style, th, bg=None, centre=True, shear=0.25, pad=2, font=LILIT
 
 MENU = shadowed(fill=4, edge=3, shadow=8)
 BUTTON = outlined(8, [1, 1, 2, 3, 4, 4])
+PLATE = outlined(0xB, [5, 4, 3, 2, 2, 3, 4, 5, 6])
 LABELS = {
     "G2": dict(key="SCR_DATA.BDP/127/033.dec", clut=0, labels=[
         L((4, 4, 214, 24), "Versus Mode", MENU, 15, bg=0xE),
@@ -125,6 +148,14 @@ LABELS = {
         L((108, 195, 96, 24), "Tag", MENU, 15, bg=0xE),
         L((5, 231, 117, 17), "New Game", BUTTON, 11, bg=9),
         L((133, 231, 117, 17), "Continue", BUTTON, 11, bg=9),
+    ]),
+    # character select: title (G6) and the 11 name plates (G5); plates 64x16 on a grid from (0,112), inner 3..60
+    "G6": dict(key="SCR_DATA.BDP/117/000.dec", clut=1, labels=[
+        L((12, 40, 188, 16), "Character Select", outlined(9, [5, 4, 3, 2, 1, 1, 1, 2, 3, 4, 5]), 11, bg=0),
+    ] + [
+        L((64 * (i % 4) + 3, 112 + 16 * (i // 4) + 3, 58, 10), n, PLATE, 5, bg=0, shear=0, font=SILK, track=0, pad=1)
+        for i, n in enumerate(["Jiggar", "Galahad", "Meg-meg", "Sinbad", "Goliath", "Yasutsuna", "Hayate", "Dante",
+                               "Tiara", "Agathe", "Son Gokuh"])
     ]),
 }
 

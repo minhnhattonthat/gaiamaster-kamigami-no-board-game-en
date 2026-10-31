@@ -47,6 +47,26 @@ sheets 000/10-15, 007/15-008/04); dev notes 使用中, (0Zオナジ;中心点用
 (023/10, 026/07), 決 placeholders (020/15); cell set c044 (R_PC 000-003/008, ~5 px katakana-like strokes at a
 frog sprite's edge, unreadable) and c2621 (SCR_DATA 138/018 background tiles: inscription-like glyph fragments).
 
+## Redraw progress (phase 8; tool `tools/gfx.py`, look with `tools/timview.py`)
+
+Method: `gfx.py` LABELS, one entry per TIM: each label clears a rect to a background index and draws English
+in the original's palette indices (styles `shadowed` = fill/left edge/drop shadow, `outlined` = outline + vertical
+fill ramp read off the Japanese rows with `timview.py KEY --dump x,y,w,h`). Fonts: Lilita One (sheared 0.25 for the
+italic menus, rendered 8x and downscaled) for >= 11 px caps, Silkscreen at 8 px native for tiny plates. Every copy
+in `gfx_survey/index.tsv` gets the same bytes; writes are logged like text writes (`tests/test_reloc.py`).
+Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original above, English below, x3).
+
+| Row | State | Shot |
+|---|---|---|
+| G2 main menu (127/033) | done: Versus Mode, Story Mode, Weapon Skill List, Options, Normal Mode, Quick Mode, Single, Tag, New Game, Continue. 体験版 stamp left (trial only, never seen) | `work/qa/gfx/menus.png` (main, story, versus menus) |
+| G6 char select title (117/000) | done: Character Select | `work/qa/gfx/cs.png` |
+| G5 name plates | 117/000 (char select) done, Silkscreen caps. Still Japanese: board HUD plates SCR_DATA 000/001 (= 002/001), 059/008, 214/000 (weapon list) | `work/qa/gfx/cs.png` |
+| G1, G3, G4, G7-G17 | to do. G10 (options, 009/000) is a packed word atlas: the sprite rects come from a table not yet found (0x0321 records or ovl code), so find it before redrawing (English words must fit each rect or the rects move) | |
+
+Names chosen for graphics (add to glossary when drawn): boards 西風の都 City of the West Wind, 緑の聖域 Green
+Sanctuary, 陽炎の遺跡 Heat-Haze Ruins, 円環の廃墟の国 Land of the Ring Ruins, ブシドーキャッスル Bushido Castle,
+魔都パンデモニアム Pandemonium the Demon City, 東京199X Tokyo 199X (proposed, not yet drawn).
+
 ## English already on screen (keep; check style match)
 
 LANDMASTER logo (DATA/END_CMM/OPP 000 and OP_DEMT: an early English title, not the shipped logo), GAIAMASTER

@@ -2,8 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit, check) done 2026-10-31; next phase 8 (QA in the emulator: tours of every scene with
-  contact sheets, visual-QA verdicts via `qa_gate.py`, graphics text).
+- **Phase:** 8 (QA in the emulator) in progress since 2026-11-01. Order chosen: **graphics text first, then
+  tours + visual-QA verdicts** (every redraw changes the sheets and voids their verdicts, so tour once at the end).
+- **Phase 8 session 1 (2026-11-01):** `tools/gfx.py` (graphics-text relabeller, wired into `insert.edits`, writes
+  logged and pixel-bounded) + `tools/timview.py` (TIM zoom with grid / index dump); OFL fonts in `fonts/`
+  (docs/fonts.md). Done in game: G2 main/story/versus menus, G6 char-select title, G5 plates on char select only.
+  Progress table and next rows: `docs/re/graphics.md` §Redraw progress. Build sha1 7c1784bc... (2026-11-01, G2 +
+  G6/G5-plates), smoke ok. Next: G5 other copies (board HUD 000/001, 059/008, 214/000), G3,
+  G4, G7, G8, G9, G11, G12, G13, G14, G1 logo, then G10 (find its sprite-rect table first), G15-G17; then the
+  tour runner (plan below) and verdicts.
+- **Tour plan (not written yet):** `tools/tour.py` + `tools/tours.txt`: (a) warp tours = regen with
+  `--shot-every 20`, sheets from a log mark (`save cancelled` for story ch2-20, the first `fn` for ch1/prologues,
+  `chapter 20 board` for `ending_save CHAR=0..8`); (b) state tours from `work/states/gaiamaster_en/*` mashing
+  circle 2400-3000 frames (story boards 1-20, versus boards 0-8, duel) and cursor routes for char select (9
+  cells), card list, options, weapon list. Sheets `--div 1 --changed 0.02` into `work/qa/tour/<name>/`, the same
+  on the original into `work/qa/tour_jp/`, then `qa_gate.py init/todo`, self-review per chunk (no subagents
+  under Orca), verdicts in `work/qa/verdicts/`. en states in `work/states/gaiamaster_en/` predate a253d7f:
+  regenerate (`regen.py --rom build/gaiamaster_en.cue`) before touring. Emulator speed 2026-11-01: ~250 fps
+  even with another project's 9 emulators running.
+- **Never build while an emulator has build/gaiamaster_en.bin open:** mkpsxiso fails (exit 1, old .bin kept).
 - **Phase 6 review (H:/translation/.harness/reviews/...-phase6.md) fixed 2026-10-31 (commit a253d7f):** I1 %s
   domains (names / cards at their widest, errors), I3 every %sさん keeps -san (error), I4 Heavenly Palace / Four
   Horsemen of the Apocalypse restored + glossary (full) terms enforced, I5 <blank> only BLANK_OK rows without
@@ -37,9 +54,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (functional input); default = keep the grid, translate the surrounding prompts. (non-blocking) PCSX-Redux GUI
   keyboard input not hand-tested; Redump hash not cross-checked online. (non-blocking) English "LANDMASTER" logo
   in the data (unused): default = draw a new English "GaiaMaster" logo.
-- **Box budget still guessed (last open item of review I2; do it first in phase 8):** `area` (87 px guess): the
+- **Box budget still guessed (last open item of review I2):** `area` (87 px guess): the
   trade lists' エリア名 column needs owned land. `board_owned` with PLAY=9000 timed out at 1500 s (machine slow,
-  reached only f6500); mashing circle from `versus_s7` sticks in card duels. Next try: find the square-owner
+  reached only f6500); retried 2026-11-01 on an idle-enough machine: still stuck in the play step after f6482 for
+  20 min (killed), so the mashed play itself hangs (likely a duel or a yes/no that circle never leaves); mashing
+  circle from `versus_s7` sticks in card duels. Next try: find the square-owner
   field (ovl008 map-info panel code reading the owner for "%s's lot") and poke ownership on `versus_s7`, then
   trade (board_cmd 2). Widest EN area name 80 px ("Pampas Meadow") vs widest JP 72 px, so the JP fit proves
   nothing. The `Area %s` dialog use is fine (dialog box). Lint warns, not fails, on `area`.
