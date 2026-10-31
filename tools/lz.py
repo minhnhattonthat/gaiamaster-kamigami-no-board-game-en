@@ -2,7 +2,8 @@
 
 Header: u32 whose low byte is 0xF1, u32 decompressed size. Then groups: a big-endian u16 flag word, read MSB
 first, 16 items per word. Bit 0 = literal byte. Bit 1 = copy: b1 gives length (b1 & 0x7F) + 4; if b1 & 0x80 the
-distance is ((b2 << 8) + 0x100 | b3) + 1, else b2 + 1. Copies may overlap (byte by byte).
+distance is (((b2 << 8) + 0x100 | b3) + 1) & 0xFFFF, else b2 + 1.
+The native decoder masks at 0x8003E248. Copies may overlap (byte by byte).
 
     python -X utf8 tools/lz.py d IN OUT
 """
@@ -29,10 +30,12 @@ def decompress(data):
                 p += 2
                 n = (b1 & 0x7F) + 4
                 if b1 & 0x80:
-                    dist = (((b2 << 8) + 0x100) | data[p]) + 1
+                    dist = ((((b2 << 8) + 0x100) | data[p]) + 1) & 0xFFFF
                     p += 1
                 else:
                     dist = b2 + 1
+                if not 0 < dist <= len(out):
+                    raise ValueError(f'invalid F1 distance {dist} at output {len(out)}')
                 for _ in range(min(n, size - len(out))):
                     out.append(out[-dist])
             else:
@@ -43,7 +46,7 @@ def decompress(data):
 
 
 MAX_LEN = 0x7F + 4
-MAX_DIST = 0xFFFF + 0x101
+MAX_DIST = 0xFFFF
 CHAIN = 48  # candidates tried per position: speed vs ratio
 
 

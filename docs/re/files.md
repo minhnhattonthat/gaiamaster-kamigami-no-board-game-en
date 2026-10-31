@@ -39,13 +39,22 @@ Dump: `rom.sha1`. Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s wor
   byte; the F2 decoder is 0x8003F31C, no F2 file found yet).
 - Format: u32 (low byte 0xF1), u32 output size; then 16-bit big-endian flag words read MSB first, 16 items each:
   0 = literal byte; 1 = copy, b1: length (b1 & 0x7F) + 4; b1 & 0x80 -> distance ((b2 << 8) + 0x100 | b3) + 1
-  (3-byte form), else distance b2 + 1.
+  (3-byte form), else distance b2 + 1. The native decoder then masks the
+  distance with `andi v0,a0,0xffff` at 0x8003E248.
 - **verified**: all 3914 F1 entries decode without error to sensible output (3358 BDPs, 523 TIMs, SEQ, etc.).
 - Encoder `lz.compress` (greedy, hash chains of 4-byte prefixes, 48 candidates, max length 131, max distance
-  0x10100). **verified**: decode(compress(x)) == x for all 3914 decoded entries (one-off sweep, 590 s, too slow
-  for the pre-commit check; `tests/test_build.py` roundtrips a sample); output 0.978x the original packer's in
-  total, worst block 1.118x, so a compressed entry can grow even with no edit - only edited entries are
-  recompressed. The game's decoder accepts it: see the `growlz` line under Disc.
+  **0xFFFF**, matching the native distance mask). The local decoder applies
+  the same mask and rejects references to uninitialized output. The earlier
+  0x10100 limit passed a self-consistent Python roundtrip but was unsafe in
+  game: fifteen references in the compressed board copy PRGPACK 058/000
+  exceeded 65535. After a duel, native decompression corrupted board code
+  (including 0x800C162B, 0x24 to 0x02) and caused a reserved-instruction crash.
+  The raw PRGPACK 008/000 copy was correct, explaining successful cold entry.
+  `tests/test_formats.py` anchors the native wrap behavior with a hand-built
+  stream and tests repeat distances 65535, 65536, 65600 and 65792. Rebuild all
+  edited compressed entries after this fix; old built discs remain unsafe.
+  The earlier 3914-entry self-roundtrip and title-only `growlz` smoke were
+  insufficient to establish native compatibility at this boundary.
 
 ## Free space (candidates, all **guess** until tested)
 

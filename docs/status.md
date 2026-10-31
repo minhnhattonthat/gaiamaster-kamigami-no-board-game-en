@@ -3,8 +3,8 @@
 Updated at the end of every session. History is in git.
 
 - **Phase:** 8, emulator QA, in progress. Do not advance to release yet.
-- **Latest build:** SHA-1 `d870d527d4ad2ba392f1a05cd1aa06999bf3ab35`.
-  Check: 114 tests passed, zero lint errors, four existing honorific warnings.
+- **Latest build:** SHA-1 `36c40602e239fabe8f612b82ea4d3c006e4d9b81`.
+  Check: 119 tests passed, zero lint errors, four existing honorific warnings.
   A final smoke run is still required after the remaining fixes.
 - **Phase 7 review:** all four Important findings fixed and pushed in dccfe09.
   Independent byte/write policy, pool-growth ceiling, empty-English CLI error,
@@ -30,14 +30,14 @@ Updated at the end of every session. History is in git.
   budget covers its 57-by-7 string table. Cold Excalibur cases on both sides
   pass independent review: full first/last letters, no clipping or overlap.
   Evidence: `docs/re/evidence/duel-help-left.png` and `duel-help-right.png`.
-- **Open runtime bug:** the cold `results` route stalls after a duel at frame
-  14720; `credits_c1` also stalls. A debugger checkpoint reports reserved
-  instruction at 0x800C1628: the byte at 0x800C162B changes from 0x24 to 0x02
-  in RAM, while the built overlay retains the correct instruction. Heap growth
-  room remains. Trace the writer and fix the cause before phase completion.
-  Repro/evidence: `work/qa/results_stall/s014700.sstate`,
-  `work/qa/results_exception2/log.txt`. A cold interpreter run changes timing
-  and avoids the duel, so use checkpoints near the return to the board.
+- **Post-duel crash fixed:** the compressor allowed distances through 0x10100,
+  but EXE 0x8003E248 masks them to 16 bits. Fifteen oversized references in
+  PRGPACK 058/000 corrupted board code on reload after a duel. The raw 008
+  overlay was correct, hiding the bug during cold entry. Encoder limit is now
+  0xFFFF; the local decoder follows the native mask. Five boundary regression
+  cases pass. The exact failing cold `results` route now reaches frame 15469
+  successfully; `credits_c1` has passed its old stall and reached its ending.
+  Trace: `work/qa/results_decode_board/log.txt`; explanation in `files.md`.
 - **Current QA tooling:** `tools/tour.py` builds cold captures, state-based cursor
   routes, full-resolution sheets and frame maps. `--only`, repeatable `--exclude`
   and `--sheets-only` support targeted reruns. Hard links avoid Windows command
@@ -47,7 +47,7 @@ Updated at the end of every session. History is in git.
   Item Seal effect, which the normal item path bypasses; all seven sheets
   independently pass, including the full zoom/fade animation. See debug.md.
 - **Remaining phase 8:** finish all chapter/board/prologue/credits and cursor
-  tours, inspect every changed graphic on screen, resolve the post-duel stall,
+  tours, inspect every changed graphic on screen, finish post-fix ending checks,
   review the remaining sheets, and get `qa_gate.py check` to zero.
   The manifest/verdicts are under `work/qa/`; 220 sheets currently pass,
   including the 20 main chapter banners, all nine openings, both duel-help positions,

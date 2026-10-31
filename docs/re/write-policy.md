@@ -21,11 +21,18 @@ The remaining permissions are explicit, separately maintained constants:
 - The original ASCII glyph cells and the 15 named spare kanji cells, resolved
   through the original font table. No other glyph cell is permitted.
 - One four-byte credits-font call at ovl033 file offset 0x1F578.
+- Ten four-byte ovl033 typewriter limits, independently listed in the policy,
+  use the existing expanded glyph allocation instead of the old 18-glyph cap.
 - Two four-byte biography origin instructions at ovl009 offsets 0x3F74/0x41CC.
   SCR_DATA 067/005 and 006 sprite payloads may be relaid out, with fixed ceilings
   200 and 624 bytes. The latter expands three packed squares to rectangles (12
   bytes) plus four alignment bytes. Headers and record counts stay fixed; the
   semantic regression test also protects texture UVs, palette, Y and source size.
+- The duel-help origin at ovl010 0xDFC (two bytes), priorities at 0x1330C and
+  0x13354, and insets at 0x13390/0x1340C/0x13428. DUELDATA 001/014 sprite
+  payload may expand to 372 bytes. The semantic regression preserves its
+  source rectangles, palettes and trailing CLUTs; cold long-row checks cover
+  both popup positions. See windows.md for the measured 116 px text budget.
 - G1-G17 pixel rectangles listed in `GRAPHICS`, including byte-identical
   copies from the committed graphics survey. TIM headers and palettes are
   excluded. At 4 bpp a boundary byte contains two pixels; the graphics writer's
