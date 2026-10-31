@@ -3,7 +3,8 @@
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 `tools/batches.py` reads the tables: a JP term from the Characters or Places table needs its EN form in the line
 (error); a card name needs its EN form when the line is the card name itself or quotes it in 「」; the Terms table
-is advisory (follow it unless the sentence reads wrong). The Avoid column is always an error.
+is advisory (follow it unless the sentence reads wrong), except rows marked (full): those are names and need their
+whole EN form (error). The Avoid column is always an error.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
 - Honorifics: kept, hyphenated (Yasutsuna-dono, Jiggar-san, Gokuh-sama). Name order: Western (given name first).
@@ -28,7 +29,7 @@ is advisory (follow it unless the sentence reads wrong). The Avoid column is alw
 ## Characters
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| ジガー | Jiggar | | treasure hunter, young, in love with a princess | Jigger, Jigga |
+| ジガー | Jiggar | | treasure hunter, young, in love with Erina (blind daughter of the richest man) | Jigger, Jigga |
 | シンバッド | Sinbad | | bandit, womaniser | Sindbad |
 | ハヤテ | Hayate | | ninja master | |
 | アガート | Agathe | | witch | Agate, Agaat |
@@ -45,7 +46,7 @@ is advisory (follow it unless the sentence reads wrong). The Avoid column is alw
 | 兼光 | Kanemitsu | | Yasutsuna's fellow retainer | |
 | 二郎真君 | Jiro Shinkun | | god, Gokuh's old rival | Erlang |
 | シリウス | Sirius | | | |
-| エリナ | Erina | | | |
+| エリナ | Erina | | Jiggar's love, blind daughter of the richest man in the country | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -182,8 +183,8 @@ Weapon / skill cards (EXE table, 15 bytes) and event / symbol cards (14 bytes); 
 | 忍法ウツセミの術 | Ninja Art: Cicada Shell | | Hayate's skill | |
 | 下忍 | lower ninja | | 上忍 upper ninja | |
 | 西王母 | Seiobo | | with さま "Seiobo-sama" | Queen Mother of the West |
-| 天宮 | Heavenly Palace | | never shortened to "the Palace" | |
-| 黙示録の四騎士 | Four Horsemen of the Apocalypse | | Dante's servants | |
+| 天宮 | Heavenly Palace | | (full) never shortened to "the Palace" | |
+| 黙示録の四騎士 | Four Horsemen of the Apocalypse | | (full) Dante's servants | |
 | 聖騎士 | Paladin | | | |
 | 夢魔 | Dream | | area / square name part (13 bytes) | Nightmare |
 | 天女 | Nymph | | area / square name part | Sky Maiden |

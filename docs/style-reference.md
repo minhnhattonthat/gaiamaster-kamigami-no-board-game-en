@@ -8,7 +8,7 @@ The English should be snappy, funny and in character; menus and rules text plain
 | Character | Who | Voice in English | JP markers |
 |---|---|---|---|
 | Belial | pixie host, guide, char-select narrator, card intros | sassy, cute, catty; talks to the player as "you" | 〜わ, 〜よ, 〜かしら |
-| Jiggar | young treasure hunter, street kid in love with a princess | brash, cheeky teen slang | おれ, 〜ぜ |
+| Jiggar | young treasure hunter, street kid in love with Erina (blind daughter of the richest man; he seeks the Elixir to cure her) | brash, cheeky teen slang | おれ, 〜ぜ |
 | Sinbad | bandit, womaniser, dreams of a big score | cocky, smooth, wisecracking | オレ/俺, 〜さ |
 | Hayate | ninja master, killing machine | terse, cold, few words | ム…, 忍… |
 | Agathe | lonely witch, clingy and creepy | soft, wistful, possessive; trailing "..." | わたし, 〜の…, 許さない |

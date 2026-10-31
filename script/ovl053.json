@@ -31,7 +31,7 @@
    "id": "ovl053_800C8460",
    "at": "800C8460",
    "jp": "%sの「%s」と",
-   "en": "Swapped %s-san's \"%s\"",
+   "en": "%s's \"%s\"",
    "max": 15,
    "refs": [
     "lui@33C/340"
@@ -42,7 +42,7 @@
    "id": "ovl053_800C8470",
    "at": "800C8470",
    "jp": "%sの「%s」を",
-   "en": "with %s-san's \"%s\".",
+   "en": "and %s's \"%s\"",
    "max": 15,
    "refs": [
     "lui@380/384"
@@ -53,7 +53,7 @@
    "id": "ovl053_800C8480",
    "at": "800C8480",
    "jp": "交換したよ。",
-   "en": "All done!",
+   "en": "were swapped!",
    "max": 15,
    "refs": [
     "lui@3AC/3B4"

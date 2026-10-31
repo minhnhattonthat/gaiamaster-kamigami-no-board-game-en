@@ -21,12 +21,16 @@ BOXES = {
     "list_name": (116, 1, "measured"),   # card names in the shop/hand list (number column at x=141)
     "map_info": (87, 5, "measured"),     # board square panel (command menu / map info): square name + 4 lines
     "credits": (296, 1, "measured"),     # ovl033 staff roll, each line centred on x=157
-    "scenario_title": (168, 1, "guess"),  # never drawn as text seen so far: the map banner is graphic G13
-    "ending": (203, 12, "guess"),        # SCR_DATA 122: per-rank fates, likely the versus game end; not reached
+    "scenario_title": (9999, 1, "measured"),  # never printed: no drawer reads it (tools/debug/scenread.lua); banner = G13
+    "ending": (203, 3, "measured"),      # SCR_DATA 122 per-rank fates: the dialog box, 3 lines (ovl057, game end)
     "facility": (87, 1, "measured"),     # via %s in the map_info line "施設    %s": label + name share 87 px
     "area": (87, 1, "guess"),            # via %s ("%sエリア" in dialog) and trade lists (エリア名), not reached
-    "results_col": (36, 1, "guess"),     # ovl057 table headers (お店 土地数 資産...): 3 cells wide; table not reached
+    "results_col": (36, 1, "measured"),  # ovl057 row labels (お店 土地数 資産...) of the board status table, x 141
+    "unreachable": (9999, 1, "measured"),  # no code path prints it (UNREACHABLE): no width budget
 }
+# strings the game never prints. ovl052 leader tip (0x800C8FF0..): the tie count s5 is only ever set to 0
+# (0x800C9038, 0x800C9044), so only the 1-leader line 800C874C shows; the 2/3/4-way lines are dead code.
+UNREACHABLE = {"ovl052_800C8768", "ovl052_800C8780", "ovl052_800C8790", "ovl052_800C87A8"}
 # EXE fixed tables (no per-entry refs): card names
 LIST_TABLES = [(0x80011248, 0x80011248 + 57 * 26), (0x80011814, 0x80011814 + 50 * 20)]
 CARD_TITLES = {"ovl029_800A019C", "ovl029_800A01B8"}   # centred by hand: 5 leading U+3000 (12 px each)
@@ -36,6 +40,8 @@ CREDITS = (0x800A3D00, 0x800A4540)     # ovl033 staff roll
 
 def box(block, e):
     name = block["block"]
+    if e["id"] in UNREACHABLE:
+        return "unreachable"
     if name.startswith("pc"):
         return "dialog"
     if name == "profiles":

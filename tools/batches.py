@@ -40,6 +40,12 @@ OK_CHARS = set(chr(c) for c in range(0x20, 0x7F)) | set(ICONS) | {"　", "\n"}  
 TOKEN = re.compile(r"/P[0-9A-F]{2}|/V|/v|%[-+ 0-9]*[sd]|\n|\[[0-9A-F]{2}\]")
 BLANK = insert.BLANK
 TOKEN_PX = {"%s": 48, "%d": 18}   # guessed widths of what a code prints
+# %s whose source is known: a character name ("%s-san", or these ids), a card name ('"%s"'); widest of each
+# domain from script/ (name_px / card_px). An overflow with every known %s at its widest is an error.
+NAME_IDS = {"ovl008_800A13D4", "exe_800102BC", "exe_800102D0", "exe_80012048", "ovl008_800A1208",
+            "ovl008_800A1220", "ovl010_800A1018"}
+# rows left empty on purpose: the box's last line, and the JP row has no codes (the English ends a line early)
+BLANK_OK = {"ovl008_800A14D4": "'ます' ending a 3-line square description; the English fits in 2"}
 ROWS_SOFT, ROWS_HARD, CHARS_SOFT = 120, 160, 3000
 SPLIT = re.compile(r"[。！？」…」）～＠!?.]$")
 
@@ -103,6 +109,18 @@ def rows():
     return out
 
 
+_DOM = {}
+
+
+def domain_px():
+    """Widest text a known %s prints: {'name': character names, 'card': card names (the list tables' English)}."""
+    if not _DOM:
+        _DOM["name"] = max(px(n) for n in PC.values())
+        _DOM["card"] = max(px(e["en"].strip(BLANK)) for b in insert.blocks() for e in b["strings"]
+                           if e["en"].strip(BLANK) and windows.box(b, e) == "list_name")
+    return _DOM
+
+
 def hard_bytes(b, e):
     """Byte budget that relocation can't lift: fixed fields, tables and strings no pointer reaches."""
     return b["kind"] == "fields" or (b["kind"] == "code" and not e["refs"])
@@ -130,7 +148,8 @@ def glossary():
             section = ln[3:].lower()
         cells = [c.strip() for c in ln.strip().strip("|").split("|")] if ln.startswith("|") else []
         if len(cells) >= 2 and cells[0] not in ("JP", "") and not set(cells[0]) <= set("-"):
-            enf = "always" if section in ("characters", "places") else "quoted" if section == "cards" else ""
+            enf = ("always" if section in ("characters", "places") or "(full)" in ln
+                   else "quoted" if section == "cards" else "")
             out.append((cells[0], cells[1], [a.strip() for a in (cells[4] if len(cells) > 4 else "").split(",") if a.strip()], enf))
     return out
 
@@ -151,10 +170,15 @@ def terms_for(jps, gl):
 
 # ---- checks ----
 
-def check_line(r, en, gl):
-    """(errors, warnings) for one row's English."""
+def check_line(r, en, gl, near=("", "")):
+    """(errors, warnings) for one row's English; near = the English of the rows before and after it."""
     err, warn = [], []
+    rid = r.get("id")
     if en == "<blank>":
+        if rid not in BLANK_OK:
+            err.append("<blank> only for a row in BLANK_OK (an unneeded last line of its box)")
+        if TOKEN.findall(r["jp"]) or set(r["jp"]) & set(ICONS):
+            err.append("<blank> would drop the JP's codes / icons")
         return err, warn
     if not en.strip():
         return ["empty (write <blank> for a line left empty on purpose)"], warn
@@ -175,22 +199,33 @@ def check_line(r, en, gl):
             err.append("icon %s count differs" % ic)
     if re.search(r"(%[-+ 0-9]*[sd]|/V%[sd])(st|nd|rd|th)\b", en):
         err.append("ordinal suffix glued to a code")
-    w = px(en)
-    if w > r["px"]:   # %s counted as 48 px; only the text itself (%s = 24 px) over the box is an error
-        hard = r["state"] != "guess" and w - 24 * en.count("%s") > r["px"]
-        (err if hard else warn).append("%dpx > %dpx (%s box%s)" % (w, r["px"], r["box"], "" if hard else ", estimate"))
+    d = domain_px()
+    names = en.count("%s") if rid in NAME_IDS else en.count("%s-san")
+    cards = en.count('"%s"')
+    unknown = en.count("%s") - names - cards
+    w = px(en) + (d["name"] - TOKEN_PX["%s"]) * names + (d["card"] - TOKEN_PX["%s"]) * cards
+    if w > r["px"]:   # known %s at their widest, unknown at 48 px; error when over with unknown %s at 24 px
+        hard = r["state"] != "guess" and w - 24 * unknown > r["px"]
+        (err if hard else warn).append("%dpx > %dpx (%s box, %d names at %d px, %d cards at %d px%s)" % (
+            w, r["px"], r["box"], names, d["name"], cards, d["card"], "" if hard else ", estimate"))
     if r["nbytes"] is not None and r["hard"]:   # soft budgets: tools/reloc.py moves the string (build fails if not)
         n = len(sjis.encode(en))
         if n > r["nbytes"]:
             err.append("%d bytes > %d" % (n, r["nbytes"]))
     low = en.lower()
+    spans = ("%s %s" % (near[0], en)).lower(), ("%s %s" % (en, near[1])).lower()   # a term split over two lines
     for jp, ten, avoid, enf in gl:
         if has_term(r["jp"], jp):
-            if (enf == "always" or enf == "quoted" and (r["jp"] == jp or "「%s」" % jp in r["jp"])) and ten.lower() not in low:
+            t = ten.lower()
+            if ((enf == "always" or enf == "quoted" and (r["jp"] == jp or "「%s」" % jp in r["jp"]))
+                    and t not in low and not (enf == "always" and any(t in s for s in spans))):
                 err.append("glossary: %s -> %s missing" % (jp, ten))
         for a in avoid:
             if re.search(r"\b%s\b" % re.escape(a), en):   # case-sensitive: avoid "Meg-Meg" must pass "Meg-meg"
                 err.append("glossary: avoid %r (%s -> %s)" % (a, jp, ten))
+    n_san = r["jp"].count("%sさん")   # every name keeps its -san (D1)
+    if en.count("%s-san") < n_san:
+        err.append("honorific: %d x %%sさん in JP, %d x %%s-san in EN" % (n_san, en.count("%s-san")))
     if re.search(r"(?<![母父許])(?<=[ァ-ヺ一-龥s])さん", r["jp"]) and "-san" not in en:   # not お母さん / 許さん
         warn.append("JP has -san, EN doesn't")
     return err, warn
@@ -227,11 +262,12 @@ def check(name, quiet=False):
         elif len(got[k]) > 1:
             errs.append("%s: given %d times" % (k, len(got[k])))
     nwarn = 0
-    for r in rs:
+    en_of = lambda i: got[rs[i]["id"]][0] if 0 <= i < len(rs) and rs[i]["id"] in got else ""  # noqa: E731
+    for i, r in enumerate(rs):
         if r["id"] not in got:
             errs.append("%s: missing" % r["id"])
             continue
-        e, w = check_line(r, got[r["id"]][0], gl)
+        e, w = check_line(r, got[r["id"]][0], gl, (en_of(i - 1), en_of(i + 1)))
         errs += ["%s: %s" % (r["id"], x) for x in e]
         nwarn += len(w)
         if not quiet:
@@ -310,21 +346,23 @@ def lint():
     gl, errs, warns, todo = glossary(), 0, 0, 0
     keep = insert.keep_jp()
     for b in insert.blocks():
-        for e in b["strings"]:
+        ss = b["strings"]
+        for i, e in enumerate(ss):
             if not needs_tl(e, keep):
                 continue
             if not e["en"]:
                 todo += 1
                 continue
+            near = tuple(ss[j]["en"].strip(BLANK) if 0 <= j < len(ss) else "" for j in (i - 1, i + 1))
             bx = windows.box(b, e)
             lead, c, trail = core(e["jp"])
             m = insert.budget(b, e)
             px_, _, state = windows.BOXES[bx]
-            r = dict(jp=c, box=bx, px=px_, state=state, hard=hard_bytes(b, e),
+            r = dict(id=e["id"], jp=c, box=bx, px=px_, state=state, hard=hard_bytes(b, e),
                      nbytes=None if m is None else m - len(sjis.encode(lead + trail)))
             en = e["en"]
             en = "<blank>" if en == " " else en[len(lead):len(en) - len(trail)] if en.startswith(lead) and en.endswith(trail) else en
-            er, w = check_line(r, en, gl)
+            er, w = check_line(r, en, gl, near)
             for x in er:
                 print("ERROR %s: %s" % (e["id"], x))
             errs += len(er)
@@ -341,15 +379,33 @@ def selftest():
     assert check_line(r, "Toss the %sth", [])[0] == ["ordinal suffix glued to a code"]
     assert check_line(r, "W" * 40 + '"%s"', [])[0]                     # px over
     assert check_line(dict(r, hard=True), 'Throw it all away now, "%s"', [])[0]   # bytes over a fixed field
-    assert check_line(r, 'Throw it all away now, "%s"', [])[0] == []    # soft bytes: warning only
+    assert check_line(dict(r, px=400), 'Throw it all away now, "%s"', [])[0] == []    # soft bytes: warning only
     assert has_term("ミンが", "ミン") and not has_term("タイミング", "ミン")
     gl = [("ジガー", "Jiggar", ["Jigger"], "always"), ("幸運", "Good Luck", [], "quoted")]
     assert check_line(dict(r, jp="ジガー%s"), "Jigger %s", gl)[0]
     assert check_line(dict(r, jp="メグメグ%s"), "Meg-meg %s", [("メグメグ", "Meg-meg", ["Meg-Meg"], "always")])[0] == []
     assert check_line(dict(r, jp="幸運を%s"), "Luck to %s", gl)[0] == []
     assert check_line(dict(r, jp="「幸運」%s"), "Luck %s", gl)[0]
+    full = [("天宮", "Heavenly Palace", [], "always")]
+    assert check_line(dict(r, jp="早くそいつを天宮から"), "Throw him out of the...", full)[0]
+    assert check_line(dict(r, jp="天宮にも"), "sick of the Heavenly", full, ("", "Palace anyway."))[0] == []
     assert ("ジガー", "Jiggar", ["Jigger", "Jigga"], "always") in glossary()
     assert px("%4d") == 24 and px("ab") == font_en.width("ab") and px("ab\nabc") == font_en.width("abc")
+    # blanks: only BLANK_OK rows, never over codes
+    four = dict(r, jp="%sさん %sさん %sさん %sさん", id="x")
+    assert check_line(four, "<blank>", [])[0]
+    assert check_line(dict(four, id="ovl008_800A14D4"), "<blank>", [])[0]           # BLANK_OK id, but codes
+    assert check_line(dict(r, jp="ます", id="ovl008_800A14D4"), "<blank>", [])[0] == []
+    assert check_line(dict(r, jp="ます", id="y"), "<blank>", [])[0]
+    # every %sさん keeps -san; names / cards at their widest
+    assert any("honorific" in x for x in check_line(four, "%s, %s, %s, %s", [])[0])
+    assert any("honorific" in x for x in check_line(four, "%s-san, %s, %s, %s", [])[0])
+    n = domain_px()["name"]
+    tight = dict(r, jp="所有者  %s", px=px("Owner ") + n, id="ovl008_800A13D4")
+    assert check_line(tight, "Owner %s", [])[0] == [] and check_line(dict(tight, px=tight["px"] - 1), "Owner %s", [])[0]
+    assert check_line(dict(r, jp="%sさん", px=px("-san") + n - 1), "%s-san", [])[0]    # a name runs over
+    assert check_line(dict(r, jp="「%s」", px=px('""') + domain_px()["card"] - 1), '"%s"', [])[0]
+    assert check_line(dict(four, px=400), "%s-san, %s-san, %s-san and %s-san", [])[0] == []
 
 
 if __name__ == "__main__":

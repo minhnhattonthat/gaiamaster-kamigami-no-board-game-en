@@ -273,7 +273,7 @@
    "id": "ovl052_800C874C",
    "at": "800C874C",
    "jp": "ちなみに今のトップは%sさん",
-   "en": "By the way, the leader is %s-san",
+   "en": "By the way, %s-san leads!",
    "max": 27,
    "refs": [
     "lui@D78/D7C"
@@ -319,7 +319,7 @@
    "id": "ovl052_800C87A8",
    "at": "800C87A8",
    "jp": "%sさん %sさん %sさん %sさん",
-   "en": "%s, %s, %s, %s",
+   "en": "%s-san, %s-san, %s-san and %s-san",
    "max": 27,
    "refs": [
     "lui@E60/E64"

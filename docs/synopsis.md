@@ -7,7 +7,10 @@ bankrupting the rest. Belial, a sharp-tongued pixie, hosts: she introduces each 
 narrates the character select.
 
 ## Cast (playable; official English names from the staff roll)
-- **Jiggar** the treasure hunter - street kid who loves a princess far above his station; wants a town without kings.
+- **Jiggar** the treasure hunter - street kid in love with Erina, the blind daughter of the richest man in the
+  country, who loves the stories he tells her. He enters GaiaMaster to win the Elixir (エリキサー) that will cure
+  her eyes; in his ending she sees again, but he backs off: a lowly treasure hunter and the richest man's
+  daughter "live in different worlds".
 - **Sinbad** the bandit - womaniser chasing a get-rich-quick dream.
 - **Hayate** the ninja master - a lower-rank ninja (下忍) used and thrown away by his clan; bitter, deadly.
 - **Agathe** the witch - alone since her mother died; cursed people to death a century ago; wants to be loved.
