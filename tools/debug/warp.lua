@@ -188,6 +188,10 @@ local function area_list()
 end
 
 local SCENES = {
+  intro = function()
+    -- The unattended opening loop does not use the skipped-title object count.
+    return { ovl_is(OVL.title), wait(4500) }
+  end,
   -- Title attract-cycle selector, EXE 80015008: values 3/5/9/11 are portrait bios;
   -- 15/17/21/23 show the corresponding trait pages. Each group contains three characters.
   bios = function()
@@ -265,6 +269,12 @@ local SCENES = {
   duel = function()
     return append(board_cmd(nil), { mash("circle", function() return ovl() == OVL.battle end, "duel", 40),
       wait(240) })
+  end,
+  duel_effect = function()
+    local started
+    return append(board_cmd(nil), { mash("circle", function() return ovl() == OVL.battle end, "duel", 40),
+      fn(function() started = L.frame end),
+      mash("circle", function() return L.frame - started >= 3300 end, "duel effect", 40) })
   end,
   -- weapon skill list: "how to load? save data / password"
   weapon_list = function() return append(menu_item(2), { wait(200) }) end,

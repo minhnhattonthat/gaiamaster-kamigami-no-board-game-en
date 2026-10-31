@@ -64,7 +64,9 @@ def test_overlay_patches():
 def test_biography_layout():
     """Relayout may move/scale sprites, but cannot change art, palette or Y."""
     import bio_layout
+    import duel_layout
     output, _ = bio_layout.edits()
+    output.update(duel_layout.edits()[0])
     for key, new in output.items():
         old = insert.read(key)
         assert old[:20] == new[:20]
@@ -83,8 +85,12 @@ def test_biography_layout():
             assert new[target + 12:target + 16] == old[source + size - 8:source + size - 4]
             assert new[target + 18:target + 20] == old[source + size - 2:source + size]
             source += size
-        assert source == len(old)
-        assert not any(new[20 + count * 20:])
+        if key == duel_layout.KEY:
+            assert len(old) - source == 48
+            assert new[20 + count * 20:] == old[source:] + bytes(4)  # CLUTs + alignment padding
+        else:
+            assert source == len(old)
+            assert not any(new[20 + count * 20:])
 
 
 @needs_disc

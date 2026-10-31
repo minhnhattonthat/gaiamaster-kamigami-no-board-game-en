@@ -231,6 +231,10 @@ def edits(mode="en", qa=None):
     geometry, geometry_log = bio_layout.edits()
     out.update(geometry)
     log += geometry_log
+    import duel_layout
+    geometry, geometry_log = duel_layout.edits()
+    out.update(geometry)
+    log += geometry_log
     if mode == "en":
         import gfx   # graphics text (docs/re/graphics.md): needs Pillow and the OFL fonts in fonts/
         g, glog = gfx.edits()

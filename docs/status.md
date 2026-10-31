@@ -3,7 +3,7 @@
 Updated at the end of every session. History is in git.
 
 - **Phase:** 8, emulator QA, in progress. Do not advance to release yet.
-- **Latest build:** SHA-1 `469c70bb011383096224d078e294ca6c4f27b721`.
+- **Latest build:** SHA-1 `d870d527d4ad2ba392f1a05cd1aa06999bf3ab35`.
   Check: 114 tests passed, zero lint errors, four existing honorific warnings.
   A final smoke run is still required after the remaining fixes.
 - **Phase 7 review:** all four Important findings fixed and pushed in dccfe09.
@@ -25,20 +25,33 @@ Updated at the end of every session. History is in git.
   Cold recheck of all reported lines: 2 fixed sheets, 2 OK, zero new issues,
   `work/qa/verdicts/storyfix.tsv`. The broad story/prologue/credits tour is running
   again on this build. Original-disc story comparisons are also running.
-- **Open QA bug:** duel card-help panel is narrower than the generic dialogue
-  budget; stats/descriptions can extend into its edge. Widen the panel and
-  measure its own budget, then check both player positions and long help rows.
+- **Duel-help fix:** widened the native panel to 137.5%, moved the right panel,
+  inset the text and brought it above card-button icons. A dedicated 116 px
+  budget covers its 57-by-7 string table. Cold Excalibur cases on both sides
+  pass independent review: full first/last letters, no clipping or overlap.
+  Evidence: `docs/re/evidence/duel-help-left.png` and `duel-help-right.png`.
+- **Open runtime bug:** the cold `results` route stalls after a duel at frame
+  14720; `credits_c1` also stalls. A debugger checkpoint reports reserved
+  instruction at 0x800C1628: the byte at 0x800C162B changes from 0x24 to 0x02
+  in RAM, while the built overlay retains the correct instruction. Heap growth
+  room remains. Trace the writer and fix the cause before phase completion.
+  Repro/evidence: `work/qa/results_stall/s014700.sstate`,
+  `work/qa/results_exception2/log.txt`. A cold interpreter run changes timing
+  and avoids the duel, so use checkpoints near the return to the board.
 - **Current QA tooling:** `tools/tour.py` builds cold captures, state-based cursor
   routes, full-resolution sheets and frame maps. `--only`, repeatable `--exclude`
   and `--sheets-only` support targeted reruns. Hard links avoid Windows command
   length limits. `tools/save_fixture.py` creates `work/saves/story-ch02.mcd` via
   the game's save UI; it starts with a fresh formatted card. Lua QA fixtures
-  never change the release disc. `sealqa.lua` is being validated for the unique
-  Item Seal effect, which the normal item path bypasses.
+  never change the release disc. `sealqa.lua` now loads the native unique
+  Item Seal effect, which the normal item path bypasses; all seven sheets
+  independently pass, including the full zoom/fade animation. See debug.md.
 - **Remaining phase 8:** finish all chapter/board/prologue/credits and cursor
-  tours, inspect every changed graphic on screen, resolve duel help, verify
-  Seal, review the remaining sheets, and get `qa_gate.py check` to zero.
-  The manifest/verdicts are under `work/qa/`; current reviewed set is 79 sheets.
+  tours, inspect every changed graphic on screen, resolve the post-duel stall,
+  review the remaining sheets, and get `qa_gate.py check` to zero.
+  The manifest/verdicts are under `work/qa/`; 220 sheets currently pass,
+  including the 20 main chapter banners, all nine openings, both duel-help positions,
+  and the first full ending/credits group. Further ending/board tours continue.
   `docs/visual-qa-brief.md` defines standing non-bugs. Use fresh read-only passes
   or `codex exec` visual-qa reviewers (Orca nested workers are unavailable).
 - **Later polish:** three contextual Minors in `docs/polish.md`; verify in play.

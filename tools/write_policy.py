@@ -144,6 +144,10 @@ def policies():
         entry("PRGPACK.BDP/033/000.bin").update(range(offset, offset + 4))
     for offset in (0x3F74, 0x41CC):
         entry("PRGPACK.BDP/009/000.bin").update(range(offset, offset + 4))
+    entry("PRGPACK.BDP/010/000.bin").update(range(0xDFC, 0xDFE))
+    for offset in (0x1330C, 0x13354, 0x13390, 0x1340C, 0x13428):
+        entry("PRGPACK.BDP/010/000.bin").update(range(offset, offset + 4))
+    result["DUELDATA.BDP/001/014.bin"] = (set(range(20, 372)), 372)
     # The biography sprites keep their headers and record count, but expand the
     # three packed squares to explicit rectangles. Semantic fields are also
     # checked by test_biography_layout; the largest file is 30*20+20+4 bytes.

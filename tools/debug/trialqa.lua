@@ -7,7 +7,7 @@ local function word(at)
   return mem[at] + mem[at + 1] * 256 + mem[at + 2] * 65536 + mem[at + 3] * 16777216
 end
 L.on_frame(function(n)
-  if not done and word(0x9F938) == 0x4C then
+  if not done and n > 5061 and word(0x9F938) == 0x4C then
     assert(word(0xA4010) == 0x12200004, "unexpected trial selection branch")
     for i = 0, 3 do mem[0xA4010 + i] = 0 end
     done = true

@@ -69,10 +69,10 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 | G10 | Options/rules/salary word tiles redrawn using sprite records below; screens checked. Rumble Settings needs slightly more inter-word space. | `work/qa/gfx/options_v2/`, `rules_v2/`, `salary_v2/` |
 | G11 | Continue/Quit checked from cold chapter loss; original Continue uses 72 pixels, not 64. | `work/qa/gfx/g11_v2/final.png` |
 | G12 | Continue/Quit seen in the actual double-up minigame; reproducible `double_up` tour added. | `work/qa/gfx/event_probe/sheet_5.png` |
-| G14 | All **32** named card banners redrawn (original survey count 33 was wrong). Preserve each palette/background; full cold coverage still needed. | `work/gfx/G14-*.png` |
+| G14 | All **32** named card banners redrawn (original survey count 33 was wrong). All 32 cold image-loader cases independently reviewed OK. | `work/qa/tour/card_*/sheet.png`, verdicts `cards_first.tsv` and `cards_last.tsv` |
 | G15 | All **five** Purge frames pass cold QA in the genuine Awful Luck event (EVENT_ID=0). | `work/qa/tour/purge/sheet_7.png` |
-| G16 | Seal redrawn; red ink removed only inside its bounded text area, retaining surrounding paper/ornaments. Effect still needs reaching. | `work/gfx/G16.png` |
-| G17 | Trial disclaimer redrawn; retail reachability still needs proving. | `work/gfx/G17.png` |
+| G16 | Seal redrawn; red ink removed only inside its bounded text area, retaining surrounding paper/ornaments. Cold diagnostic loads the native unique effect and shows the English label throughout its zoom/fade animation; retail item logic is unchanged. | `work/qa/tour/duel_seal/sheet_2.png`; route proof in `debug.md` |
+| G17 | All three lines pass the diagnostic cold route. Retail selector cannot choose item 3; branch proof and diagnostic are in debug.md. | `work/qa/tour/trial_disclaimer/sheet_2.png` |
 
 Board names are now drawn and recorded in the glossary. Long names use two native pixel-font lines inside
 the original atlas rectangle; chapter banners retain their original frame. Event banners retain their

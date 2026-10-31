@@ -87,6 +87,34 @@ and 10 are not on the grid (hidden; the "?" cell picks at random).
 - `weapon_display` requires `--sav work/saves/story-ch02.mcd`, written by the
   normal post-chapter save UI. The route confirms a slot, moves left from the
   default No, and asserts the actual skill-list overlay 055/tag 0x48.
-- The `duel` scene still waits for the first duel mashed play brings.
-  The `duel` scene waits for the first duel mashed play brings (turn 5 of versus board 7, frame ~18800).
-  Story saves with chapter graphics (第N話) need a formatted memory card (`--sav`). Hidden characters (ids 8, 10).
+- Create that fixture with `python -X utf8 tools/save_fixture.py`. It cold-boots
+  to the post-chapter save screen with a fresh formatted card, confirms the slot
+  and Yes through normal controller input, verifies the game's save-directory
+  entry, and copies the resulting card into `work/saves/`. The default emulator
+  card is not overwritten.
+- `trial_disclaimer` uses `trialqa.lua` to select SCR_DATA 116/003 in the actual
+  attract-screen renderer. Retail overlay 009 entry 0x800A3F94 copies a0 into
+  s1, then rejects nonzero s1 at 0x800A3FD0 before loading. With s1=0, the branch
+  at 0x800A4010 always skips the item-3 selection at 0x800A4018. The EXE caller
+  passes zero. The diagnostic NOPs only that latter branch after the overlay
+  has finished loading; the release build retains both branches. All three
+  English lines are visible through their normal fade in
+  `work/qa/tour/trial_disclaimer/sheet_2.png`.
+- `duel_effect` continues the first duel for 3300 frames with quick battles
+  disabled. `duelhelp.lua` selects Excalibur's longest help entry and either
+  popup position, retaining the native popup function and release geometry.
+- `duel_seal` combines `duelqa.lua` (player 0 receives the six Item Seal runtime
+  instances, IDs 51–56) with `sealqa.lua`. Inventory IDs index the two-byte
+  runtime table at 0x800889B0; weapon-name index 18 is not an inventory ID.
+  Retail ovl010's type-0 branch at 0x800AFF14 moves the effect category from
+  stack +48 to +44 and clears +48, selecting the generic item effect. The QA
+  diagnostic retains category 2 in +48 and selects face-up at both effect
+  load/wait guards (0x800AFF64 and 0x800B087C). Both subsequent display-mode
+  comparisons use that same facing value, so bypassing only the branches is
+  insufficient and can call an unloaded effect. The normal DUELEF loader
+  loads entry 7, tag 14 at 0x800C8450, and calls its native entry 0x800C845C.
+  The cold log confirms that load at frame 29195; the full English Seal
+  animation is visible in `work/qa/tour/duel_seal/sheet_2.png`.
+  These diagnostic changes are RAM-only; the release keeps retail item logic.
+- Story saves with chapter graphics need a formatted memory card (`--sav`).
+  Character IDs 8 and 10 are hidden, outside the nine-cell selection grid.

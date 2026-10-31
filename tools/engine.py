@@ -124,6 +124,13 @@ def patch(exe):
 
 # overlay patches: {file key: [(file offset, original, new, why)]}
 OVERLAYS = {
+    "PRGPACK.BDP/010/000.bin": [
+        (0xDFC, struct.pack('<h', -107), struct.pack('<h', -145), "right duel-help frame origin"),
+        (0x1330C, asm("addiu a2, zero, 16", 0), asm("addiu a2, zero, 3", 0), "duel help text priority"),
+        (0x13354, asm("addiu a2, zero, 20", 0), asm("addiu a2, zero, 4", 0), "duel help frame priority"),
+        *[(offset, asm("addiu a2, zero, 6", 0), asm("addiu a2, zero, 8", 0), "duel help text inset")
+          for offset in (0x13390, 0x1340C, 0x13428)],
+    ],
     "PRGPACK.BDP/009/000.bin": [
         (0x3F74, asm("addiu a2, zero, -40", 0), asm("addiu a2, zero, -80", 0), "biography panel origin"),
         (0x41CC, asm("addiu a2, zero, 170", 0), asm("addiu a2, zero, 90", 0), "biography text origin"),
