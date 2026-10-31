@@ -227,6 +227,11 @@ def edits(mode="en", qa=None):
             for k in [key] + b["copies"]:
                 out[k] = bytes(data)
     out[EXE] = bytes(exe)
+    if mode == "en":
+        import gfx   # graphics text (docs/re/graphics.md): needs Pillow and the OFL fonts in fonts/
+        g, glog = gfx.edits()
+        out.update(g)
+        log += glog
     return out, log, tags
 
 
