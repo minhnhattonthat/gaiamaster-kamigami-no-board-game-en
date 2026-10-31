@@ -7,9 +7,11 @@
   letters up to the Japanese line's pixel width, keeping its control codes and leading/trailing blanks; cut to the
   entry's byte budget. build/marker_ids.tsv maps N back to the id.
 - qa: per-id overrides on top of either mode (stress lines for the width gate).
-Code and field strings are written in place: the new bytes + NUL, then zeros over the rest of the old string only
-(never past it: field tails can hold data). Longer text than `max` is an error in en mode (relocation: phase 7)
-and cut in marker mode. Pools (PC_DATA voice lines) are rebuilt: strings re-laid 4-aligned, offsets remapped.
+Code strings go through tools/reloc.py: in place when they fit, else moved (same file, or EXE spill space) with
+every ref rewritten. Field strings are written in place: the new bytes + NUL, then zeros over the rest of the old
+string only (never past it: field tails can hold data); longer is an error. Marker mode cuts to the slot.
+Pools (PC_DATA voice lines): in place when it fits, else appended (4-aligned), record offsets remapped, old copy
+zeroed. ovl033 story lines' 4 leading U+3000 are written as the 2-byte indent escape (encode, engine.INDENT).
 """
 import json
 import re
@@ -20,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import engine  # noqa: E402
 import font_en  # noqa: E402
+import reloc  # noqa: E402
 import sjis  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,6 +36,7 @@ BLANK = " 　"
 FILLER = "abcdefghijklmnopqrstuvwxyz"
 # byte budgets tighter than the extractor's max: facility name byte 10 may be data (docs/re/text.md)
 SAFE_MAX = {"facilities": 9, "exe_80011E": 9}
+STORY_INDENT, INDENT_BLOCKS = "　" * 4, {"ovl033"}    # story lines: written as engine.INDENT (encode)
 
 
 def read(key):
@@ -86,10 +90,10 @@ def marker(e, tag, nbytes):
     fixed = len(sjis.encode(lead + toks + trail))
     if nbytes is not None and fixed + len(head) > nbytes:   # tiny slot: the bare tag, then whatever fits
         body = tag
+    if sjis.ESC.match(body):   # "[5E]" would encode as the byte 0x5E: escape the bracket (before measuring)
+        body = "[5B]" + body[1:]
     if nbytes is not None:
         body = fit(body, max(0, nbytes - fixed))
-    if sjis.ESC.match(body):   # "[5E]" would encode as the byte 0x5E: escape the bracket
-        body = "[5B]" + body[1:]
     return lead + body + toks + trail
 
 
@@ -170,35 +174,59 @@ def pool(block, data, new, log):
             moved[o] = len(out)
             log.append("%s %X - %s %s (moved from %X)" % (key, len(out), b.hex(), e["id"], o))
             out += b + b"\0"
+            if not any(o < x < o + len(old) for r in recs for x in r[1:]):   # no record reads its tail
+                put(out, o, bytes(len(old)), old, e["id"] + " (old copy)", log, key)
     for i, r in enumerate(recs):
         if any(x in moved for x in r[1:]):
-            struct.pack_into("<4I", out, 16 * i, r[0], *(moved.get(x, x) for x in r[1:]))
+            put(out, 16 * i, struct.pack("<4I", r[0], *(moved.get(x, x) for x in r[1:])), struct.pack("<4I", *r),
+                "pool record %d" % i, log, key)
     return bytes(out)
+
+
+def encode(block, text):
+    """Script text -> bytes; story lines' 4 leading U+3000 (8 bytes) -> the 2-byte indent escape."""
+    if block["block"] in INDENT_BLOCKS and text.startswith(STORY_INDENT):
+        text = engine.INDENT + text[len(STORY_INDENT):]
+    return sjis.encode(text)
 
 
 def edits(mode="en", qa=None):
     new, tags = texts(mode, qa or {})
     out, log = {}, []
+    exe, elog = engine.patch(read(EXE))
+    exe = bytearray(exe)
+    log += elog
+
+    def putter(key):
+        def p(data, o, b, by):
+            log.append("%s %X %s %s %s" % (key, o, bytes(data[o:o + len(b)]).hex(), bytes(b).hex(), by))
+            data[o:o + len(b)] = b
+        return p
+    spill = reloc.Spill(exe, putter(EXE))
     for b in blocks():
         key = b["file"]
         if key == EXE:
-            data, elog = engine.patch(read(EXE))
-            log += elog
+            data = exe
         else:
             data, olog = engine.patch_overlay(key, read(key))
             log += olog
         if not any(e["id"] in new for e in b["strings"]):
-            if key == EXE or key in engine.OVERLAYS:
+            if key in engine.OVERLAYS:
                 out[key] = data
             continue
         if b["kind"] == "pool":
             data = pool(b, data, new, log)
+        elif b["kind"] == "code":
+            data = exe if key == EXE else bytearray(data)
+            enc = {e["id"]: encode(b, new[e["id"]]) for e in b["strings"] if e["id"] in new}
+            reloc.layout(b, data, int(b["base"], 16), enc, budget, putter(key), spill)
         else:
             data = bytearray(data)
-            in_place(b, data, int(b["base"], 16) if b["kind"] == "code" else 0, new, log, mode)
-            data = bytes(data)
-        for k in [key] + b["copies"]:
-            out[k] = data
+            in_place(b, data, 0, new, log, mode)
+        if key != EXE:
+            for k in [key] + b["copies"]:
+                out[k] = bytes(data)
+    out[EXE] = bytes(exe)
     return out, log, tags
 
 

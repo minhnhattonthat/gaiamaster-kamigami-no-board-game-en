@@ -179,11 +179,10 @@ def check_line(r, en, gl):
     if w > r["px"]:   # %s counted as 48 px; only the text itself (%s = 24 px) over the box is an error
         hard = r["state"] != "guess" and w - 24 * en.count("%s") > r["px"]
         (err if hard else warn).append("%dpx > %dpx (%s box%s)" % (w, r["px"], r["box"], "" if hard else ", estimate"))
-    if r["nbytes"] is not None:
+    if r["nbytes"] is not None and r["hard"]:   # soft budgets: tools/reloc.py moves the string (build fails if not)
         n = len(sjis.encode(en))
         if n > r["nbytes"]:
-            (err if r["hard"] else warn).append("%d bytes > %d%s" % (n, r["nbytes"], "" if r["hard"] else
-                                                                        " (relocation can take it)"))
+            err.append("%d bytes > %d" % (n, r["nbytes"]))
     low = en.lower()
     for jp, ten, avoid, enf in gl:
         if has_term(r["jp"], jp):

@@ -92,6 +92,26 @@ The EXE file offset = address - 0x8000F800. `gp` = 0x80085F28.
 - Glyph cap x3 (`triple`, at 0x8003D4D0 in struct create): every text object holds 3x the glyphs its creator asks.
 - Hook code + width table: 0x8007AF50-0x8007B14C, index-table entries for codes < 0x8140 that the lookup never
   reads. Japanese still renders (its glyph cells are untouched), so leftovers stay visible.
+- `/` escapes: jump table 0x800134D8 over letters 'H'..'z' (H K P V Z v z used; the rest -> common exit
+  0x8003C8B4). New **`/I`** = pen x += 48 (`engine.INDENT`): ovl033's story lines all start with 4 U+3000 (48 px,
+  8 bytes); the inserter writes `/I` instead (2 bytes, ~3 KB saved). **verified**: prologue lines start at the
+  same x as the original's (`work/qa/pro_en` vs `pro_jp`, f000100).
+
+## Relocation (phase 7, `tools/reloc.py`, tests/test_reloc.py)
+
+- Code strings that outgrow their slot move; refs rewritten (pointer words; lui + lo pairs). Order: same file
+  (space freed by moved strings and by shorter ones), else **spill** space in the EXE (always resident; each
+  string its own bytes, so co-loaded overlays never clash). ~3.3 KB spilled (ovl009 940, exe 390, ovl010 300,
+  ovl029 270, ...); 4.3 KB available.
+- Spill (**verified**: never written in 50 savestates of the English build, no index entry points at them, and
+  test_reloc checks no script text uses those codes): glyph cells 421-440 (0x80073354-0x800738F4, blank, no index
+  entry), font-index entries of glyph-less codes 0x81AC-0x824E, 0x8396-0x84A0, 0x84A8-0x889E.
+- A lui is rewritten only when exclusive (one ref, lo = addiu/ori rt,rt; nothing between reads rt or branches,
+  except a jal whose delay slot is the lo); otherwise the string stays in its %hi window (64 KB).
+- Pinned (never moved): no refs, a note (tables), a table head (next entry has no refs), refs from another file
+  (EXE card tables used by overlays). A pinned string over its slot fails the build.
+- Every byte is written once; the write log covers every change (test_reloc runs romdiff.check per file) and
+  every ref of every string resolves to its new bytes in the built images.
 
 ## Script (phase 4): `script/<block>.json`
 

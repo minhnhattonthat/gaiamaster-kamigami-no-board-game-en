@@ -51,6 +51,7 @@ Dump: `rom.sha1`. Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s wor
 
 - **Disc** (**verified**, grow test above): grown BDPs are relocated by mkpsxiso and found. The real limits are
   RAM load buffers, not disc space (an EXE grown past its load size is untested).
+- **EXE spill in use** (phase 7): see text.md §Relocation (glyph cells 421-440 and glyph-less font-index entries).
 - **EXE** (loaded 0x80010000-0x80086800; BSS cleared 0x800861D0-0x8009F938 at boot, so not free): zero runs at
   0x80073354 (0x5AD bytes), 0x8007F60D (0x106B), 0x8007EC30 (0x420). 0x8007B5F6/0x8007B81C lie inside the font
   index table (unused codes) - usable only for codes we don't need. Trap-fill and tour before using any.

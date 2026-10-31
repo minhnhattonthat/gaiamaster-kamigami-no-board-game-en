@@ -2,21 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translate) done 2026-10-30; next phase 7 (insert, fit, check). No en build yet: `build.py` (en
-  mode) exits on the first string over its in-place byte budget until relocation exists.
-  Last builds (phase 5): `build/gaiamaster_en.bin` sha1 bedd61ac... (engine only), `build/gaiamaster_marker.bin`.
-- **Done (phase 6):** every string translated: `script/*.json` `en` (4709 strings incl. deduped copies; 0
-  untranslated; `batches.py lint` 0 errors). Flow: `tools/batches.py` split -> 32 batches `work/tl/bNNN.tsv`
-  (gitignored; one row = one line of a box; name boxes deduped), 8 translator agents, 8 reviewer agents, every
-  Critical/Important and most Minor findings fixed, merged. Briefs `docs/translator-brief.md`,
-  `docs/reviewer-brief.md`, `docs/style-reference.md`, `docs/synopsis.md`; glossary rulings + wave-1 decisions in
-  `glossary.md`. `check.py` now runs the lint (px over a measured box, hard byte budgets, codes, glossary).
-  Font: `@` is drawn as a heart (the JP ＠ cell was one; text.md).
-- **Next (phase 7):** relocation. 738 strings are over their in-place byte budget (3029 extra bytes): ovl033 262,
-  ovl009 111, exe 78, ovl010 63, ovl029 37, ovl008 33, ovl030 30, overlays 038-057 ~100 (list: the byte WARNs of
-  `batches.py check`; refs are in the JSON). Overlay slots are tight: check slot sizes (text.md) before moving
-  text; ovl033 story lines carry 4 leading U+3000 (8 bytes each): an engine indent instead would save ~2.5 KB.
-  Then build en, smoke, romdiff, jp_left.
+- **Phase:** 7 (insert, fit, check) done 2026-10-31; next phase 8 (QA in the emulator: tours of every scene with
+  contact sheets, visual-QA verdicts via `qa_gate.py`, graphics text).
+  Last build: `build/gaiamaster_en.bin` sha1 122bf17c... (2026-10-31 22:52), smoke ok.
+- **Done (phase 7):** full English build. `tools/reloc.py`: code strings over their slot move (same file, else EXE
+  spill space) with every pointer / lui+lo ref rewritten (text.md §Relocation); ~3.3 KB spilled of 4.3 KB.
+  New drawer escape `/I` (48 px indent) replaces ovl033's 4 leading U+3000 (saves ~3 KB). Pool moves zero their
+  old copy. `tests/test_reloc.py`: romdiff-style write accounting per edited file, every ref lands on its new
+  string, spill codes unused. Lint: byte warnings for movable strings dropped (0 errors, 8 px-estimate warnings).
+  `tools/jp_left_all.py`: only the ovl030 password keys/grid (keep_jp) and 4 EXE data-noise runs remain.
+  Warped on the en build: title, menus, char select, options, versus menu + 9 boards, prologue, board_* (6),
+  results, save, gameover, story ch1-4/6, endings c4/c5: all reached, text clean in the zoomed shots checked;
+  spill areas intact in all 50 en-build states. Not yet seen on screen: ovl009 (character bios after the final
+  chapter; 36 strings spilled there, refs proven by test only).
+- **Next (phase 8):** QA tours (`references/emulator-qa.md`) with visual-QA verdicts; reach ovl009's bio screen;
+  graphics text (below). Story ch5-20 / duel warps timed out this session while another project's 12 emulators
+  loaded the machine: rerun them alone.
 - **Check in game (phase 7/8), from translator/reviewer notes:** card help texts and ovl052 tips / ovl029 prologue
   are read in reverse address order (pointer tables): confirm the line order; ovl052_800C8688 "Grow your assets by
   the / final turn!" (does the game print a number first?); `%s-san` lines in ovl052 (3 names 8790, 4 names 87A8

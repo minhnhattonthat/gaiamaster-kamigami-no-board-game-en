@@ -8,6 +8,7 @@ patch(exe) -> (new exe bytes, write log). Every write goes through put(), which 
 - VWF: the drawer's sprite width / advance for those codes comes from a width table (hook VWF_ADV).
 - Space advance SPACE_W instead of the half-width 8.
 - Text objects hold 3x the glyphs their creator asks for (hook TRIPLE): English needs ~2x the glyphs per line.
+- Escape /I advances the pen INDENT_W px: tools/insert.py writes it for the 4 leading U+3000 of story lines (8 bytes).
 Hook code and the width table sit in index-table entries the font lookup never reads (codes below 0x8140).
 """
 import struct
@@ -22,6 +23,8 @@ BASE = 0x8000F800
 GLYPHS, INDEX, ASCII_SJIS = 0x8006BCEC, 0x8007AECC, 0x8007E740
 CODE, CODE_END = 0x8007AF50, 0x8007B14C            # INDEX + 2 * 0x40 .. INDEX + 2 * 0x140: never read
 SPARE = "凱客芸源鋼錫収政専旋船続段潮報"               # glyph cells given to ASCII codes with none
+ESCAPES = 0x800134D8                                 # '/' escape jump table, letters 'H'..'z' (unused -> 0x8003C8B4)
+INDENT, INDENT_W = "/I", 48                          # new escape: the 4 leading full-width spaces of story lines
 
 HOOKS = """
 vwf_adv:                 ; drawer 0x8003CCAC: a0 = v0 = sprite width / advance of the glyph for code s0
@@ -43,6 +46,12 @@ triple:                  ; text create 0x8003D4D0: s4 (glyph cap) *= 3, then the
     addu s4, s4, v0
     jr ra
     sll s1, s4, 4
+indent:                  ; drawer escape /I (jump table ESCAPES): pen x += INDENT_W, no glyph
+    lhu v1, 0x18(a0)
+    nop
+    addiu v1, v1, INDENT_W
+    j 0x8003C8B4         ; the table's common exit: return the string pointer
+    sh v1, 0x18(a0)
 widths:
 """
 
@@ -88,7 +97,7 @@ def patch(exe):
         cells[idx] = chr(c)
         p.put(GLYPHS + 72 * idx, g[chr(c)][0], "glyph %r" % chr(c))
         widths.append(g[chr(c)][1])
-    labels = {}
+    labels = {"INDENT_W": INDENT_W}
     code = asm(HOOKS, CODE, labels) + bytes(widths)
     assert CODE + len(code) <= CODE_END and labels["widths"] == CODE + len(code) - len(widths)
     p.put(CODE, code, "hooks + width table", expect=bytes(len(code)))
@@ -104,6 +113,9 @@ def patch(exe):
     # drawer, space: advance SPACE_W (was 0x3E(s1) = 8)
     p.put(0x8003CA88, asm("addiu a0, zero, %d" % font_en.SPACE_W, 0x8003CA88), "space width",
           expect=asm("lh a0, 0x3e(s1)", 0x8003CA88))
+    # drawer: escape /I = indent (the letter was unused: the table sent it to the common exit)
+    p.put(ESCAPES + 4 * (ord(INDENT[1]) - 0x48), word(labels["indent"]), "escape /I -> indent",
+          expect=word(0x8003C8B4))
     # text create: glyph cap x3
     p.put(0x8003D4D0, asm("jal %d" % labels["triple"], 0x8003D4D0), "glyph cap x3",
           expect=asm("sll s1, s4, 4", 0x8003D4D0))
