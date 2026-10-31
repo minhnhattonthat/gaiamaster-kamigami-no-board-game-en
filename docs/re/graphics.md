@@ -60,12 +60,34 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 |---|---|---|
 | G2 main menu (127/033) | done: Versus Mode, Story Mode, Weapon Skill List, Options, Normal Mode, Quick Mode, Single, Tag, New Game, Continue. 体験版 stamp left (trial only, never seen) | `work/qa/gfx/menus.png` (main, story, versus menus) |
 | G6 char select title (117/000) | done: Character Select | `work/qa/gfx/cs.png` |
-| G5 name plates | 117/000 (char select) done, Silkscreen caps. Still Japanese: board HUD plates SCR_DATA 000/001 (= 002/001), 059/008, 214/000 (weapon list) | `work/qa/gfx/cs.png` |
-| G1, G3, G4, G7-G17 | to do. G10 (options, 009/000) is a packed word atlas: the sprite rects come from a table not yet found (0x0321 records or ovl code), so find it before redrawing (English words must fit each rect or the rects move) | |
+| G5 name plates | All four atlases redrawn; char-select and board HUD checked in game. Save/weapon copies need coverage. | `work/qa/gfx/cs.png`, `work/qa/gfx/g5_board_v2/final.png` |
+| G1 | New English wordmark and subtitle, including 176x50 dim copy; cold title check pending final review. | `work/qa/gfx/title_v3/` |
+| G3, G4, G13 | Save labels, 20 chapter tiles, seven board names, 22 banners redrawn. Save header and one chapter transition checked; all chapters still need the final tour. | `work/qa/gfx/save_v2/`, `work/qa/gfx/chapter02/` |
+| G7 | Four weapon skill headings redrawn; actual list still needs reaching (existing warp only reaches load/password choice). | `work/gfx/G7.png` |
+| G8 | All command word tiles redrawn; Roll Dice checked. Remaining command selections need the final tour. | `work/qa/gfx/g8_board/final.png` |
+| G9 | Assets, Cash, Land, Rankings, both Turn sizes redrawn. Ranking heading/columns checked during chapter transition; Turn changes need final tour. | `work/qa/gfx/chapter02/` |
+| G10 | Options/rules/salary word tiles redrawn using sprite records below; screens checked. Rumble Settings needs slightly more inter-word space. | `work/qa/gfx/options_v2/`, `rules_v2/`, `salary_v2/` |
+| G11 | Continue/Quit checked from cold chapter loss; original Continue uses 72 pixels, not 64. | `work/qa/gfx/g11_v2/final.png` |
+| G12 | Continue/Quit redrawn in all identical copies; minigame still needs a warp. | `work/gfx/G12.png` |
+| G14 | All **32** named card banners redrawn (original survey count 33 was wrong). Preserve each palette/background; full cold coverage still needed. | `work/gfx/G14-*.png` |
+| G15 | All **five** Purge animation tiles redrawn (survey's three was wrong); effect still needs reaching. | `work/gfx/G15.png` |
+| G16 | Seal redrawn; red ink removed only inside its bounded text area, retaining surrounding paper/ornaments. Effect still needs reaching. | `work/gfx/G16.png` |
+| G17 | Trial disclaimer redrawn; retail reachability still needs proving. | `work/gfx/G17.png` |
 
-Names chosen for graphics (add to glossary when drawn): boards 西風の都 City of the West Wind, 緑の聖域 Green
-Sanctuary, 陽炎の遺跡 Heat-Haze Ruins, 円環の廃墟の国 Land of the Ring Ruins, ブシドーキャッスル Bushido Castle,
-魔都パンデモニアム Pandemonium the Demon City, 東京199X Tokyo 199X (proposed, not yet drawn).
+Board names are now drawn and recorded in the glossary. Long names use two native pixel-font lines inside
+the original atlas rectangle; chapter banners retain their original frame. Event banners retain their
+illustration and frame; the most frequent original label background index supplies the new paper colour.
+
+### Options sprite records
+
+`python tools/sprite_records.py --out work/sprite_records.json` scans only the proven single-frame layout:
+magic `0x40000321`, u16 fields +4/+6 both 1, u32 sprite count +16, then 20-byte records at +20.
+The first 12 bytes are `u,v,x,y` (bytes), `clut,tpage,width,height` (u16). Other animation layouts are skipped.
+SCR_DATA/009/007 and 009..044 use texture page 9 (TIM 009/000, VRAM x576). The options title is record 027;
+rule title 035; dialogue display/speed are 018/019; rumble settings 037; salary settings 038/044;
+salary questions 040..043. Settings is shared with Rule Settings at atlas (56,40,48,16).
+Japanese grammatical suffixes at (120,56) and (232,104) are cleared for English; sprite metadata is unchanged.
+`work/gfx/options_composites.png` reconstructs these original record groups for checking word order.
 
 ## English already on screen (keep; check style match)
 

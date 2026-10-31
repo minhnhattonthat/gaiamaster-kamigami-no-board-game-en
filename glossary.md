@@ -51,6 +51,13 @@ whole EN form (error). The Avoid column is always an error.
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| 西風の都 | City of the West Wind | | board graphic | |
+| 緑の聖域 | Green Sanctuary | | board graphic | |
+| 陽炎の遺跡 | Heat-Haze Ruins | | board graphic | |
+| 円環の廃墟の国 | Land of the Ring Ruins | | board graphic | |
+| ブシドーキャッスル | Bushido Castle | | board graphic | |
+| 魔都パンデモニアム | Pandemonium the Demon City | | board graphic | |
+| 東京199X | Tokyo 199X | | board graphic | |
 
 ## Cards
 Weapon / skill cards (EXE table, 15 bytes) and event / symbol cards (14 bytes); list width 116 px.

@@ -4,6 +4,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8 (QA in the emulator) in progress since 2026-11-01. Order chosen: **graphics text first, then
   tours + visual-QA verdicts** (every redraw changes the sheets and voids their verdicts, so tour once at the end).
+- **Phase 8 session 2 in progress:** all G1-G17 graphics rows now have redraw implementations in `gfx.py`
+  and independent pixel bounds in `write_policy.py`. See `docs/re/graphics.md` for exactly which have
+  emulator evidence; previews alone are not completion. G10's single-frame sprite format is decoded by
+  `tools/sprite_records.py`; option/rule/salary screens checked. G14 is 32 named cards, G15 five frames.
+  Remaining: improve Rumble Settings spacing; targeted cold checks for the newly drawn title and all
+  other graphics; reach actual weapon list, double-up, card art, Purge/Seal effects, trial screen (or prove
+  unreachable); then final full tour and qa_gate verdicts. Last full check 113 passed, no lint errors,
+  four pre-existing honorific warnings. All states predate some current graphics: regenerate for final QA.
 - **Phase 7 review corrections (2026-11-01):** I1 independent decoded-file address policy
   (`tools/write_policy.py`, `docs/re/write-policy.md`) checks actual diffs and logged spans, with fixed
   pool-growth ceilings and a correctly logged EXE-header corruption regression. I2 required empty English
