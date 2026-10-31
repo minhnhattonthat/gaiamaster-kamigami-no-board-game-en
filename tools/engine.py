@@ -124,6 +124,10 @@ def patch(exe):
 
 # overlay patches: {file key: [(file offset, original, new, why)]}
 OVERLAYS = {
+    "PRGPACK.BDP/009/000.bin": [
+        (0x3F74, asm("addiu a2, zero, -40", 0), asm("addiu a2, zero, -80", 0), "biography panel origin"),
+        (0x41CC, asm("addiu a2, zero, 170", 0), asm("addiu a2, zero, 90", 0), "biography text origin"),
+    ],
     # staff credits: ovl033 installs its own glyph/index tables (resource items 0xDD/0xDE) via 0x8003DD68; they
     # have no English glyphs, so keep the EXE font (English credits need ASCII only)
     "PRGPACK.BDP/033/000.bin": [(0x1F578, asm("jal 0x8003DD68", 0x800BEEB0), asm("nop", 0), "credits keep EXE font")],

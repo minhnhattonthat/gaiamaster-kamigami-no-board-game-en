@@ -21,7 +21,12 @@ The remaining permissions are explicit, separately maintained constants:
 - The original ASCII glyph cells and the 15 named spare kanji cells, resolved
   through the original font table. No other glyph cell is permitted.
 - One four-byte credits-font call at ovl033 file offset 0x1F578.
-- G2 and G6 pixel rectangles listed in `GRAPHICS`, including byte-identical
+- Two four-byte biography origin instructions at ovl009 offsets 0x3F74/0x41CC.
+  SCR_DATA 067/005 and 006 sprite payloads may be relaid out, with fixed ceilings
+  200 and 624 bytes. The latter expands three packed squares to rectangles (12
+  bytes) plus four alignment bytes. Headers and record counts stay fixed; the
+  semantic regression test also protects texture UVs, palette, Y and source size.
+- G1-G17 pixel rectangles listed in `GRAPHICS`, including byte-identical
   copies from the committed graphics survey. TIM headers and palettes are
   excluded. At 4 bpp a boundary byte contains two pixels; the graphics writer's
   independent pixel-level check additionally protects the adjacent nibble.

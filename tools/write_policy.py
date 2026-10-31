@@ -138,6 +138,14 @@ def policies():
             offset = 0x8006BCEC - BASE + 72 * cell
             allowed.update(range(offset, offset + 72))
     entry("PRGPACK.BDP/033/000.bin").update(range(0x1F578, 0x1F57C))
+    for offset in (0x3F74, 0x41CC):
+        entry("PRGPACK.BDP/009/000.bin").update(range(offset, offset + 4))
+    # The biography sprites keep their headers and record count, but expand the
+    # three packed squares to explicit rectangles. Semantic fields are also
+    # checked by test_biography_layout; the largest file is 30*20+20+4 bytes.
+    for item, limit in [(5, 200), (6, 624)]:
+        key = f"SCR_DATA.BDP/067/{item:03}.bin"
+        result[key] = (set(range(20, limit)), limit)
 
     index = (ROOT / "docs/re/gfx_survey/index.tsv").read_text(encoding="utf-8").splitlines()[1:]
     for key, rectangles in GRAPHICS.items():

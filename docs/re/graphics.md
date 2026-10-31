@@ -63,14 +63,14 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 | G5 name plates | All four atlases redrawn; char-select and board HUD checked in game. Save/weapon copies need coverage. | `work/qa/gfx/cs.png`, `work/qa/gfx/g5_board_v2/final.png` |
 | G1 | New English wordmark and subtitle, including 176x50 dim copy; cold title check pending final review. | `work/qa/gfx/title_v3/` |
 | G3, G4, G13 | Save labels, 20 chapter tiles, seven board names, 22 banners redrawn. Save header and one chapter transition checked; all chapters still need the final tour. | `work/qa/gfx/save_v2/`, `work/qa/gfx/chapter02/` |
-| G7 | Four weapon skill headings redrawn; actual list still needs reaching (existing warp only reaches load/password choice). | `work/gfx/G7.png` |
+| G7 | Actual list reached using a game-written story save; Sword heading fits. Category cycling remains in the final tour. | `work/qa/gfx/weapon_saved3/final.png` |
 | G8 | All command word tiles redrawn; Roll Dice checked. Remaining command selections need the final tour. | `work/qa/gfx/g8_board/final.png` |
 | G9 | Assets, Cash, Land, Rankings, both Turn sizes redrawn. Ranking heading/columns checked during chapter transition; Turn changes need final tour. | `work/qa/gfx/chapter02/` |
 | G10 | Options/rules/salary word tiles redrawn using sprite records below; screens checked. Rumble Settings needs slightly more inter-word space. | `work/qa/gfx/options_v2/`, `rules_v2/`, `salary_v2/` |
 | G11 | Continue/Quit checked from cold chapter loss; original Continue uses 72 pixels, not 64. | `work/qa/gfx/g11_v2/final.png` |
-| G12 | Continue/Quit redrawn in all identical copies; minigame still needs a warp. | `work/gfx/G12.png` |
+| G12 | Continue/Quit seen in the actual double-up minigame; reproducible `double_up` tour added. | `work/qa/gfx/event_probe/sheet_5.png` |
 | G14 | All **32** named card banners redrawn (original survey count 33 was wrong). Preserve each palette/background; full cold coverage still needed. | `work/gfx/G14-*.png` |
-| G15 | All **five** Purge animation tiles redrawn (survey's three was wrong); effect still needs reaching. | `work/gfx/G15.png` |
+| G15 | All **five** Purge frames pass cold QA in the genuine Awful Luck event (EVENT_ID=0). | `work/qa/tour/purge/sheet_7.png` |
 | G16 | Seal redrawn; red ink removed only inside its bounded text area, retaining surrounding paper/ornaments. Effect still needs reaching. | `work/gfx/G16.png` |
 | G17 | Trial disclaimer redrawn; retail reachability still needs proving. | `work/gfx/G17.png` |
 

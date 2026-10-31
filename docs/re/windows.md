@@ -10,6 +10,7 @@ relocation exists (phase 7). `tools/windows.py` maps every id to its box; the li
 | Box | Strings | Start x | Border x | Budget px | Lines | State (shot) |
 |---|---|---|---|---|---|---|
 | dialog | portrait message box: PC_DATA voices, board/EXE messages, save/load, weapon list, game over | 94 | 300 | 203 | 3 | measured (`warp_gaiamaster_marker/board_play/f006840`, gameover, save_screen, weapon_list) |
+| biography | ovl009 attract-sequence profile/trait rows | 90 | 306 | 203 (conservative) | 1 per table entry, nine rows | widened panel; `work/qa/tour/bios_03/sheet.png`, DEMO selectors 3/5/9/11/15/17/21/23 cover every group |
 | story | ovl033 story scenes, ovl038-048 final scenes | 98 | 297 | 196 | 3 (2 seen) | measured (`story_ch01/f007260`); final-scene overlays assumed the same box (guess) |
 | char_desc | profiles (char select bubble) | 80 | 294 | 211 | 3 | measured (`finals/char_select`) |
 | card | scenario card win/lose lines (scenarios +0x8A..) | 76 | 248 (inner 72-247) | 168 | 3 + 3 | measured (`story_ch01/f008340`; the original's 14-char lines fill it exactly, `orig_ch01/f007980`) |
@@ -27,6 +28,14 @@ relocation exists (phase 7). `tools/windows.py` maps every id to its box; the li
 | unreachable | ovl052 2/3/4-leader tip lines (800C8768 / 8780 / 8790 / 87A8) | - | - | none | 1 | dead code: the tie count s5 of the tip function is only ever set to 0 (0x800C9038, 0x800C9044), so the 1-leader line 800C874C always shows (seen: "By the way, Jiggar-san leads!", `work/qa/leaders/t1/f000360`, turn limit poked to turn + 4) |
 
 Notes:
+- The biography panel originally began at x164, with text at x170. Treating it as
+  a 203 px dialog was wrong: cold QA showed clipped English. `bio_layout.py`
+  expands SCR_DATA 067/005 and 006 to 150% width, compensating each sprite's
+  centre-based scaling so the border joins. Packed square records become explicit
+  rectangles. Overlay 009 offsets 0x3F74 and 0x41CC move the panel/text left.
+  The result retains the full English at normal font size and covers part of the
+  portrait's right side; its face remains visible. `test_biography_layout` verifies
+  texture coordinates, palette, Y, source dimensions and record count are preserved.
 - Padding exceptions (phase 7 review I3, 2026-11-01): `batches.PADDING_EXCEPTIONS`
   matches exact JP/EN pairs, not just IDs. `ovl057_8009F9E0` intentionally drops
   the original ASCII indent: `Assets` is 36 px, while ` Assets` would be 40 px.

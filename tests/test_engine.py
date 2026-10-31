@@ -61,6 +61,33 @@ def test_overlay_patches():
 
 
 @needs_disc
+def test_biography_layout():
+    """Relayout may move/scale sprites, but cannot change art, palette or Y."""
+    import bio_layout
+    output, _ = bio_layout.edits()
+    for key, new in output.items():
+        old = insert.read(key)
+        assert old[:20] == new[:20]
+        count = struct.unpack_from('<I', old, 16)[0]
+        source = 20
+        for index in range(count):
+            target = 20 + 20 * index
+            page = struct.unpack_from('<H', old, source + 6)[0]
+            packed = page >> 12
+            size = 16 if packed else 20
+            assert new[target:target + 2] == old[source:source + 2]  # texture UV
+            assert new[target + 3:target + 6] == old[source + 3:source + 6]  # Y, CLUT
+            assert struct.unpack_from('<H', new, target + 6)[0] == page & 0xFFF
+            dimensions = (packed * 8,) * 2 if packed else struct.unpack_from('<HH', old, source + 8)
+            assert struct.unpack_from('<HH', new, target + 8) == dimensions
+            assert new[target + 12:target + 16] == old[source + size - 8:source + size - 4]
+            assert new[target + 18:target + 20] == old[source + size - 2:source + size]
+            source += size
+        assert source == len(old)
+        assert not any(new[20 + count * 20:])
+
+
+@needs_disc
 def test_marker_edits():
     out, log, tags = insert.edits("marker")
     assert len(tags) > 4000

@@ -188,6 +188,13 @@ local function area_list()
 end
 
 local SCENES = {
+  -- Title attract-cycle selector, EXE 80015008: values 3/5/9/11 are portrait bios;
+  -- 15/17/21/23 show the corresponding trait pages. Each group contains three characters.
+  bios = function()
+    return append(to_title(), { fn(function() wr32(0x800861B8, (DEMO or 3) - 1) end),
+      ovl_is(OVL.demo), wait(120),
+      { "until", function() return ovl() ~= OVL.demo end, "bios group completed" } })
+  end,
   title = to_title,
   main_menu = to_menu,
   story_menu = function() return menu_item(0) end,
@@ -233,6 +240,18 @@ local SCENES = {
   -- play on from the menu: mash circle for PLAY frames (default 3000) with quick duels; a sweep of whatever the
   -- dice bring (taverns, shops, cards, duels): deterministic per build, not per square
   board_play = function() return SCENES_board_play() end,
+  -- QA exploration: make the first roll land on the requested square kind.
+  board_square = function()
+    local s = board_cmd(nil)
+    local started
+    return append(s, { fn(function()
+      for square = 2, rd8(0x80087F6A) - 1 do
+        local address = 0x80087018 + square * 40 + 0x0E
+        if rd8(address) ~= 15 then wr8(address, SQUARE_KIND or 2) end
+      end
+      started = L.frame
+    end), mash("circle", function() return L.frame - started >= (PLAY or 2400) end, "square event", 60) })
+  end,
   -- board_play, then the next command menu with land bought on the way (mashing circle buys): trade / map info
   -- lists with land names; TRADE=n opens command n (2 trade, 3 info) like board_cmd
   board_owned = function()
@@ -250,6 +269,13 @@ local SCENES = {
   -- weapon skill list: "how to load? save data / password"
   weapon_list = function() return append(menu_item(2), { wait(200) }) end,
   weapon_load = function() return append(menu_item(2), { wait(200), press("circle", 200) }) end,   -- card slots
+  -- Requires --sav with a game-written story save (see docs/re/debug.md).
+  weapon_display = function()
+    return append(menu_item(2), { wait(200), press("circle", 260), press("circle", 1800),
+      press("left", 60), press("circle", 1200), fn(function()
+        assert(rd32(0x800C8450) == 0x48, "weapon list overlay 55 was not loaded; supply --sav")
+      end) })
+  end,
   password = function()
     return append(menu_item(2), { wait(200), press("down", 30), press("circle", 300) })
   end,

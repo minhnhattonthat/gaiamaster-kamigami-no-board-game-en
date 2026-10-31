@@ -14,6 +14,7 @@ import insert  # noqa: E402
 
 BOXES = {
     "dialog": (203, 3, "measured"),      # portrait + message box: board, save/load, weapon list, game over
+    "biography": (203, 1, "measured"),   # widened attract panel, eight body rows plus heading
     "story": (196, 3, "measured"),       # ovl033 story scenes (prologue/epilogue, typewriter)
     "char_desc": (211, 3, "measured"),   # char select description bubble
     "card": (168, 6, "measured"),        # scenario card: win/lose conditions
@@ -41,6 +42,8 @@ CREDITS = (0x800A3D00, 0x800A4540)     # ovl033 staff roll
 
 def box(block, e):
     name = block["block"]
+    if name == "ovl009":
+        return "biography"
     if e["id"] in {"ovl008_800A0330", "ovl008_800A033C"}:
         return "area_row"
     if e["id"] in UNREACHABLE:

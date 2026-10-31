@@ -222,8 +222,8 @@ def event_banner(number, text):
         return min(range(256), key=lambda i: sum((a - b) ** 2 for a, b in zip(palette[i][:3], rgb)))
     bg = int(np.bincount(indices(texture)[98:113, 16:81].reshape(-1), minlength=256).argmax())
     ink, shade = [colour(tuple(round(c * scale) for c in palette[bg][:3])) for scale in (0.3, 0.7)]
-    return dict(key=key, clut=0, labels=compact_labels([((16, 98, 65, 15), text)],
-        shadowed(ink, ink, shade, 1, 1), bg))
+    return dict(key=key, clut=0, labels=[L((16, 98, 65, 15), text,
+        shadowed(ink, ink, shade, 1, 1), 10, bg=bg, shear=0, pad=1)])
 
 
 def title_style():

@@ -75,7 +75,18 @@ and 10 are not on the grid (hidden; the "?" cell picks at random).
   warp.lua waits for the turn reset (G+0x16 = 0) of the new chapter first.
 - Start is ignored during the ~270-frame "Now Loading" after overlay 29 loads; start in the intro skips to the
   title.
-- Not reachable yet: board events by square (shop purchase, tavern double-up, event cards, warp squares) are only
-  hit at random by `board_play` (deterministic per build); the dice value and player position are not mapped.
+- `board_square SQUARE_KIND=2|4` forces the first landing onto an event/tavern by
+  changing all traversable non-GO squares (40-byte records at 0x80087018, kind +14;
+  count is the byte at 0x80087F6A). `cardqa.lua CARD_ART=n` redirects the EVCARD
+  loader argument at 0x8002D860 after the board is loaded. This proves art rendering,
+  not effect semantics. `EVENT_ID=0` instead replaces the RNG return at 0x8002CF8C
+  and enables the genuine Awful Luck/Purge animation (PRGPACK 011 entry 0x800C84B0).
+- `bios DEMO=n` controls the title attract counter at 0x800861B8: n=3/5/9/11
+  shows descriptions, 15/17/21/23 traits. Each group has up to three characters.
+  The actual overlay is 009, tag 0x4C. These screens are title demos, not endings.
+- `weapon_display` requires `--sav work/saves/story-ch02.mcd`, written by the
+  normal post-chapter save UI. The route confirms a slot, moves left from the
+  default No, and asserts the actual skill-list overlay 055/tag 0x48.
+- The `duel` scene still waits for the first duel mashed play brings.
   The `duel` scene waits for the first duel mashed play brings (turn 5 of versus board 7, frame ~18800).
   Story saves with chapter graphics (第N話) need a formatted memory card (`--sav`). Hidden characters (ids 8, 10).

@@ -227,6 +227,10 @@ def edits(mode="en", qa=None):
             for k in [key] + b["copies"]:
                 out[k] = bytes(data)
     out[EXE] = bytes(exe)
+    import bio_layout
+    geometry, geometry_log = bio_layout.edits()
+    out.update(geometry)
+    log += geometry_log
     if mode == "en":
         import gfx   # graphics text (docs/re/graphics.md): needs Pillow and the OFL fonts in fonts/
         g, glog = gfx.edits()

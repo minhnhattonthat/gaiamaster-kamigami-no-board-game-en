@@ -4,6 +4,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8 (QA in the emulator) in progress since 2026-11-01. Order chosen: **graphics text first, then
   tours + visual-QA verdicts** (every redraw changes the sheets and voids their verdicts, so tour once at the end).
+- **Current QA work:** `tools/tour.py` now drives cold routes and full-resolution contact sheets.
+  G14 uses a larger single-line font; 17/32 card banners have fresh read-only OK verdicts
+  in `work/qa/verdicts/cards_first.tsv` (Codex exec visual-qa, 17 sheets, zero issues).
+  `cardqa.lua` redirects only the card-image argument for those shots; its EVENT_ID mode
+  separately forces the genuine Awful Luck event. Purge's five frames pass in
+  `work/qa/tour/purge/sheet_7.png`. Actual weapon list reached with a game-written save
+  (`work/saves/story-ch02.mcd`, recipe to document); double-up also reached.
+  Biography pages are title attract screens (DEMO=3,5,9,11 descriptions; 15,17,21,23 traits).
+  They exposed clipping: `bio_layout.py` widens the panel, `engine.py` moves its origin
+  and text, and the independent policy plus semantic sprite test protect the assets.
+  All eight final biography groups reached; first group now fits with an intact border
+  (`docs/re/evidence/biography-panel.png`); their independent read-only review is running.
+  Latest check: 114 passed, no lint errors, four existing warnings. Phase 8 is NOT done:
+  Seal, complete card/chapter/board/credits tours, and read-only qa_gate verdicts remain.
 - **Phase 8 session 2 in progress:** all G1-G17 graphics rows now have redraw implementations in `gfx.py`
   and independent pixel bounds in `write_policy.py`. See `docs/re/graphics.md` for exactly which have
   emulator evidence; previews alone are not completion. G10's single-frame sprite format is decoded by
