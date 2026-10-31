@@ -8,7 +8,7 @@ import struct
 
 REGS = {n: i for i, n in enumerate("zero at v0 v1 a0 a1 a2 a3 t0 t1 t2 t3 t4 t5 t6 t7 s0 s1 s2 s3 s4 s5 s6 s7 "
                                    "t8 t9 k0 k1 gp sp fp ra".split())}
-I_OPS = {"addiu": 9, "sltiu": 0x0B, "andi": 0x0C, "ori": 0x0D, "lb": 0x20, "lh": 0x21, "lw": 0x23, "lbu": 0x24,
+I_OPS = {"addiu": 9, "slti": 0x0A, "sltiu": 0x0B, "andi": 0x0C, "ori": 0x0D, "lb": 0x20, "lh": 0x21, "lw": 0x23, "lbu": 0x24,
          "lhu": 0x25, "sb": 0x28, "sh": 0x29, "sw": 0x2B}
 R_OPS = {"addu": 0x21, "subu": 0x23, "and": 0x24, "or": 0x25, "slt": 0x2A, "sltu": 0x2B}
 

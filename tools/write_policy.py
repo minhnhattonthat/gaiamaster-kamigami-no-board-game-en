@@ -138,6 +138,10 @@ def policies():
             offset = 0x8006BCEC - BASE + 72 * cell
             allowed.update(range(offset, offset + 72))
     entry("PRGPACK.BDP/033/000.bin").update(range(0x1F578, 0x1F57C))
+    # Independently reviewed typewriter loop immediates; allocation is 120.
+    for offset in (0x6868, 0x14330, 0x148BC, 0x14AA8, 0x14B84, 0x17474,
+                   0x1A878, 0x1C50C, 0x1E828, 0x1EB94):
+        entry("PRGPACK.BDP/033/000.bin").update(range(offset, offset + 4))
     for offset in (0x3F74, 0x41CC):
         entry("PRGPACK.BDP/009/000.bin").update(range(offset, offset + 4))
     # The biography sprites keep their headers and record count, but expand the

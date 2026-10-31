@@ -130,7 +130,18 @@ OVERLAYS = {
     ],
     # staff credits: ovl033 installs its own glyph/index tables (resource items 0xDD/0xDE) via 0x8003DD68; they
     # have no English glyphs, so keep the EXE font (English credits need ASCII only)
-    "PRGPACK.BDP/033/000.bin": [(0x1F578, asm("jal 0x8003DD68", 0x800BEEB0), asm("nop", 0), "credits keep EXE font")],
+    "PRGPACK.BDP/033/000.bin": [
+        (0x1F578, asm("jal 0x8003DD68", 0x800BEEB0), asm("nop", 0), "credits keep EXE font"),
+        # These ten typewriter loops stop at 18 drawn glyphs even though their
+        # objects allocate 40*3. Keep the existing NUL/short-line exit, allowing
+        # the counter to reach the allocated capacity for longer English lines.
+        *[(offset, asm(f"slti v0, {register}, 19", 0),
+           asm(f"slti v0, {register}, 120", 0), "story typewriter glyph limit")
+          for offset, register in [(0x6868, "s2"), (0x14330, "s1"), (0x148BC, "s1"),
+                                   (0x14AA8, "s1"), (0x14B84, "s1"), (0x17474, "s1"),
+                                   (0x1A878, "s1"), (0x1C50C, "s1"), (0x1E828, "s1"),
+                                   (0x1EB94, "s3")]],
+    ],
 }
 
 

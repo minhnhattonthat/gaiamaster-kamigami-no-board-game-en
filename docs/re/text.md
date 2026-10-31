@@ -90,6 +90,14 @@ The EXE file offset = address - 0x8000F800. `gp` = 0x80085F28.
   else size + 1. The sprite is clipped to that width, so the glyph's right part never shows. Advance = ink + 2.
   Space = `font_en.SPACE_W` px (0x8003CA88). Digits share one width (6) for number columns.
 - Glyph cap x3 (`triple`, at 0x8003D4D0 in struct create): every text object holds 3x the glyphs its creator asks.
+- Story typewriter loops also impose their own 18-glyph limit after allocating
+  40 glyphs (120 with `triple`). Phase 8 found settled lines cut mid-word despite
+  ample space in the box. Ten ovl033 loop comparisons now allow 119 glyphs;
+  their existing NUL/short-line exit remains intact. The sites are explicitly
+  listed in `engine.OVERLAYS` and independently bounded in `write_policy.py`.
+  Cold Chapter 1 and a fresh visual-qa recheck confirm all reported endings
+  display, including "you won't need my stories anymore." Evidence:
+  `docs/re/evidence/story-typewriter.png`, `work/qa/verdicts/storyfix.tsv`.
 - Hook code + width table: 0x8007AF50-0x8007B14C, index-table entries for codes < 0x8140 that the lookup never
   reads. Japanese still renders (its glyph cells are untouched), so leftovers stay visible.
 - `/` escapes: jump table 0x800134D8 over letters 'H'..'z' (H K P V Z v z used; the rest -> common exit
