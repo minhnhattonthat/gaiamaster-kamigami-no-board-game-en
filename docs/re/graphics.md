@@ -61,7 +61,7 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 | G2 main menu (127/033) | done: Versus Mode, Story Mode, Weapon Skill List, Options, Normal Mode, Quick Mode, Single, Tag, New Game, Continue. 体験版 stamp left (trial only, never seen) | `work/qa/gfx/menus.png` (main, story, versus menus) |
 | G6 char select title (117/000) | done: Character Select | `work/qa/gfx/cs.png` |
 | G5 name plates | Done: all four atlases; character select, board HUD, save/results and actual weapon-list views checked. | `work/qa/tour/char_select/`, `versus_s*/`, `weapon_display/`, `credits_c*/` |
-| G1 | Done: English wordmark and subtitle, including 176x50 dim copy; cold title and unskipped intro reviewed. Original English LANDMASTER remains in the intro. | `work/qa/tour/title/`, `intro/` |
+| G1 | Revised per D9: custom tapered English wordmark, native blue/gold bevel ramps, original wings/Roman masthead, stacked subtitle and shared dim thumbnail. Cold title and boot smoke pass. Original English LANDMASTER remains in the intro. | `work/qa/title-logo/compare-title-emulator.png`, `compare-G1.png`, `compare-G1-small.png`; earlier intro: `work/qa/tour/intro/` |
 | G3, G4, G13 | Done: save labels, all 20 chapter tiles, seven board names in world/save/Rankings views, all 22 banners including female Chapter 3/7 variants. | `work/qa/tour/story_ch*/`, `rankings_s*/`, `credits_c*/` |
 | G7 | Done: all four categories cycled in the actual list using a game-written story save. | `work/qa/tour/weapon_display/` |
 | G8 | Done: command selections, Trade/Info Menu and shared Graph suffix checked. Native composition required separate word rectangles (below). | `work/qa/tour/board_commands/`, `board_info/`, `board_graph/` |
@@ -77,6 +77,31 @@ Preview: `python -X utf8 tools/gfx.py --only Gn` -> `work/gfx/Gn.png` (original 
 Board names are now drawn and recorded in the glossary. Long names use two native pixel-font lines inside
 the original atlas rectangle; chapter banners retain their original frame. Event banners retain their
 illustration and frame; the most frequent original label background index supplies the new paper colour.
+
+### Title-logo revision (D9, 2026-11-01)
+
+`gfx.py` draws the main GaiaMaster letters from custom polygon outlines: tall stems,
+cut corners, flared terminals and pointed feet, slanted right. The face uses the
+original cyan-to-royal-blue CLUT ramp with a turquoise upper/left lip, dark lower/right
+edge, yellow/orange/bronze bevel layers and offset near-black shadow. Three-times
+sampling is quantized back to the original CLUT; no palette or TIM header is changed.
+The original Roman masthead, TM and outer gold wings are retained. The central crest
+is reconstructed behind the gold-edged dark subtitle, stacked as "Board Game" /
+"of the Gods". These subtitle letters use the existing OFL Lilita One font.
+
+The 176x50 G1-small TIM is an atlas, not a full-width wordmark: an 80x48 framed
+thumbnail occupies the left, followed by a gap and empty panel. Only its interior
+`(3,3,75,42)` is redrawn, reducing the same large logo into its native dim purple
+CLUT. Frame, second panel and padding remain byte-equivalent. Original TIMs were
+checked against the original SCR_DATA archive entries before comparison.
+
+Review PNGs have original on the left and new on the right:
+`work/qa/title-logo/compare-G1.png`, `compare-G1-small.png`, and
+`compare-title-emulator.png`. Both original and rebuilt discs were cold-booted.
+The documented 900-frame title warp expires before overlay 0x51 loads; rerunning
+with `--frames 6000` reaches the title at frame 3700 and passes smoke. The normal
+`tools/routes/boot.txt` smoke also passes. `tools/check.py`: 130 tests passed,
+zero lint errors, four existing warnings, zero untranslated strings.
 
 ### Native shared word tiles (verified in phase 8)
 

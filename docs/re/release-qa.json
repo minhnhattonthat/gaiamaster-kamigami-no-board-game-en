@@ -1,8 +1,8 @@
 {
-  "bin_sha1": "50ad3eaa86366e7d45a3c9c54c1808cf8956b537",
+  "bin_sha1": "b1587e3f00a9adac39c3ce0c00eded4e1f89208b",
   "manifests_sha256": {
     "work/qa/manifest.tsv": "d36d69b86678fe7711357c98507eb72fe5316a20c513d8d09fea7d542bc36e11",
     "work/qa/story/manifest.tsv": "7a79a2d9a085d1c0927fadf85250e3042ca6ab779ab3872c38fa6b1700211e31"
   },
-  "review_basis": "Phase 8 full tour (672 sheets), phase 9 targeted native regressions (102 additional sheets), complete independent story review and approved text recheck (45 documents). Every visual sheet was inspected in a read-only review pass; diagnostic fixtures only alter emulator RAM. See phase9-release-verdict.md."
+  "review_basis": "Phase 8 full tour (672 sheets), phase 9 targeted native regressions (102 additional sheets), complete independent story review and approved text recheck (45 documents). Every visual sheet was inspected in a read-only review pass; diagnostic fixtures only alter emulator RAM. See phase9-release-verdict.md. Resealed 2026-11-01 for the D9 title logo (G1/G1-small; original/new and emulator title comparisons in work/qa/title-logo/, owner-approved) and the ovl029 Yes/No spacing (board setup prompt re-captured)."
 }

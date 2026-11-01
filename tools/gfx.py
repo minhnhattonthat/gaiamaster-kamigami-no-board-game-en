@@ -226,34 +226,175 @@ def event_banner(number, text):
         shadowed(ink, ink, shade, 1, 1), 10, bg=bg, shear=0, pad=1)])
 
 
-def title_style():
-    palette = tim.parse((UNPACKED / "SCR_DATA.BDP/127/032.dec").read_bytes())["clut"][0]
-    def colour(rgb):
-        return min(range(1, 256), key=lambda i: sum((a - b) ** 2 for a, b in zip(palette[i][:3], rgb)))
-    dark, gold, light, blue = map(colour, [(80, 32, 0), (248, 176, 0), (248, 248, 64), (0, 40, 128)])
-    ramp = [colour(rgb) for rgb in [(120, 248, 248), (8, 216, 248), (0, 152, 232), (0, 80, 208)]]
-    def paint(canvas, mask):
+# Hand-drawn outlines in a 60-unit em. Broad stems, cut corners, pointed feet
+# and flared terminals follow the Japanese wordmark rather than the menu font.
+# Each glyph is (advance, outer polygons, counter polygons); case is deliberate.
+TITLE_GLYPHS = {
+    "G": (30, [[(28, 2), (23, 11), (15, 8), (9, 15), (8, 43), (12, 51),
+                (19, 48), (20, 34), (14, 34), (16, 26), (29, 26), (26, 53),
+                (15, 60), (2, 57), (0, 48), (2, 15), (10, 3), (20, 0)]], []),
+    "a": (25, [[(2, 16), (17, 13), (24, 19), (21, 51), (24, 56), (14, 59),
+                (14, 54), (7, 59), (0, 54), (0, 39), (6, 31), (16, 29),
+                (16, 22), (5, 23), (0, 27)]],
+              [[(8, 39), (15, 36), (14, 47), (8, 50), (6, 47)]]),
+    "i": (13, [[(3, 18), (12, 15), (9, 51), (12, 55), (0, 60), (2, 49)],
+               [(4, 1), (12, 0), (11, 10), (3, 12)]], []),
+    "M": (35, [[(0, 60), (5, 9), (2, 1), (14, 4), (19, 28), (29, 3),
+                (35, 0), (30, 53), (34, 57), (21, 60), (26, 22),
+                (17, 45), (12, 23), (8, 52)]], []),
+    "s": (23, [[(23, 15), (18, 24), (9, 22), (6, 27), (20, 37), (21, 49),
+                (13, 58), (0, 59), (1, 49), (11, 51), (14, 46), (1, 35),
+                (1, 24), (8, 15)]], []),
+    "t": (20, [[(6, 8), (16, 3), (14, 18), (22, 17), (19, 25), (13, 26),
+                (10, 48), (19, 45), (15, 55), (6, 59), (1, 54), (4, 27),
+                (0, 28), (1, 20), (5, 19)]], []),
+    "e": (24, [[(22, 17), (24, 29), (20, 40), (7, 41), (8, 50), (20, 46),
+                (17, 55), (6, 59), (0, 53), (0, 31), (6, 18), (15, 13)]],
+              [[(8, 27), (15, 23), (16, 32), (7, 34)]]),
+    "r": (20, [[(2, 18), (11, 14), (11, 21), (18, 14), (23, 15), (19, 26),
+                (13, 27), (9, 34), (7, 52), (11, 55), (0, 60)]], []),
+}
+
+
+def title_mask(scale=1):
+    """One shared vector wordmark for both TIMs; rasterize at native resolution."""
+    img = Image.new("1", (256 * scale, 160 * scale))
+    draw = ImageDraw.Draw(img)
+    cursor = 5
+    for letter in "GaiaMaster":
+        advance, outlines, counters = TITLE_GLYPHS[letter]
+        for polygons, ink in ((outlines, 1), (counters, 0)):
+            for polygon in polygons:
+                draw.polygon([(round((cursor + x * 0.87 + (60 - y) * 0.13) * scale),
+                               round((29 + y) * scale)) for x, y in polygon], fill=ink)
+        cursor += (advance + 2) * 0.87
+    return np.array(img, bool)
+
+
+def title_style(small=False):
+    """Original CLUT ramps and ornaments, with a shared English silhouette.
+
+    The small TIM contains an 80x48 framed thumbnail and an empty second panel.
+    Its 16-entry CLUT is never replaced with the large logo's palette.
+    """
+    def paint(canvas):
+        original = tim.parse((UNPACKED / "SCR_DATA.BDP/127/032.dec").read_bytes())
+        palette = np.array(original["clut"][0], dtype=int)
+        scale = 3
+        art = np.zeros((160 * scale, 256 * scale), np.uint8)
+        source = indices(original).repeat(scale, 0).repeat(scale, 1)
+
+        def offset(mask, x, y):
+            return shift(mask, round(x * scale), round(y * scale))
+
+        def expand(mask, radius=1):
+            for _ in range(round(radius * scale)):
+                mask = grow(mask)
+            return mask
+        # The original Roman masthead, TM, and outer gold wings contain no JP.
+        for x, y, w, h in [(79, 15, 159, 12), (234, 85, 14, 7),
+                           (29, 96, 59, 27), (174, 96, 60, 27)]:
+            box = np.s_[y * scale:(y + h) * scale, x * scale:(x + w) * scale]
+            art[box] = source[box]
+
+        def polygon(points):
+            img = Image.new("1", (256 * scale, 160 * scale))
+            ImageDraw.Draw(img).polygon([(x * scale, y * scale) for x, y in points], fill=1)
+            return np.array(img, bool)
+
+        def ramp(mask, stops):
+            rows = np.flatnonzero(mask.any(1))
+            for y in rows:
+                ink = stops[min(len(stops) - 1,
+                                (y - rows[0]) * len(stops) // len(rows))]
+                art[y, mask[y]] = ink
+
+        # Rebuild only the central crest hidden by the Japanese subtitle. Gold
+        # faces and the vermilion lower facet echo the original diamond/flame.
+        crest = polygon([(128, 45), (157, 89), (171, 109), (146, 132),
+                         (128, 153), (108, 132), (84, 109), (101, 89)])
+        art[offset(expand(crest), 2, 3)] = 236
+        art[expand(crest)] = 187
+        ramp(crest, [3, 10, 15, 23, 33, 45, 55, 153])
+        left = polygon([(128, 52), (92, 108), (128, 145), (114, 108)])
+        ramp(left, [3, 10, 15, 23, 45, 153])
+        right = polygon([(129, 55), (163, 108), (130, 144), (141, 107)])
+        ramp(right, [15, 23, 33, 55, 153])
+        gold = (palette[source, 0] >= 180) & (palette[source, 1] >= 80) & (palette[source, 2] < 32)
+        gold[99 * scale:] = False
+        art[gold & crest] = source[gold & crest]
+        # Continue the wings behind the subtitle, preserving their outer tips.
+        wing = polygon([(78, 98), (107, 101), (128, 109), (148, 101),
+                        (177, 98), (181, 111), (155, 118), (128, 114),
+                        (101, 118), (75, 111)])
+        ramp(wing, [3, 10, 15, 23, 33, 45])
+
+        mask = title_mask(scale)
         edges = [mask]
         for _ in range(4):
-            edges.append(grow(edges[-1]))
-        canvas[shift(edges[4], 2, 3)] = dark
-        for edge, ink in zip(reversed(edges[1:]), [dark, gold, light, blue]):
-            canvas[edge] = ink
-        outlined(blue, ramp)(canvas, mask)
+            edges.append(expand(edges[-1], 0.8))
+        # Black offset, dark bronze outside, orange bevel, yellow top rim,
+        # turquoise inner lip, then the saturated royal-blue face.
+        art[offset(edges[4], 2, 3)] = 236
+        art[edges[4]] = 206
+        art[edges[3]] = 33
+        art[edges[3] & ~offset(edges[3], 1, 1)] = 3
+        art[edges[2]] = 3
+        art[edges[2] & ~offset(edges[2], -1, -1)] = 62
+        art[edges[1]] = 127
+        ramp(mask, [2, 59, 64, 78, 84, 97, 103, 108, 115])
+        art[mask & ~offset(mask, 1, 0.6)] = 2
+        art[mask & ~offset(mask, -0.7, -0.7)] = 212
+
+        # The original subtitle is stacked over the crest: gold-edged dark
+        # lettering and a red lower shadow, not a detached white caption.
+        for text, y, width in [("Board Game", 103, 156), ("of the Gods", 124, 150)]:
+            letters, _ = text_mask(text, 16 * scale, width * scale, shear=0.13, track=0.3 * scale)
+            h, w = letters.shape
+            mask = np.zeros_like(art, bool)
+            mask[y * scale:y * scale + h, (256 * scale - w) // 2:(256 * scale + w) // 2] = letters
+            edge = expand(mask, 1.7)
+            art[offset(expand(edge), 1, 2)] = 153
+            art[expand(edge)] = 187
+            art[edge] = 23
+            art[edge & ~offset(edge, 1, 1)] = 3
+            art[expand(mask, 0.7)] = 3
+            art[mask] = 236
+
+        # Coverage antialiasing is quantized back to CLUT 0, including the edge
+        # shades already used by the Japanese artwork. No palette bytes change.
+        rgba = Image.fromarray(palette[art].astype(np.uint8))
+        rgba = np.array(rgba.resize((256, 160), Image.Resampling.BOX))
+        colours, inverse = np.unique(rgba[:, :, :3].reshape(-1, 3), axis=0, return_inverse=True)
+        distance = ((colours[:, None].astype(int) - palette[None, 1:, :3]) ** 2).sum(2)
+        art = (distance.argmin(1)[inverse] + 1).reshape(160, 256).astype(np.uint8)
+        art[rgba[:, :, 3] < 96] = 0
+        if not small:
+            canvas[:] = art
+            return
+        # Keep the thumbnail frame, the second panel and TIM padding verbatim.
+        # The actual logo lives inside (3,3,75,42), not across the 176px atlas.
+        thumbnail = tim.parse((UNPACKED / "SCR_DATA.BDP/213/000.bin").read_bytes())
+        canvas[:] = indices(thumbnail)
+        target = canvas[3:45, 3:78]
+        rgb = palette[art, :3]
+        luminance = (rgb * np.array([0.299, 0.587, 0.114])).sum(2)
+        levels = Image.fromarray(np.uint8(luminance))
+        levels = np.array(levels.resize((75, 42), Image.Resampling.BOX))
+        alpha = Image.fromarray(np.uint8(art != 0) * 255)
+        alpha = np.array(alpha.resize((75, 42), Image.Resampling.BOX))
+        # Palette indices 1..14 are the original increasing purple brightness.
+        target[:] = np.clip(np.rint(levels / 248 * 13) + 1, 1, 14).astype(np.uint8)
+        target[alpha < 80] = 1
     return paint
 
 
 LABELS = {
     "G1": dict(key="SCR_DATA.BDP/127/032.dec", clut=0, labels=[
-        L((0, 0, 256, 160), "", outlined(0, [0]), 1, bg=0),
-        L((4, 12, 248, 104), "GaiaMaster", title_style(), 46, bg=0, pad=7, shear=0.14),
-        L((8, 112, 240, 24), "Board Game of the Gods", outlined(0, [3]), 13, bg=0, shear=0),
+        L((0, 0, 256, 160), "", None, 1, bg=0) | {"art": title_style()},
     ]),
     "G1-small": dict(key="SCR_DATA.BDP/213/000.bin", clut=0, labels=[
-        L((0, 0, 176, 50), "", outlined(0, [0]), 1, bg=0),
-        L((4, 1, 168, 32), "GaiaMaster", outlined(8, [1, 2, 3, 4]), 21, bg=0, shear=0.14),
-        L((4, 34, 168, 12), "Board Game of the Gods", outlined(8, [1]), 5,
-          bg=0, shear=0, font=SILK),
+        L((0, 0, 176, 50), "", None, 1, bg=0) | {"art": title_style(small=True)},
     ]),
     "G15": dict(key="SCR_DATA.BDP/141/004.dec", clut=0, labels=[
         L(rect, "Purge", outlined(12, ramp), 24, bg=0, shear=0.25, pad=2)
@@ -419,6 +560,8 @@ def render(g):
                 c[tuple(point)] = old[tuple(nearest)]
         else:
             c[:] = (lb["bg"] if lb["bg"] is not None else c[:, :1])
+        if "art" in lb:
+            lb["art"](c)
         if not lb["text"]:
             continue
         m, top = text_mask(lb["text"], lb["th"], w - 2 * lb["pad"], lb["font"], lb["shear"], lb["track"])

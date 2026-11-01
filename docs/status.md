@@ -2,18 +2,28 @@
 
 Updated 2026-11-01. History is in git.
 
-- **Phase:** 9 complete. The local release zip is built, re-applied and verified.
-  No further phase is pending. Nothing has been published; never run
-  `gh release create` or change repository visibility.
-- **Release:** `release/v0.1/GaiaMaster_EN_v0.1.zip` (3,848,121 bytes), containing
+- **Phase:** 9 complete. v0.1 (with the D9 logo) published as GitHub release
+  `v0.1` per D10; the repository stays private. Do not change visibility.
+- **Release:** `release/v0.1/GaiaMaster_EN_v0.1.zip` (3,847,041 bytes), containing
   only `GaiaMaster_EN_v0.1.xdelta` and `README.txt`.
-  ZIP SHA-256: `e3541096f1195fd50b8c152bc85bc416704d298fe65fee0d8162cc0eb53cba64`.
+  ZIP SHA-256: `687e92ac8e954130772be407c202101a3905870adfed5e1fdc54d3ca4c5e2ad0`.
+  Patched BIN CRC32 `8D6CF0B2`. Seal refreshed in `docs/re/release-qa.json`.
   Local files are gitignored. Durable verification:
   `docs/re/phase9-release-verdict.md` and
   `docs/re/evidence/phase9-release-verification.json`.
-- **Latest build:** `build/gaiamaster_en.bin`, built 2026-11-01 08:12:08 AEDT,
-  SHA-1 `50ad3eaa86366e7d45a3c9c54c1808cf8956b537`, CRC32 `40FCB2BD`.
-  The clean-base patch re-application matches size, CRC32, MD5, SHA-1 and SHA-256.
+- **Latest build:** `build/gaiamaster_en.bin`, built 2026-11-01 19:52:24 AEDT,
+  SHA-1 `b1587e3f00a9adac39c3ce0c00eded4e1f89208b` (387,395,568 bytes).
+  Includes the D9 logo revision and the ovl029 Yes/No spacing fix.
+- **D9 title revision:** G1 now uses custom tapered blue lettering, layered gold
+  bevels, offset shadow, original outer wings/Roman masthead and a stacked subtitle.
+  G1-small derives from the same design inside its original framed thumbnail;
+  the second panel and padding are retained. Both original CLUTs/headers are intact.
+  Build and 130 tests pass; lint has zero errors, four existing warnings and zero
+  untranslated strings. Cold title warp (6000-frame allowance; reached at 3700)
+  and normal boot-route smoke pass. The requested 900-frame warp ends before boot
+  completes. Comparisons: `work/qa/title-logo/compare-G1.png`,
+  `compare-G1-small.png`, `compare-title-emulator.png`. Owner approved; committed
+  and released in v0.1. Release checks below were re-run on this build.
 - **Release checks:** `python -X utf8 tools/release.py --skip-tour` passed:
   130 tests; zero lint errors; zero untranslated strings; four existing
   honorific warnings; cold smoke; actual-disc audit; both QA manifests; polish
