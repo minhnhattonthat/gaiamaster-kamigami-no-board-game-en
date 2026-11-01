@@ -53,6 +53,8 @@ PADDING_EXCEPTIONS = {
     "ovl010_800A0E7C": ("のダメージを受けた！", " damage taken!"),
     "ovl010_800A0EB4": ("を使った！", " used!"),
     "ovl057_8009F9E0": (" 資産", "Assets"),
+    # Yes/No centred on the two highlight bars (x~123, x~238.5; space 4 px, U+3000 12 px, measured in game)
+    "ovl029_8009FD78": ("    はい     　　　　いいえ", "　　　Yes　　　　　　　　 No"),
 }
 # Shared continuation at ovl033 call sites 136C0 then 136C8. Storage
 # adjacency is wrong here: the Palace line is also used in Gokuh's opening.
