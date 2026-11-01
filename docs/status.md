@@ -2,11 +2,11 @@
 
 Updated 2026-11-01. History is in git.
 
-- **Phase:** 9 complete. v0.1 (with the D9 logo) published as GitHub release
-  `v0.1` per D10; the repository stays private. Do not change visibility.
-- **Release:** `release/v0.1/GaiaMaster_EN_v0.1.zip` (3,847,041 bytes), containing
-  only `GaiaMaster_EN_v0.1.xdelta` and `README.txt`.
-  ZIP SHA-256: `687e92ac8e954130772be407c202101a3905870adfed5e1fdc54d3ca4c5e2ad0`.
+- **Phase:** 9 complete. v1.0 (with the D9 logo) published as GitHub release
+  `v1.0` per D10/D11; the repository stays private. Do not change visibility.
+- **Release:** `release/v1.0/GaiaMaster_EN_v1.0.zip` (3,847,041 bytes), containing
+  only `GaiaMaster_EN_v1.0.xdelta` and `README.txt`.
+  ZIP SHA-256: `f92ea0e90d0e61392ed33be122785f071095474fbca5457eaa742392c47359fe`.
   Patched BIN CRC32 `8D6CF0B2`. Seal refreshed in `docs/re/release-qa.json`.
   Local files are gitignored. Durable verification:
   `docs/re/phase9-release-verdict.md` and
