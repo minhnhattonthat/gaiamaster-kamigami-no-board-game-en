@@ -23,7 +23,7 @@ Updated 2026-11-01. History is in git.
   and normal boot-route smoke pass. The requested 900-frame warp ends before boot
   completes. Comparisons: `work/qa/title-logo/compare-G1.png`,
   `compare-G1-small.png`, `compare-title-emulator.png`. Owner approved; committed
-  and released in v0.1. Release checks below were re-run on this build.
+  and released in v1.0. Release checks below were re-run on this build.
 - **Release checks:** `python -X utf8 tools/release.py --skip-tour` passed:
   130 tests; zero lint errors; zero untranslated strings; four existing
   honorific warnings; cold smoke; actual-disc audit; both QA manifests; polish
